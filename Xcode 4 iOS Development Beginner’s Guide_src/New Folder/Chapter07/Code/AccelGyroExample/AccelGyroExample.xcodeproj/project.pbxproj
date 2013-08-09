@@ -1,0 +1,298 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E9B2ECB112E2AAE400FFF59A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9B2ECB012E2AAE400FFF59A /* UIKit.framework */; };
+		E9B2ECB312E2AAE400FFF59A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9B2ECB212E2AAE400FFF59A /* Foundation.framework */; };
+		E9B2ECB512E2AAE400FFF59A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9B2ECB412E2AAE400FFF59A /* CoreGraphics.framework */; };
+		E9B2ECBA12E2AAE400FFF59A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E9B2ECB812E2AAE400FFF59A /* InfoPlist.strings */; };
+		E9B2ECBC12E2AAE400FFF59A /* AccelGyroExample-main.m in Sources */ = {isa = PBXBuildFile; fileRef = E9B2ECBB12E2AAE400FFF59A /* AccelGyroExample-main.m */; };
+		E9B2ECBF12E2AAE400FFF59A /* AccelGyroExampleAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E9B2ECBE12E2AAE400FFF59A /* AccelGyroExampleAppDelegate.m */; };
+		E9B2ECC212E2AAE400FFF59A /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = E9B2ECC012E2AAE400FFF59A /* MainWindow.xib */; };
+		E9B2ECC512E2AAE400FFF59A /* AccelGyroExampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E9B2ECC412E2AAE400FFF59A /* AccelGyroExampleViewController.m */; };
+		E9B2ECC812E2AAE400FFF59A /* AccelGyroExampleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E9B2ECC612E2AAE400FFF59A /* AccelGyroExampleViewController.xib */; };
+		E9B2ECCF12E2AC8100FFF59A /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9B2ECCE12E2AC8100FFF59A /* CoreMotion.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E9B2ECAD12E2AAE400FFF59A /* AccelGyroExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AccelGyroExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9B2ECB012E2AAE400FFF59A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E9B2ECB212E2AAE400FFF59A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E9B2ECB412E2AAE400FFF59A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E9B2ECB612E2AAE400FFF59A /* AccelGyroExample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AccelGyroExample-Info.plist"; sourceTree = "<group>"; };
+		E9B2ECB712E2AAE400FFF59A /* AccelGyroExample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AccelGyroExample-Prefix.pch"; sourceTree = "<group>"; };
+		E9B2ECB912E2AAE400FFF59A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E9B2ECBB12E2AAE400FFF59A /* AccelGyroExample-main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "AccelGyroExample-main.m"; sourceTree = "<group>"; };
+		E9B2ECBD12E2AAE400FFF59A /* AccelGyroExampleAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AccelGyroExampleAppDelegate.h; sourceTree = "<group>"; };
+		E9B2ECBE12E2AAE400FFF59A /* AccelGyroExampleAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AccelGyroExampleAppDelegate.m; sourceTree = "<group>"; };
+		E9B2ECC112E2AAE400FFF59A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		E9B2ECC312E2AAE400FFF59A /* AccelGyroExampleViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AccelGyroExampleViewController.h; sourceTree = "<group>"; };
+		E9B2ECC412E2AAE400FFF59A /* AccelGyroExampleViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AccelGyroExampleViewController.m; sourceTree = "<group>"; };
+		E9B2ECC712E2AAE400FFF59A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/AccelGyroExampleViewController.xib; sourceTree = "<group>"; };
+		E9B2ECCE12E2AC8100FFF59A /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E9B2ECAA12E2AAE400FFF59A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9B2ECCF12E2AC8100FFF59A /* CoreMotion.framework in Frameworks */,
+				E9B2ECB112E2AAE400FFF59A /* UIKit.framework in Frameworks */,
+				E9B2ECB312E2AAE400FFF59A /* Foundation.framework in Frameworks */,
+				E9B2ECB512E2AAE400FFF59A /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E9B2EC9E12E2AAE400FFF59A = {
+			isa = PBXGroup;
+			children = (
+				E9B2ECA512E2AAE400FFF59A /* Classes */,
+				E9B2ECA612E2AAE400FFF59A /* Other Sources */,
+				E9B2ECA712E2AAE400FFF59A /* Resources */,
+				E9B2ECA812E2AAE400FFF59A /* Frameworks */,
+				E9B2ECAE12E2AAE400FFF59A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E9B2ECA512E2AAE400FFF59A /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				E9B2ECBD12E2AAE400FFF59A /* AccelGyroExampleAppDelegate.h */,
+				E9B2ECBE12E2AAE400FFF59A /* AccelGyroExampleAppDelegate.m */,
+				E9B2ECC312E2AAE400FFF59A /* AccelGyroExampleViewController.h */,
+				E9B2ECC412E2AAE400FFF59A /* AccelGyroExampleViewController.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		E9B2ECA612E2AAE400FFF59A /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				E9B2ECB712E2AAE400FFF59A /* AccelGyroExample-Prefix.pch */,
+				E9B2ECBB12E2AAE400FFF59A /* AccelGyroExample-main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		E9B2ECA712E2AAE400FFF59A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E9B2ECB612E2AAE400FFF59A /* AccelGyroExample-Info.plist */,
+				E9B2ECB812E2AAE400FFF59A /* InfoPlist.strings */,
+				E9B2ECC012E2AAE400FFF59A /* MainWindow.xib */,
+				E9B2ECC612E2AAE400FFF59A /* AccelGyroExampleViewController.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		E9B2ECA812E2AAE400FFF59A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E9B2ECB012E2AAE400FFF59A /* UIKit.framework */,
+				E9B2ECCE12E2AC8100FFF59A /* CoreMotion.framework */,
+				E9B2ECB212E2AAE400FFF59A /* Foundation.framework */,
+				E9B2ECB412E2AAE400FFF59A /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E9B2ECAE12E2AAE400FFF59A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E9B2ECAD12E2AAE400FFF59A /* AccelGyroExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E9B2ECAC12E2AAE400FFF59A /* AccelGyroExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9B2ECCB12E2AAE400FFF59A /* Build configuration list for PBXNativeTarget "AccelGyroExample" */;
+			buildPhases = (
+				E9B2ECA912E2AAE400FFF59A /* Sources */,
+				E9B2ECAA12E2AAE400FFF59A /* Frameworks */,
+				E9B2ECAB12E2AAE400FFF59A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AccelGyroExample;
+			productName = AccelGyroExample;
+			productReference = E9B2ECAD12E2AAE400FFF59A /* AccelGyroExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E9B2ECA012E2AAE400FFF59A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "GENIESOFT STUDIOS";
+			};
+			buildConfigurationList = E9B2ECA312E2AAE400FFF59A /* Build configuration list for PBXProject "AccelGyroExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E9B2EC9E12E2AAE400FFF59A;
+			productRefGroup = E9B2ECAE12E2AAE400FFF59A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E9B2ECAC12E2AAE400FFF59A /* AccelGyroExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E9B2ECAB12E2AAE400FFF59A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9B2ECBA12E2AAE400FFF59A /* InfoPlist.strings in Resources */,
+				E9B2ECC212E2AAE400FFF59A /* MainWindow.xib in Resources */,
+				E9B2ECC812E2AAE400FFF59A /* AccelGyroExampleViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E9B2ECA912E2AAE400FFF59A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9B2ECBC12E2AAE400FFF59A /* AccelGyroExample-main.m in Sources */,
+				E9B2ECBF12E2AAE400FFF59A /* AccelGyroExampleAppDelegate.m in Sources */,
+				E9B2ECC512E2AAE400FFF59A /* AccelGyroExampleViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E9B2ECB812E2AAE400FFF59A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E9B2ECB912E2AAE400FFF59A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E9B2ECC012E2AAE400FFF59A /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E9B2ECC112E2AAE400FFF59A /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		E9B2ECC612E2AAE400FFF59A /* AccelGyroExampleViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E9B2ECC712E2AAE400FFF59A /* en */,
+			);
+			name = AccelGyroExampleViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E9B2ECC912E2AAE400FFF59A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E9B2ECCA12E2AAE400FFF59A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		E9B2ECCC12E2AAE400FFF59A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AccelGyroExample-Prefix.pch";
+				INFOPLIST_FILE = "AccelGyroExample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E9B2ECCD12E2AAE400FFF59A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AccelGyroExample-Prefix.pch";
+				INFOPLIST_FILE = "AccelGyroExample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E9B2ECA312E2AAE400FFF59A /* Build configuration list for PBXProject "AccelGyroExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9B2ECC912E2AAE400FFF59A /* Debug */,
+				E9B2ECCA12E2AAE400FFF59A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E9B2ECCB12E2AAE400FFF59A /* Build configuration list for PBXNativeTarget "AccelGyroExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9B2ECCC12E2AAE400FFF59A /* Debug */,
+				E9B2ECCD12E2AAE400FFF59A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E9B2ECA012E2AAE400FFF59A /* Project object */;
+}

@@ -1,0 +1,302 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E9A256DE12A64BDE001CE2EC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9A256DD12A64BDE001CE2EC /* UIKit.framework */; };
+		E9A256E012A64BDE001CE2EC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9A256DF12A64BDE001CE2EC /* Foundation.framework */; };
+		E9A256E212A64BDE001CE2EC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9A256E112A64BDE001CE2EC /* CoreGraphics.framework */; };
+		E9A256E712A64BDE001CE2EC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E9A256E512A64BDE001CE2EC /* InfoPlist.strings */; };
+		E9A256E912A64BDE001CE2EC /* MusicPlayer-main.m in Sources */ = {isa = PBXBuildFile; fileRef = E9A256E812A64BDE001CE2EC /* MusicPlayer-main.m */; };
+		E9A256EC12A64BDE001CE2EC /* MusicPlayerAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E9A256EB12A64BDE001CE2EC /* MusicPlayerAppDelegate.m */; };
+		E9A256EF12A64BDE001CE2EC /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = E9A256ED12A64BDE001CE2EC /* MainWindow.xib */; };
+		E9A256F212A64BDE001CE2EC /* MusicPlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E9A256F112A64BDE001CE2EC /* MusicPlayerViewController.m */; };
+		E9A256F512A64BDE001CE2EC /* MusicPlayerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E9A256F312A64BDE001CE2EC /* MusicPlayerViewController.xib */; };
+		E9A256FC12A64C0B001CE2EC /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9A256FB12A64C0B001CE2EC /* AVFoundation.framework */; };
+		E9A2571812A65B7F001CE2EC /* music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E9A2571712A65B7F001CE2EC /* music.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E9A256DA12A64BDE001CE2EC /* MusicPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MusicPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9A256DD12A64BDE001CE2EC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E9A256DF12A64BDE001CE2EC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E9A256E112A64BDE001CE2EC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E9A256E312A64BDE001CE2EC /* MusicPlayer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MusicPlayer-Info.plist"; sourceTree = "<group>"; };
+		E9A256E412A64BDE001CE2EC /* MusicPlayer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MusicPlayer-Prefix.pch"; sourceTree = "<group>"; };
+		E9A256E612A64BDE001CE2EC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E9A256E812A64BDE001CE2EC /* MusicPlayer-main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "MusicPlayer-main.m"; sourceTree = "<group>"; };
+		E9A256EA12A64BDE001CE2EC /* MusicPlayerAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MusicPlayerAppDelegate.h; sourceTree = "<group>"; };
+		E9A256EB12A64BDE001CE2EC /* MusicPlayerAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MusicPlayerAppDelegate.m; sourceTree = "<group>"; };
+		E9A256EE12A64BDE001CE2EC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		E9A256F012A64BDE001CE2EC /* MusicPlayerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MusicPlayerViewController.h; sourceTree = "<group>"; };
+		E9A256F112A64BDE001CE2EC /* MusicPlayerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MusicPlayerViewController.m; sourceTree = "<group>"; };
+		E9A256F412A64BDE001CE2EC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MusicPlayerViewController.xib; sourceTree = "<group>"; };
+		E9A256FB12A64C0B001CE2EC /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = /Xcode4/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/AVFoundation.framework; sourceTree = "<absolute>"; };
+		E9A2571712A65B7F001CE2EC /* music.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = music.mp3; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E9A256D712A64BDE001CE2EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9A256FC12A64C0B001CE2EC /* AVFoundation.framework in Frameworks */,
+				E9A256DE12A64BDE001CE2EC /* UIKit.framework in Frameworks */,
+				E9A256E012A64BDE001CE2EC /* Foundation.framework in Frameworks */,
+				E9A256E212A64BDE001CE2EC /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E9A256CB12A64BDD001CE2EC = {
+			isa = PBXGroup;
+			children = (
+				E9A256D212A64BDD001CE2EC /* Classes */,
+				E9A256D312A64BDE001CE2EC /* Other Sources */,
+				E9A256D412A64BDE001CE2EC /* Resources */,
+				E9A256D512A64BDE001CE2EC /* Frameworks */,
+				E9A256DB12A64BDE001CE2EC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E9A256D212A64BDD001CE2EC /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				E9A256EA12A64BDE001CE2EC /* MusicPlayerAppDelegate.h */,
+				E9A256EB12A64BDE001CE2EC /* MusicPlayerAppDelegate.m */,
+				E9A256F012A64BDE001CE2EC /* MusicPlayerViewController.h */,
+				E9A256F112A64BDE001CE2EC /* MusicPlayerViewController.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		E9A256D312A64BDE001CE2EC /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				E9A256E412A64BDE001CE2EC /* MusicPlayer-Prefix.pch */,
+				E9A256E812A64BDE001CE2EC /* MusicPlayer-main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		E9A256D412A64BDE001CE2EC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E9A2571712A65B7F001CE2EC /* music.mp3 */,
+				E9A256E312A64BDE001CE2EC /* MusicPlayer-Info.plist */,
+				E9A256E512A64BDE001CE2EC /* InfoPlist.strings */,
+				E9A256ED12A64BDE001CE2EC /* MainWindow.xib */,
+				E9A256F312A64BDE001CE2EC /* MusicPlayerViewController.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		E9A256D512A64BDE001CE2EC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E9A256FB12A64C0B001CE2EC /* AVFoundation.framework */,
+				E9A256DD12A64BDE001CE2EC /* UIKit.framework */,
+				E9A256DF12A64BDE001CE2EC /* Foundation.framework */,
+				E9A256E112A64BDE001CE2EC /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E9A256DB12A64BDE001CE2EC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E9A256DA12A64BDE001CE2EC /* MusicPlayer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E9A256D912A64BDE001CE2EC /* MusicPlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9A256F812A64BDE001CE2EC /* Build configuration list for PBXNativeTarget "MusicPlayer" */;
+			buildPhases = (
+				E9A256D612A64BDE001CE2EC /* Sources */,
+				E9A256D712A64BDE001CE2EC /* Frameworks */,
+				E9A256D812A64BDE001CE2EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MusicPlayer;
+			productName = MusicPlayer;
+			productReference = E9A256DA12A64BDE001CE2EC /* MusicPlayer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E9A256CD12A64BDD001CE2EC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "GENIESOFT STUDIOS";
+			};
+			buildConfigurationList = E9A256D012A64BDD001CE2EC /* Build configuration list for PBXProject "MusicPlayer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E9A256CB12A64BDD001CE2EC;
+			productRefGroup = E9A256DB12A64BDE001CE2EC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E9A256D912A64BDE001CE2EC /* MusicPlayer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E9A256D812A64BDE001CE2EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9A256E712A64BDE001CE2EC /* InfoPlist.strings in Resources */,
+				E9A256EF12A64BDE001CE2EC /* MainWindow.xib in Resources */,
+				E9A256F512A64BDE001CE2EC /* MusicPlayerViewController.xib in Resources */,
+				E9A2571812A65B7F001CE2EC /* music.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E9A256D612A64BDE001CE2EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9A256E912A64BDE001CE2EC /* MusicPlayer-main.m in Sources */,
+				E9A256EC12A64BDE001CE2EC /* MusicPlayerAppDelegate.m in Sources */,
+				E9A256F212A64BDE001CE2EC /* MusicPlayerViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E9A256E512A64BDE001CE2EC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E9A256E612A64BDE001CE2EC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E9A256ED12A64BDE001CE2EC /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E9A256EE12A64BDE001CE2EC /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		E9A256F312A64BDE001CE2EC /* MusicPlayerViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E9A256F412A64BDE001CE2EC /* en */,
+			);
+			name = MusicPlayerViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E9A256F612A64BDE001CE2EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E9A256F712A64BDE001CE2EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		E9A256F912A64BDE001CE2EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MusicPlayer-Prefix.pch";
+				INFOPLIST_FILE = "MusicPlayer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E9A256FA12A64BDE001CE2EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MusicPlayer-Prefix.pch";
+				INFOPLIST_FILE = "MusicPlayer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E9A256D012A64BDD001CE2EC /* Build configuration list for PBXProject "MusicPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9A256F612A64BDE001CE2EC /* Debug */,
+				E9A256F712A64BDE001CE2EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E9A256F812A64BDE001CE2EC /* Build configuration list for PBXNativeTarget "MusicPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9A256F912A64BDE001CE2EC /* Debug */,
+				E9A256FA12A64BDE001CE2EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E9A256CD12A64BDD001CE2EC /* Project object */;
+}

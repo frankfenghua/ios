@@ -1,0 +1,283 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E98AF3321390E52500488AFF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E98AF3311390E52500488AFF /* UIKit.framework */; };
+		E98AF3341390E52500488AFF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E98AF3331390E52500488AFF /* Foundation.framework */; };
+		E98AF3361390E52500488AFF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E98AF3351390E52500488AFF /* CoreGraphics.framework */; };
+		E98AF33C1390E52500488AFF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E98AF33A1390E52500488AFF /* InfoPlist.strings */; };
+		E98AF33F1390E52500488AFF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E98AF33E1390E52500488AFF /* main.m */; };
+		E98AF3421390E52500488AFF /* PizzaOrdersAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E98AF3411390E52500488AFF /* PizzaOrdersAppDelegate.m */; };
+		E98AF3451390E52500488AFF /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = E98AF3431390E52500488AFF /* MainWindow.xib */; };
+		E98AF3481390E52500488AFF /* PizzaOrdersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E98AF3471390E52500488AFF /* PizzaOrdersViewController.m */; };
+		E98AF34B1390E52500488AFF /* PizzaOrdersViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E98AF3491390E52500488AFF /* PizzaOrdersViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E98AF32D1390E52500488AFF /* PizzaOrders.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PizzaOrders.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E98AF3311390E52500488AFF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E98AF3331390E52500488AFF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E98AF3351390E52500488AFF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E98AF3391390E52500488AFF /* PizzaOrders-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PizzaOrders-Info.plist"; sourceTree = "<group>"; };
+		E98AF33B1390E52500488AFF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E98AF33D1390E52500488AFF /* PizzaOrders-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PizzaOrders-Prefix.pch"; sourceTree = "<group>"; };
+		E98AF33E1390E52500488AFF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E98AF3401390E52500488AFF /* PizzaOrdersAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PizzaOrdersAppDelegate.h; sourceTree = "<group>"; };
+		E98AF3411390E52500488AFF /* PizzaOrdersAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PizzaOrdersAppDelegate.m; sourceTree = "<group>"; };
+		E98AF3441390E52500488AFF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		E98AF3461390E52500488AFF /* PizzaOrdersViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PizzaOrdersViewController.h; sourceTree = "<group>"; };
+		E98AF3471390E52500488AFF /* PizzaOrdersViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PizzaOrdersViewController.m; sourceTree = "<group>"; };
+		E98AF34A1390E52500488AFF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/PizzaOrdersViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E98AF32A1390E52500488AFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E98AF3321390E52500488AFF /* UIKit.framework in Frameworks */,
+				E98AF3341390E52500488AFF /* Foundation.framework in Frameworks */,
+				E98AF3361390E52500488AFF /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E98AF3221390E52300488AFF = {
+			isa = PBXGroup;
+			children = (
+				E98AF3371390E52500488AFF /* PizzaOrders */,
+				E98AF3301390E52500488AFF /* Frameworks */,
+				E98AF32E1390E52500488AFF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E98AF32E1390E52500488AFF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E98AF32D1390E52500488AFF /* PizzaOrders.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E98AF3301390E52500488AFF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E98AF3311390E52500488AFF /* UIKit.framework */,
+				E98AF3331390E52500488AFF /* Foundation.framework */,
+				E98AF3351390E52500488AFF /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E98AF3371390E52500488AFF /* PizzaOrders */ = {
+			isa = PBXGroup;
+			children = (
+				E98AF3401390E52500488AFF /* PizzaOrdersAppDelegate.h */,
+				E98AF3411390E52500488AFF /* PizzaOrdersAppDelegate.m */,
+				E98AF3431390E52500488AFF /* MainWindow.xib */,
+				E98AF3461390E52500488AFF /* PizzaOrdersViewController.h */,
+				E98AF3471390E52500488AFF /* PizzaOrdersViewController.m */,
+				E98AF3491390E52500488AFF /* PizzaOrdersViewController.xib */,
+				E98AF3381390E52500488AFF /* Supporting Files */,
+			);
+			path = PizzaOrders;
+			sourceTree = "<group>";
+		};
+		E98AF3381390E52500488AFF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E98AF3391390E52500488AFF /* PizzaOrders-Info.plist */,
+				E98AF33A1390E52500488AFF /* InfoPlist.strings */,
+				E98AF33D1390E52500488AFF /* PizzaOrders-Prefix.pch */,
+				E98AF33E1390E52500488AFF /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E98AF32C1390E52500488AFF /* PizzaOrders */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E98AF34E1390E52500488AFF /* Build configuration list for PBXNativeTarget "PizzaOrders" */;
+			buildPhases = (
+				E98AF3291390E52500488AFF /* Sources */,
+				E98AF32A1390E52500488AFF /* Frameworks */,
+				E98AF32B1390E52500488AFF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PizzaOrders;
+			productName = PizzaOrders;
+			productReference = E98AF32D1390E52500488AFF /* PizzaOrders.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E98AF3241390E52400488AFF /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = E98AF3271390E52400488AFF /* Build configuration list for PBXProject "PizzaOrders" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E98AF3221390E52300488AFF;
+			productRefGroup = E98AF32E1390E52500488AFF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E98AF32C1390E52500488AFF /* PizzaOrders */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E98AF32B1390E52500488AFF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E98AF33C1390E52500488AFF /* InfoPlist.strings in Resources */,
+				E98AF3451390E52500488AFF /* MainWindow.xib in Resources */,
+				E98AF34B1390E52500488AFF /* PizzaOrdersViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E98AF3291390E52500488AFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E98AF33F1390E52500488AFF /* main.m in Sources */,
+				E98AF3421390E52500488AFF /* PizzaOrdersAppDelegate.m in Sources */,
+				E98AF3481390E52500488AFF /* PizzaOrdersViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E98AF33A1390E52500488AFF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E98AF33B1390E52500488AFF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E98AF3431390E52500488AFF /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E98AF3441390E52500488AFF /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		E98AF3491390E52500488AFF /* PizzaOrdersViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E98AF34A1390E52500488AFF /* en */,
+			);
+			name = PizzaOrdersViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E98AF34C1390E52500488AFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E98AF34D1390E52500488AFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		E98AF34F1390E52500488AFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PizzaOrders/PizzaOrders-Prefix.pch";
+				INFOPLIST_FILE = "PizzaOrders/PizzaOrders-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E98AF3501390E52500488AFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PizzaOrders/PizzaOrders-Prefix.pch";
+				INFOPLIST_FILE = "PizzaOrders/PizzaOrders-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E98AF3271390E52400488AFF /* Build configuration list for PBXProject "PizzaOrders" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E98AF34C1390E52500488AFF /* Debug */,
+				E98AF34D1390E52500488AFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E98AF34E1390E52500488AFF /* Build configuration list for PBXNativeTarget "PizzaOrders" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E98AF34F1390E52500488AFF /* Debug */,
+				E98AF3501390E52500488AFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E98AF3241390E52400488AFF /* Project object */;
+}

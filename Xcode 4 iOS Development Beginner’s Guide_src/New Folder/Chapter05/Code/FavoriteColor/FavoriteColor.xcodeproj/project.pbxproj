@@ -1,0 +1,294 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E91BE45E12BD86420048B45D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E91BE45D12BD86420048B45D /* UIKit.framework */; };
+		E91BE46012BD86420048B45D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E91BE45F12BD86420048B45D /* Foundation.framework */; };
+		E91BE46212BD86420048B45D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E91BE46112BD86420048B45D /* CoreGraphics.framework */; };
+		E91BE46712BD86420048B45D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E91BE46512BD86420048B45D /* InfoPlist.strings */; };
+		E91BE46912BD86420048B45D /* FavoriteColor-main.m in Sources */ = {isa = PBXBuildFile; fileRef = E91BE46812BD86420048B45D /* FavoriteColor-main.m */; };
+		E91BE46C12BD86420048B45D /* FavoriteColorAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E91BE46B12BD86420048B45D /* FavoriteColorAppDelegate.m */; };
+		E91BE46F12BD86430048B45D /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = E91BE46D12BD86430048B45D /* MainWindow.xib */; };
+		E91BE47212BD86430048B45D /* FavoriteColorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E91BE47112BD86430048B45D /* FavoriteColorViewController.m */; };
+		E91BE47512BD86430048B45D /* FavoriteColorViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E91BE47312BD86430048B45D /* FavoriteColorViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E91BE45A12BD86420048B45D /* FavoriteColor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FavoriteColor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E91BE45D12BD86420048B45D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E91BE45F12BD86420048B45D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E91BE46112BD86420048B45D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E91BE46312BD86420048B45D /* FavoriteColor-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FavoriteColor-Info.plist"; sourceTree = "<group>"; };
+		E91BE46412BD86420048B45D /* FavoriteColor-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FavoriteColor-Prefix.pch"; sourceTree = "<group>"; };
+		E91BE46612BD86420048B45D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E91BE46812BD86420048B45D /* FavoriteColor-main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "FavoriteColor-main.m"; sourceTree = "<group>"; };
+		E91BE46A12BD86420048B45D /* FavoriteColorAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FavoriteColorAppDelegate.h; sourceTree = "<group>"; };
+		E91BE46B12BD86420048B45D /* FavoriteColorAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FavoriteColorAppDelegate.m; sourceTree = "<group>"; };
+		E91BE46E12BD86430048B45D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		E91BE47012BD86430048B45D /* FavoriteColorViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FavoriteColorViewController.h; sourceTree = "<group>"; };
+		E91BE47112BD86430048B45D /* FavoriteColorViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FavoriteColorViewController.m; sourceTree = "<group>"; };
+		E91BE47412BD86430048B45D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FavoriteColorViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E91BE45712BD86420048B45D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E91BE45E12BD86420048B45D /* UIKit.framework in Frameworks */,
+				E91BE46012BD86420048B45D /* Foundation.framework in Frameworks */,
+				E91BE46212BD86420048B45D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E91BE44B12BD86420048B45D = {
+			isa = PBXGroup;
+			children = (
+				E91BE45212BD86420048B45D /* Classes */,
+				E91BE45312BD86420048B45D /* Other Sources */,
+				E91BE45412BD86420048B45D /* Resources */,
+				E91BE45512BD86420048B45D /* Frameworks */,
+				E91BE45B12BD86420048B45D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E91BE45212BD86420048B45D /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				E91BE46A12BD86420048B45D /* FavoriteColorAppDelegate.h */,
+				E91BE46B12BD86420048B45D /* FavoriteColorAppDelegate.m */,
+				E91BE47012BD86430048B45D /* FavoriteColorViewController.h */,
+				E91BE47112BD86430048B45D /* FavoriteColorViewController.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		E91BE45312BD86420048B45D /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				E91BE46412BD86420048B45D /* FavoriteColor-Prefix.pch */,
+				E91BE46812BD86420048B45D /* FavoriteColor-main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		E91BE45412BD86420048B45D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E91BE46312BD86420048B45D /* FavoriteColor-Info.plist */,
+				E91BE46512BD86420048B45D /* InfoPlist.strings */,
+				E91BE46D12BD86430048B45D /* MainWindow.xib */,
+				E91BE47312BD86430048B45D /* FavoriteColorViewController.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		E91BE45512BD86420048B45D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E91BE45D12BD86420048B45D /* UIKit.framework */,
+				E91BE45F12BD86420048B45D /* Foundation.framework */,
+				E91BE46112BD86420048B45D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E91BE45B12BD86420048B45D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E91BE45A12BD86420048B45D /* FavoriteColor.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E91BE45912BD86420048B45D /* FavoriteColor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E91BE47812BD86430048B45D /* Build configuration list for PBXNativeTarget "FavoriteColor" */;
+			buildPhases = (
+				E91BE45612BD86420048B45D /* Sources */,
+				E91BE45712BD86420048B45D /* Frameworks */,
+				E91BE45812BD86420048B45D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FavoriteColor;
+			productName = FavoriteColor;
+			productReference = E91BE45A12BD86420048B45D /* FavoriteColor.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E91BE44D12BD86420048B45D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "GENIESOFT STUDIOS";
+			};
+			buildConfigurationList = E91BE45012BD86420048B45D /* Build configuration list for PBXProject "FavoriteColor" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E91BE44B12BD86420048B45D;
+			productRefGroup = E91BE45B12BD86420048B45D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E91BE45912BD86420048B45D /* FavoriteColor */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E91BE45812BD86420048B45D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E91BE46712BD86420048B45D /* InfoPlist.strings in Resources */,
+				E91BE46F12BD86430048B45D /* MainWindow.xib in Resources */,
+				E91BE47512BD86430048B45D /* FavoriteColorViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E91BE45612BD86420048B45D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E91BE46912BD86420048B45D /* FavoriteColor-main.m in Sources */,
+				E91BE46C12BD86420048B45D /* FavoriteColorAppDelegate.m in Sources */,
+				E91BE47212BD86430048B45D /* FavoriteColorViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E91BE46512BD86420048B45D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E91BE46612BD86420048B45D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E91BE46D12BD86430048B45D /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E91BE46E12BD86430048B45D /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		E91BE47312BD86430048B45D /* FavoriteColorViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E91BE47412BD86430048B45D /* en */,
+			);
+			name = FavoriteColorViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E91BE47612BD86430048B45D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E91BE47712BD86430048B45D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		E91BE47912BD86430048B45D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FavoriteColor-Prefix.pch";
+				INFOPLIST_FILE = "FavoriteColor-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E91BE47A12BD86430048B45D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FavoriteColor-Prefix.pch";
+				INFOPLIST_FILE = "FavoriteColor-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E91BE45012BD86420048B45D /* Build configuration list for PBXProject "FavoriteColor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E91BE47612BD86430048B45D /* Debug */,
+				E91BE47712BD86430048B45D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E91BE47812BD86430048B45D /* Build configuration list for PBXNativeTarget "FavoriteColor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E91BE47912BD86430048B45D /* Debug */,
+				E91BE47A12BD86430048B45D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E91BE44D12BD86420048B45D /* Project object */;
+}

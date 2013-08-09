@@ -1,0 +1,294 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E92CBCF4128EC10F00F5E85C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E92CBCF3128EC10F00F5E85C /* UIKit.framework */; };
+		E92CBCF6128EC10F00F5E85C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E92CBCF5128EC10F00F5E85C /* Foundation.framework */; };
+		E92CBCF8128EC10F00F5E85C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E92CBCF7128EC10F00F5E85C /* CoreGraphics.framework */; };
+		E92CBCFD128EC10F00F5E85C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E92CBCFB128EC10F00F5E85C /* InfoPlist.strings */; };
+		E92CBCFF128EC10F00F5E85C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E92CBCFE128EC10F00F5E85C /* main.m */; };
+		E92CBD02128EC10F00F5E85C /* HelloXcode4_GUIAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E92CBD01128EC10F00F5E85C /* HelloXcode4_GUIAppDelegate.m */; };
+		E92CBD05128EC10F00F5E85C /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = E92CBD03128EC10F00F5E85C /* MainWindow.xib */; };
+		E92CBD08128EC10F00F5E85C /* HelloXcode4_GUIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E92CBD07128EC10F00F5E85C /* HelloXcode4_GUIViewController.m */; };
+		E92CBD0B128EC10F00F5E85C /* HelloXcode4_GUIViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E92CBD09128EC10F00F5E85C /* HelloXcode4_GUIViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E92CBCF0128EC10F00F5E85C /* HelloXcode4_GUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloXcode4_GUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E92CBCF3128EC10F00F5E85C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E92CBCF5128EC10F00F5E85C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E92CBCF7128EC10F00F5E85C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E92CBCF9128EC10F00F5E85C /* HelloXcode4_GUI-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HelloXcode4_GUI-Info.plist"; sourceTree = "<group>"; };
+		E92CBCFA128EC10F00F5E85C /* HelloXcode4_GUI_Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HelloXcode4_GUI_Prefix.pch; sourceTree = "<group>"; };
+		E92CBCFC128EC10F00F5E85C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E92CBCFE128EC10F00F5E85C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E92CBD00128EC10F00F5E85C /* HelloXcode4_GUIAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HelloXcode4_GUIAppDelegate.h; sourceTree = "<group>"; };
+		E92CBD01128EC10F00F5E85C /* HelloXcode4_GUIAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloXcode4_GUIAppDelegate.m; sourceTree = "<group>"; };
+		E92CBD04128EC10F00F5E85C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		E92CBD06128EC10F00F5E85C /* HelloXcode4_GUIViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HelloXcode4_GUIViewController.h; sourceTree = "<group>"; };
+		E92CBD07128EC10F00F5E85C /* HelloXcode4_GUIViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloXcode4_GUIViewController.m; sourceTree = "<group>"; };
+		E92CBD0A128EC10F00F5E85C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/HelloXcode4_GUIViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E92CBCED128EC10F00F5E85C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E92CBCF4128EC10F00F5E85C /* UIKit.framework in Frameworks */,
+				E92CBCF6128EC10F00F5E85C /* Foundation.framework in Frameworks */,
+				E92CBCF8128EC10F00F5E85C /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E92CBCE1128EC10D00F5E85C = {
+			isa = PBXGroup;
+			children = (
+				E92CBCE8128EC10F00F5E85C /* Classes */,
+				E92CBCE9128EC10F00F5E85C /* Other Sources */,
+				E92CBCEA128EC10F00F5E85C /* Resources */,
+				E92CBCEB128EC10F00F5E85C /* Frameworks */,
+				E92CBCF1128EC10F00F5E85C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E92CBCE8128EC10F00F5E85C /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				E92CBD00128EC10F00F5E85C /* HelloXcode4_GUIAppDelegate.h */,
+				E92CBD01128EC10F00F5E85C /* HelloXcode4_GUIAppDelegate.m */,
+				E92CBD06128EC10F00F5E85C /* HelloXcode4_GUIViewController.h */,
+				E92CBD07128EC10F00F5E85C /* HelloXcode4_GUIViewController.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		E92CBCE9128EC10F00F5E85C /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				E92CBCFA128EC10F00F5E85C /* HelloXcode4_GUI_Prefix.pch */,
+				E92CBCFE128EC10F00F5E85C /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		E92CBCEA128EC10F00F5E85C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E92CBCF9128EC10F00F5E85C /* HelloXcode4_GUI-Info.plist */,
+				E92CBCFB128EC10F00F5E85C /* InfoPlist.strings */,
+				E92CBD03128EC10F00F5E85C /* MainWindow.xib */,
+				E92CBD09128EC10F00F5E85C /* HelloXcode4_GUIViewController.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		E92CBCEB128EC10F00F5E85C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E92CBCF3128EC10F00F5E85C /* UIKit.framework */,
+				E92CBCF5128EC10F00F5E85C /* Foundation.framework */,
+				E92CBCF7128EC10F00F5E85C /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E92CBCF1128EC10F00F5E85C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E92CBCF0128EC10F00F5E85C /* HelloXcode4_GUI.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E92CBCEF128EC10F00F5E85C /* HelloXcode4_GUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E92CBD0E128EC10F00F5E85C /* Build configuration list for PBXNativeTarget "HelloXcode4_GUI" */;
+			buildPhases = (
+				E92CBCEC128EC10F00F5E85C /* Sources */,
+				E92CBCED128EC10F00F5E85C /* Frameworks */,
+				E92CBCEE128EC10F00F5E85C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HelloXcode4_GUI;
+			productName = HelloXcode4_GUI;
+			productReference = E92CBCF0128EC10F00F5E85C /* HelloXcode4_GUI.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E92CBCE3128EC10F00F5E85C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "GENIESOFT STUDIOS";
+			};
+			buildConfigurationList = E92CBCE6128EC10F00F5E85C /* Build configuration list for PBXProject "HelloXcode4_GUI" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E92CBCE1128EC10D00F5E85C;
+			productRefGroup = E92CBCF1128EC10F00F5E85C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E92CBCEF128EC10F00F5E85C /* HelloXcode4_GUI */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E92CBCEE128EC10F00F5E85C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E92CBCFD128EC10F00F5E85C /* InfoPlist.strings in Resources */,
+				E92CBD05128EC10F00F5E85C /* MainWindow.xib in Resources */,
+				E92CBD0B128EC10F00F5E85C /* HelloXcode4_GUIViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E92CBCEC128EC10F00F5E85C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E92CBCFF128EC10F00F5E85C /* main.m in Sources */,
+				E92CBD02128EC10F00F5E85C /* HelloXcode4_GUIAppDelegate.m in Sources */,
+				E92CBD08128EC10F00F5E85C /* HelloXcode4_GUIViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E92CBCFB128EC10F00F5E85C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E92CBCFC128EC10F00F5E85C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E92CBD03128EC10F00F5E85C /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E92CBD04128EC10F00F5E85C /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		E92CBD09128EC10F00F5E85C /* HelloXcode4_GUIViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E92CBD0A128EC10F00F5E85C /* en */,
+			);
+			name = HelloXcode4_GUIViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E92CBD0C128EC10F00F5E85C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.1;
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E92CBD0D128EC10F00F5E85C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		E92CBD0F128EC10F00F5E85C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = HelloXcode4_GUI_Prefix.pch;
+				INFOPLIST_FILE = "HelloXcode4_GUI-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E92CBD10128EC10F00F5E85C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = HelloXcode4_GUI_Prefix.pch;
+				INFOPLIST_FILE = "HelloXcode4_GUI-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E92CBCE6128EC10F00F5E85C /* Build configuration list for PBXProject "HelloXcode4_GUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E92CBD0C128EC10F00F5E85C /* Debug */,
+				E92CBD0D128EC10F00F5E85C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E92CBD0E128EC10F00F5E85C /* Build configuration list for PBXNativeTarget "HelloXcode4_GUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E92CBD0F128EC10F00F5E85C /* Debug */,
+				E92CBD10128EC10F00F5E85C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E92CBCE3128EC10F00F5E85C /* Project object */;
+}

@@ -1,0 +1,294 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E9C3E3EE12D8735700587364 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9C3E3ED12D8735700587364 /* UIKit.framework */; };
+		E9C3E3F012D8735700587364 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9C3E3EF12D8735700587364 /* Foundation.framework */; };
+		E9C3E3F212D8735700587364 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9C3E3F112D8735700587364 /* CoreGraphics.framework */; };
+		E9C3E3F712D8735700587364 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E9C3E3F512D8735700587364 /* InfoPlist.strings */; };
+		E9C3E3F912D8735700587364 /* ShakeExample-main.m in Sources */ = {isa = PBXBuildFile; fileRef = E9C3E3F812D8735700587364 /* ShakeExample-main.m */; };
+		E9C3E3FC12D8735700587364 /* ShakeExampleAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E9C3E3FB12D8735700587364 /* ShakeExampleAppDelegate.m */; };
+		E9C3E3FF12D8735700587364 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = E9C3E3FD12D8735700587364 /* MainWindow.xib */; };
+		E9C3E40212D8735700587364 /* ShakeExampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E9C3E40112D8735700587364 /* ShakeExampleViewController.m */; };
+		E9C3E40512D8735700587364 /* ShakeExampleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E9C3E40312D8735700587364 /* ShakeExampleViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E9C3E3EA12D8735700587364 /* ShakeExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShakeExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9C3E3ED12D8735700587364 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E9C3E3EF12D8735700587364 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E9C3E3F112D8735700587364 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E9C3E3F312D8735700587364 /* ShakeExample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ShakeExample-Info.plist"; sourceTree = "<group>"; };
+		E9C3E3F412D8735700587364 /* ShakeExample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ShakeExample-Prefix.pch"; sourceTree = "<group>"; };
+		E9C3E3F612D8735700587364 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E9C3E3F812D8735700587364 /* ShakeExample-main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "ShakeExample-main.m"; sourceTree = "<group>"; };
+		E9C3E3FA12D8735700587364 /* ShakeExampleAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShakeExampleAppDelegate.h; sourceTree = "<group>"; };
+		E9C3E3FB12D8735700587364 /* ShakeExampleAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShakeExampleAppDelegate.m; sourceTree = "<group>"; };
+		E9C3E3FE12D8735700587364 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		E9C3E40012D8735700587364 /* ShakeExampleViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShakeExampleViewController.h; sourceTree = "<group>"; };
+		E9C3E40112D8735700587364 /* ShakeExampleViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShakeExampleViewController.m; sourceTree = "<group>"; };
+		E9C3E40412D8735700587364 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ShakeExampleViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E9C3E3E712D8735700587364 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9C3E3EE12D8735700587364 /* UIKit.framework in Frameworks */,
+				E9C3E3F012D8735700587364 /* Foundation.framework in Frameworks */,
+				E9C3E3F212D8735700587364 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E9C3E3DB12D8735600587364 = {
+			isa = PBXGroup;
+			children = (
+				E9C3E3E212D8735700587364 /* Classes */,
+				E9C3E3E312D8735700587364 /* Other Sources */,
+				E9C3E3E412D8735700587364 /* Resources */,
+				E9C3E3E512D8735700587364 /* Frameworks */,
+				E9C3E3EB12D8735700587364 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E9C3E3E212D8735700587364 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				E9C3E3FA12D8735700587364 /* ShakeExampleAppDelegate.h */,
+				E9C3E3FB12D8735700587364 /* ShakeExampleAppDelegate.m */,
+				E9C3E40012D8735700587364 /* ShakeExampleViewController.h */,
+				E9C3E40112D8735700587364 /* ShakeExampleViewController.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		E9C3E3E312D8735700587364 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				E9C3E3F412D8735700587364 /* ShakeExample-Prefix.pch */,
+				E9C3E3F812D8735700587364 /* ShakeExample-main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		E9C3E3E412D8735700587364 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E9C3E3F312D8735700587364 /* ShakeExample-Info.plist */,
+				E9C3E3F512D8735700587364 /* InfoPlist.strings */,
+				E9C3E3FD12D8735700587364 /* MainWindow.xib */,
+				E9C3E40312D8735700587364 /* ShakeExampleViewController.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		E9C3E3E512D8735700587364 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E9C3E3ED12D8735700587364 /* UIKit.framework */,
+				E9C3E3EF12D8735700587364 /* Foundation.framework */,
+				E9C3E3F112D8735700587364 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E9C3E3EB12D8735700587364 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E9C3E3EA12D8735700587364 /* ShakeExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E9C3E3E912D8735700587364 /* ShakeExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9C3E40812D8735700587364 /* Build configuration list for PBXNativeTarget "ShakeExample" */;
+			buildPhases = (
+				E9C3E3E612D8735700587364 /* Sources */,
+				E9C3E3E712D8735700587364 /* Frameworks */,
+				E9C3E3E812D8735700587364 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ShakeExample;
+			productName = ShakeExample;
+			productReference = E9C3E3EA12D8735700587364 /* ShakeExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E9C3E3DD12D8735600587364 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "GENIESOFT STUDIOS";
+			};
+			buildConfigurationList = E9C3E3E012D8735600587364 /* Build configuration list for PBXProject "ShakeExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E9C3E3DB12D8735600587364;
+			productRefGroup = E9C3E3EB12D8735700587364 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E9C3E3E912D8735700587364 /* ShakeExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E9C3E3E812D8735700587364 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9C3E3F712D8735700587364 /* InfoPlist.strings in Resources */,
+				E9C3E3FF12D8735700587364 /* MainWindow.xib in Resources */,
+				E9C3E40512D8735700587364 /* ShakeExampleViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E9C3E3E612D8735700587364 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9C3E3F912D8735700587364 /* ShakeExample-main.m in Sources */,
+				E9C3E3FC12D8735700587364 /* ShakeExampleAppDelegate.m in Sources */,
+				E9C3E40212D8735700587364 /* ShakeExampleViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E9C3E3F512D8735700587364 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E9C3E3F612D8735700587364 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E9C3E3FD12D8735700587364 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E9C3E3FE12D8735700587364 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		E9C3E40312D8735700587364 /* ShakeExampleViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E9C3E40412D8735700587364 /* en */,
+			);
+			name = ShakeExampleViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E9C3E40612D8735700587364 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E9C3E40712D8735700587364 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		E9C3E40912D8735700587364 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ShakeExample-Prefix.pch";
+				INFOPLIST_FILE = "ShakeExample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E9C3E40A12D8735700587364 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ShakeExample-Prefix.pch";
+				INFOPLIST_FILE = "ShakeExample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E9C3E3E012D8735600587364 /* Build configuration list for PBXProject "ShakeExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9C3E40612D8735700587364 /* Debug */,
+				E9C3E40712D8735700587364 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E9C3E40812D8735700587364 /* Build configuration list for PBXNativeTarget "ShakeExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9C3E40912D8735700587364 /* Debug */,
+				E9C3E40A12D8735700587364 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E9C3E3DD12D8735600587364 /* Project object */;
+}

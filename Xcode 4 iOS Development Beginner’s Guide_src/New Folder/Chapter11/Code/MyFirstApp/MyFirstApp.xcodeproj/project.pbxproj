@@ -1,0 +1,316 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E920A2BA1333B74900752696 /* Entitlements.plist in Resources */ = {isa = PBXBuildFile; fileRef = E920A2B91333B74900752696 /* Entitlements.plist */; };
+		E9DD8E89132FA78A009110FC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9DD8E88132FA78A009110FC /* UIKit.framework */; };
+		E9DD8E8B132FA78A009110FC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9DD8E8A132FA78A009110FC /* Foundation.framework */; };
+		E9DD8E8D132FA78A009110FC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9DD8E8C132FA78A009110FC /* CoreGraphics.framework */; };
+		E9DD8E8F132FA78A009110FC /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9DD8E8E132FA78A009110FC /* QuartzCore.framework */; };
+		E9DD8E91132FA78A009110FC /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9DD8E90132FA78A009110FC /* OpenGLES.framework */; };
+		E9DD8E97132FA78A009110FC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E9DD8E95132FA78A009110FC /* InfoPlist.strings */; };
+		E9DD8E9A132FA78A009110FC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E9DD8E99132FA78A009110FC /* main.m */; };
+		E9DD8E9D132FA78A009110FC /* MyFirstAppAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E9DD8E9C132FA78A009110FC /* MyFirstAppAppDelegate.m */; };
+		E9DD8EA0132FA78A009110FC /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = E9DD8E9E132FA78A009110FC /* MainWindow.xib */; };
+		E9DD8EA2132FA78A009110FC /* Shader.fsh in Resources */ = {isa = PBXBuildFile; fileRef = E9DD8EA1132FA78A009110FC /* Shader.fsh */; };
+		E9DD8EA4132FA78A009110FC /* Shader.vsh in Resources */ = {isa = PBXBuildFile; fileRef = E9DD8EA3132FA78A009110FC /* Shader.vsh */; };
+		E9DD8EA7132FA78A009110FC /* EAGLView.m in Sources */ = {isa = PBXBuildFile; fileRef = E9DD8EA6132FA78A009110FC /* EAGLView.m */; };
+		E9DD8EAA132FA78A009110FC /* MyFirstAppViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E9DD8EA9132FA78A009110FC /* MyFirstAppViewController.m */; };
+		E9DD8EAD132FA78A009110FC /* MyFirstAppViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E9DD8EAB132FA78A009110FC /* MyFirstAppViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E920A2B91333B74900752696 /* Entitlements.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Entitlements.plist; sourceTree = "<group>"; };
+		E9DD8E84132FA78A009110FC /* MyFirstApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyFirstApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9DD8E88132FA78A009110FC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E9DD8E8A132FA78A009110FC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E9DD8E8C132FA78A009110FC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E9DD8E8E132FA78A009110FC /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		E9DD8E90132FA78A009110FC /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		E9DD8E94132FA78A009110FC /* MyFirstApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MyFirstApp-Info.plist"; sourceTree = "<group>"; };
+		E9DD8E96132FA78A009110FC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E9DD8E98132FA78A009110FC /* MyFirstApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MyFirstApp-Prefix.pch"; sourceTree = "<group>"; };
+		E9DD8E99132FA78A009110FC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E9DD8E9B132FA78A009110FC /* MyFirstAppAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyFirstAppAppDelegate.h; sourceTree = "<group>"; };
+		E9DD8E9C132FA78A009110FC /* MyFirstAppAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyFirstAppAppDelegate.m; sourceTree = "<group>"; };
+		E9DD8E9F132FA78A009110FC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		E9DD8EA1132FA78A009110FC /* Shader.fsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; name = Shader.fsh; path = Shaders/Shader.fsh; sourceTree = "<group>"; };
+		E9DD8EA3132FA78A009110FC /* Shader.vsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; name = Shader.vsh; path = Shaders/Shader.vsh; sourceTree = "<group>"; };
+		E9DD8EA5132FA78A009110FC /* EAGLView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EAGLView.h; sourceTree = "<group>"; };
+		E9DD8EA6132FA78A009110FC /* EAGLView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EAGLView.m; sourceTree = "<group>"; };
+		E9DD8EA8132FA78A009110FC /* MyFirstAppViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyFirstAppViewController.h; sourceTree = "<group>"; };
+		E9DD8EA9132FA78A009110FC /* MyFirstAppViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyFirstAppViewController.m; sourceTree = "<group>"; };
+		E9DD8EAC132FA78A009110FC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MyFirstAppViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E9DD8E81132FA78A009110FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9DD8E89132FA78A009110FC /* UIKit.framework in Frameworks */,
+				E9DD8E8B132FA78A009110FC /* Foundation.framework in Frameworks */,
+				E9DD8E8D132FA78A009110FC /* CoreGraphics.framework in Frameworks */,
+				E9DD8E8F132FA78A009110FC /* QuartzCore.framework in Frameworks */,
+				E9DD8E91132FA78A009110FC /* OpenGLES.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E9DD8E79132FA78A009110FC = {
+			isa = PBXGroup;
+			children = (
+				E920A2B91333B74900752696 /* Entitlements.plist */,
+				E9DD8E92132FA78A009110FC /* MyFirstApp */,
+				E9DD8E87132FA78A009110FC /* Frameworks */,
+				E9DD8E85132FA78A009110FC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E9DD8E85132FA78A009110FC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E9DD8E84132FA78A009110FC /* MyFirstApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E9DD8E87132FA78A009110FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E9DD8E88132FA78A009110FC /* UIKit.framework */,
+				E9DD8E8A132FA78A009110FC /* Foundation.framework */,
+				E9DD8E8C132FA78A009110FC /* CoreGraphics.framework */,
+				E9DD8E8E132FA78A009110FC /* QuartzCore.framework */,
+				E9DD8E90132FA78A009110FC /* OpenGLES.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E9DD8E92132FA78A009110FC /* MyFirstApp */ = {
+			isa = PBXGroup;
+			children = (
+				E9DD8E9B132FA78A009110FC /* MyFirstAppAppDelegate.h */,
+				E9DD8E9C132FA78A009110FC /* MyFirstAppAppDelegate.m */,
+				E9DD8E9E132FA78A009110FC /* MainWindow.xib */,
+				E9DD8EA1132FA78A009110FC /* Shader.fsh */,
+				E9DD8EA3132FA78A009110FC /* Shader.vsh */,
+				E9DD8EA5132FA78A009110FC /* EAGLView.h */,
+				E9DD8EA6132FA78A009110FC /* EAGLView.m */,
+				E9DD8EA8132FA78A009110FC /* MyFirstAppViewController.h */,
+				E9DD8EA9132FA78A009110FC /* MyFirstAppViewController.m */,
+				E9DD8EAB132FA78A009110FC /* MyFirstAppViewController.xib */,
+				E9DD8E93132FA78A009110FC /* Supporting Files */,
+			);
+			path = MyFirstApp;
+			sourceTree = "<group>";
+		};
+		E9DD8E93132FA78A009110FC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E9DD8E94132FA78A009110FC /* MyFirstApp-Info.plist */,
+				E9DD8E95132FA78A009110FC /* InfoPlist.strings */,
+				E9DD8E98132FA78A009110FC /* MyFirstApp-Prefix.pch */,
+				E9DD8E99132FA78A009110FC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E9DD8E83132FA78A009110FC /* MyFirstApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9DD8EB0132FA78A009110FC /* Build configuration list for PBXNativeTarget "MyFirstApp" */;
+			buildPhases = (
+				E9DD8E80132FA78A009110FC /* Sources */,
+				E9DD8E81132FA78A009110FC /* Frameworks */,
+				E9DD8E82132FA78A009110FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyFirstApp;
+			productName = MyFirstApp;
+			productReference = E9DD8E84132FA78A009110FC /* MyFirstApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E9DD8E7B132FA78A009110FC /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = E9DD8E7E132FA78A009110FC /* Build configuration list for PBXProject "MyFirstApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E9DD8E79132FA78A009110FC;
+			productRefGroup = E9DD8E85132FA78A009110FC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E9DD8E83132FA78A009110FC /* MyFirstApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E9DD8E82132FA78A009110FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9DD8E97132FA78A009110FC /* InfoPlist.strings in Resources */,
+				E9DD8EA0132FA78A009110FC /* MainWindow.xib in Resources */,
+				E9DD8EA2132FA78A009110FC /* Shader.fsh in Resources */,
+				E9DD8EA4132FA78A009110FC /* Shader.vsh in Resources */,
+				E9DD8EAD132FA78A009110FC /* MyFirstAppViewController.xib in Resources */,
+				E920A2BA1333B74900752696 /* Entitlements.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E9DD8E80132FA78A009110FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9DD8E9A132FA78A009110FC /* main.m in Sources */,
+				E9DD8E9D132FA78A009110FC /* MyFirstAppAppDelegate.m in Sources */,
+				E9DD8EA7132FA78A009110FC /* EAGLView.m in Sources */,
+				E9DD8EAA132FA78A009110FC /* MyFirstAppViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E9DD8E95132FA78A009110FC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E9DD8E96132FA78A009110FC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E9DD8E9E132FA78A009110FC /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E9DD8E9F132FA78A009110FC /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		E9DD8EAB132FA78A009110FC /* MyFirstAppViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E9DD8EAC132FA78A009110FC /* en */,
+			);
+			name = MyFirstAppViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E9DD8EAE132FA78A009110FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Steven Daniel (4PXJ78T63G)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "564A4C20-0DCF-411F-A0C7-3A6F564EFA89";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E9DD8EAF132FA78A009110FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Steven Daniel (4PXJ78T63G)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "564A4C20-0DCF-411F-A0C7-3A6F564EFA89";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		E9DD8EB1132FA78A009110FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MyFirstApp/MyFirstApp-Prefix.pch";
+				"GCC_THUMB_SUPPORT[arch=armv6]" = "";
+				INFOPLIST_FILE = "MyFirstApp/MyFirstApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E9DD8EB2132FA78A009110FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MyFirstApp/MyFirstApp-Prefix.pch";
+				"GCC_THUMB_SUPPORT[arch=armv6]" = "";
+				INFOPLIST_FILE = "MyFirstApp/MyFirstApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E9DD8E7E132FA78A009110FC /* Build configuration list for PBXProject "MyFirstApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9DD8EAE132FA78A009110FC /* Debug */,
+				E9DD8EAF132FA78A009110FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E9DD8EB0132FA78A009110FC /* Build configuration list for PBXNativeTarget "MyFirstApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9DD8EB1132FA78A009110FC /* Debug */,
+				E9DD8EB2132FA78A009110FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E9DD8E7B132FA78A009110FC /* Project object */;
+}

@@ -1,0 +1,298 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E99728BA12A91D6800627CE9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E99728B912A91D6800627CE9 /* UIKit.framework */; };
+		E99728BC12A91D6800627CE9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E99728BB12A91D6800627CE9 /* Foundation.framework */; };
+		E99728BE12A91D6800627CE9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E99728BD12A91D6800627CE9 /* CoreGraphics.framework */; };
+		E99728C312A91D6800627CE9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E99728C112A91D6800627CE9 /* InfoPlist.strings */; };
+		E99728C512A91D6800627CE9 /* CoreLocation-main.m in Sources */ = {isa = PBXBuildFile; fileRef = E99728C412A91D6800627CE9 /* CoreLocation-main.m */; };
+		E99728C812A91D6800627CE9 /* CoreLocationAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E99728C712A91D6800627CE9 /* CoreLocationAppDelegate.m */; };
+		E99728CB12A91D6800627CE9 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = E99728C912A91D6800627CE9 /* MainWindow.xib */; };
+		E99728CE12A91D6800627CE9 /* CoreLocationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E99728CD12A91D6800627CE9 /* CoreLocationViewController.m */; };
+		E99728D112A91D6800627CE9 /* CoreLocationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E99728CF12A91D6800627CE9 /* CoreLocationViewController.xib */; };
+		E99728D812A91F3F00627CE9 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E99728D712A91F3E00627CE9 /* CoreLocation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E99728B612A91D6800627CE9 /* CoreLocation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreLocation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E99728B912A91D6800627CE9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E99728BB12A91D6800627CE9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E99728BD12A91D6800627CE9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E99728BF12A91D6800627CE9 /* CoreLocation-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CoreLocation-Info.plist"; sourceTree = "<group>"; };
+		E99728C012A91D6800627CE9 /* CoreLocation-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CoreLocation-Prefix.pch"; sourceTree = "<group>"; };
+		E99728C212A91D6800627CE9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E99728C412A91D6800627CE9 /* CoreLocation-main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "CoreLocation-main.m"; sourceTree = "<group>"; };
+		E99728C612A91D6800627CE9 /* CoreLocationAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreLocationAppDelegate.h; sourceTree = "<group>"; };
+		E99728C712A91D6800627CE9 /* CoreLocationAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoreLocationAppDelegate.m; sourceTree = "<group>"; };
+		E99728CA12A91D6800627CE9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		E99728CC12A91D6800627CE9 /* CoreLocationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreLocationViewController.h; sourceTree = "<group>"; };
+		E99728CD12A91D6800627CE9 /* CoreLocationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoreLocationViewController.m; sourceTree = "<group>"; };
+		E99728D012A91D6800627CE9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/CoreLocationViewController.xib; sourceTree = "<group>"; };
+		E99728D712A91F3E00627CE9 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = /Xcode4/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CoreLocation.framework; sourceTree = "<absolute>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E99728B312A91D6800627CE9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E99728D812A91F3F00627CE9 /* CoreLocation.framework in Frameworks */,
+				E99728BA12A91D6800627CE9 /* UIKit.framework in Frameworks */,
+				E99728BC12A91D6800627CE9 /* Foundation.framework in Frameworks */,
+				E99728BE12A91D6800627CE9 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E99728A712A91D6700627CE9 = {
+			isa = PBXGroup;
+			children = (
+				E99728AE12A91D6700627CE9 /* Classes */,
+				E99728AF12A91D6800627CE9 /* Other Sources */,
+				E99728B012A91D6800627CE9 /* Resources */,
+				E99728B112A91D6800627CE9 /* Frameworks */,
+				E99728B712A91D6800627CE9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E99728AE12A91D6700627CE9 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				E99728C612A91D6800627CE9 /* CoreLocationAppDelegate.h */,
+				E99728C712A91D6800627CE9 /* CoreLocationAppDelegate.m */,
+				E99728CC12A91D6800627CE9 /* CoreLocationViewController.h */,
+				E99728CD12A91D6800627CE9 /* CoreLocationViewController.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		E99728AF12A91D6800627CE9 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				E99728C012A91D6800627CE9 /* CoreLocation-Prefix.pch */,
+				E99728C412A91D6800627CE9 /* CoreLocation-main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		E99728B012A91D6800627CE9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E99728BF12A91D6800627CE9 /* CoreLocation-Info.plist */,
+				E99728C112A91D6800627CE9 /* InfoPlist.strings */,
+				E99728C912A91D6800627CE9 /* MainWindow.xib */,
+				E99728CF12A91D6800627CE9 /* CoreLocationViewController.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		E99728B112A91D6800627CE9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E99728D712A91F3E00627CE9 /* CoreLocation.framework */,
+				E99728B912A91D6800627CE9 /* UIKit.framework */,
+				E99728BB12A91D6800627CE9 /* Foundation.framework */,
+				E99728BD12A91D6800627CE9 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E99728B712A91D6800627CE9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E99728B612A91D6800627CE9 /* CoreLocation.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E99728B512A91D6800627CE9 /* CoreLocation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E99728D412A91D6800627CE9 /* Build configuration list for PBXNativeTarget "CoreLocation" */;
+			buildPhases = (
+				E99728B212A91D6800627CE9 /* Sources */,
+				E99728B312A91D6800627CE9 /* Frameworks */,
+				E99728B412A91D6800627CE9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CoreLocation;
+			productName = CoreLocation;
+			productReference = E99728B612A91D6800627CE9 /* CoreLocation.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E99728A912A91D6700627CE9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "GENIESOFT STUDIOS";
+			};
+			buildConfigurationList = E99728AC12A91D6700627CE9 /* Build configuration list for PBXProject "CoreLocation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E99728A712A91D6700627CE9;
+			productRefGroup = E99728B712A91D6800627CE9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E99728B512A91D6800627CE9 /* CoreLocation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E99728B412A91D6800627CE9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E99728C312A91D6800627CE9 /* InfoPlist.strings in Resources */,
+				E99728CB12A91D6800627CE9 /* MainWindow.xib in Resources */,
+				E99728D112A91D6800627CE9 /* CoreLocationViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E99728B212A91D6800627CE9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E99728C512A91D6800627CE9 /* CoreLocation-main.m in Sources */,
+				E99728C812A91D6800627CE9 /* CoreLocationAppDelegate.m in Sources */,
+				E99728CE12A91D6800627CE9 /* CoreLocationViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E99728C112A91D6800627CE9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E99728C212A91D6800627CE9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E99728C912A91D6800627CE9 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E99728CA12A91D6800627CE9 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		E99728CF12A91D6800627CE9 /* CoreLocationViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E99728D012A91D6800627CE9 /* en */,
+			);
+			name = CoreLocationViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E99728D212A91D6800627CE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E99728D312A91D6800627CE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		E99728D512A91D6800627CE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CoreLocation-Prefix.pch";
+				INFOPLIST_FILE = "CoreLocation-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E99728D612A91D6800627CE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CoreLocation-Prefix.pch";
+				INFOPLIST_FILE = "CoreLocation-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E99728AC12A91D6700627CE9 /* Build configuration list for PBXProject "CoreLocation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E99728D212A91D6800627CE9 /* Debug */,
+				E99728D312A91D6800627CE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E99728D412A91D6800627CE9 /* Build configuration list for PBXNativeTarget "CoreLocation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E99728D512A91D6800627CE9 /* Debug */,
+				E99728D612A91D6800627CE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E99728A912A91D6700627CE9 /* Project object */;
+}

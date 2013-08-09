@@ -1,0 +1,294 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E93E43D312BE10F0003B6F45 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E93E43D212BE10F0003B6F45 /* UIKit.framework */; };
+		E93E43D512BE10F0003B6F45 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E93E43D412BE10F0003B6F45 /* Foundation.framework */; };
+		E93E43D712BE10F0003B6F45 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E93E43D612BE10F0003B6F45 /* CoreGraphics.framework */; };
+		E93E43DC12BE10F0003B6F45 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E93E43DA12BE10F0003B6F45 /* InfoPlist.strings */; };
+		E93E43DE12BE10F0003B6F45 /* ScrollingViews-main.m in Sources */ = {isa = PBXBuildFile; fileRef = E93E43DD12BE10F0003B6F45 /* ScrollingViews-main.m */; };
+		E93E43E112BE10F0003B6F45 /* ScrollingViewsAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E93E43E012BE10F0003B6F45 /* ScrollingViewsAppDelegate.m */; };
+		E93E43E412BE10F0003B6F45 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = E93E43E212BE10F0003B6F45 /* MainWindow.xib */; };
+		E93E43E712BE10F0003B6F45 /* ScrollingViewsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E93E43E612BE10F0003B6F45 /* ScrollingViewsViewController.m */; };
+		E93E43EA12BE10F0003B6F45 /* ScrollingViewsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E93E43E812BE10F0003B6F45 /* ScrollingViewsViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E93E43CF12BE10F0003B6F45 /* ScrollingViews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScrollingViews.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E93E43D212BE10F0003B6F45 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E93E43D412BE10F0003B6F45 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E93E43D612BE10F0003B6F45 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E93E43D812BE10F0003B6F45 /* ScrollingViews-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ScrollingViews-Info.plist"; sourceTree = "<group>"; };
+		E93E43D912BE10F0003B6F45 /* ScrollingViews-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ScrollingViews-Prefix.pch"; sourceTree = "<group>"; };
+		E93E43DB12BE10F0003B6F45 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E93E43DD12BE10F0003B6F45 /* ScrollingViews-main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "ScrollingViews-main.m"; sourceTree = "<group>"; };
+		E93E43DF12BE10F0003B6F45 /* ScrollingViewsAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ScrollingViewsAppDelegate.h; sourceTree = "<group>"; };
+		E93E43E012BE10F0003B6F45 /* ScrollingViewsAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScrollingViewsAppDelegate.m; sourceTree = "<group>"; };
+		E93E43E312BE10F0003B6F45 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		E93E43E512BE10F0003B6F45 /* ScrollingViewsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ScrollingViewsViewController.h; sourceTree = "<group>"; };
+		E93E43E612BE10F0003B6F45 /* ScrollingViewsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScrollingViewsViewController.m; sourceTree = "<group>"; };
+		E93E43E912BE10F0003B6F45 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ScrollingViewsViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E93E43CC12BE10F0003B6F45 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E93E43D312BE10F0003B6F45 /* UIKit.framework in Frameworks */,
+				E93E43D512BE10F0003B6F45 /* Foundation.framework in Frameworks */,
+				E93E43D712BE10F0003B6F45 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E93E43C012BE10F0003B6F45 = {
+			isa = PBXGroup;
+			children = (
+				E93E43C712BE10F0003B6F45 /* Classes */,
+				E93E43C812BE10F0003B6F45 /* Other Sources */,
+				E93E43C912BE10F0003B6F45 /* Resources */,
+				E93E43CA12BE10F0003B6F45 /* Frameworks */,
+				E93E43D012BE10F0003B6F45 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E93E43C712BE10F0003B6F45 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				E93E43DF12BE10F0003B6F45 /* ScrollingViewsAppDelegate.h */,
+				E93E43E012BE10F0003B6F45 /* ScrollingViewsAppDelegate.m */,
+				E93E43E512BE10F0003B6F45 /* ScrollingViewsViewController.h */,
+				E93E43E612BE10F0003B6F45 /* ScrollingViewsViewController.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		E93E43C812BE10F0003B6F45 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				E93E43D912BE10F0003B6F45 /* ScrollingViews-Prefix.pch */,
+				E93E43DD12BE10F0003B6F45 /* ScrollingViews-main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		E93E43C912BE10F0003B6F45 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E93E43D812BE10F0003B6F45 /* ScrollingViews-Info.plist */,
+				E93E43DA12BE10F0003B6F45 /* InfoPlist.strings */,
+				E93E43E212BE10F0003B6F45 /* MainWindow.xib */,
+				E93E43E812BE10F0003B6F45 /* ScrollingViewsViewController.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		E93E43CA12BE10F0003B6F45 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E93E43D212BE10F0003B6F45 /* UIKit.framework */,
+				E93E43D412BE10F0003B6F45 /* Foundation.framework */,
+				E93E43D612BE10F0003B6F45 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E93E43D012BE10F0003B6F45 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E93E43CF12BE10F0003B6F45 /* ScrollingViews.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E93E43CE12BE10F0003B6F45 /* ScrollingViews */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E93E43ED12BE10F0003B6F45 /* Build configuration list for PBXNativeTarget "ScrollingViews" */;
+			buildPhases = (
+				E93E43CB12BE10F0003B6F45 /* Sources */,
+				E93E43CC12BE10F0003B6F45 /* Frameworks */,
+				E93E43CD12BE10F0003B6F45 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ScrollingViews;
+			productName = ScrollingViews;
+			productReference = E93E43CF12BE10F0003B6F45 /* ScrollingViews.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E93E43C212BE10F0003B6F45 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "GENIESOFT STUDIOS";
+			};
+			buildConfigurationList = E93E43C512BE10F0003B6F45 /* Build configuration list for PBXProject "ScrollingViews" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E93E43C012BE10F0003B6F45;
+			productRefGroup = E93E43D012BE10F0003B6F45 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E93E43CE12BE10F0003B6F45 /* ScrollingViews */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E93E43CD12BE10F0003B6F45 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E93E43DC12BE10F0003B6F45 /* InfoPlist.strings in Resources */,
+				E93E43E412BE10F0003B6F45 /* MainWindow.xib in Resources */,
+				E93E43EA12BE10F0003B6F45 /* ScrollingViewsViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E93E43CB12BE10F0003B6F45 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E93E43DE12BE10F0003B6F45 /* ScrollingViews-main.m in Sources */,
+				E93E43E112BE10F0003B6F45 /* ScrollingViewsAppDelegate.m in Sources */,
+				E93E43E712BE10F0003B6F45 /* ScrollingViewsViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E93E43DA12BE10F0003B6F45 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E93E43DB12BE10F0003B6F45 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E93E43E212BE10F0003B6F45 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E93E43E312BE10F0003B6F45 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		E93E43E812BE10F0003B6F45 /* ScrollingViewsViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E93E43E912BE10F0003B6F45 /* en */,
+			);
+			name = ScrollingViewsViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E93E43EB12BE10F0003B6F45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E93E43EC12BE10F0003B6F45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		E93E43EE12BE10F0003B6F45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ScrollingViews-Prefix.pch";
+				INFOPLIST_FILE = "ScrollingViews-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E93E43EF12BE10F0003B6F45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ScrollingViews-Prefix.pch";
+				INFOPLIST_FILE = "ScrollingViews-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E93E43C512BE10F0003B6F45 /* Build configuration list for PBXProject "ScrollingViews" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E93E43EB12BE10F0003B6F45 /* Debug */,
+				E93E43EC12BE10F0003B6F45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E93E43ED12BE10F0003B6F45 /* Build configuration list for PBXNativeTarget "ScrollingViews" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E93E43EE12BE10F0003B6F45 /* Debug */,
+				E93E43EF12BE10F0003B6F45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E93E43C212BE10F0003B6F45 /* Project object */;
+}

@@ -1,0 +1,294 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E9F5EA1812C0250000B4A0F8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9F5EA1712C0250000B4A0F8 /* UIKit.framework */; };
+		E9F5EA1A12C0250000B4A0F8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9F5EA1912C0250000B4A0F8 /* Foundation.framework */; };
+		E9F5EA1C12C0250000B4A0F8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9F5EA1B12C0250000B4A0F8 /* CoreGraphics.framework */; };
+		E9F5EA2112C0250000B4A0F8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E9F5EA1F12C0250000B4A0F8 /* InfoPlist.strings */; };
+		E9F5EA2312C0250000B4A0F8 /* DatePickersExample-main.m in Sources */ = {isa = PBXBuildFile; fileRef = E9F5EA2212C0250000B4A0F8 /* DatePickersExample-main.m */; };
+		E9F5EA2612C0250000B4A0F8 /* DatePickersExampleAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E9F5EA2512C0250000B4A0F8 /* DatePickersExampleAppDelegate.m */; };
+		E9F5EA2912C0250000B4A0F8 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = E9F5EA2712C0250000B4A0F8 /* MainWindow.xib */; };
+		E9F5EA2C12C0250000B4A0F8 /* DatePickersExampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E9F5EA2B12C0250000B4A0F8 /* DatePickersExampleViewController.m */; };
+		E9F5EA2F12C0250000B4A0F8 /* DatePickersExampleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E9F5EA2D12C0250000B4A0F8 /* DatePickersExampleViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E9F5EA1412C0250000B4A0F8 /* DatePickersExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DatePickersExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9F5EA1712C0250000B4A0F8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E9F5EA1912C0250000B4A0F8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E9F5EA1B12C0250000B4A0F8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E9F5EA1D12C0250000B4A0F8 /* DatePickersExample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DatePickersExample-Info.plist"; sourceTree = "<group>"; };
+		E9F5EA1E12C0250000B4A0F8 /* DatePickersExample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DatePickersExample-Prefix.pch"; sourceTree = "<group>"; };
+		E9F5EA2012C0250000B4A0F8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E9F5EA2212C0250000B4A0F8 /* DatePickersExample-main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "DatePickersExample-main.m"; sourceTree = "<group>"; };
+		E9F5EA2412C0250000B4A0F8 /* DatePickersExampleAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DatePickersExampleAppDelegate.h; sourceTree = "<group>"; };
+		E9F5EA2512C0250000B4A0F8 /* DatePickersExampleAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DatePickersExampleAppDelegate.m; sourceTree = "<group>"; };
+		E9F5EA2812C0250000B4A0F8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		E9F5EA2A12C0250000B4A0F8 /* DatePickersExampleViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DatePickersExampleViewController.h; sourceTree = "<group>"; };
+		E9F5EA2B12C0250000B4A0F8 /* DatePickersExampleViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DatePickersExampleViewController.m; sourceTree = "<group>"; };
+		E9F5EA2E12C0250000B4A0F8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/DatePickersExampleViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E9F5EA1112C0250000B4A0F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9F5EA1812C0250000B4A0F8 /* UIKit.framework in Frameworks */,
+				E9F5EA1A12C0250000B4A0F8 /* Foundation.framework in Frameworks */,
+				E9F5EA1C12C0250000B4A0F8 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E9F5EA0512C0250000B4A0F8 = {
+			isa = PBXGroup;
+			children = (
+				E9F5EA0C12C0250000B4A0F8 /* Classes */,
+				E9F5EA0D12C0250000B4A0F8 /* Other Sources */,
+				E9F5EA0E12C0250000B4A0F8 /* Resources */,
+				E9F5EA0F12C0250000B4A0F8 /* Frameworks */,
+				E9F5EA1512C0250000B4A0F8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E9F5EA0C12C0250000B4A0F8 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				E9F5EA2412C0250000B4A0F8 /* DatePickersExampleAppDelegate.h */,
+				E9F5EA2512C0250000B4A0F8 /* DatePickersExampleAppDelegate.m */,
+				E9F5EA2A12C0250000B4A0F8 /* DatePickersExampleViewController.h */,
+				E9F5EA2B12C0250000B4A0F8 /* DatePickersExampleViewController.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		E9F5EA0D12C0250000B4A0F8 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				E9F5EA1E12C0250000B4A0F8 /* DatePickersExample-Prefix.pch */,
+				E9F5EA2212C0250000B4A0F8 /* DatePickersExample-main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		E9F5EA0E12C0250000B4A0F8 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E9F5EA1D12C0250000B4A0F8 /* DatePickersExample-Info.plist */,
+				E9F5EA1F12C0250000B4A0F8 /* InfoPlist.strings */,
+				E9F5EA2712C0250000B4A0F8 /* MainWindow.xib */,
+				E9F5EA2D12C0250000B4A0F8 /* DatePickersExampleViewController.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		E9F5EA0F12C0250000B4A0F8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E9F5EA1712C0250000B4A0F8 /* UIKit.framework */,
+				E9F5EA1912C0250000B4A0F8 /* Foundation.framework */,
+				E9F5EA1B12C0250000B4A0F8 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E9F5EA1512C0250000B4A0F8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E9F5EA1412C0250000B4A0F8 /* DatePickersExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E9F5EA1312C0250000B4A0F8 /* DatePickersExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9F5EA3212C0250000B4A0F8 /* Build configuration list for PBXNativeTarget "DatePickersExample" */;
+			buildPhases = (
+				E9F5EA1012C0250000B4A0F8 /* Sources */,
+				E9F5EA1112C0250000B4A0F8 /* Frameworks */,
+				E9F5EA1212C0250000B4A0F8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DatePickersExample;
+			productName = DatePickersExample;
+			productReference = E9F5EA1412C0250000B4A0F8 /* DatePickersExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E9F5EA0712C0250000B4A0F8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "GENIESOFT STUDIOS";
+			};
+			buildConfigurationList = E9F5EA0A12C0250000B4A0F8 /* Build configuration list for PBXProject "DatePickersExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E9F5EA0512C0250000B4A0F8;
+			productRefGroup = E9F5EA1512C0250000B4A0F8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E9F5EA1312C0250000B4A0F8 /* DatePickersExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E9F5EA1212C0250000B4A0F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9F5EA2112C0250000B4A0F8 /* InfoPlist.strings in Resources */,
+				E9F5EA2912C0250000B4A0F8 /* MainWindow.xib in Resources */,
+				E9F5EA2F12C0250000B4A0F8 /* DatePickersExampleViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E9F5EA1012C0250000B4A0F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9F5EA2312C0250000B4A0F8 /* DatePickersExample-main.m in Sources */,
+				E9F5EA2612C0250000B4A0F8 /* DatePickersExampleAppDelegate.m in Sources */,
+				E9F5EA2C12C0250000B4A0F8 /* DatePickersExampleViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E9F5EA1F12C0250000B4A0F8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E9F5EA2012C0250000B4A0F8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E9F5EA2712C0250000B4A0F8 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E9F5EA2812C0250000B4A0F8 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		E9F5EA2D12C0250000B4A0F8 /* DatePickersExampleViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E9F5EA2E12C0250000B4A0F8 /* en */,
+			);
+			name = DatePickersExampleViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E9F5EA3012C0250000B4A0F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E9F5EA3112C0250000B4A0F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		E9F5EA3312C0250000B4A0F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DatePickersExample-Prefix.pch";
+				INFOPLIST_FILE = "DatePickersExample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E9F5EA3412C0250000B4A0F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DatePickersExample-Prefix.pch";
+				INFOPLIST_FILE = "DatePickersExample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E9F5EA0A12C0250000B4A0F8 /* Build configuration list for PBXProject "DatePickersExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9F5EA3012C0250000B4A0F8 /* Debug */,
+				E9F5EA3112C0250000B4A0F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E9F5EA3212C0250000B4A0F8 /* Build configuration list for PBXNativeTarget "DatePickersExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9F5EA3312C0250000B4A0F8 /* Debug */,
+				E9F5EA3412C0250000B4A0F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E9F5EA0712C0250000B4A0F8 /* Project object */;
+}

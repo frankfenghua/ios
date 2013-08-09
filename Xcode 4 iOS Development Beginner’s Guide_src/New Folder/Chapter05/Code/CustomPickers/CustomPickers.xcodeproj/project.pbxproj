@@ -1,0 +1,294 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E955521712C0299700030442 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E955521612C0299700030442 /* UIKit.framework */; };
+		E955521912C0299700030442 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E955521812C0299700030442 /* Foundation.framework */; };
+		E955521B12C0299700030442 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E955521A12C0299700030442 /* CoreGraphics.framework */; };
+		E955522012C0299700030442 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E955521E12C0299700030442 /* InfoPlist.strings */; };
+		E955522212C0299700030442 /* CustomPickers-main.m in Sources */ = {isa = PBXBuildFile; fileRef = E955522112C0299700030442 /* CustomPickers-main.m */; };
+		E955522512C0299800030442 /* CustomPickersAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E955522412C0299800030442 /* CustomPickersAppDelegate.m */; };
+		E955522812C0299800030442 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = E955522612C0299800030442 /* MainWindow.xib */; };
+		E955522B12C0299800030442 /* CustomPickersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E955522A12C0299800030442 /* CustomPickersViewController.m */; };
+		E955522E12C0299800030442 /* CustomPickersViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E955522C12C0299800030442 /* CustomPickersViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E955521312C0299700030442 /* CustomPickers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomPickers.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E955521612C0299700030442 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E955521812C0299700030442 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E955521A12C0299700030442 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E955521C12C0299700030442 /* CustomPickers-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CustomPickers-Info.plist"; sourceTree = "<group>"; };
+		E955521D12C0299700030442 /* CustomPickers-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CustomPickers-Prefix.pch"; sourceTree = "<group>"; };
+		E955521F12C0299700030442 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E955522112C0299700030442 /* CustomPickers-main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "CustomPickers-main.m"; sourceTree = "<group>"; };
+		E955522312C0299800030442 /* CustomPickersAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomPickersAppDelegate.h; sourceTree = "<group>"; };
+		E955522412C0299800030442 /* CustomPickersAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomPickersAppDelegate.m; sourceTree = "<group>"; };
+		E955522712C0299800030442 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		E955522912C0299800030442 /* CustomPickersViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomPickersViewController.h; sourceTree = "<group>"; };
+		E955522A12C0299800030442 /* CustomPickersViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomPickersViewController.m; sourceTree = "<group>"; };
+		E955522D12C0299800030442 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/CustomPickersViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E955521012C0299700030442 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E955521712C0299700030442 /* UIKit.framework in Frameworks */,
+				E955521912C0299700030442 /* Foundation.framework in Frameworks */,
+				E955521B12C0299700030442 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E955520412C0299700030442 = {
+			isa = PBXGroup;
+			children = (
+				E955520B12C0299700030442 /* Classes */,
+				E955520C12C0299700030442 /* Other Sources */,
+				E955520D12C0299700030442 /* Resources */,
+				E955520E12C0299700030442 /* Frameworks */,
+				E955521412C0299700030442 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E955520B12C0299700030442 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				E955522312C0299800030442 /* CustomPickersAppDelegate.h */,
+				E955522412C0299800030442 /* CustomPickersAppDelegate.m */,
+				E955522912C0299800030442 /* CustomPickersViewController.h */,
+				E955522A12C0299800030442 /* CustomPickersViewController.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		E955520C12C0299700030442 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				E955521D12C0299700030442 /* CustomPickers-Prefix.pch */,
+				E955522112C0299700030442 /* CustomPickers-main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		E955520D12C0299700030442 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E955521C12C0299700030442 /* CustomPickers-Info.plist */,
+				E955521E12C0299700030442 /* InfoPlist.strings */,
+				E955522612C0299800030442 /* MainWindow.xib */,
+				E955522C12C0299800030442 /* CustomPickersViewController.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		E955520E12C0299700030442 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E955521612C0299700030442 /* UIKit.framework */,
+				E955521812C0299700030442 /* Foundation.framework */,
+				E955521A12C0299700030442 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E955521412C0299700030442 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E955521312C0299700030442 /* CustomPickers.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E955521212C0299700030442 /* CustomPickers */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E955523112C0299800030442 /* Build configuration list for PBXNativeTarget "CustomPickers" */;
+			buildPhases = (
+				E955520F12C0299700030442 /* Sources */,
+				E955521012C0299700030442 /* Frameworks */,
+				E955521112C0299700030442 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CustomPickers;
+			productName = CustomPickers;
+			productReference = E955521312C0299700030442 /* CustomPickers.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E955520612C0299700030442 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "GENIESOFT STUDIOS";
+			};
+			buildConfigurationList = E955520912C0299700030442 /* Build configuration list for PBXProject "CustomPickers" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E955520412C0299700030442;
+			productRefGroup = E955521412C0299700030442 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E955521212C0299700030442 /* CustomPickers */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E955521112C0299700030442 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E955522012C0299700030442 /* InfoPlist.strings in Resources */,
+				E955522812C0299800030442 /* MainWindow.xib in Resources */,
+				E955522E12C0299800030442 /* CustomPickersViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E955520F12C0299700030442 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E955522212C0299700030442 /* CustomPickers-main.m in Sources */,
+				E955522512C0299800030442 /* CustomPickersAppDelegate.m in Sources */,
+				E955522B12C0299800030442 /* CustomPickersViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E955521E12C0299700030442 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E955521F12C0299700030442 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E955522612C0299800030442 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E955522712C0299800030442 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		E955522C12C0299800030442 /* CustomPickersViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E955522D12C0299800030442 /* en */,
+			);
+			name = CustomPickersViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E955522F12C0299800030442 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E955523012C0299800030442 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		E955523212C0299800030442 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CustomPickers-Prefix.pch";
+				INFOPLIST_FILE = "CustomPickers-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E955523312C0299800030442 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CustomPickers-Prefix.pch";
+				INFOPLIST_FILE = "CustomPickers-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E955520912C0299700030442 /* Build configuration list for PBXProject "CustomPickers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E955522F12C0299800030442 /* Debug */,
+				E955523012C0299800030442 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E955523112C0299800030442 /* Build configuration list for PBXNativeTarget "CustomPickers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E955523212C0299800030442 /* Debug */,
+				E955523312C0299800030442 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E955520612C0299700030442 /* Project object */;
+}

@@ -1,0 +1,294 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E968DC3F12BE1D4400D85291 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E968DC3E12BE1D4400D85291 /* UIKit.framework */; };
+		E968DC4112BE1D4400D85291 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E968DC4012BE1D4400D85291 /* Foundation.framework */; };
+		E968DC4312BE1D4400D85291 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E968DC4212BE1D4400D85291 /* CoreGraphics.framework */; };
+		E968DC4812BE1D4400D85291 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E968DC4612BE1D4400D85291 /* InfoPlist.strings */; };
+		E968DC4A12BE1D4400D85291 /* TextViewsandButtons-main.m in Sources */ = {isa = PBXBuildFile; fileRef = E968DC4912BE1D4400D85291 /* TextViewsandButtons-main.m */; };
+		E968DC4D12BE1D4400D85291 /* TextViewsandButtonsAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E968DC4C12BE1D4400D85291 /* TextViewsandButtonsAppDelegate.m */; };
+		E968DC5012BE1D4400D85291 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = E968DC4E12BE1D4400D85291 /* MainWindow.xib */; };
+		E968DC5312BE1D4400D85291 /* TextViewsandButtonsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E968DC5212BE1D4400D85291 /* TextViewsandButtonsViewController.m */; };
+		E968DC5612BE1D4400D85291 /* TextViewsandButtonsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E968DC5412BE1D4400D85291 /* TextViewsandButtonsViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E968DC3B12BE1D4400D85291 /* TextViewsandButtons.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TextViewsandButtons.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E968DC3E12BE1D4400D85291 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E968DC4012BE1D4400D85291 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E968DC4212BE1D4400D85291 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E968DC4412BE1D4400D85291 /* TextViewsandButtons-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TextViewsandButtons-Info.plist"; sourceTree = "<group>"; };
+		E968DC4512BE1D4400D85291 /* TextViewsandButtons-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TextViewsandButtons-Prefix.pch"; sourceTree = "<group>"; };
+		E968DC4712BE1D4400D85291 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E968DC4912BE1D4400D85291 /* TextViewsandButtons-main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "TextViewsandButtons-main.m"; sourceTree = "<group>"; };
+		E968DC4B12BE1D4400D85291 /* TextViewsandButtonsAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TextViewsandButtonsAppDelegate.h; sourceTree = "<group>"; };
+		E968DC4C12BE1D4400D85291 /* TextViewsandButtonsAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TextViewsandButtonsAppDelegate.m; sourceTree = "<group>"; };
+		E968DC4F12BE1D4400D85291 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		E968DC5112BE1D4400D85291 /* TextViewsandButtonsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TextViewsandButtonsViewController.h; sourceTree = "<group>"; };
+		E968DC5212BE1D4400D85291 /* TextViewsandButtonsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TextViewsandButtonsViewController.m; sourceTree = "<group>"; };
+		E968DC5512BE1D4400D85291 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/TextViewsandButtonsViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E968DC3812BE1D4400D85291 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E968DC3F12BE1D4400D85291 /* UIKit.framework in Frameworks */,
+				E968DC4112BE1D4400D85291 /* Foundation.framework in Frameworks */,
+				E968DC4312BE1D4400D85291 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E968DC2C12BE1D4400D85291 = {
+			isa = PBXGroup;
+			children = (
+				E968DC3312BE1D4400D85291 /* Classes */,
+				E968DC3412BE1D4400D85291 /* Other Sources */,
+				E968DC3512BE1D4400D85291 /* Resources */,
+				E968DC3612BE1D4400D85291 /* Frameworks */,
+				E968DC3C12BE1D4400D85291 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E968DC3312BE1D4400D85291 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				E968DC4B12BE1D4400D85291 /* TextViewsandButtonsAppDelegate.h */,
+				E968DC4C12BE1D4400D85291 /* TextViewsandButtonsAppDelegate.m */,
+				E968DC5112BE1D4400D85291 /* TextViewsandButtonsViewController.h */,
+				E968DC5212BE1D4400D85291 /* TextViewsandButtonsViewController.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		E968DC3412BE1D4400D85291 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				E968DC4512BE1D4400D85291 /* TextViewsandButtons-Prefix.pch */,
+				E968DC4912BE1D4400D85291 /* TextViewsandButtons-main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		E968DC3512BE1D4400D85291 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E968DC4412BE1D4400D85291 /* TextViewsandButtons-Info.plist */,
+				E968DC4612BE1D4400D85291 /* InfoPlist.strings */,
+				E968DC4E12BE1D4400D85291 /* MainWindow.xib */,
+				E968DC5412BE1D4400D85291 /* TextViewsandButtonsViewController.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		E968DC3612BE1D4400D85291 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E968DC3E12BE1D4400D85291 /* UIKit.framework */,
+				E968DC4012BE1D4400D85291 /* Foundation.framework */,
+				E968DC4212BE1D4400D85291 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E968DC3C12BE1D4400D85291 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E968DC3B12BE1D4400D85291 /* TextViewsandButtons.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E968DC3A12BE1D4400D85291 /* TextViewsandButtons */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E968DC5912BE1D4400D85291 /* Build configuration list for PBXNativeTarget "TextViewsandButtons" */;
+			buildPhases = (
+				E968DC3712BE1D4400D85291 /* Sources */,
+				E968DC3812BE1D4400D85291 /* Frameworks */,
+				E968DC3912BE1D4400D85291 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TextViewsandButtons;
+			productName = TextViewsandButtons;
+			productReference = E968DC3B12BE1D4400D85291 /* TextViewsandButtons.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E968DC2E12BE1D4400D85291 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "GENIESOFT STUDIOS";
+			};
+			buildConfigurationList = E968DC3112BE1D4400D85291 /* Build configuration list for PBXProject "TextViewsandButtons" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E968DC2C12BE1D4400D85291;
+			productRefGroup = E968DC3C12BE1D4400D85291 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E968DC3A12BE1D4400D85291 /* TextViewsandButtons */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E968DC3912BE1D4400D85291 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E968DC4812BE1D4400D85291 /* InfoPlist.strings in Resources */,
+				E968DC5012BE1D4400D85291 /* MainWindow.xib in Resources */,
+				E968DC5612BE1D4400D85291 /* TextViewsandButtonsViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E968DC3712BE1D4400D85291 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E968DC4A12BE1D4400D85291 /* TextViewsandButtons-main.m in Sources */,
+				E968DC4D12BE1D4400D85291 /* TextViewsandButtonsAppDelegate.m in Sources */,
+				E968DC5312BE1D4400D85291 /* TextViewsandButtonsViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E968DC4612BE1D4400D85291 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E968DC4712BE1D4400D85291 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E968DC4E12BE1D4400D85291 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E968DC4F12BE1D4400D85291 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		E968DC5412BE1D4400D85291 /* TextViewsandButtonsViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E968DC5512BE1D4400D85291 /* en */,
+			);
+			name = TextViewsandButtonsViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E968DC5712BE1D4400D85291 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E968DC5812BE1D4400D85291 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		E968DC5A12BE1D4400D85291 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TextViewsandButtons-Prefix.pch";
+				INFOPLIST_FILE = "TextViewsandButtons-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E968DC5B12BE1D4400D85291 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TextViewsandButtons-Prefix.pch";
+				INFOPLIST_FILE = "TextViewsandButtons-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E968DC3112BE1D4400D85291 /* Build configuration list for PBXProject "TextViewsandButtons" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E968DC5712BE1D4400D85291 /* Debug */,
+				E968DC5812BE1D4400D85291 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E968DC5912BE1D4400D85291 /* Build configuration list for PBXNativeTarget "TextViewsandButtons" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E968DC5A12BE1D4400D85291 /* Debug */,
+				E968DC5B12BE1D4400D85291 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E968DC2E12BE1D4400D85291 /* Project object */;
+}

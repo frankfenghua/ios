@@ -1,0 +1,294 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E99A039212D86A7100DB2E54 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E99A039112D86A7100DB2E54 /* UIKit.framework */; };
+		E99A039412D86A7100DB2E54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E99A039312D86A7100DB2E54 /* Foundation.framework */; };
+		E99A039612D86A7100DB2E54 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E99A039512D86A7100DB2E54 /* CoreGraphics.framework */; };
+		E99A039B12D86A7100DB2E54 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E99A039912D86A7100DB2E54 /* InfoPlist.strings */; };
+		E99A039D12D86A7100DB2E54 /* TapExample-main.m in Sources */ = {isa = PBXBuildFile; fileRef = E99A039C12D86A7100DB2E54 /* TapExample-main.m */; };
+		E99A03A012D86A7200DB2E54 /* TapExampleAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E99A039F12D86A7200DB2E54 /* TapExampleAppDelegate.m */; };
+		E99A03A312D86A7200DB2E54 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = E99A03A112D86A7200DB2E54 /* MainWindow.xib */; };
+		E99A03A612D86A7200DB2E54 /* TapExampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E99A03A512D86A7200DB2E54 /* TapExampleViewController.m */; };
+		E99A03A912D86A7200DB2E54 /* TapExampleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E99A03A712D86A7200DB2E54 /* TapExampleViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E99A038E12D86A7100DB2E54 /* TapExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TapExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E99A039112D86A7100DB2E54 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E99A039312D86A7100DB2E54 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E99A039512D86A7100DB2E54 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E99A039712D86A7100DB2E54 /* TapExample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TapExample-Info.plist"; sourceTree = "<group>"; };
+		E99A039812D86A7100DB2E54 /* TapExample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TapExample-Prefix.pch"; sourceTree = "<group>"; };
+		E99A039A12D86A7100DB2E54 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E99A039C12D86A7100DB2E54 /* TapExample-main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "TapExample-main.m"; sourceTree = "<group>"; };
+		E99A039E12D86A7200DB2E54 /* TapExampleAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TapExampleAppDelegate.h; sourceTree = "<group>"; };
+		E99A039F12D86A7200DB2E54 /* TapExampleAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TapExampleAppDelegate.m; sourceTree = "<group>"; };
+		E99A03A212D86A7200DB2E54 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		E99A03A412D86A7200DB2E54 /* TapExampleViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TapExampleViewController.h; sourceTree = "<group>"; };
+		E99A03A512D86A7200DB2E54 /* TapExampleViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TapExampleViewController.m; sourceTree = "<group>"; };
+		E99A03A812D86A7200DB2E54 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/TapExampleViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E99A038B12D86A7100DB2E54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E99A039212D86A7100DB2E54 /* UIKit.framework in Frameworks */,
+				E99A039412D86A7100DB2E54 /* Foundation.framework in Frameworks */,
+				E99A039612D86A7100DB2E54 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E99A037F12D86A7100DB2E54 = {
+			isa = PBXGroup;
+			children = (
+				E99A038612D86A7100DB2E54 /* Classes */,
+				E99A038712D86A7100DB2E54 /* Other Sources */,
+				E99A038812D86A7100DB2E54 /* Resources */,
+				E99A038912D86A7100DB2E54 /* Frameworks */,
+				E99A038F12D86A7100DB2E54 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E99A038612D86A7100DB2E54 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				E99A039E12D86A7200DB2E54 /* TapExampleAppDelegate.h */,
+				E99A039F12D86A7200DB2E54 /* TapExampleAppDelegate.m */,
+				E99A03A412D86A7200DB2E54 /* TapExampleViewController.h */,
+				E99A03A512D86A7200DB2E54 /* TapExampleViewController.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		E99A038712D86A7100DB2E54 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				E99A039812D86A7100DB2E54 /* TapExample-Prefix.pch */,
+				E99A039C12D86A7100DB2E54 /* TapExample-main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		E99A038812D86A7100DB2E54 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E99A039712D86A7100DB2E54 /* TapExample-Info.plist */,
+				E99A039912D86A7100DB2E54 /* InfoPlist.strings */,
+				E99A03A112D86A7200DB2E54 /* MainWindow.xib */,
+				E99A03A712D86A7200DB2E54 /* TapExampleViewController.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		E99A038912D86A7100DB2E54 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E99A039112D86A7100DB2E54 /* UIKit.framework */,
+				E99A039312D86A7100DB2E54 /* Foundation.framework */,
+				E99A039512D86A7100DB2E54 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E99A038F12D86A7100DB2E54 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E99A038E12D86A7100DB2E54 /* TapExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E99A038D12D86A7100DB2E54 /* TapExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E99A03AC12D86A7200DB2E54 /* Build configuration list for PBXNativeTarget "TapExample" */;
+			buildPhases = (
+				E99A038A12D86A7100DB2E54 /* Sources */,
+				E99A038B12D86A7100DB2E54 /* Frameworks */,
+				E99A038C12D86A7100DB2E54 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TapExample;
+			productName = TapExample;
+			productReference = E99A038E12D86A7100DB2E54 /* TapExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E99A038112D86A7100DB2E54 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "GENIESOFT STUDIOS";
+			};
+			buildConfigurationList = E99A038412D86A7100DB2E54 /* Build configuration list for PBXProject "TapExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E99A037F12D86A7100DB2E54;
+			productRefGroup = E99A038F12D86A7100DB2E54 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E99A038D12D86A7100DB2E54 /* TapExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E99A038C12D86A7100DB2E54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E99A039B12D86A7100DB2E54 /* InfoPlist.strings in Resources */,
+				E99A03A312D86A7200DB2E54 /* MainWindow.xib in Resources */,
+				E99A03A912D86A7200DB2E54 /* TapExampleViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E99A038A12D86A7100DB2E54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E99A039D12D86A7100DB2E54 /* TapExample-main.m in Sources */,
+				E99A03A012D86A7200DB2E54 /* TapExampleAppDelegate.m in Sources */,
+				E99A03A612D86A7200DB2E54 /* TapExampleViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E99A039912D86A7100DB2E54 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E99A039A12D86A7100DB2E54 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E99A03A112D86A7200DB2E54 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E99A03A212D86A7200DB2E54 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		E99A03A712D86A7200DB2E54 /* TapExampleViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E99A03A812D86A7200DB2E54 /* en */,
+			);
+			name = TapExampleViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E99A03AA12D86A7200DB2E54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E99A03AB12D86A7200DB2E54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		E99A03AD12D86A7200DB2E54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TapExample-Prefix.pch";
+				INFOPLIST_FILE = "TapExample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E99A03AE12D86A7200DB2E54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TapExample-Prefix.pch";
+				INFOPLIST_FILE = "TapExample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E99A038412D86A7100DB2E54 /* Build configuration list for PBXProject "TapExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E99A03AA12D86A7200DB2E54 /* Debug */,
+				E99A03AB12D86A7200DB2E54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E99A03AC12D86A7200DB2E54 /* Build configuration list for PBXNativeTarget "TapExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E99A03AD12D86A7200DB2E54 /* Debug */,
+				E99A03AE12D86A7200DB2E54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E99A038112D86A7100DB2E54 /* Project object */;
+}

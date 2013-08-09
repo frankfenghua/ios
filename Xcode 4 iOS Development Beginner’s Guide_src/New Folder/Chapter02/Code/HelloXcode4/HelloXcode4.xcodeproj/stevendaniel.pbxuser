@@ -1,0 +1,88 @@
+// !$*UTF8*$!
+{
+	E94BD5C1127D166900FEA038 /* HelloXcode4 */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = HelloXcode4;
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	E94BD5CD127D167B00FEA038 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	E94BD5CE127D167B00FEA038 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	E9D3DAF8127CFECB002ED964 /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = E94BD5C1127D166900FEA038 /* HelloXcode4 */;
+		activeTarget = E9D3DB04127CFECB002ED964 /* HelloXcode4 */;
+		codeSenseManager = E94BD5CE127D167B00FEA038 /* Code sense */;
+		executables = (
+			E94BD5C1127D166900FEA038 /* HelloXcode4 */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					341,
+					20,
+					48.16259765625,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 310187625;
+			PBXWorkspaceStateSaveDate = 310187625;
+		};
+		sourceControlManager = E94BD5CD127D167B00FEA038 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	E9D3DB04127CFECB002ED964 /* HelloXcode4 */ = {
+		activeExec = 0;
+		executables = (
+			E94BD5C1127D166900FEA038 /* HelloXcode4 */,
+		);
+	};
+}

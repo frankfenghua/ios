@@ -1,0 +1,290 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E9D3DB09127CFECB002ED964 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9D3DB08127CFECB002ED964 /* UIKit.framework */; };
+		E9D3DB0B127CFECB002ED964 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9D3DB0A127CFECB002ED964 /* Foundation.framework */; };
+		E9D3DB0D127CFECB002ED964 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9D3DB0C127CFECB002ED964 /* CoreGraphics.framework */; };
+		E9D3DB12127CFECB002ED964 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E9D3DB10127CFECB002ED964 /* InfoPlist.strings */; };
+		E9D3DB14127CFECB002ED964 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E9D3DB13127CFECB002ED964 /* main.m */; };
+		E9D3DB17127CFECB002ED964 /* HelloXcode4AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E9D3DB16127CFECB002ED964 /* HelloXcode4AppDelegate.m */; };
+		E9D3DB1A127CFECB002ED964 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = E9D3DB18127CFECB002ED964 /* MainWindow.xib */; };
+		E9D3DB27127D01DD002ED964 /* HelloXcode4ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E9D3DB25127D01DD002ED964 /* HelloXcode4ViewController.m */; };
+		E9D3DB28127D01DD002ED964 /* HelloXcode4ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E9D3DB26127D01DD002ED964 /* HelloXcode4ViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E9D3DB05127CFECB002ED964 /* HelloXcode4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloXcode4.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9D3DB08127CFECB002ED964 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E9D3DB0A127CFECB002ED964 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E9D3DB0C127CFECB002ED964 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E9D3DB0E127CFECB002ED964 /* HelloXcode4-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HelloXcode4-Info.plist"; sourceTree = "<group>"; };
+		E9D3DB0F127CFECB002ED964 /* HelloXcode4_Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HelloXcode4_Prefix.pch; sourceTree = "<group>"; };
+		E9D3DB11127CFECB002ED964 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E9D3DB13127CFECB002ED964 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E9D3DB15127CFECB002ED964 /* HelloXcode4AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HelloXcode4AppDelegate.h; sourceTree = "<group>"; };
+		E9D3DB16127CFECB002ED964 /* HelloXcode4AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloXcode4AppDelegate.m; sourceTree = "<group>"; };
+		E9D3DB19127CFECB002ED964 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		E9D3DB24127D01DD002ED964 /* HelloXcode4ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HelloXcode4ViewController.h; path = ../HelloXcode4ViewController.h; sourceTree = "<group>"; };
+		E9D3DB25127D01DD002ED964 /* HelloXcode4ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HelloXcode4ViewController.m; path = ../HelloXcode4ViewController.m; sourceTree = "<group>"; };
+		E9D3DB26127D01DD002ED964 /* HelloXcode4ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = HelloXcode4ViewController.xib; path = ../HelloXcode4ViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E9D3DB02127CFECB002ED964 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9D3DB09127CFECB002ED964 /* UIKit.framework in Frameworks */,
+				E9D3DB0B127CFECB002ED964 /* Foundation.framework in Frameworks */,
+				E9D3DB0D127CFECB002ED964 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E9D3DAF6127CFECB002ED964 = {
+			isa = PBXGroup;
+			children = (
+				E9D3DAFD127CFECB002ED964 /* Classes */,
+				E9D3DAFE127CFECB002ED964 /* Other Sources */,
+				E9D3DAFF127CFECB002ED964 /* Resources */,
+				E9D3DB00127CFECB002ED964 /* Frameworks */,
+				E9D3DB06127CFECB002ED964 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E9D3DAFD127CFECB002ED964 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				E9D3DB26127D01DD002ED964 /* HelloXcode4ViewController.xib */,
+				E9D3DB15127CFECB002ED964 /* HelloXcode4AppDelegate.h */,
+				E9D3DB16127CFECB002ED964 /* HelloXcode4AppDelegate.m */,
+				E9D3DB24127D01DD002ED964 /* HelloXcode4ViewController.h */,
+				E9D3DB25127D01DD002ED964 /* HelloXcode4ViewController.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		E9D3DAFE127CFECB002ED964 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				E9D3DB0F127CFECB002ED964 /* HelloXcode4_Prefix.pch */,
+				E9D3DB13127CFECB002ED964 /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		E9D3DAFF127CFECB002ED964 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E9D3DB0E127CFECB002ED964 /* HelloXcode4-Info.plist */,
+				E9D3DB10127CFECB002ED964 /* InfoPlist.strings */,
+				E9D3DB18127CFECB002ED964 /* MainWindow.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		E9D3DB00127CFECB002ED964 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E9D3DB08127CFECB002ED964 /* UIKit.framework */,
+				E9D3DB0A127CFECB002ED964 /* Foundation.framework */,
+				E9D3DB0C127CFECB002ED964 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E9D3DB06127CFECB002ED964 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E9D3DB05127CFECB002ED964 /* HelloXcode4.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E9D3DB04127CFECB002ED964 /* HelloXcode4 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9D3DB1D127CFECB002ED964 /* Build configuration list for PBXNativeTarget "HelloXcode4" */;
+			buildPhases = (
+				E9D3DB01127CFECB002ED964 /* Sources */,
+				E9D3DB02127CFECB002ED964 /* Frameworks */,
+				E9D3DB03127CFECB002ED964 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HelloXcode4;
+			productName = HelloXcode4;
+			productReference = E9D3DB05127CFECB002ED964 /* HelloXcode4.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E9D3DAF8127CFECB002ED964 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "GENIESOFT STUDIOS";
+			};
+			buildConfigurationList = E9D3DAFB127CFECB002ED964 /* Build configuration list for PBXProject "HelloXcode4" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E9D3DAF6127CFECB002ED964;
+			productRefGroup = E9D3DB06127CFECB002ED964 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E9D3DB04127CFECB002ED964 /* HelloXcode4 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E9D3DB03127CFECB002ED964 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9D3DB12127CFECB002ED964 /* InfoPlist.strings in Resources */,
+				E9D3DB1A127CFECB002ED964 /* MainWindow.xib in Resources */,
+				E9D3DB28127D01DD002ED964 /* HelloXcode4ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E9D3DB01127CFECB002ED964 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9D3DB14127CFECB002ED964 /* main.m in Sources */,
+				E9D3DB17127CFECB002ED964 /* HelloXcode4AppDelegate.m in Sources */,
+				E9D3DB27127D01DD002ED964 /* HelloXcode4ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E9D3DB10127CFECB002ED964 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E9D3DB11127CFECB002ED964 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E9D3DB18127CFECB002ED964 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E9D3DB19127CFECB002ED964 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E9D3DB1B127CFECB002ED964 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E9D3DB1C127CFECB002ED964 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		E9D3DB1E127CFECB002ED964 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = HelloXcode4_Prefix.pch;
+				GCC_VERSION = 4.2;
+				INFOPLIST_FILE = "HelloXcode4-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E9D3DB1F127CFECB002ED964 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = HelloXcode4_Prefix.pch;
+				GCC_VERSION = 4.2;
+				INFOPLIST_FILE = "HelloXcode4-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E9D3DAFB127CFECB002ED964 /* Build configuration list for PBXProject "HelloXcode4" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9D3DB1B127CFECB002ED964 /* Debug */,
+				E9D3DB1C127CFECB002ED964 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E9D3DB1D127CFECB002ED964 /* Build configuration list for PBXNativeTarget "HelloXcode4" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9D3DB1E127CFECB002ED964 /* Debug */,
+				E9D3DB1F127CFECB002ED964 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E9D3DAF8127CFECB002ED964 /* Project object */;
+}

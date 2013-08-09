@@ -1,0 +1,294 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E90CBDEC12BF4D650005DDFA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E90CBDEB12BF4D650005DDFA /* UIKit.framework */; };
+		E90CBDEE12BF4D650005DDFA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E90CBDED12BF4D650005DDFA /* Foundation.framework */; };
+		E90CBDF012BF4D650005DDFA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E90CBDEF12BF4D650005DDFA /* CoreGraphics.framework */; };
+		E90CBDF512BF4D650005DDFA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E90CBDF312BF4D650005DDFA /* InfoPlist.strings */; };
+		E90CBDF712BF4D650005DDFA /* SwitchesSlidersSegments-main.m in Sources */ = {isa = PBXBuildFile; fileRef = E90CBDF612BF4D650005DDFA /* SwitchesSlidersSegments-main.m */; };
+		E90CBDFA12BF4D650005DDFA /* SwitchesSlidersSegmentsAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E90CBDF912BF4D650005DDFA /* SwitchesSlidersSegmentsAppDelegate.m */; };
+		E90CBDFD12BF4D650005DDFA /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = E90CBDFB12BF4D650005DDFA /* MainWindow.xib */; };
+		E90CBE0012BF4D650005DDFA /* SwitchesSlidersSegmentsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E90CBDFF12BF4D650005DDFA /* SwitchesSlidersSegmentsViewController.m */; };
+		E90CBE0312BF4D650005DDFA /* SwitchesSlidersSegmentsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E90CBE0112BF4D650005DDFA /* SwitchesSlidersSegmentsViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E90CBDE812BF4D650005DDFA /* SwitchesSlidersSegments.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwitchesSlidersSegments.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E90CBDEB12BF4D650005DDFA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E90CBDED12BF4D650005DDFA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E90CBDEF12BF4D650005DDFA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E90CBDF112BF4D650005DDFA /* SwitchesSlidersSegments-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SwitchesSlidersSegments-Info.plist"; sourceTree = "<group>"; };
+		E90CBDF212BF4D650005DDFA /* SwitchesSlidersSegments-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SwitchesSlidersSegments-Prefix.pch"; sourceTree = "<group>"; };
+		E90CBDF412BF4D650005DDFA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E90CBDF612BF4D650005DDFA /* SwitchesSlidersSegments-main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "SwitchesSlidersSegments-main.m"; sourceTree = "<group>"; };
+		E90CBDF812BF4D650005DDFA /* SwitchesSlidersSegmentsAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwitchesSlidersSegmentsAppDelegate.h; sourceTree = "<group>"; };
+		E90CBDF912BF4D650005DDFA /* SwitchesSlidersSegmentsAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SwitchesSlidersSegmentsAppDelegate.m; sourceTree = "<group>"; };
+		E90CBDFC12BF4D650005DDFA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		E90CBDFE12BF4D650005DDFA /* SwitchesSlidersSegmentsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwitchesSlidersSegmentsViewController.h; sourceTree = "<group>"; };
+		E90CBDFF12BF4D650005DDFA /* SwitchesSlidersSegmentsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SwitchesSlidersSegmentsViewController.m; sourceTree = "<group>"; };
+		E90CBE0212BF4D650005DDFA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SwitchesSlidersSegmentsViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E90CBDE512BF4D650005DDFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E90CBDEC12BF4D650005DDFA /* UIKit.framework in Frameworks */,
+				E90CBDEE12BF4D650005DDFA /* Foundation.framework in Frameworks */,
+				E90CBDF012BF4D650005DDFA /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E90CBDD912BF4D640005DDFA = {
+			isa = PBXGroup;
+			children = (
+				E90CBDE012BF4D640005DDFA /* Classes */,
+				E90CBDE112BF4D650005DDFA /* Other Sources */,
+				E90CBDE212BF4D650005DDFA /* Resources */,
+				E90CBDE312BF4D650005DDFA /* Frameworks */,
+				E90CBDE912BF4D650005DDFA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E90CBDE012BF4D640005DDFA /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				E90CBDF812BF4D650005DDFA /* SwitchesSlidersSegmentsAppDelegate.h */,
+				E90CBDF912BF4D650005DDFA /* SwitchesSlidersSegmentsAppDelegate.m */,
+				E90CBDFE12BF4D650005DDFA /* SwitchesSlidersSegmentsViewController.h */,
+				E90CBDFF12BF4D650005DDFA /* SwitchesSlidersSegmentsViewController.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		E90CBDE112BF4D650005DDFA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				E90CBDF212BF4D650005DDFA /* SwitchesSlidersSegments-Prefix.pch */,
+				E90CBDF612BF4D650005DDFA /* SwitchesSlidersSegments-main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		E90CBDE212BF4D650005DDFA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E90CBDF112BF4D650005DDFA /* SwitchesSlidersSegments-Info.plist */,
+				E90CBDF312BF4D650005DDFA /* InfoPlist.strings */,
+				E90CBDFB12BF4D650005DDFA /* MainWindow.xib */,
+				E90CBE0112BF4D650005DDFA /* SwitchesSlidersSegmentsViewController.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		E90CBDE312BF4D650005DDFA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E90CBDEB12BF4D650005DDFA /* UIKit.framework */,
+				E90CBDED12BF4D650005DDFA /* Foundation.framework */,
+				E90CBDEF12BF4D650005DDFA /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E90CBDE912BF4D650005DDFA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E90CBDE812BF4D650005DDFA /* SwitchesSlidersSegments.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E90CBDE712BF4D650005DDFA /* SwitchesSlidersSegments */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E90CBE0612BF4D650005DDFA /* Build configuration list for PBXNativeTarget "SwitchesSlidersSegments" */;
+			buildPhases = (
+				E90CBDE412BF4D650005DDFA /* Sources */,
+				E90CBDE512BF4D650005DDFA /* Frameworks */,
+				E90CBDE612BF4D650005DDFA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwitchesSlidersSegments;
+			productName = SwitchesSlidersSegments;
+			productReference = E90CBDE812BF4D650005DDFA /* SwitchesSlidersSegments.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E90CBDDB12BF4D640005DDFA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "GENIESOFT STUDIOS";
+			};
+			buildConfigurationList = E90CBDDE12BF4D640005DDFA /* Build configuration list for PBXProject "SwitchesSlidersSegments" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E90CBDD912BF4D640005DDFA;
+			productRefGroup = E90CBDE912BF4D650005DDFA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E90CBDE712BF4D650005DDFA /* SwitchesSlidersSegments */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E90CBDE612BF4D650005DDFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E90CBDF512BF4D650005DDFA /* InfoPlist.strings in Resources */,
+				E90CBDFD12BF4D650005DDFA /* MainWindow.xib in Resources */,
+				E90CBE0312BF4D650005DDFA /* SwitchesSlidersSegmentsViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E90CBDE412BF4D650005DDFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E90CBDF712BF4D650005DDFA /* SwitchesSlidersSegments-main.m in Sources */,
+				E90CBDFA12BF4D650005DDFA /* SwitchesSlidersSegmentsAppDelegate.m in Sources */,
+				E90CBE0012BF4D650005DDFA /* SwitchesSlidersSegmentsViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E90CBDF312BF4D650005DDFA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E90CBDF412BF4D650005DDFA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E90CBDFB12BF4D650005DDFA /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E90CBDFC12BF4D650005DDFA /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		E90CBE0112BF4D650005DDFA /* SwitchesSlidersSegmentsViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E90CBE0212BF4D650005DDFA /* en */,
+			);
+			name = SwitchesSlidersSegmentsViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E90CBE0412BF4D650005DDFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E90CBE0512BF4D650005DDFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		E90CBE0712BF4D650005DDFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SwitchesSlidersSegments-Prefix.pch";
+				INFOPLIST_FILE = "SwitchesSlidersSegments-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E90CBE0812BF4D650005DDFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SwitchesSlidersSegments-Prefix.pch";
+				INFOPLIST_FILE = "SwitchesSlidersSegments-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E90CBDDE12BF4D640005DDFA /* Build configuration list for PBXProject "SwitchesSlidersSegments" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E90CBE0412BF4D650005DDFA /* Debug */,
+				E90CBE0512BF4D650005DDFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E90CBE0612BF4D650005DDFA /* Build configuration list for PBXNativeTarget "SwitchesSlidersSegments" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E90CBE0712BF4D650005DDFA /* Debug */,
+				E90CBE0812BF4D650005DDFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E90CBDDB12BF4D640005DDFA /* Project object */;
+}
