@@ -1,0 +1,303 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EA5A186617B966F0001D1C6F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA5A186517B966F0001D1C6F /* UIKit.framework */; };
+		EA5A186817B966F0001D1C6F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA5A186717B966F0001D1C6F /* Foundation.framework */; };
+		EA5A186A17B966F0001D1C6F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA5A186917B966F0001D1C6F /* CoreGraphics.framework */; };
+		EA5A187017B966F0001D1C6F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EA5A186E17B966F0001D1C6F /* InfoPlist.strings */; };
+		EA5A187217B966F0001D1C6F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5A187117B966F0001D1C6F /* main.m */; };
+		EA5A187617B966F0001D1C6F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5A187517B966F0001D1C6F /* AppDelegate.m */; };
+		EA5A187817B966F0001D1C6F /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = EA5A187717B966F0001D1C6F /* Default.png */; };
+		EA5A187A17B966F0001D1C6F /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EA5A187917B966F0001D1C6F /* Default@2x.png */; };
+		EA5A187C17B966F0001D1C6F /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EA5A187B17B966F0001D1C6F /* Default-568h@2x.png */; };
+		EA5A187F17B966F0001D1C6F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5A187E17B966F0001D1C6F /* ViewController.m */; };
+		EA5A188217B966F1001D1C6F /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA5A188017B966F1001D1C6F /* ViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EA5A186217B966F0001D1C6F /* MyPizzaOrders.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyPizzaOrders.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA5A186517B966F0001D1C6F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EA5A186717B966F0001D1C6F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EA5A186917B966F0001D1C6F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EA5A186D17B966F0001D1C6F /* MyPizzaOrders-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MyPizzaOrders-Info.plist"; sourceTree = "<group>"; };
+		EA5A186F17B966F0001D1C6F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EA5A187117B966F0001D1C6F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EA5A187317B966F0001D1C6F /* MyPizzaOrders-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MyPizzaOrders-Prefix.pch"; sourceTree = "<group>"; };
+		EA5A187417B966F0001D1C6F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EA5A187517B966F0001D1C6F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EA5A187717B966F0001D1C6F /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		EA5A187917B966F0001D1C6F /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		EA5A187B17B966F0001D1C6F /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		EA5A187D17B966F0001D1C6F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EA5A187E17B966F0001D1C6F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EA5A188117B966F1001D1C6F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EA5A185F17B966F0001D1C6F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA5A186617B966F0001D1C6F /* UIKit.framework in Frameworks */,
+				EA5A186817B966F0001D1C6F /* Foundation.framework in Frameworks */,
+				EA5A186A17B966F0001D1C6F /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EA5A185917B966F0001D1C6F = {
+			isa = PBXGroup;
+			children = (
+				EA5A186B17B966F0001D1C6F /* MyPizzaOrders */,
+				EA5A186417B966F0001D1C6F /* Frameworks */,
+				EA5A186317B966F0001D1C6F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EA5A186317B966F0001D1C6F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EA5A186217B966F0001D1C6F /* MyPizzaOrders.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EA5A186417B966F0001D1C6F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EA5A186517B966F0001D1C6F /* UIKit.framework */,
+				EA5A186717B966F0001D1C6F /* Foundation.framework */,
+				EA5A186917B966F0001D1C6F /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EA5A186B17B966F0001D1C6F /* MyPizzaOrders */ = {
+			isa = PBXGroup;
+			children = (
+				EA5A187417B966F0001D1C6F /* AppDelegate.h */,
+				EA5A187517B966F0001D1C6F /* AppDelegate.m */,
+				EA5A187D17B966F0001D1C6F /* ViewController.h */,
+				EA5A187E17B966F0001D1C6F /* ViewController.m */,
+				EA5A188017B966F1001D1C6F /* ViewController.xib */,
+				EA5A186C17B966F0001D1C6F /* Supporting Files */,
+			);
+			path = MyPizzaOrders;
+			sourceTree = "<group>";
+		};
+		EA5A186C17B966F0001D1C6F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EA5A186D17B966F0001D1C6F /* MyPizzaOrders-Info.plist */,
+				EA5A186E17B966F0001D1C6F /* InfoPlist.strings */,
+				EA5A187117B966F0001D1C6F /* main.m */,
+				EA5A187317B966F0001D1C6F /* MyPizzaOrders-Prefix.pch */,
+				EA5A187717B966F0001D1C6F /* Default.png */,
+				EA5A187917B966F0001D1C6F /* Default@2x.png */,
+				EA5A187B17B966F0001D1C6F /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EA5A186117B966F0001D1C6F /* MyPizzaOrders */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA5A188517B966F1001D1C6F /* Build configuration list for PBXNativeTarget "MyPizzaOrders" */;
+			buildPhases = (
+				EA5A185E17B966F0001D1C6F /* Sources */,
+				EA5A185F17B966F0001D1C6F /* Frameworks */,
+				EA5A186017B966F0001D1C6F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyPizzaOrders;
+			productName = MyPizzaOrders;
+			productReference = EA5A186217B966F0001D1C6F /* MyPizzaOrders.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EA5A185A17B966F0001D1C6F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = fenghua;
+			};
+			buildConfigurationList = EA5A185D17B966F0001D1C6F /* Build configuration list for PBXProject "MyPizzaOrders" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = EA5A185917B966F0001D1C6F;
+			productRefGroup = EA5A186317B966F0001D1C6F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EA5A186117B966F0001D1C6F /* MyPizzaOrders */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EA5A186017B966F0001D1C6F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA5A187017B966F0001D1C6F /* InfoPlist.strings in Resources */,
+				EA5A187817B966F0001D1C6F /* Default.png in Resources */,
+				EA5A187A17B966F0001D1C6F /* Default@2x.png in Resources */,
+				EA5A187C17B966F0001D1C6F /* Default-568h@2x.png in Resources */,
+				EA5A188217B966F1001D1C6F /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EA5A185E17B966F0001D1C6F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA5A187217B966F0001D1C6F /* main.m in Sources */,
+				EA5A187617B966F0001D1C6F /* AppDelegate.m in Sources */,
+				EA5A187F17B966F0001D1C6F /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EA5A186E17B966F0001D1C6F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA5A186F17B966F0001D1C6F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		EA5A188017B966F1001D1C6F /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA5A188117B966F1001D1C6F /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EA5A188317B966F1001D1C6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EA5A188417B966F1001D1C6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EA5A188617B966F1001D1C6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MyPizzaOrders/MyPizzaOrders-Prefix.pch";
+				INFOPLIST_FILE = "MyPizzaOrders/MyPizzaOrders-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EA5A188717B966F1001D1C6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MyPizzaOrders/MyPizzaOrders-Prefix.pch";
+				INFOPLIST_FILE = "MyPizzaOrders/MyPizzaOrders-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EA5A185D17B966F0001D1C6F /* Build configuration list for PBXProject "MyPizzaOrders" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA5A188317B966F1001D1C6F /* Debug */,
+				EA5A188417B966F1001D1C6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA5A188517B966F1001D1C6F /* Build configuration list for PBXNativeTarget "MyPizzaOrders" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA5A188617B966F1001D1C6F /* Debug */,
+				EA5A188717B966F1001D1C6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EA5A185A17B966F0001D1C6F /* Project object */;
+}
