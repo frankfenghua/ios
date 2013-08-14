@@ -1,0 +1,285 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2324B5EC15E53285007D918F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2324B5EB15E53285007D918F /* UIKit.framework */; };
+		2324B5EE15E53285007D918F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2324B5ED15E53285007D918F /* Foundation.framework */; };
+		2324B5F015E53285007D918F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2324B5EF15E53285007D918F /* CoreGraphics.framework */; };
+		2324B5F615E53285007D918F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2324B5F415E53285007D918F /* InfoPlist.strings */; };
+		2324B5F815E53285007D918F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2324B5F715E53285007D918F /* main.m */; };
+		2324B5FC15E53285007D918F /* BIDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2324B5FB15E53285007D918F /* BIDAppDelegate.m */; };
+		2324B5FF15E53285007D918F /* BIDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2324B5FE15E53285007D918F /* BIDViewController.m */; };
+		2324B60215E53285007D918F /* BIDViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2324B60015E53285007D918F /* BIDViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2324B5E715E53285007D918F /* Restructure.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Restructure.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2324B5EB15E53285007D918F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2324B5ED15E53285007D918F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2324B5EF15E53285007D918F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2324B5F315E53285007D918F /* Restructure-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Restructure-Info.plist"; sourceTree = "<group>"; };
+		2324B5F515E53285007D918F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2324B5F715E53285007D918F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2324B5F915E53285007D918F /* Restructure-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Restructure-Prefix.pch"; sourceTree = "<group>"; };
+		2324B5FA15E53285007D918F /* BIDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BIDAppDelegate.h; sourceTree = "<group>"; };
+		2324B5FB15E53285007D918F /* BIDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BIDAppDelegate.m; sourceTree = "<group>"; };
+		2324B5FD15E53285007D918F /* BIDViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BIDViewController.h; sourceTree = "<group>"; };
+		2324B5FE15E53285007D918F /* BIDViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BIDViewController.m; sourceTree = "<group>"; };
+		2324B60115E53285007D918F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/BIDViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2324B5E415E53285007D918F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2324B5EC15E53285007D918F /* UIKit.framework in Frameworks */,
+				2324B5EE15E53285007D918F /* Foundation.framework in Frameworks */,
+				2324B5F015E53285007D918F /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2324B5DC15E53285007D918F = {
+			isa = PBXGroup;
+			children = (
+				2324B5F115E53285007D918F /* Restructure */,
+				2324B5EA15E53285007D918F /* Frameworks */,
+				2324B5E815E53285007D918F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2324B5E815E53285007D918F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2324B5E715E53285007D918F /* Restructure.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2324B5EA15E53285007D918F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2324B5EB15E53285007D918F /* UIKit.framework */,
+				2324B5ED15E53285007D918F /* Foundation.framework */,
+				2324B5EF15E53285007D918F /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2324B5F115E53285007D918F /* Restructure */ = {
+			isa = PBXGroup;
+			children = (
+				2324B5FA15E53285007D918F /* BIDAppDelegate.h */,
+				2324B5FB15E53285007D918F /* BIDAppDelegate.m */,
+				2324B5FD15E53285007D918F /* BIDViewController.h */,
+				2324B5FE15E53285007D918F /* BIDViewController.m */,
+				2324B60015E53285007D918F /* BIDViewController.xib */,
+				2324B5F215E53285007D918F /* Supporting Files */,
+			);
+			path = Restructure;
+			sourceTree = "<group>";
+		};
+		2324B5F215E53285007D918F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2324B5F315E53285007D918F /* Restructure-Info.plist */,
+				2324B5F415E53285007D918F /* InfoPlist.strings */,
+				2324B5F715E53285007D918F /* main.m */,
+				2324B5F915E53285007D918F /* Restructure-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2324B5E615E53285007D918F /* Restructure */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2324B60515E53285007D918F /* Build configuration list for PBXNativeTarget "Restructure" */;
+			buildPhases = (
+				2324B5E315E53285007D918F /* Sources */,
+				2324B5E415E53285007D918F /* Frameworks */,
+				2324B5E515E53285007D918F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Restructure;
+			productName = Restructure;
+			productReference = 2324B5E715E53285007D918F /* Restructure.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2324B5DE15E53285007D918F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = BID;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = Apress;
+			};
+			buildConfigurationList = 2324B5E115E53285007D918F /* Build configuration list for PBXProject "Restructure" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2324B5DC15E53285007D918F;
+			productRefGroup = 2324B5E815E53285007D918F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2324B5E615E53285007D918F /* Restructure */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2324B5E515E53285007D918F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2324B5F615E53285007D918F /* InfoPlist.strings in Resources */,
+				2324B60215E53285007D918F /* BIDViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2324B5E315E53285007D918F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2324B5F815E53285007D918F /* main.m in Sources */,
+				2324B5FC15E53285007D918F /* BIDAppDelegate.m in Sources */,
+				2324B5FF15E53285007D918F /* BIDViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2324B5F415E53285007D918F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2324B5F515E53285007D918F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		2324B60015E53285007D918F /* BIDViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2324B60115E53285007D918F /* en */,
+			);
+			name = BIDViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2324B60315E53285007D918F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2324B60415E53285007D918F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2324B60615E53285007D918F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Restructure/Restructure-Prefix.pch";
+				INFOPLIST_FILE = "Restructure/Restructure-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		2324B60715E53285007D918F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Restructure/Restructure-Prefix.pch";
+				INFOPLIST_FILE = "Restructure/Restructure-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2324B5E115E53285007D918F /* Build configuration list for PBXProject "Restructure" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2324B60315E53285007D918F /* Debug */,
+				2324B60415E53285007D918F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2324B60515E53285007D918F /* Build configuration list for PBXNativeTarget "Restructure" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2324B60615E53285007D918F /* Debug */,
+				2324B60715E53285007D918F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2324B5DE15E53285007D918F /* Project object */;
+}

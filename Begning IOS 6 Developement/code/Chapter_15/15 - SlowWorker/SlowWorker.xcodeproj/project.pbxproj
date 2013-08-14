@@ -1,0 +1,299 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A6BBE413160F0EF10037B481 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6BBE412160F0EF10037B481 /* UIKit.framework */; };
+		A6BBE415160F0EF10037B481 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6BBE414160F0EF10037B481 /* Foundation.framework */; };
+		A6BBE417160F0EF10037B481 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6BBE416160F0EF10037B481 /* CoreGraphics.framework */; };
+		A6BBE41D160F0EF10037B481 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A6BBE41B160F0EF10037B481 /* InfoPlist.strings */; };
+		A6BBE41F160F0EF10037B481 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A6BBE41E160F0EF10037B481 /* main.m */; };
+		A6BBE423160F0EF10037B481 /* BIDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A6BBE422160F0EF10037B481 /* BIDAppDelegate.m */; };
+		A6BBE425160F0EF10037B481 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = A6BBE424160F0EF10037B481 /* Default.png */; };
+		A6BBE427160F0EF10037B481 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A6BBE426160F0EF10037B481 /* Default@2x.png */; };
+		A6BBE429160F0EF10037B481 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A6BBE428160F0EF10037B481 /* Default-568h@2x.png */; };
+		A6BBE42C160F0EF10037B481 /* BIDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6BBE42B160F0EF10037B481 /* BIDViewController.m */; };
+		A6BBE42F160F0EF10037B481 /* BIDViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A6BBE42D160F0EF10037B481 /* BIDViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A6BBE40E160F0EF10037B481 /* SlowWorker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SlowWorker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6BBE412160F0EF10037B481 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A6BBE414160F0EF10037B481 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A6BBE416160F0EF10037B481 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A6BBE41A160F0EF10037B481 /* SlowWorker-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SlowWorker-Info.plist"; sourceTree = "<group>"; };
+		A6BBE41C160F0EF10037B481 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A6BBE41E160F0EF10037B481 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A6BBE420160F0EF10037B481 /* SlowWorker-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SlowWorker-Prefix.pch"; sourceTree = "<group>"; };
+		A6BBE421160F0EF10037B481 /* BIDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BIDAppDelegate.h; sourceTree = "<group>"; };
+		A6BBE422160F0EF10037B481 /* BIDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BIDAppDelegate.m; sourceTree = "<group>"; };
+		A6BBE424160F0EF10037B481 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		A6BBE426160F0EF10037B481 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		A6BBE428160F0EF10037B481 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		A6BBE42A160F0EF10037B481 /* BIDViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BIDViewController.h; sourceTree = "<group>"; };
+		A6BBE42B160F0EF10037B481 /* BIDViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BIDViewController.m; sourceTree = "<group>"; };
+		A6BBE42E160F0EF10037B481 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/BIDViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A6BBE40B160F0EF10037B481 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6BBE413160F0EF10037B481 /* UIKit.framework in Frameworks */,
+				A6BBE415160F0EF10037B481 /* Foundation.framework in Frameworks */,
+				A6BBE417160F0EF10037B481 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A6BBE403160F0EF10037B481 = {
+			isa = PBXGroup;
+			children = (
+				A6BBE418160F0EF10037B481 /* SlowWorker */,
+				A6BBE411160F0EF10037B481 /* Frameworks */,
+				A6BBE40F160F0EF10037B481 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A6BBE40F160F0EF10037B481 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A6BBE40E160F0EF10037B481 /* SlowWorker.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A6BBE411160F0EF10037B481 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A6BBE412160F0EF10037B481 /* UIKit.framework */,
+				A6BBE414160F0EF10037B481 /* Foundation.framework */,
+				A6BBE416160F0EF10037B481 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A6BBE418160F0EF10037B481 /* SlowWorker */ = {
+			isa = PBXGroup;
+			children = (
+				A6BBE421160F0EF10037B481 /* BIDAppDelegate.h */,
+				A6BBE422160F0EF10037B481 /* BIDAppDelegate.m */,
+				A6BBE42A160F0EF10037B481 /* BIDViewController.h */,
+				A6BBE42B160F0EF10037B481 /* BIDViewController.m */,
+				A6BBE42D160F0EF10037B481 /* BIDViewController.xib */,
+				A6BBE419160F0EF10037B481 /* Supporting Files */,
+			);
+			path = SlowWorker;
+			sourceTree = "<group>";
+		};
+		A6BBE419160F0EF10037B481 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A6BBE41A160F0EF10037B481 /* SlowWorker-Info.plist */,
+				A6BBE41B160F0EF10037B481 /* InfoPlist.strings */,
+				A6BBE41E160F0EF10037B481 /* main.m */,
+				A6BBE420160F0EF10037B481 /* SlowWorker-Prefix.pch */,
+				A6BBE424160F0EF10037B481 /* Default.png */,
+				A6BBE426160F0EF10037B481 /* Default@2x.png */,
+				A6BBE428160F0EF10037B481 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A6BBE40D160F0EF10037B481 /* SlowWorker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6BBE432160F0EF10037B481 /* Build configuration list for PBXNativeTarget "SlowWorker" */;
+			buildPhases = (
+				A6BBE40A160F0EF10037B481 /* Sources */,
+				A6BBE40B160F0EF10037B481 /* Frameworks */,
+				A6BBE40C160F0EF10037B481 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SlowWorker;
+			productName = SlowWorker;
+			productReference = A6BBE40E160F0EF10037B481 /* SlowWorker.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A6BBE405160F0EF10037B481 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = BID;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = Apress;
+			};
+			buildConfigurationList = A6BBE408160F0EF10037B481 /* Build configuration list for PBXProject "SlowWorker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A6BBE403160F0EF10037B481;
+			productRefGroup = A6BBE40F160F0EF10037B481 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A6BBE40D160F0EF10037B481 /* SlowWorker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A6BBE40C160F0EF10037B481 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6BBE41D160F0EF10037B481 /* InfoPlist.strings in Resources */,
+				A6BBE425160F0EF10037B481 /* Default.png in Resources */,
+				A6BBE427160F0EF10037B481 /* Default@2x.png in Resources */,
+				A6BBE429160F0EF10037B481 /* Default-568h@2x.png in Resources */,
+				A6BBE42F160F0EF10037B481 /* BIDViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A6BBE40A160F0EF10037B481 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6BBE41F160F0EF10037B481 /* main.m in Sources */,
+				A6BBE423160F0EF10037B481 /* BIDAppDelegate.m in Sources */,
+				A6BBE42C160F0EF10037B481 /* BIDViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A6BBE41B160F0EF10037B481 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6BBE41C160F0EF10037B481 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A6BBE42D160F0EF10037B481 /* BIDViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6BBE42E160F0EF10037B481 /* en */,
+			);
+			name = BIDViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A6BBE430160F0EF10037B481 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A6BBE431160F0EF10037B481 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A6BBE433160F0EF10037B481 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SlowWorker/SlowWorker-Prefix.pch";
+				INFOPLIST_FILE = "SlowWorker/SlowWorker-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A6BBE434160F0EF10037B481 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SlowWorker/SlowWorker-Prefix.pch";
+				INFOPLIST_FILE = "SlowWorker/SlowWorker-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A6BBE408160F0EF10037B481 /* Build configuration list for PBXProject "SlowWorker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6BBE430160F0EF10037B481 /* Debug */,
+				A6BBE431160F0EF10037B481 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6BBE432160F0EF10037B481 /* Build configuration list for PBXNativeTarget "SlowWorker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6BBE433160F0EF10037B481 /* Debug */,
+				A6BBE434160F0EF10037B481 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A6BBE405160F0EF10037B481 /* Project object */;
+}

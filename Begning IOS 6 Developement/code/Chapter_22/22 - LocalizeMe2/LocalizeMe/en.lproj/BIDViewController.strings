@@ -1,0 +1,33 @@
+
+/* Class = "IBUILabel"; text = "Labels"; ObjectID = "8"; */
+"8.text" = "Labels";
+
+/* Class = "IBUILabel"; text = "One"; ObjectID = "15"; */
+"15.text" = "One";
+
+/* Class = "IBUILabel"; text = "Two"; ObjectID = "19"; */
+"19.text" = "Two";
+
+/* Class = "IBUILabel"; text = "Three"; ObjectID = "24"; */
+"24.text" = "Three";
+
+/* Class = "IBUILabel"; text = "Four"; ObjectID = "28"; */
+"28.text" = "Four";
+
+/* Class = "IBUILabel"; text = "Five"; ObjectID = "37"; */
+"37.text" = "Five";
+
+/* Class = "IBUILabel"; text = "One"; ObjectID = "41"; */
+"41.text" = "One";
+
+/* Class = "IBUILabel"; text = "Two"; ObjectID = "42"; */
+"42.text" = "Two";
+
+/* Class = "IBUILabel"; text = "Three"; ObjectID = "43"; */
+"43.text" = "Three";
+
+/* Class = "IBUILabel"; text = "Four"; ObjectID = "44"; */
+"44.text" = "Four";
+
+/* Class = "IBUILabel"; text = "Five"; ObjectID = "45"; */
+"45.text" = "Five";
