@@ -15,4 +15,8 @@
     NSLog (@"x = %i", x);
 }
 
+//override
+-(void) initVar {
+    x = 200;
+}
 @end

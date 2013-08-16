@@ -20,6 +20,18 @@ int main(int argc, const char * argv[])
         
         [b initVar]; // will use inherited method
         [b printVar];// reveal value of x;
+        
+        
+        //test
+        ClassA *a2 = [[ClassA alloc] init];
+        ClassB *b2 = [[ClassB alloc] init];
+        
+        [a2 initVar];
+        [a2 printVar];// reveal value of x;
+        
+        [b2 initVar]; // use overriding ClassB method
+        [b2 printVar]; // reveal value of x;
+        
         return 0;
         
     }

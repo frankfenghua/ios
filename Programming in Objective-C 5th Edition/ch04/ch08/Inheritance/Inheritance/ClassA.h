@@ -13,5 +13,6 @@
     int x;
 }
 -(void) initVar;
+-(void) printVar;
 
 @end
