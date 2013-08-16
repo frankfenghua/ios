@@ -28,6 +28,12 @@ int main(int argc, const char * argv[])
         NSLog (@"The value of myFraction is:");
         [myFraction print];
         
+        //Multiple Arguments to Methods
+        [myFraction setTo: 100 over: 200];
+        [myFraction print];
+        
+        [myFraction setTo: 1 over: 3];
+        [myFraction print];
     }
     return 0;
 }

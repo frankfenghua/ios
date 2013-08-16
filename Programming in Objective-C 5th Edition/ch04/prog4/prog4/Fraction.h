@@ -19,6 +19,8 @@
 // -(int)  numerator;
 //  -(int) denominator;
   -(double) convertToNum;
+// Multiple Arguments to Methods
+-(void) setTo: (int) n over: (int) d;
 @end
 
 /*
@@ -29,3 +31,6 @@ The following line tells the Objective-C compiler to generate a pair of getter a
 /*
   As of Xcode4.5,younolongerneedtousethe@synthesize directive.Usingthe @property directive suffices. The compiler automatically generates the setter and getter for you. We return to this topic later in this chapter.
  */
+
+// Multiple Arguments to Methods
+// http://stackoverflow.com/questions/683211/method-syntax-in-objective-c/683290#683290
