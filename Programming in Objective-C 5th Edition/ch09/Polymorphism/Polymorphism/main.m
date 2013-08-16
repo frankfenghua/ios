@@ -61,6 +61,27 @@ int main(int argc, const char * argv[])
         dataValue = c1;
         [dataValue print];
         
+        //ask questions of Class
+        Complex *myComplex = [[Complex alloc] init];
+        // isMemberOf:
+        if ( [myComplex isMemberOfClass: [Complex class]] == YES ) NSLog (@"myComplex is a member of Complex class");
+        if ( [myComplex isMemberOfClass: [Fraction class]] == YES ) NSLog (@"myComplex is a member of Fraction class");
+        if ( [myComplex isMemberOfClass: [NSObject class]] == YES ) NSLog (@"myComplex is a member of NSObject class");
+        // isKindOf:
+        if ( [myComplex isKindOfClass: [Complex class]] == YES ) NSLog (@"myComplex is a kind of Complex");
+        /*
+        ￼￼￼￼￼The respondsToSelector: method is used extensively in iOS for implementing the concept of delegation. As you’ll learn in Chapter 10, “More on Variables and Data Types,” the system often gives you the option to implement one or more methods in your class to handle certain events or provide certain information (such as the number of sections in a table). For the system to det ermine whet her you have in fact implement ed a part icular met hod, it uses respondsToSelector: to see whether it can delegate the handling of the event to your method. If you didn’t implement the method, it takes care of the event it self, doing what ever is defined as t he default behavior.
+         */
+        if ( [myComplex isKindOfClass: [Fraction class]] == YES )  NSLog (@"myComplex is a kind of Fraction");
+        if ( [myComplex isKindOfClass: [NSObject class]] == YES ) NSLog (@"myComplex is a kind of NSObject");
+        // respondsTo:
+        if ( [myComplex respondsToSelector: @selector (print:)] == YES ) NSLog (@"myComplex responds to print: method");
+        if ( [myComplex respondsToSelector: @selector (setReal:andImaginary:)] == YES ) NSLog (@"myComplex responds to setReal:andImaginary: method");
+        if ( [Complex respondsToSelector: @selector (alloc)] == YES ) NSLog (@"Complex class responds to alloc method");
+        // instancesRespondTo:
+        if ([Fraction instancesRespondToSelector: @selector (convertToNum:)	] == YES) NSLog (@"Instances of Fraction respond to convertToNum: method");
+        if ([Complex instancesRespondToSelector: @selector (add:)] == YES) NSLog (@"Instances of Complex respond to add: method");
+        if ([Complex isSubclassOfClass: [Fraction class]] == YES) NSLog (@"Complex is a subclass of a Fraction");
     }
     return 0;
 }
@@ -73,10 +94,10 @@ int main(int argc, const char * argv[])
  
  You cannot use t he dot operat or wit h id variables; t he compiler gives you an error if you attempt to do so.
  
- ￼To generate a class object from a class name or another object, you send it the class message. So t o get a class object from a class named Square, you writ e t he following:
- [Square class]
- If mySquare is an instance of Square object,you get its class by writing this:
- [mySquare class]
+ ￼To generate a class object from a class name or another object, you send it the class message. So t o get a class object from a class named Complex, you writ e t he following:
+ [Complex class]
+ If myComplex is an instance of Complex object,you get its class by writing this:
+ [myComplex class]
  To see whether the objects stored in the variables obj1 and obj2 are instances from the same
  class, you writ e t his:
  if ([obj1 class] == [obj2 class])
