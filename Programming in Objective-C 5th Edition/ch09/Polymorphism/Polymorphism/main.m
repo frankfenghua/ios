@@ -8,11 +8,27 @@
 
 #import <Foundation/Foundation.h>
 #import "Complex.h"
+#import "Fraction.h"
 
 int main(int argc, const char * argv[])
 {
 
     @autoreleasepool {
+        
+        Fraction *f1 = [[Fraction alloc] init];
+        Fraction *f2 = [[Fraction alloc] init];
+        
+        Fraction *fracResult;
+        
+        [f1 setTo: 1 over: 10];
+        [f2 setTo: 2 over: 15];
+        
+        // add and print 2 fractions
+        [f1 print]; NSLog (@" +"); [f2 print];
+        NSLog (@"----");
+        fracResult = [f1 add: f2];
+        [fracResult print];
+        
         Complex *compResult;
         
         Complex *c1 = [[Complex alloc] init];
