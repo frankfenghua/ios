@@ -1,0 +1,255 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EAD8708217BE931D003F8D4F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAD8708117BE931D003F8D4F /* Foundation.framework */; };
+		EAD8708517BE931D003F8D4F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EAD8708417BE931D003F8D4F /* main.m */; };
+		EAD8708917BE931D003F8D4F /* Polymorphism.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = EAD8708817BE931D003F8D4F /* Polymorphism.1 */; };
+		EAD8709117BE9366003F8D4F /* Complex.m in Sources */ = {isa = PBXBuildFile; fileRef = EAD8709017BE9366003F8D4F /* Complex.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		EAD8707C17BE931D003F8D4F /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				EAD8708917BE931D003F8D4F /* Polymorphism.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		EAD8707E17BE931D003F8D4F /* Polymorphism */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Polymorphism; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAD8708117BE931D003F8D4F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EAD8708417BE931D003F8D4F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EAD8708717BE931D003F8D4F /* Polymorphism-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Polymorphism-Prefix.pch"; sourceTree = "<group>"; };
+		EAD8708817BE931D003F8D4F /* Polymorphism.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Polymorphism.1; sourceTree = "<group>"; };
+		EAD8708F17BE9366003F8D4F /* Complex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Complex.h; sourceTree = "<group>"; };
+		EAD8709017BE9366003F8D4F /* Complex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Complex.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EAD8707B17BE931D003F8D4F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAD8708217BE931D003F8D4F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EAD8707517BE931D003F8D4F = {
+			isa = PBXGroup;
+			children = (
+				EAD8708317BE931D003F8D4F /* Polymorphism */,
+				EAD8708017BE931D003F8D4F /* Frameworks */,
+				EAD8707F17BE931D003F8D4F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EAD8707F17BE931D003F8D4F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EAD8707E17BE931D003F8D4F /* Polymorphism */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EAD8708017BE931D003F8D4F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EAD8708117BE931D003F8D4F /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EAD8708317BE931D003F8D4F /* Polymorphism */ = {
+			isa = PBXGroup;
+			children = (
+				EAD8708417BE931D003F8D4F /* main.m */,
+				EAD8708817BE931D003F8D4F /* Polymorphism.1 */,
+				EAD8708617BE931D003F8D4F /* Supporting Files */,
+				EAD8708F17BE9366003F8D4F /* Complex.h */,
+				EAD8709017BE9366003F8D4F /* Complex.m */,
+			);
+			path = Polymorphism;
+			sourceTree = "<group>";
+		};
+		EAD8708617BE931D003F8D4F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EAD8708717BE931D003F8D4F /* Polymorphism-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EAD8707D17BE931D003F8D4F /* Polymorphism */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EAD8708C17BE931D003F8D4F /* Build configuration list for PBXNativeTarget "Polymorphism" */;
+			buildPhases = (
+				EAD8707A17BE931D003F8D4F /* Sources */,
+				EAD8707B17BE931D003F8D4F /* Frameworks */,
+				EAD8707C17BE931D003F8D4F /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Polymorphism;
+			productName = Polymorphism;
+			productReference = EAD8707E17BE931D003F8D4F /* Polymorphism */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EAD8707617BE931D003F8D4F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = fenghua;
+			};
+			buildConfigurationList = EAD8707917BE931D003F8D4F /* Build configuration list for PBXProject "Polymorphism" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = EAD8707517BE931D003F8D4F;
+			productRefGroup = EAD8707F17BE931D003F8D4F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EAD8707D17BE931D003F8D4F /* Polymorphism */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EAD8707A17BE931D003F8D4F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAD8708517BE931D003F8D4F /* main.m in Sources */,
+				EAD8709117BE9366003F8D4F /* Complex.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		EAD8708A17BE931D003F8D4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		EAD8708B17BE931D003F8D4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		EAD8708D17BE931D003F8D4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Polymorphism/Polymorphism-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EAD8708E17BE931D003F8D4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Polymorphism/Polymorphism-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EAD8707917BE931D003F8D4F /* Build configuration list for PBXProject "Polymorphism" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAD8708A17BE931D003F8D4F /* Debug */,
+				EAD8708B17BE931D003F8D4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EAD8708C17BE931D003F8D4F /* Build configuration list for PBXNativeTarget "Polymorphism" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAD8708D17BE931D003F8D4F /* Debug */,
+				EAD8708E17BE931D003F8D4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EAD8707617BE931D003F8D4F /* Project object */;
+}
