@@ -82,6 +82,17 @@ int main(int argc, const char * argv[])
         if ([Fraction instancesRespondToSelector: @selector (convertToNum:)	] == YES) NSLog (@"Instances of Fraction respond to convertToNum: method");
         if ([Complex instancesRespondToSelector: @selector (add:)] == YES) NSLog (@"Instances of Complex respond to add: method");
         if ([Complex isSubclassOfClass: [Fraction class]] == YES) NSLog (@"Complex is a subclass of a Fraction");
+        
+        //test try catch
+        NSArray *myArray = [NSArray array];
+        @try {
+            [myArray objectAtIndex: 2];
+        }
+        @catch (NSException *exception) {
+            NSLog (@"Caught %@ , reason = %@", exception.name, exception.reason);
+             NSLog (@"Stack Trace %@", [exception callStackSymbols]);
+        }
+        NSLog (@"Execution Continus");
     }
     return 0;
 }
