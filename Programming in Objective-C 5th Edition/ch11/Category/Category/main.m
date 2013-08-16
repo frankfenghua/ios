@@ -46,6 +46,14 @@ int main(int argc, const char * argv[])
     }
     return 0;
 }
+/*
+ note:
+ A cat egory can override anot her met hod in t he class, but t his is considered poor programming practice. For one thing, after you override a method, you can no longer access the original method. Therefore, you must be careful to duplicate all the functionality of the overridden met hod in your replacement . If you do need t o override a met hod, subclassing might be the right choice. If you override a method in a subclass, you can still reference the parent’s method by sending a message to super. So, you don’t have to understand all the intricacies of the method you are overriding; you can just invoke the parent’s method and add your own functionality to the subclass’s method.
+ You can have as many categories as you like, following the rules we’ve outlined here. If a met hod is defined in more t han one cat egory, t he language does not specify which one will be used.
+ Remember that extending a class by adding new methods with a category affects not just that class, but all its subclasses as well. This can be potentially dangerous if you add new methods to the root object NSObject, for example, because everyone will inherit those new met hods, whet her or not t hat was your int ent ion.
+ The new methods you add to an existing class through a category can serve your purposes just fine, but they might be inconsistent with the original design or intentions of the class. Turning a Square int o a Circle (admit t edly, an exaggerat ion), for example, by adding a new category and some methods muddies the definition of the class and is not good programming pract ice.
+ Also, object /cat egory named pairs must be unique. Only one NSString category named Utilities can exist in a given Objective-C namespace. This can prove tricky because the Objective-C namespace is shared between the program code and all the libraries, frameworks, and plug-ins. This is especially important for Objective-C programmers writing screensavers, preference panes, and other plug-ins because their code will be injected into application or framework code that they do not control.
+ */
 
 /*
  By convention, the base name of the .h and .m files for a category is the class
