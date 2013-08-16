@@ -38,3 +38,8 @@ int main(int argc, const char * argv[])
     return 0;
 }
 
+/*
+ Abstract Classes
+ What better way to conclude this chapter than with a bit of terminology? We introduce it here because it’s directly related to the notion of inheritance.
+ Somet imes, classes are creat ed just t o make it easier for someone t o creat e a subclass. For that reason, these classes are called abstract classes or, equivalently, abstract superclasses. Methods and instance variables are defined in the class, but no one is expected to actually creat e an inst ance from t hat class. For example, consider t he root object NSObject. Can you t hink of any use for defining an object from that class?
+*/
