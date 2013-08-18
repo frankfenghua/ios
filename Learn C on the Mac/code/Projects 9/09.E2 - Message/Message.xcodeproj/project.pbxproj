@@ -1,0 +1,211 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1A80B40715CF3111009DF554 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 1A80B40615CF3111009DF554 /* main.c */; };
+		1A80B40915CF3111009DF554 /* Message.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1A80B40815CF3111009DF554 /* Message.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1A80B40015CF3111009DF554 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				1A80B40915CF3111009DF554 /* Message.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1A80B40215CF3111009DF554 /* Message */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Message; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A80B40615CF3111009DF554 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		1A80B40815CF3111009DF554 /* Message.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Message.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1A80B3FF15CF3111009DF554 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1A80B3F715CF3111009DF554 = {
+			isa = PBXGroup;
+			children = (
+				1A80B40515CF3111009DF554 /* Message */,
+				1A80B40315CF3111009DF554 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1A80B40315CF3111009DF554 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1A80B40215CF3111009DF554 /* Message */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1A80B40515CF3111009DF554 /* Message */ = {
+			isa = PBXGroup;
+			children = (
+				1A80B40615CF3111009DF554 /* main.c */,
+				1A80B40815CF3111009DF554 /* Message.1 */,
+			);
+			path = Message;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1A80B40115CF3111009DF554 /* Message */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A80B40C15CF3111009DF554 /* Build configuration list for PBXNativeTarget "Message" */;
+			buildPhases = (
+				1A80B3FE15CF3111009DF554 /* Sources */,
+				1A80B3FF15CF3111009DF554 /* Frameworks */,
+				1A80B40015CF3111009DF554 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Message;
+			productName = Message;
+			productReference = 1A80B40215CF3111009DF554 /* Message */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1A80B3F915CF3111009DF554 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Apress, Inc.";
+			};
+			buildConfigurationList = 1A80B3FC15CF3111009DF554 /* Build configuration list for PBXProject "Message" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1A80B3F715CF3111009DF554;
+			productRefGroup = 1A80B40315CF3111009DF554 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1A80B40115CF3111009DF554 /* Message */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1A80B3FE15CF3111009DF554 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A80B40715CF3111009DF554 /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1A80B40A15CF3111009DF554 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		1A80B40B15CF3111009DF554 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		1A80B40D15CF3111009DF554 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1A80B40E15CF3111009DF554 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1A80B3FC15CF3111009DF554 /* Build configuration list for PBXProject "Message" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A80B40A15CF3111009DF554 /* Debug */,
+				1A80B40B15CF3111009DF554 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A80B40C15CF3111009DF554 /* Build configuration list for PBXNativeTarget "Message" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A80B40D15CF3111009DF554 /* Debug */,
+				1A80B40E15CF3111009DF554 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1A80B3F915CF3111009DF554 /* Project object */;
+}

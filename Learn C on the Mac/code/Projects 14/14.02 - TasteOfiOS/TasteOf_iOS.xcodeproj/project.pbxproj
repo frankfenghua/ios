@@ -1,0 +1,268 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		81E4C2BC13C2A6C800C648DD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81E4C2BB13C2A6C800C648DD /* UIKit.framework */; };
+		81E4C2BE13C2A6C800C648DD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81E4C2BD13C2A6C800C648DD /* Foundation.framework */; };
+		81E4C2C013C2A6C800C648DD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81E4C2BF13C2A6C800C648DD /* CoreGraphics.framework */; };
+		81E4C2C613C2A6C800C648DD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 81E4C2C413C2A6C800C648DD /* InfoPlist.strings */; };
+		81E4C2C913C2A6C800C648DD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 81E4C2C813C2A6C800C648DD /* main.m */; };
+		81E4C2CC13C2A6C800C648DD /* TasteOf_iOSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 81E4C2CB13C2A6C800C648DD /* TasteOf_iOSAppDelegate.m */; };
+		81E4C2CF13C2A6C900C648DD /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 81E4C2CD13C2A6C900C648DD /* MainWindow.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		81E4C2B713C2A6C800C648DD /* TasteOf_iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TasteOf_iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		81E4C2BB13C2A6C800C648DD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		81E4C2BD13C2A6C800C648DD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		81E4C2BF13C2A6C800C648DD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		81E4C2C313C2A6C800C648DD /* TasteOf_iOS-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TasteOf_iOS-Info.plist"; sourceTree = "<group>"; };
+		81E4C2C513C2A6C800C648DD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		81E4C2C713C2A6C800C648DD /* TasteOf_iOS-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TasteOf_iOS-Prefix.pch"; sourceTree = "<group>"; };
+		81E4C2C813C2A6C800C648DD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		81E4C2CA13C2A6C800C648DD /* TasteOf_iOSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TasteOf_iOSAppDelegate.h; sourceTree = "<group>"; };
+		81E4C2CB13C2A6C800C648DD /* TasteOf_iOSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TasteOf_iOSAppDelegate.m; sourceTree = "<group>"; };
+		81E4C2CE13C2A6C900C648DD /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		81E4C2B413C2A6C800C648DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81E4C2BC13C2A6C800C648DD /* UIKit.framework in Frameworks */,
+				81E4C2BE13C2A6C800C648DD /* Foundation.framework in Frameworks */,
+				81E4C2C013C2A6C800C648DD /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		81E4C2AC13C2A6C800C648DD = {
+			isa = PBXGroup;
+			children = (
+				81E4C2C113C2A6C800C648DD /* TasteOf_iOS */,
+				81E4C2BA13C2A6C800C648DD /* Frameworks */,
+				81E4C2B813C2A6C800C648DD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		81E4C2B813C2A6C800C648DD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				81E4C2B713C2A6C800C648DD /* TasteOf_iOS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		81E4C2BA13C2A6C800C648DD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				81E4C2BB13C2A6C800C648DD /* UIKit.framework */,
+				81E4C2BD13C2A6C800C648DD /* Foundation.framework */,
+				81E4C2BF13C2A6C800C648DD /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		81E4C2C113C2A6C800C648DD /* TasteOf_iOS */ = {
+			isa = PBXGroup;
+			children = (
+				81E4C2CA13C2A6C800C648DD /* TasteOf_iOSAppDelegate.h */,
+				81E4C2CB13C2A6C800C648DD /* TasteOf_iOSAppDelegate.m */,
+				81E4C2CD13C2A6C900C648DD /* MainWindow.xib */,
+				81E4C2C213C2A6C800C648DD /* Supporting Files */,
+			);
+			path = TasteOf_iOS;
+			sourceTree = "<group>";
+		};
+		81E4C2C213C2A6C800C648DD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				81E4C2C313C2A6C800C648DD /* TasteOf_iOS-Info.plist */,
+				81E4C2C413C2A6C800C648DD /* InfoPlist.strings */,
+				81E4C2C713C2A6C800C648DD /* TasteOf_iOS-Prefix.pch */,
+				81E4C2C813C2A6C800C648DD /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		81E4C2B613C2A6C800C648DD /* TasteOf_iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81E4C2D213C2A6C900C648DD /* Build configuration list for PBXNativeTarget "TasteOf_iOS" */;
+			buildPhases = (
+				81E4C2B313C2A6C800C648DD /* Sources */,
+				81E4C2B413C2A6C800C648DD /* Frameworks */,
+				81E4C2B513C2A6C800C648DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TasteOf_iOS;
+			productName = TasteOf_iOS;
+			productReference = 81E4C2B713C2A6C800C648DD /* TasteOf_iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		81E4C2AE13C2A6C800C648DD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Dave Mark";
+			};
+			buildConfigurationList = 81E4C2B113C2A6C800C648DD /* Build configuration list for PBXProject "TasteOf_iOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 81E4C2AC13C2A6C800C648DD;
+			productRefGroup = 81E4C2B813C2A6C800C648DD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				81E4C2B613C2A6C800C648DD /* TasteOf_iOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		81E4C2B513C2A6C800C648DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81E4C2C613C2A6C800C648DD /* InfoPlist.strings in Resources */,
+				81E4C2CF13C2A6C900C648DD /* MainWindow.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		81E4C2B313C2A6C800C648DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81E4C2C913C2A6C800C648DD /* main.m in Sources */,
+				81E4C2CC13C2A6C800C648DD /* TasteOf_iOSAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		81E4C2C413C2A6C800C648DD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				81E4C2C513C2A6C800C648DD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		81E4C2CD13C2A6C900C648DD /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				81E4C2CE13C2A6C900C648DD /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		81E4C2D013C2A6C900C648DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		81E4C2D113C2A6C900C648DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		81E4C2D313C2A6C900C648DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TasteOf_iOS/TasteOf_iOS-Prefix.pch";
+				INFOPLIST_FILE = "TasteOf_iOS/TasteOf_iOS-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		81E4C2D413C2A6C900C648DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TasteOf_iOS/TasteOf_iOS-Prefix.pch";
+				INFOPLIST_FILE = "TasteOf_iOS/TasteOf_iOS-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		81E4C2B113C2A6C800C648DD /* Build configuration list for PBXProject "TasteOf_iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81E4C2D013C2A6C900C648DD /* Debug */,
+				81E4C2D113C2A6C900C648DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		81E4C2D213C2A6C900C648DD /* Build configuration list for PBXNativeTarget "TasteOf_iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81E4C2D313C2A6C900C648DD /* Debug */,
+				81E4C2D413C2A6C900C648DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 81E4C2AE13C2A6C800C648DD /* Project object */;
+}

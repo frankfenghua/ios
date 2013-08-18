@@ -1,0 +1,213 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1A7F194815D5D48500EC8CE3 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 1A7F194715D5D48500EC8CE3 /* main.c */; };
+		1A7F194A15D5D48500EC8CE3 /* DVDTracker3.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1A7F194915D5D48500EC8CE3 /* DVDTracker3.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1A7F194115D5D48500EC8CE3 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				1A7F194A15D5D48500EC8CE3 /* DVDTracker3.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1A7F194315D5D48500EC8CE3 /* DVDTracker3 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DVDTracker3; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A7F194715D5D48500EC8CE3 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		1A7F194915D5D48500EC8CE3 /* DVDTracker3.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = DVDTracker3.1; sourceTree = "<group>"; };
+		1A7F195015D5D4BC00EC8CE3 /* dvdTracker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = dvdTracker.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1A7F194015D5D48500EC8CE3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1A7F193815D5D48500EC8CE3 = {
+			isa = PBXGroup;
+			children = (
+				1A7F194615D5D48500EC8CE3 /* DVDTracker3 */,
+				1A7F194415D5D48500EC8CE3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1A7F194415D5D48500EC8CE3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1A7F194315D5D48500EC8CE3 /* DVDTracker3 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1A7F194615D5D48500EC8CE3 /* DVDTracker3 */ = {
+			isa = PBXGroup;
+			children = (
+				1A7F194715D5D48500EC8CE3 /* main.c */,
+				1A7F195015D5D4BC00EC8CE3 /* dvdTracker.h */,
+				1A7F194915D5D48500EC8CE3 /* DVDTracker3.1 */,
+			);
+			path = DVDTracker3;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1A7F194215D5D48500EC8CE3 /* DVDTracker3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A7F194D15D5D48500EC8CE3 /* Build configuration list for PBXNativeTarget "DVDTracker3" */;
+			buildPhases = (
+				1A7F193F15D5D48500EC8CE3 /* Sources */,
+				1A7F194015D5D48500EC8CE3 /* Frameworks */,
+				1A7F194115D5D48500EC8CE3 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DVDTracker3;
+			productName = DVDTracker3;
+			productReference = 1A7F194315D5D48500EC8CE3 /* DVDTracker3 */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1A7F193A15D5D48500EC8CE3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Apress, Inc.";
+			};
+			buildConfigurationList = 1A7F193D15D5D48500EC8CE3 /* Build configuration list for PBXProject "DVDTracker3" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1A7F193815D5D48500EC8CE3;
+			productRefGroup = 1A7F194415D5D48500EC8CE3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1A7F194215D5D48500EC8CE3 /* DVDTracker3 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1A7F193F15D5D48500EC8CE3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A7F194815D5D48500EC8CE3 /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1A7F194B15D5D48500EC8CE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		1A7F194C15D5D48500EC8CE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		1A7F194E15D5D48500EC8CE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1A7F194F15D5D48500EC8CE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1A7F193D15D5D48500EC8CE3 /* Build configuration list for PBXProject "DVDTracker3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A7F194B15D5D48500EC8CE3 /* Debug */,
+				1A7F194C15D5D48500EC8CE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A7F194D15D5D48500EC8CE3 /* Build configuration list for PBXNativeTarget "DVDTracker3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A7F194E15D5D48500EC8CE3 /* Debug */,
+				1A7F194F15D5D48500EC8CE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1A7F193A15D5D48500EC8CE3 /* Project object */;
+}

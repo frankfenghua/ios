@@ -1,0 +1,288 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		81E4C28813C2A55900C648DD /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81E4C28713C2A55900C648DD /* Cocoa.framework */; };
+		81E4C29213C2A55900C648DD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 81E4C29013C2A55900C648DD /* InfoPlist.strings */; };
+		81E4C29513C2A55900C648DD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 81E4C29413C2A55900C648DD /* main.m */; };
+		81E4C29813C2A55900C648DD /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 81E4C29613C2A55900C648DD /* Credits.rtf */; };
+		81E4C29B13C2A55900C648DD /* TasteOfCocoaAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 81E4C29A13C2A55900C648DD /* TasteOfCocoaAppDelegate.m */; };
+		81E4C29E13C2A55900C648DD /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 81E4C29C13C2A55900C648DD /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		81E4C28313C2A55900C648DD /* TasteOfCocoa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TasteOfCocoa.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		81E4C28713C2A55900C648DD /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		81E4C28A13C2A55900C648DD /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		81E4C28B13C2A55900C648DD /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		81E4C28C13C2A55900C648DD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		81E4C28F13C2A55900C648DD /* TasteOfCocoa-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TasteOfCocoa-Info.plist"; sourceTree = "<group>"; };
+		81E4C29113C2A55900C648DD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		81E4C29313C2A55900C648DD /* TasteOfCocoa-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TasteOfCocoa-Prefix.pch"; sourceTree = "<group>"; };
+		81E4C29413C2A55900C648DD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		81E4C29713C2A55900C648DD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		81E4C29913C2A55900C648DD /* TasteOfCocoaAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TasteOfCocoaAppDelegate.h; sourceTree = "<group>"; };
+		81E4C29A13C2A55900C648DD /* TasteOfCocoaAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TasteOfCocoaAppDelegate.m; sourceTree = "<group>"; };
+		81E4C29D13C2A55900C648DD /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		81E4C28013C2A55900C648DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81E4C28813C2A55900C648DD /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		81E4C27813C2A55900C648DD = {
+			isa = PBXGroup;
+			children = (
+				81E4C28D13C2A55900C648DD /* TasteOfCocoa */,
+				81E4C28613C2A55900C648DD /* Frameworks */,
+				81E4C28413C2A55900C648DD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		81E4C28413C2A55900C648DD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				81E4C28313C2A55900C648DD /* TasteOfCocoa.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		81E4C28613C2A55900C648DD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				81E4C28713C2A55900C648DD /* Cocoa.framework */,
+				81E4C28913C2A55900C648DD /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		81E4C28913C2A55900C648DD /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				81E4C28A13C2A55900C648DD /* AppKit.framework */,
+				81E4C28B13C2A55900C648DD /* CoreData.framework */,
+				81E4C28C13C2A55900C648DD /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		81E4C28D13C2A55900C648DD /* TasteOfCocoa */ = {
+			isa = PBXGroup;
+			children = (
+				81E4C29913C2A55900C648DD /* TasteOfCocoaAppDelegate.h */,
+				81E4C29A13C2A55900C648DD /* TasteOfCocoaAppDelegate.m */,
+				81E4C29C13C2A55900C648DD /* MainMenu.xib */,
+				81E4C28E13C2A55900C648DD /* Supporting Files */,
+			);
+			path = TasteOfCocoa;
+			sourceTree = "<group>";
+		};
+		81E4C28E13C2A55900C648DD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				81E4C28F13C2A55900C648DD /* TasteOfCocoa-Info.plist */,
+				81E4C29013C2A55900C648DD /* InfoPlist.strings */,
+				81E4C29313C2A55900C648DD /* TasteOfCocoa-Prefix.pch */,
+				81E4C29413C2A55900C648DD /* main.m */,
+				81E4C29613C2A55900C648DD /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		81E4C28213C2A55900C648DD /* TasteOfCocoa */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81E4C2A113C2A55900C648DD /* Build configuration list for PBXNativeTarget "TasteOfCocoa" */;
+			buildPhases = (
+				81E4C27F13C2A55900C648DD /* Sources */,
+				81E4C28013C2A55900C648DD /* Frameworks */,
+				81E4C28113C2A55900C648DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TasteOfCocoa;
+			productName = TasteOfCocoa;
+			productReference = 81E4C28313C2A55900C648DD /* TasteOfCocoa.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		81E4C27A13C2A55900C648DD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Dave Mark";
+			};
+			buildConfigurationList = 81E4C27D13C2A55900C648DD /* Build configuration list for PBXProject "TasteOfCocoa" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 81E4C27813C2A55900C648DD;
+			productRefGroup = 81E4C28413C2A55900C648DD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				81E4C28213C2A55900C648DD /* TasteOfCocoa */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		81E4C28113C2A55900C648DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81E4C29213C2A55900C648DD /* InfoPlist.strings in Resources */,
+				81E4C29813C2A55900C648DD /* Credits.rtf in Resources */,
+				81E4C29E13C2A55900C648DD /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		81E4C27F13C2A55900C648DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81E4C29513C2A55900C648DD /* main.m in Sources */,
+				81E4C29B13C2A55900C648DD /* TasteOfCocoaAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		81E4C29013C2A55900C648DD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				81E4C29113C2A55900C648DD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		81E4C29613C2A55900C648DD /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				81E4C29713C2A55900C648DD /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		81E4C29C13C2A55900C648DD /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				81E4C29D13C2A55900C648DD /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		81E4C29F13C2A55900C648DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		81E4C2A013C2A55900C648DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		81E4C2A213C2A55900C648DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TasteOfCocoa/TasteOfCocoa-Prefix.pch";
+				INFOPLIST_FILE = "TasteOfCocoa/TasteOfCocoa-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		81E4C2A313C2A55900C648DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TasteOfCocoa/TasteOfCocoa-Prefix.pch";
+				INFOPLIST_FILE = "TasteOfCocoa/TasteOfCocoa-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		81E4C27D13C2A55900C648DD /* Build configuration list for PBXProject "TasteOfCocoa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81E4C29F13C2A55900C648DD /* Debug */,
+				81E4C2A013C2A55900C648DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		81E4C2A113C2A55900C648DD /* Build configuration list for PBXNativeTarget "TasteOfCocoa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81E4C2A213C2A55900C648DD /* Debug */,
+				81E4C2A313C2A55900C648DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 81E4C27A13C2A55900C648DD /* Project object */;
+}

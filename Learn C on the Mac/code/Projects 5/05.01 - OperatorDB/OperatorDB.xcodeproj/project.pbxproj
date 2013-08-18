@@ -1,0 +1,209 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1ABFFF8C159FA47600B4661C /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 1ABFFF8B159FA47600B4661C /* main.c */; };
+		1ABFFF8E159FA47600B4661C /* OperatorDB.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1ABFFF8D159FA47600B4661C /* OperatorDB.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1ABFFF85159FA47600B4661C /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				1ABFFF8E159FA47600B4661C /* OperatorDB.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1ABFFF87159FA47600B4661C /* OperatorDB */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = OperatorDB; sourceTree = BUILT_PRODUCTS_DIR; };
+		1ABFFF8B159FA47600B4661C /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		1ABFFF8D159FA47600B4661C /* OperatorDB.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = OperatorDB.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1ABFFF84159FA47600B4661C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1ABFFF7C159FA47600B4661C = {
+			isa = PBXGroup;
+			children = (
+				1ABFFF8A159FA47600B4661C /* OperatorDB */,
+				1ABFFF88159FA47600B4661C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1ABFFF88159FA47600B4661C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1ABFFF87159FA47600B4661C /* OperatorDB */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1ABFFF8A159FA47600B4661C /* OperatorDB */ = {
+			isa = PBXGroup;
+			children = (
+				1ABFFF8B159FA47600B4661C /* main.c */,
+				1ABFFF8D159FA47600B4661C /* OperatorDB.1 */,
+			);
+			path = OperatorDB;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1ABFFF86159FA47600B4661C /* OperatorDB */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1ABFFF91159FA47600B4661C /* Build configuration list for PBXNativeTarget "OperatorDB" */;
+			buildPhases = (
+				1ABFFF83159FA47600B4661C /* Sources */,
+				1ABFFF84159FA47600B4661C /* Frameworks */,
+				1ABFFF85159FA47600B4661C /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OperatorDB;
+			productName = OperatorDB;
+			productReference = 1ABFFF87159FA47600B4661C /* OperatorDB */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1ABFFF7E159FA47600B4661C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = Apress;
+			};
+			buildConfigurationList = 1ABFFF81159FA47600B4661C /* Build configuration list for PBXProject "OperatorDB" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1ABFFF7C159FA47600B4661C;
+			productRefGroup = 1ABFFF88159FA47600B4661C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1ABFFF86159FA47600B4661C /* OperatorDB */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1ABFFF83159FA47600B4661C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1ABFFF8C159FA47600B4661C /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1ABFFF8F159FA47600B4661C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		1ABFFF90159FA47600B4661C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		1ABFFF92159FA47600B4661C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1ABFFF93159FA47600B4661C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1ABFFF81159FA47600B4661C /* Build configuration list for PBXProject "OperatorDB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1ABFFF8F159FA47600B4661C /* Debug */,
+				1ABFFF90159FA47600B4661C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1ABFFF91159FA47600B4661C /* Build configuration list for PBXNativeTarget "OperatorDB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1ABFFF92159FA47600B4661C /* Debug */,
+				1ABFFF93159FA47600B4661C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1ABFFF7E159FA47600B4661C /* Project object */;
+}

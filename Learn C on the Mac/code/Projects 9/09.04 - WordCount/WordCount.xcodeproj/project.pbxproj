@@ -1,0 +1,211 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1ADB26CB15CA0483000172E6 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 1ADB26CA15CA0483000172E6 /* main.c */; };
+		1ADB26CD15CA0483000172E6 /* WordCount.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1ADB26CC15CA0483000172E6 /* WordCount.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1ADB26C415CA0483000172E6 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				1ADB26CD15CA0483000172E6 /* WordCount.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1ADB26C615CA0483000172E6 /* WordCount */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = WordCount; sourceTree = BUILT_PRODUCTS_DIR; };
+		1ADB26CA15CA0483000172E6 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		1ADB26CC15CA0483000172E6 /* WordCount.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = WordCount.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1ADB26C315CA0483000172E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1ADB26BB15CA0483000172E6 = {
+			isa = PBXGroup;
+			children = (
+				1ADB26C915CA0483000172E6 /* WordCount */,
+				1ADB26C715CA0483000172E6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1ADB26C715CA0483000172E6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1ADB26C615CA0483000172E6 /* WordCount */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1ADB26C915CA0483000172E6 /* WordCount */ = {
+			isa = PBXGroup;
+			children = (
+				1ADB26CA15CA0483000172E6 /* main.c */,
+				1ADB26CC15CA0483000172E6 /* WordCount.1 */,
+			);
+			path = WordCount;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1ADB26C515CA0483000172E6 /* WordCount */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1ADB26D015CA0483000172E6 /* Build configuration list for PBXNativeTarget "WordCount" */;
+			buildPhases = (
+				1ADB26C215CA0483000172E6 /* Sources */,
+				1ADB26C315CA0483000172E6 /* Frameworks */,
+				1ADB26C415CA0483000172E6 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WordCount;
+			productName = WordCount;
+			productReference = 1ADB26C615CA0483000172E6 /* WordCount */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1ADB26BD15CA0483000172E6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Apress, Inc.";
+			};
+			buildConfigurationList = 1ADB26C015CA0483000172E6 /* Build configuration list for PBXProject "WordCount" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1ADB26BB15CA0483000172E6;
+			productRefGroup = 1ADB26C715CA0483000172E6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1ADB26C515CA0483000172E6 /* WordCount */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1ADB26C215CA0483000172E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1ADB26CB15CA0483000172E6 /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1ADB26CE15CA0483000172E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		1ADB26CF15CA0483000172E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		1ADB26D115CA0483000172E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1ADB26D215CA0483000172E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1ADB26C015CA0483000172E6 /* Build configuration list for PBXProject "WordCount" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1ADB26CE15CA0483000172E6 /* Debug */,
+				1ADB26CF15CA0483000172E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1ADB26D015CA0483000172E6 /* Build configuration list for PBXNativeTarget "WordCount" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1ADB26D115CA0483000172E6 /* Debug */,
+				1ADB26D215CA0483000172E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1ADB26BD15CA0483000172E6 /* Project object */;
+}

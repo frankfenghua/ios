@@ -1,0 +1,209 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1AAD218615ADE79D004E5761 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 1AAD218515ADE79D004E5761 /* main.c */; };
+		1AAD218815ADE79D004E5761 /* DrawDots.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1AAD218715ADE79D004E5761 /* DrawDots.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1AAD217F15ADE79D004E5761 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				1AAD218815ADE79D004E5761 /* DrawDots.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1AAD218115ADE79D004E5761 /* DrawDots */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DrawDots; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AAD218515ADE79D004E5761 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		1AAD218715ADE79D004E5761 /* DrawDots.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = DrawDots.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1AAD217E15ADE79D004E5761 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1AAD217615ADE79D004E5761 = {
+			isa = PBXGroup;
+			children = (
+				1AAD218415ADE79D004E5761 /* DrawDots */,
+				1AAD218215ADE79D004E5761 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1AAD218215ADE79D004E5761 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1AAD218115ADE79D004E5761 /* DrawDots */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1AAD218415ADE79D004E5761 /* DrawDots */ = {
+			isa = PBXGroup;
+			children = (
+				1AAD218515ADE79D004E5761 /* main.c */,
+				1AAD218715ADE79D004E5761 /* DrawDots.1 */,
+			);
+			path = DrawDots;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1AAD218015ADE79D004E5761 /* DrawDots */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1AAD218B15ADE79D004E5761 /* Build configuration list for PBXNativeTarget "DrawDots" */;
+			buildPhases = (
+				1AAD217D15ADE79D004E5761 /* Sources */,
+				1AAD217E15ADE79D004E5761 /* Frameworks */,
+				1AAD217F15ADE79D004E5761 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DrawDots;
+			productName = DrawDots;
+			productReference = 1AAD218115ADE79D004E5761 /* DrawDots */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1AAD217815ADE79D004E5761 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = Apress;
+			};
+			buildConfigurationList = 1AAD217B15ADE79D004E5761 /* Build configuration list for PBXProject "DrawDots" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1AAD217615ADE79D004E5761;
+			productRefGroup = 1AAD218215ADE79D004E5761 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1AAD218015ADE79D004E5761 /* DrawDots */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1AAD217D15ADE79D004E5761 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AAD218615ADE79D004E5761 /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1AAD218915ADE79D004E5761 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		1AAD218A15ADE79D004E5761 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		1AAD218C15ADE79D004E5761 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1AAD218D15ADE79D004E5761 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1AAD217B15ADE79D004E5761 /* Build configuration list for PBXProject "DrawDots" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AAD218915ADE79D004E5761 /* Debug */,
+				1AAD218A15ADE79D004E5761 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1AAD218B15ADE79D004E5761 /* Build configuration list for PBXNativeTarget "DrawDots" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AAD218C15ADE79D004E5761 /* Debug */,
+				1AAD218D15ADE79D004E5761 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1AAD217815ADE79D004E5761 /* Project object */;
+}

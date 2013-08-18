@@ -1,0 +1,215 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1AC95CFB16063B9B001E4D0B /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 1AC95CFA16063B9B001E4D0B /* main.c */; };
+		1AC95CFD16063B9B001E4D0B /* FavoriteDVDs.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1AC95CFC16063B9B001E4D0B /* FavoriteDVDs.1 */; };
+		1AC95D0816064CF1001E4D0B /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AC95D0716064CF1001E4D0B /* CoreFoundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1AC95CF416063B9B001E4D0B /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				1AC95CFD16063B9B001E4D0B /* FavoriteDVDs.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1AC95CF616063B9B001E4D0B /* FavoriteDVDs */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = FavoriteDVDs; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AC95CFA16063B9B001E4D0B /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		1AC95CFC16063B9B001E4D0B /* FavoriteDVDs.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = FavoriteDVDs.1; sourceTree = "<group>"; };
+		1AC95D0716064CF1001E4D0B /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1AC95CF316063B9B001E4D0B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AC95D0816064CF1001E4D0B /* CoreFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1AC95CEB16063B9B001E4D0B = {
+			isa = PBXGroup;
+			children = (
+				1AC95D0716064CF1001E4D0B /* CoreFoundation.framework */,
+				1AC95CF916063B9B001E4D0B /* FavoriteDVDs */,
+				1AC95CF716063B9B001E4D0B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1AC95CF716063B9B001E4D0B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1AC95CF616063B9B001E4D0B /* FavoriteDVDs */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1AC95CF916063B9B001E4D0B /* FavoriteDVDs */ = {
+			isa = PBXGroup;
+			children = (
+				1AC95CFA16063B9B001E4D0B /* main.c */,
+				1AC95CFC16063B9B001E4D0B /* FavoriteDVDs.1 */,
+			);
+			path = FavoriteDVDs;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1AC95CF516063B9B001E4D0B /* FavoriteDVDs */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1AC95D0016063B9B001E4D0B /* Build configuration list for PBXNativeTarget "FavoriteDVDs" */;
+			buildPhases = (
+				1AC95CF216063B9B001E4D0B /* Sources */,
+				1AC95CF316063B9B001E4D0B /* Frameworks */,
+				1AC95CF416063B9B001E4D0B /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FavoriteDVDs;
+			productName = FavoriteDVDs;
+			productReference = 1AC95CF616063B9B001E4D0B /* FavoriteDVDs */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1AC95CED16063B9B001E4D0B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Apress, Inc.";
+			};
+			buildConfigurationList = 1AC95CF016063B9B001E4D0B /* Build configuration list for PBXProject "FavoriteDVDs" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1AC95CEB16063B9B001E4D0B;
+			productRefGroup = 1AC95CF716063B9B001E4D0B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1AC95CF516063B9B001E4D0B /* FavoriteDVDs */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1AC95CF216063B9B001E4D0B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AC95CFB16063B9B001E4D0B /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1AC95CFE16063B9B001E4D0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		1AC95CFF16063B9B001E4D0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		1AC95D0116063B9B001E4D0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1AC95D0216063B9B001E4D0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1AC95CF016063B9B001E4D0B /* Build configuration list for PBXProject "FavoriteDVDs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AC95CFE16063B9B001E4D0B /* Debug */,
+				1AC95CFF16063B9B001E4D0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1AC95D0016063B9B001E4D0B /* Build configuration list for PBXNativeTarget "FavoriteDVDs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AC95D0116063B9B001E4D0B /* Debug */,
+				1AC95D0216063B9B001E4D0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1AC95CED16063B9B001E4D0B /* Project object */;
+}

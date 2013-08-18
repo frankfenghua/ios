@@ -1,0 +1,213 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1A803B0E15D9621300D5A899 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 1A803B0D15D9621300D5A899 /* main.c */; };
+		1A803B1015D9621300D5A899 /* DinoEdit.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1A803B0F15D9621300D5A899 /* DinoEdit.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1A803B0715D9621300D5A899 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				1A803B1015D9621300D5A899 /* DinoEdit.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1A803B0915D9621300D5A899 /* DinoEdit */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DinoEdit; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A803B0D15D9621300D5A899 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		1A803B0F15D9621300D5A899 /* DinoEdit.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = DinoEdit.1; sourceTree = "<group>"; };
+		1A803B1615D9627900D5A899 /* dinoEdit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = dinoEdit.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1A803B0615D9621300D5A899 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1A803AFE15D9621300D5A899 = {
+			isa = PBXGroup;
+			children = (
+				1A803B0C15D9621300D5A899 /* DinoEdit */,
+				1A803B0A15D9621300D5A899 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1A803B0A15D9621300D5A899 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1A803B0915D9621300D5A899 /* DinoEdit */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1A803B0C15D9621300D5A899 /* DinoEdit */ = {
+			isa = PBXGroup;
+			children = (
+				1A803B0D15D9621300D5A899 /* main.c */,
+				1A803B1615D9627900D5A899 /* dinoEdit.h */,
+				1A803B0F15D9621300D5A899 /* DinoEdit.1 */,
+			);
+			path = DinoEdit;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1A803B0815D9621300D5A899 /* DinoEdit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A803B1315D9621300D5A899 /* Build configuration list for PBXNativeTarget "DinoEdit" */;
+			buildPhases = (
+				1A803B0515D9621300D5A899 /* Sources */,
+				1A803B0615D9621300D5A899 /* Frameworks */,
+				1A803B0715D9621300D5A899 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DinoEdit;
+			productName = DinoEdit;
+			productReference = 1A803B0915D9621300D5A899 /* DinoEdit */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1A803B0015D9621300D5A899 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Apress, Inc.";
+			};
+			buildConfigurationList = 1A803B0315D9621300D5A899 /* Build configuration list for PBXProject "DinoEdit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1A803AFE15D9621300D5A899;
+			productRefGroup = 1A803B0A15D9621300D5A899 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1A803B0815D9621300D5A899 /* DinoEdit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1A803B0515D9621300D5A899 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A803B0E15D9621300D5A899 /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1A803B1115D9621300D5A899 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		1A803B1215D9621300D5A899 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		1A803B1415D9621300D5A899 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1A803B1515D9621300D5A899 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1A803B0315D9621300D5A899 /* Build configuration list for PBXProject "DinoEdit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A803B1115D9621300D5A899 /* Debug */,
+				1A803B1215D9621300D5A899 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A803B1315D9621300D5A899 /* Build configuration list for PBXNativeTarget "DinoEdit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A803B1415D9621300D5A899 /* Debug */,
+				1A803B1515D9621300D5A899 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1A803B0015D9621300D5A899 /* Project object */;
+}
