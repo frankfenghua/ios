@@ -8,11 +8,24 @@
 
 #import "ViewController.h"
 
+/*
+ Note that Xcode added a class extension to your class that you can us to define private methods and properties
+ 
+ Private methods are methods that will be used only from within the implementation section of your class
+ see chapter 11 Categories and Protocols covered class entensions
+ */
 @interface ViewController ()
 
 @end
 
+
 @implementation ViewController
+@synthesize display;
+
+- (IBAction)click1:(id)sender {
+    NSLog(@"hello");
+    display.text = @"1";
+}
 
 - (void)viewDidLoad
 {
