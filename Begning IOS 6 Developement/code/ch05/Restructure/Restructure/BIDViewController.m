@@ -26,7 +26,10 @@
 
 - (void)doLayoutForOrientation:(UIInterfaceOrientation)orientation {
     if (UIInterfaceOrientationIsPortrait(orientation)) {
-        _bigButton.frame = CGRectMake(20, 20, 280, 280);
+        //same as _bigButton since XCode 4 +
+        self.bigButton.frame = CGRectMake(20, 20, 280, 280);
+
+        //_bigButton.frame = CGRectMake(20, 20, 280, 280);
         _actionButton1.frame = CGRectMake(20, 320, 120, 40);
         _actionButton2.frame = CGRectMake(20, 400, 120, 40);
         _actionButton3.frame = CGRectMake(180, 320, 120, 40);
