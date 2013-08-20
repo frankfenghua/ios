@@ -16,6 +16,28 @@
 		EA522BBE17C3EC1800998E9F /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = EA522BBD17C3EC1800998E9F /* Default.png */; };
 		EA522BC017C3EC1800998E9F /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EA522BBF17C3EC1800998E9F /* Default@2x.png */; };
 		EA522BC217C3EC1800998E9F /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EA522BC117C3EC1800998E9F /* Default-568h@2x.png */; };
+		EA522BCB17C3EC7D00998E9F /* BIDDatePickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA522BC917C3EC7D00998E9F /* BIDDatePickerViewController.m */; };
+		EA522BCC17C3EC7D00998E9F /* BIDDatePickerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA522BCA17C3EC7D00998E9F /* BIDDatePickerViewController.xib */; };
+		EA522BE017C3EE3A00998E9F /* apple.png in Resources */ = {isa = PBXBuildFile; fileRef = EA522BDA17C3EE3A00998E9F /* apple.png */; };
+		EA522BE117C3EE3A00998E9F /* bar.png in Resources */ = {isa = PBXBuildFile; fileRef = EA522BDB17C3EE3A00998E9F /* bar.png */; };
+		EA522BE217C3EE3A00998E9F /* cherry.png in Resources */ = {isa = PBXBuildFile; fileRef = EA522BDC17C3EE3A00998E9F /* cherry.png */; };
+		EA522BE317C3EE3A00998E9F /* crown.png in Resources */ = {isa = PBXBuildFile; fileRef = EA522BDD17C3EE3A00998E9F /* crown.png */; };
+		EA522BE417C3EE3A00998E9F /* lemon.png in Resources */ = {isa = PBXBuildFile; fileRef = EA522BDE17C3EE3A00998E9F /* lemon.png */; };
+		EA522BE517C3EE3A00998E9F /* seven.png in Resources */ = {isa = PBXBuildFile; fileRef = EA522BDF17C3EE3A00998E9F /* seven.png */; };
+		EA522BE717C3F2EC00998E9F /* TabBarController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA522BE617C3F2EC00998E9F /* TabBarController.xib */; };
+		EA522BEE17C4080F00998E9F /* clockicon.png in Resources */ = {isa = PBXBuildFile; fileRef = EA522BE917C4080F00998E9F /* clockicon.png */; };
+		EA522BEF17C4080F00998E9F /* dependenticon.png in Resources */ = {isa = PBXBuildFile; fileRef = EA522BEA17C4080F00998E9F /* dependenticon.png */; };
+		EA522BF017C4080F00998E9F /* doubleicon.png in Resources */ = {isa = PBXBuildFile; fileRef = EA522BEB17C4080F00998E9F /* doubleicon.png */; };
+		EA522BF117C4080F00998E9F /* singleicon.png in Resources */ = {isa = PBXBuildFile; fileRef = EA522BEC17C4080F00998E9F /* singleicon.png */; };
+		EA522BF217C4080F00998E9F /* toolicon.png in Resources */ = {isa = PBXBuildFile; fileRef = EA522BED17C4080F00998E9F /* toolicon.png */; };
+		EA522BF617C40FCE00998E9F /* BIDSingleComponentPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA522BF417C40FCD00998E9F /* BIDSingleComponentPickerViewController.m */; };
+		EA522BF717C40FCE00998E9F /* BIDSingleComponentPickerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA522BF517C40FCE00998E9F /* BIDSingleComponentPickerViewController.xib */; };
+		EA522BFB17C4177A00998E9F /* BIDDoubleComponentPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA522BF917C4177A00998E9F /* BIDDoubleComponentPickerViewController.m */; };
+		EA522BFC17C4177A00998E9F /* BIDDoubleComponentPickerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA522BFA17C4177A00998E9F /* BIDDoubleComponentPickerViewController.xib */; };
+		EA522C0017C4178D00998E9F /* BIDDependentComponentPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA522BFE17C4178C00998E9F /* BIDDependentComponentPickerViewController.m */; };
+		EA522C0117C4178D00998E9F /* BIDDependentComponentPickerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA522BFF17C4178D00998E9F /* BIDDependentComponentPickerViewController.xib */; };
+		EA522C0517C4179F00998E9F /* BIDCustomPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA522C0317C4179E00998E9F /* BIDCustomPickerViewController.m */; };
+		EA522C0617C4179F00998E9F /* BIDCustomPickerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA522C0417C4179F00998E9F /* BIDCustomPickerViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +54,33 @@
 		EA522BBD17C3EC1800998E9F /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		EA522BBF17C3EC1800998E9F /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		EA522BC117C3EC1800998E9F /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		EA522BC817C3EC7D00998E9F /* BIDDatePickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIDDatePickerViewController.h; sourceTree = "<group>"; };
+		EA522BC917C3EC7D00998E9F /* BIDDatePickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIDDatePickerViewController.m; sourceTree = "<group>"; };
+		EA522BCA17C3EC7D00998E9F /* BIDDatePickerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BIDDatePickerViewController.xib; sourceTree = "<group>"; };
+		EA522BDA17C3EE3A00998E9F /* apple.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = apple.png; sourceTree = "<group>"; };
+		EA522BDB17C3EE3A00998E9F /* bar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bar.png; sourceTree = "<group>"; };
+		EA522BDC17C3EE3A00998E9F /* cherry.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cherry.png; sourceTree = "<group>"; };
+		EA522BDD17C3EE3A00998E9F /* crown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = crown.png; sourceTree = "<group>"; };
+		EA522BDE17C3EE3A00998E9F /* lemon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lemon.png; sourceTree = "<group>"; };
+		EA522BDF17C3EE3A00998E9F /* seven.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = seven.png; sourceTree = "<group>"; };
+		EA522BE617C3F2EC00998E9F /* TabBarController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TabBarController.xib; sourceTree = "<group>"; };
+		EA522BE917C4080F00998E9F /* clockicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clockicon.png; sourceTree = "<group>"; };
+		EA522BEA17C4080F00998E9F /* dependenticon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dependenticon.png; sourceTree = "<group>"; };
+		EA522BEB17C4080F00998E9F /* doubleicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = doubleicon.png; sourceTree = "<group>"; };
+		EA522BEC17C4080F00998E9F /* singleicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = singleicon.png; sourceTree = "<group>"; };
+		EA522BED17C4080F00998E9F /* toolicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = toolicon.png; sourceTree = "<group>"; };
+		EA522BF317C40FCD00998E9F /* BIDSingleComponentPickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIDSingleComponentPickerViewController.h; sourceTree = "<group>"; };
+		EA522BF417C40FCD00998E9F /* BIDSingleComponentPickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIDSingleComponentPickerViewController.m; sourceTree = "<group>"; };
+		EA522BF517C40FCE00998E9F /* BIDSingleComponentPickerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BIDSingleComponentPickerViewController.xib; sourceTree = "<group>"; };
+		EA522BF817C4177900998E9F /* BIDDoubleComponentPickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIDDoubleComponentPickerViewController.h; sourceTree = "<group>"; };
+		EA522BF917C4177A00998E9F /* BIDDoubleComponentPickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIDDoubleComponentPickerViewController.m; sourceTree = "<group>"; };
+		EA522BFA17C4177A00998E9F /* BIDDoubleComponentPickerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BIDDoubleComponentPickerViewController.xib; sourceTree = "<group>"; };
+		EA522BFD17C4178C00998E9F /* BIDDependentComponentPickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIDDependentComponentPickerViewController.h; sourceTree = "<group>"; };
+		EA522BFE17C4178C00998E9F /* BIDDependentComponentPickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIDDependentComponentPickerViewController.m; sourceTree = "<group>"; };
+		EA522BFF17C4178D00998E9F /* BIDDependentComponentPickerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BIDDependentComponentPickerViewController.xib; sourceTree = "<group>"; };
+		EA522C0217C4179E00998E9F /* BIDCustomPickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIDCustomPickerViewController.h; sourceTree = "<group>"; };
+		EA522C0317C4179E00998E9F /* BIDCustomPickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIDCustomPickerViewController.m; sourceTree = "<group>"; };
+		EA522C0417C4179F00998E9F /* BIDCustomPickerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BIDCustomPickerViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,9 +127,27 @@
 		EA522BB117C3EC1800998E9F /* MyPickers */ = {
 			isa = PBXGroup;
 			children = (
+				EA522BE817C4080F00998E9F /* Tab Bar Icons */,
+				EA522BD917C3EE3A00998E9F /* Custom Picker Images */,
 				EA522BBA17C3EC1800998E9F /* BIDAppDelegate.h */,
 				EA522BBB17C3EC1800998E9F /* BIDAppDelegate.m */,
 				EA522BB217C3EC1800998E9F /* Supporting Files */,
+				EA522BC817C3EC7D00998E9F /* BIDDatePickerViewController.h */,
+				EA522BC917C3EC7D00998E9F /* BIDDatePickerViewController.m */,
+				EA522BCA17C3EC7D00998E9F /* BIDDatePickerViewController.xib */,
+				EA522BE617C3F2EC00998E9F /* TabBarController.xib */,
+				EA522BF317C40FCD00998E9F /* BIDSingleComponentPickerViewController.h */,
+				EA522BF417C40FCD00998E9F /* BIDSingleComponentPickerViewController.m */,
+				EA522BF517C40FCE00998E9F /* BIDSingleComponentPickerViewController.xib */,
+				EA522BF817C4177900998E9F /* BIDDoubleComponentPickerViewController.h */,
+				EA522BF917C4177A00998E9F /* BIDDoubleComponentPickerViewController.m */,
+				EA522BFA17C4177A00998E9F /* BIDDoubleComponentPickerViewController.xib */,
+				EA522BFD17C4178C00998E9F /* BIDDependentComponentPickerViewController.h */,
+				EA522BFE17C4178C00998E9F /* BIDDependentComponentPickerViewController.m */,
+				EA522BFF17C4178D00998E9F /* BIDDependentComponentPickerViewController.xib */,
+				EA522C0217C4179E00998E9F /* BIDCustomPickerViewController.h */,
+				EA522C0317C4179E00998E9F /* BIDCustomPickerViewController.m */,
+				EA522C0417C4179F00998E9F /* BIDCustomPickerViewController.xib */,
 			);
 			path = MyPickers;
 			sourceTree = "<group>";
@@ -98,6 +165,31 @@
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
+		};
+		EA522BD917C3EE3A00998E9F /* Custom Picker Images */ = {
+			isa = PBXGroup;
+			children = (
+				EA522BDA17C3EE3A00998E9F /* apple.png */,
+				EA522BDB17C3EE3A00998E9F /* bar.png */,
+				EA522BDC17C3EE3A00998E9F /* cherry.png */,
+				EA522BDD17C3EE3A00998E9F /* crown.png */,
+				EA522BDE17C3EE3A00998E9F /* lemon.png */,
+				EA522BDF17C3EE3A00998E9F /* seven.png */,
+			);
+			path = "Custom Picker Images";
+			sourceTree = SOURCE_ROOT;
+		};
+		EA522BE817C4080F00998E9F /* Tab Bar Icons */ = {
+			isa = PBXGroup;
+			children = (
+				EA522BE917C4080F00998E9F /* clockicon.png */,
+				EA522BEA17C4080F00998E9F /* dependenticon.png */,
+				EA522BEB17C4080F00998E9F /* doubleicon.png */,
+				EA522BEC17C4080F00998E9F /* singleicon.png */,
+				EA522BED17C4080F00998E9F /* toolicon.png */,
+			);
+			path = "Tab Bar Icons";
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -155,6 +247,23 @@
 				EA522BBE17C3EC1800998E9F /* Default.png in Resources */,
 				EA522BC017C3EC1800998E9F /* Default@2x.png in Resources */,
 				EA522BC217C3EC1800998E9F /* Default-568h@2x.png in Resources */,
+				EA522BCC17C3EC7D00998E9F /* BIDDatePickerViewController.xib in Resources */,
+				EA522BE017C3EE3A00998E9F /* apple.png in Resources */,
+				EA522BE117C3EE3A00998E9F /* bar.png in Resources */,
+				EA522BE217C3EE3A00998E9F /* cherry.png in Resources */,
+				EA522BE317C3EE3A00998E9F /* crown.png in Resources */,
+				EA522BE417C3EE3A00998E9F /* lemon.png in Resources */,
+				EA522BE517C3EE3A00998E9F /* seven.png in Resources */,
+				EA522BE717C3F2EC00998E9F /* TabBarController.xib in Resources */,
+				EA522BEE17C4080F00998E9F /* clockicon.png in Resources */,
+				EA522BEF17C4080F00998E9F /* dependenticon.png in Resources */,
+				EA522BF017C4080F00998E9F /* doubleicon.png in Resources */,
+				EA522BF117C4080F00998E9F /* singleicon.png in Resources */,
+				EA522BF217C4080F00998E9F /* toolicon.png in Resources */,
+				EA522BF717C40FCE00998E9F /* BIDSingleComponentPickerViewController.xib in Resources */,
+				EA522BFC17C4177A00998E9F /* BIDDoubleComponentPickerViewController.xib in Resources */,
+				EA522C0117C4178D00998E9F /* BIDDependentComponentPickerViewController.xib in Resources */,
+				EA522C0617C4179F00998E9F /* BIDCustomPickerViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -167,6 +276,11 @@
 			files = (
 				EA522BB817C3EC1800998E9F /* main.m in Sources */,
 				EA522BBC17C3EC1800998E9F /* BIDAppDelegate.m in Sources */,
+				EA522BCB17C3EC7D00998E9F /* BIDDatePickerViewController.m in Sources */,
+				EA522BF617C40FCE00998E9F /* BIDSingleComponentPickerViewController.m in Sources */,
+				EA522BFB17C4177A00998E9F /* BIDDoubleComponentPickerViewController.m in Sources */,
+				EA522C0017C4178D00998E9F /* BIDDependentComponentPickerViewController.m in Sources */,
+				EA522C0517C4179F00998E9F /* BIDCustomPickerViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
