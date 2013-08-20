@@ -38,6 +38,7 @@
 		EA522C0117C4178D00998E9F /* BIDDependentComponentPickerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA522BFF17C4178D00998E9F /* BIDDependentComponentPickerViewController.xib */; };
 		EA522C0517C4179F00998E9F /* BIDCustomPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA522C0317C4179E00998E9F /* BIDCustomPickerViewController.m */; };
 		EA522C0617C4179F00998E9F /* BIDCustomPickerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA522C0417C4179F00998E9F /* BIDCustomPickerViewController.xib */; };
+		EA522C0817C4207C00998E9F /* statedictionary.plist in Resources */ = {isa = PBXBuildFile; fileRef = EA522C0717C4207C00998E9F /* statedictionary.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -81,6 +82,7 @@
 		EA522C0217C4179E00998E9F /* BIDCustomPickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIDCustomPickerViewController.h; sourceTree = "<group>"; };
 		EA522C0317C4179E00998E9F /* BIDCustomPickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIDCustomPickerViewController.m; sourceTree = "<group>"; };
 		EA522C0417C4179F00998E9F /* BIDCustomPickerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BIDCustomPickerViewController.xib; sourceTree = "<group>"; };
+		EA522C0717C4207C00998E9F /* statedictionary.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = statedictionary.plist; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +129,7 @@
 		EA522BB117C3EC1800998E9F /* MyPickers */ = {
 			isa = PBXGroup;
 			children = (
+				EA522C0717C4207C00998E9F /* statedictionary.plist */,
 				EA522BE817C4080F00998E9F /* Tab Bar Icons */,
 				EA522BD917C3EE3A00998E9F /* Custom Picker Images */,
 				EA522BBA17C3EC1800998E9F /* BIDAppDelegate.h */,
@@ -264,6 +267,7 @@
 				EA522BFC17C4177A00998E9F /* BIDDoubleComponentPickerViewController.xib in Resources */,
 				EA522C0117C4178D00998E9F /* BIDDependentComponentPickerViewController.xib in Resources */,
 				EA522C0617C4179F00998E9F /* BIDCustomPickerViewController.xib in Resources */,
+				EA522C0817C4207C00998E9F /* statedictionary.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
