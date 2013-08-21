@@ -39,6 +39,9 @@
 		EA522C0517C4179F00998E9F /* BIDCustomPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA522C0317C4179E00998E9F /* BIDCustomPickerViewController.m */; };
 		EA522C0617C4179F00998E9F /* BIDCustomPickerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA522C0417C4179F00998E9F /* BIDCustomPickerViewController.xib */; };
 		EA522C0817C4207C00998E9F /* statedictionary.plist in Resources */ = {isa = PBXBuildFile; fileRef = EA522C0717C4207C00998E9F /* statedictionary.plist */; };
+		EA9FE92B17C46759003FBA75 /* crunch.wav in Resources */ = {isa = PBXBuildFile; fileRef = EA9FE92917C46759003FBA75 /* crunch.wav */; };
+		EA9FE92C17C46759003FBA75 /* win.wav in Resources */ = {isa = PBXBuildFile; fileRef = EA9FE92A17C46759003FBA75 /* win.wav */; };
+		EA9FE92E17C47520003FBA75 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA9FE92D17C47520003FBA75 /* AudioToolbox.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -83,6 +86,9 @@
 		EA522C0317C4179E00998E9F /* BIDCustomPickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIDCustomPickerViewController.m; sourceTree = "<group>"; };
 		EA522C0417C4179F00998E9F /* BIDCustomPickerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BIDCustomPickerViewController.xib; sourceTree = "<group>"; };
 		EA522C0717C4207C00998E9F /* statedictionary.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = statedictionary.plist; sourceTree = SOURCE_ROOT; };
+		EA9FE92917C46759003FBA75 /* crunch.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = crunch.wav; sourceTree = "<group>"; };
+		EA9FE92A17C46759003FBA75 /* win.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = win.wav; sourceTree = "<group>"; };
+		EA9FE92D17C47520003FBA75 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +96,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA9FE92E17C47520003FBA75 /* AudioToolbox.framework in Frameworks */,
 				EA522BAC17C3EC1800998E9F /* UIKit.framework in Frameworks */,
 				EA522BAE17C3EC1800998E9F /* Foundation.framework in Frameworks */,
 				EA522BB017C3EC1800998E9F /* CoreGraphics.framework in Frameworks */,
@@ -102,6 +109,7 @@
 		EA522B9F17C3EC1800998E9F = {
 			isa = PBXGroup;
 			children = (
+				EA9FE92D17C47520003FBA75 /* AudioToolbox.framework */,
 				EA522BB117C3EC1800998E9F /* MyPickers */,
 				EA522BAA17C3EC1800998E9F /* Frameworks */,
 				EA522BA917C3EC1800998E9F /* Products */,
@@ -129,6 +137,7 @@
 		EA522BB117C3EC1800998E9F /* MyPickers */ = {
 			isa = PBXGroup;
 			children = (
+				EA9FE92817C46759003FBA75 /* Custom Picker Sounds */,
 				EA522C0717C4207C00998E9F /* statedictionary.plist */,
 				EA522BE817C4080F00998E9F /* Tab Bar Icons */,
 				EA522BD917C3EE3A00998E9F /* Custom Picker Images */,
@@ -192,6 +201,15 @@
 				EA522BED17C4080F00998E9F /* toolicon.png */,
 			);
 			path = "Tab Bar Icons";
+			sourceTree = SOURCE_ROOT;
+		};
+		EA9FE92817C46759003FBA75 /* Custom Picker Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				EA9FE92917C46759003FBA75 /* crunch.wav */,
+				EA9FE92A17C46759003FBA75 /* win.wav */,
+			);
+			path = "Custom Picker Sounds";
 			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
@@ -268,6 +286,8 @@
 				EA522C0117C4178D00998E9F /* BIDDependentComponentPickerViewController.xib in Resources */,
 				EA522C0617C4179F00998E9F /* BIDCustomPickerViewController.xib in Resources */,
 				EA522C0817C4207C00998E9F /* statedictionary.plist in Resources */,
+				EA9FE92B17C46759003FBA75 /* crunch.wav in Resources */,
+				EA9FE92C17C46759003FBA75 /* win.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -364,6 +384,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MyPickers/MyPickers-Prefix.pch";
 				INFOPLIST_FILE = "MyPickers/MyPickers-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -375,6 +396,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MyPickers/MyPickers-Prefix.pch";
 				INFOPLIST_FILE = "MyPickers/MyPickers-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -399,6 +421,7 @@
 				EA522BC717C3EC1800998E9F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

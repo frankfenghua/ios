@@ -21,6 +21,13 @@
     //org
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
+
+    for (NSString *family in [UIFont familyNames]) {
+        NSLog(@"%@", family);
+        for (NSString *font in [UIFont fontNamesForFamilyName:family]) {
+            NSLog(@"\t%@", font);
+        }
+    }
     return YES;
 }
 

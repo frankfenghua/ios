@@ -13,6 +13,13 @@
 int main(int argc, char *argv[])
 {
     @autoreleasepool {
+        @try{
         return UIApplicationMain(argc, argv, nil, NSStringFromClass([BIDAppDelegate class]));
+        }
+        @catch (NSException* exception) {
+            NSLog(@"Uncaught exception: %@", exception.description);
+            NSLog(@"Statck trace: %@", [exception callStackSymbols
+                                        ]);
+        }
     }
 }
