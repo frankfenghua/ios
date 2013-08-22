@@ -9,6 +9,7 @@
 #import "BIDFirstLevelViewController.h"
 #import "BIDSecondLevelViewController.h"
 #import "BIDDisclosureButtonViewController.h"
+#import "BIDCheckListViewController.h"
 
 static NSString *CellIdentifier = @"Cell";
 
@@ -22,7 +23,8 @@ static NSString *CellIdentifier = @"Cell";
         self.title = @"First level";
 //        self.controllers = @[];
         self.controllers = @[
-                             [[BIDDisclosureButtonViewController alloc] init]
+                             [[BIDDisclosureButtonViewController alloc] init],
+                             [[BIDCheckListViewController alloc] init]
                              ];
     }
     return self;
