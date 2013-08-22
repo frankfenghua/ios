@@ -17,6 +17,8 @@
 		EA5A5C1117C6AB9700C34DF2 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EA5A5C1017C6AB9700C34DF2 /* Default@2x.png */; };
 		EA5A5C1317C6AB9700C34DF2 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EA5A5C1217C6AB9700C34DF2 /* Default-568h@2x.png */; };
 		EA5A5C1A17C6ABDF00C34DF2 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA5A5C1917C6ABDF00C34DF2 /* MainStoryboard.storyboard */; };
+		EA5A5C1D17C6B57300C34DF2 /* BIDTaskListController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5A5C1C17C6B57300C34DF2 /* BIDTaskListController.m */; };
+		EA5A5C2017C6B5BD00C34DF2 /* BIDTaskDetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5A5C1F17C6B5BD00C34DF2 /* BIDTaskDetailController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +36,10 @@
 		EA5A5C1017C6AB9700C34DF2 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		EA5A5C1217C6AB9700C34DF2 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		EA5A5C1917C6ABDF00C34DF2 /* MainStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard.storyboard; sourceTree = "<group>"; };
+		EA5A5C1B17C6B57300C34DF2 /* BIDTaskListController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIDTaskListController.h; sourceTree = "<group>"; };
+		EA5A5C1C17C6B57300C34DF2 /* BIDTaskListController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIDTaskListController.m; sourceTree = "<group>"; };
+		EA5A5C1E17C6B5BD00C34DF2 /* BIDTaskDetailController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIDTaskDetailController.h; sourceTree = "<group>"; };
+		EA5A5C1F17C6B5BD00C34DF2 /* BIDTaskDetailController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIDTaskDetailController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,10 +86,14 @@
 		EA5A5C0217C6AB9700C34DF2 /* My Seg Nav */ = {
 			isa = PBXGroup;
 			children = (
+				EA5A5C1B17C6B57300C34DF2 /* BIDTaskListController.h */,
+				EA5A5C1C17C6B57300C34DF2 /* BIDTaskListController.m */,
 				EA5A5C0B17C6AB9700C34DF2 /* BIDAppDelegate.h */,
 				EA5A5C0C17C6AB9700C34DF2 /* BIDAppDelegate.m */,
 				EA5A5C0317C6AB9700C34DF2 /* Supporting Files */,
 				EA5A5C1917C6ABDF00C34DF2 /* MainStoryboard.storyboard */,
+				EA5A5C1E17C6B5BD00C34DF2 /* BIDTaskDetailController.h */,
+				EA5A5C1F17C6B5BD00C34DF2 /* BIDTaskDetailController.m */,
 			);
 			path = "My Seg Nav";
 			sourceTree = "<group>";
@@ -171,6 +181,8 @@
 			files = (
 				EA5A5C0917C6AB9700C34DF2 /* main.m in Sources */,
 				EA5A5C0D17C6AB9700C34DF2 /* BIDAppDelegate.m in Sources */,
+				EA5A5C1D17C6B57300C34DF2 /* BIDTaskListController.m in Sources */,
+				EA5A5C2017C6B5BD00C34DF2 /* BIDTaskDetailController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
