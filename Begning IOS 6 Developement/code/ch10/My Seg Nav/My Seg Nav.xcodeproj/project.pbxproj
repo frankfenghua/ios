@@ -1,0 +1,292 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EA5A5BFD17C6AB9700C34DF2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA5A5BFC17C6AB9700C34DF2 /* UIKit.framework */; };
+		EA5A5BFF17C6AB9700C34DF2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA5A5BFE17C6AB9700C34DF2 /* Foundation.framework */; };
+		EA5A5C0117C6AB9700C34DF2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA5A5C0017C6AB9700C34DF2 /* CoreGraphics.framework */; };
+		EA5A5C0717C6AB9700C34DF2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EA5A5C0517C6AB9700C34DF2 /* InfoPlist.strings */; };
+		EA5A5C0917C6AB9700C34DF2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5A5C0817C6AB9700C34DF2 /* main.m */; };
+		EA5A5C0D17C6AB9700C34DF2 /* BIDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5A5C0C17C6AB9700C34DF2 /* BIDAppDelegate.m */; };
+		EA5A5C0F17C6AB9700C34DF2 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = EA5A5C0E17C6AB9700C34DF2 /* Default.png */; };
+		EA5A5C1117C6AB9700C34DF2 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EA5A5C1017C6AB9700C34DF2 /* Default@2x.png */; };
+		EA5A5C1317C6AB9700C34DF2 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EA5A5C1217C6AB9700C34DF2 /* Default-568h@2x.png */; };
+		EA5A5C1A17C6ABDF00C34DF2 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA5A5C1917C6ABDF00C34DF2 /* MainStoryboard.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EA5A5BF917C6AB9700C34DF2 /* My Seg Nav.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "My Seg Nav.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA5A5BFC17C6AB9700C34DF2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EA5A5BFE17C6AB9700C34DF2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EA5A5C0017C6AB9700C34DF2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EA5A5C0417C6AB9700C34DF2 /* My Seg Nav-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "My Seg Nav-Info.plist"; sourceTree = "<group>"; };
+		EA5A5C0617C6AB9700C34DF2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EA5A5C0817C6AB9700C34DF2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EA5A5C0A17C6AB9700C34DF2 /* My Seg Nav-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "My Seg Nav-Prefix.pch"; sourceTree = "<group>"; };
+		EA5A5C0B17C6AB9700C34DF2 /* BIDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BIDAppDelegate.h; sourceTree = "<group>"; };
+		EA5A5C0C17C6AB9700C34DF2 /* BIDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BIDAppDelegate.m; sourceTree = "<group>"; };
+		EA5A5C0E17C6AB9700C34DF2 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		EA5A5C1017C6AB9700C34DF2 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		EA5A5C1217C6AB9700C34DF2 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		EA5A5C1917C6ABDF00C34DF2 /* MainStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EA5A5BF617C6AB9700C34DF2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA5A5BFD17C6AB9700C34DF2 /* UIKit.framework in Frameworks */,
+				EA5A5BFF17C6AB9700C34DF2 /* Foundation.framework in Frameworks */,
+				EA5A5C0117C6AB9700C34DF2 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EA5A5BF017C6AB9700C34DF2 = {
+			isa = PBXGroup;
+			children = (
+				EA5A5C0217C6AB9700C34DF2 /* My Seg Nav */,
+				EA5A5BFB17C6AB9700C34DF2 /* Frameworks */,
+				EA5A5BFA17C6AB9700C34DF2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EA5A5BFA17C6AB9700C34DF2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EA5A5BF917C6AB9700C34DF2 /* My Seg Nav.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EA5A5BFB17C6AB9700C34DF2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EA5A5BFC17C6AB9700C34DF2 /* UIKit.framework */,
+				EA5A5BFE17C6AB9700C34DF2 /* Foundation.framework */,
+				EA5A5C0017C6AB9700C34DF2 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EA5A5C0217C6AB9700C34DF2 /* My Seg Nav */ = {
+			isa = PBXGroup;
+			children = (
+				EA5A5C0B17C6AB9700C34DF2 /* BIDAppDelegate.h */,
+				EA5A5C0C17C6AB9700C34DF2 /* BIDAppDelegate.m */,
+				EA5A5C0317C6AB9700C34DF2 /* Supporting Files */,
+				EA5A5C1917C6ABDF00C34DF2 /* MainStoryboard.storyboard */,
+			);
+			path = "My Seg Nav";
+			sourceTree = "<group>";
+		};
+		EA5A5C0317C6AB9700C34DF2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EA5A5C0417C6AB9700C34DF2 /* My Seg Nav-Info.plist */,
+				EA5A5C0517C6AB9700C34DF2 /* InfoPlist.strings */,
+				EA5A5C0817C6AB9700C34DF2 /* main.m */,
+				EA5A5C0A17C6AB9700C34DF2 /* My Seg Nav-Prefix.pch */,
+				EA5A5C0E17C6AB9700C34DF2 /* Default.png */,
+				EA5A5C1017C6AB9700C34DF2 /* Default@2x.png */,
+				EA5A5C1217C6AB9700C34DF2 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EA5A5BF817C6AB9700C34DF2 /* My Seg Nav */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA5A5C1617C6AB9700C34DF2 /* Build configuration list for PBXNativeTarget "My Seg Nav" */;
+			buildPhases = (
+				EA5A5BF517C6AB9700C34DF2 /* Sources */,
+				EA5A5BF617C6AB9700C34DF2 /* Frameworks */,
+				EA5A5BF717C6AB9700C34DF2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "My Seg Nav";
+			productName = "My Seg Nav";
+			productReference = EA5A5BF917C6AB9700C34DF2 /* My Seg Nav.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EA5A5BF117C6AB9700C34DF2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = BID;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = fenghua;
+			};
+			buildConfigurationList = EA5A5BF417C6AB9700C34DF2 /* Build configuration list for PBXProject "My Seg Nav" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = EA5A5BF017C6AB9700C34DF2;
+			productRefGroup = EA5A5BFA17C6AB9700C34DF2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EA5A5BF817C6AB9700C34DF2 /* My Seg Nav */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EA5A5BF717C6AB9700C34DF2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA5A5C0717C6AB9700C34DF2 /* InfoPlist.strings in Resources */,
+				EA5A5C0F17C6AB9700C34DF2 /* Default.png in Resources */,
+				EA5A5C1117C6AB9700C34DF2 /* Default@2x.png in Resources */,
+				EA5A5C1317C6AB9700C34DF2 /* Default-568h@2x.png in Resources */,
+				EA5A5C1A17C6ABDF00C34DF2 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EA5A5BF517C6AB9700C34DF2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA5A5C0917C6AB9700C34DF2 /* main.m in Sources */,
+				EA5A5C0D17C6AB9700C34DF2 /* BIDAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EA5A5C0517C6AB9700C34DF2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA5A5C0617C6AB9700C34DF2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EA5A5C1417C6AB9700C34DF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EA5A5C1517C6AB9700C34DF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EA5A5C1717C6AB9700C34DF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "My Seg Nav/My Seg Nav-Prefix.pch";
+				INFOPLIST_FILE = "My Seg Nav/My Seg Nav-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EA5A5C1817C6AB9700C34DF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "My Seg Nav/My Seg Nav-Prefix.pch";
+				INFOPLIST_FILE = "My Seg Nav/My Seg Nav-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EA5A5BF417C6AB9700C34DF2 /* Build configuration list for PBXProject "My Seg Nav" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA5A5C1417C6AB9700C34DF2 /* Debug */,
+				EA5A5C1517C6AB9700C34DF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA5A5C1617C6AB9700C34DF2 /* Build configuration list for PBXNativeTarget "My Seg Nav" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA5A5C1717C6AB9700C34DF2 /* Debug */,
+				EA5A5C1817C6AB9700C34DF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EA5A5BF117C6AB9700C34DF2 /* Project object */;
+}
