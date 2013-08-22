@@ -12,6 +12,7 @@
 #import "BIDCheckListViewController.h"
 #import "BIDRowControlsViewController.h"
 #import "BIDMoveMeViewController.h"
+#import "BIDDeleteMeViewController.h"
 
 static NSString *CellIdentifier = @"Cell";
 
@@ -28,7 +29,8 @@ static NSString *CellIdentifier = @"Cell";
                              [[BIDDisclosureButtonViewController alloc] init],
                              [[BIDCheckListViewController alloc] init],
                              [[BIDRowControlsViewController alloc] init],
-                             [[BIDMoveMeViewController alloc] init]
+                             [[BIDMoveMeViewController alloc] init],
+                             [[BIDDeleteMeViewController alloc] init]
                              ];
     }
     return self;

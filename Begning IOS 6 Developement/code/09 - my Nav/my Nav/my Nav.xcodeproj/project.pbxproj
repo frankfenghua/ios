@@ -31,6 +31,8 @@
 		EA4AED8917C5C98300CDA764 /* BIDCheckListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA4AED8817C5C98300CDA764 /* BIDCheckListViewController.m */; };
 		EA4AED8C17C5CBD000CDA764 /* BIDRowControlsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA4AED8B17C5CBD000CDA764 /* BIDRowControlsViewController.m */; };
 		EA4AED8F17C5CE2400CDA764 /* BIDMoveMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA4AED8E17C5CE2400CDA764 /* BIDMoveMeViewController.m */; };
+		EA4AED9217C5CF8700CDA764 /* BIDDeleteMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA4AED9117C5CF8700CDA764 /* BIDDeleteMeViewController.m */; };
+		EA4AED9417C5D0B400CDA764 /* computers.plist in Resources */ = {isa = PBXBuildFile; fileRef = EA4AED9317C5D0B400CDA764 /* computers.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -69,6 +71,9 @@
 		EA4AED8B17C5CBD000CDA764 /* BIDRowControlsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIDRowControlsViewController.m; sourceTree = "<group>"; };
 		EA4AED8D17C5CE2400CDA764 /* BIDMoveMeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIDMoveMeViewController.h; sourceTree = "<group>"; };
 		EA4AED8E17C5CE2400CDA764 /* BIDMoveMeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIDMoveMeViewController.m; sourceTree = "<group>"; };
+		EA4AED9017C5CF8700CDA764 /* BIDDeleteMeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIDDeleteMeViewController.h; sourceTree = "<group>"; };
+		EA4AED9117C5CF8700CDA764 /* BIDDeleteMeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIDDeleteMeViewController.m; sourceTree = "<group>"; };
+		EA4AED9317C5D0B400CDA764 /* computers.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = computers.plist; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +121,7 @@
 		EA4AED5317C5B8FC00CDA764 /* my Nav */ = {
 			isa = PBXGroup;
 			children = (
+				EA4AED9317C5D0B400CDA764 /* computers.plist */,
 				EA4AED5C17C5B8FC00CDA764 /* BIDAppDelegate.h */,
 				EA4AED5D17C5B8FC00CDA764 /* BIDAppDelegate.m */,
 				EA4AED5417C5B8FC00CDA764 /* Supporting Files */,
@@ -133,6 +139,8 @@
 				EA4AED8B17C5CBD000CDA764 /* BIDRowControlsViewController.m */,
 				EA4AED8D17C5CE2400CDA764 /* BIDMoveMeViewController.h */,
 				EA4AED8E17C5CE2400CDA764 /* BIDMoveMeViewController.m */,
+				EA4AED9017C5CF8700CDA764 /* BIDDeleteMeViewController.h */,
+				EA4AED9117C5CF8700CDA764 /* BIDDeleteMeViewController.m */,
 			);
 			path = "my Nav";
 			sourceTree = "<group>";
@@ -230,6 +238,7 @@
 				EA4AED7E17C5C1A200CDA764 /* disclosureButtonControllerIcon.png in Resources */,
 				EA4AED7F17C5C1A200CDA764 /* moveMeIcon.png in Resources */,
 				EA4AED8017C5C1A200CDA764 /* rowControlsIcon.png in Resources */,
+				EA4AED9417C5D0B400CDA764 /* computers.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,6 +258,7 @@
 				EA4AED8917C5C98300CDA764 /* BIDCheckListViewController.m in Sources */,
 				EA4AED8C17C5CBD000CDA764 /* BIDRowControlsViewController.m in Sources */,
 				EA4AED8F17C5CE2400CDA764 /* BIDMoveMeViewController.m in Sources */,
+				EA4AED9217C5CF8700CDA764 /* BIDDeleteMeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
