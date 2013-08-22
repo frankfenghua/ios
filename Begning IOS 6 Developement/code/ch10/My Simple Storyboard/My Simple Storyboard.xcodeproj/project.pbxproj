@@ -19,6 +19,7 @@
 		EA5A5BB817C660C200C34DF2 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA5A5BB617C660C200C34DF2 /* MainStoryboard.storyboard */; };
 		EA5A5BBB17C660C200C34DF2 /* BIDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5A5BBA17C660C200C34DF2 /* BIDViewController.m */; };
 		EA5A5BC317C665D800C34DF2 /* BIDTaskListController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5A5BC217C665D800C34DF2 /* BIDTaskListController.m */; };
+		EA5A5BC617C66CF600C34DF2 /* BIDStaticCellsController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5A5BC517C66CF600C34DF2 /* BIDStaticCellsController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,8 @@
 		EA5A5BBA17C660C200C34DF2 /* BIDViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BIDViewController.m; sourceTree = "<group>"; };
 		EA5A5BC117C665D800C34DF2 /* BIDTaskListController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIDTaskListController.h; sourceTree = "<group>"; };
 		EA5A5BC217C665D800C34DF2 /* BIDTaskListController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIDTaskListController.m; sourceTree = "<group>"; };
+		EA5A5BC417C66CF600C34DF2 /* BIDStaticCellsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIDStaticCellsController.h; sourceTree = "<group>"; };
+		EA5A5BC517C66CF600C34DF2 /* BIDStaticCellsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIDStaticCellsController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +97,8 @@
 				EA5A5BA517C660C200C34DF2 /* Supporting Files */,
 				EA5A5BC117C665D800C34DF2 /* BIDTaskListController.h */,
 				EA5A5BC217C665D800C34DF2 /* BIDTaskListController.m */,
+				EA5A5BC417C66CF600C34DF2 /* BIDStaticCellsController.h */,
+				EA5A5BC517C66CF600C34DF2 /* BIDStaticCellsController.m */,
 			);
 			path = "My Simple Storyboard";
 			sourceTree = "<group>";
@@ -183,6 +188,7 @@
 				EA5A5BAF17C660C200C34DF2 /* BIDAppDelegate.m in Sources */,
 				EA5A5BBB17C660C200C34DF2 /* BIDViewController.m in Sources */,
 				EA5A5BC317C665D800C34DF2 /* BIDTaskListController.m in Sources */,
+				EA5A5BC617C66CF600C34DF2 /* BIDStaticCellsController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
