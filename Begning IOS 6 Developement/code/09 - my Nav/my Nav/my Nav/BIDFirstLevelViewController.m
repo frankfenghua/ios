@@ -10,6 +10,7 @@
 #import "BIDSecondLevelViewController.h"
 #import "BIDDisclosureButtonViewController.h"
 #import "BIDCheckListViewController.h"
+#import "BIDRowControlsViewController.h"
 
 static NSString *CellIdentifier = @"Cell";
 
@@ -24,7 +25,8 @@ static NSString *CellIdentifier = @"Cell";
 //        self.controllers = @[];
         self.controllers = @[
                              [[BIDDisclosureButtonViewController alloc] init],
-                             [[BIDCheckListViewController alloc] init]
+                             [[BIDCheckListViewController alloc] init],
+                             [[BIDRowControlsViewController alloc] init]
                              ];
     }
     return self;

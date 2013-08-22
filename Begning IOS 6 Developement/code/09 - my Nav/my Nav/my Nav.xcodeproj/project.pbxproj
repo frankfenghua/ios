@@ -29,6 +29,7 @@
 		EA4AED8317C5C22E00CDA764 /* BIDDisclosureButtonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA4AED8217C5C22E00CDA764 /* BIDDisclosureButtonViewController.m */; };
 		EA4AED8617C5C2DE00CDA764 /* BIDDisclosureDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA4AED8517C5C2DD00CDA764 /* BIDDisclosureDetailViewController.m */; };
 		EA4AED8917C5C98300CDA764 /* BIDCheckListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA4AED8817C5C98300CDA764 /* BIDCheckListViewController.m */; };
+		EA4AED8C17C5CBD000CDA764 /* BIDRowControlsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA4AED8B17C5CBD000CDA764 /* BIDRowControlsViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -63,6 +64,8 @@
 		EA4AED8517C5C2DD00CDA764 /* BIDDisclosureDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIDDisclosureDetailViewController.m; sourceTree = "<group>"; };
 		EA4AED8717C5C98300CDA764 /* BIDCheckListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIDCheckListViewController.h; sourceTree = "<group>"; };
 		EA4AED8817C5C98300CDA764 /* BIDCheckListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIDCheckListViewController.m; sourceTree = "<group>"; };
+		EA4AED8A17C5CBD000CDA764 /* BIDRowControlsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIDRowControlsViewController.h; sourceTree = "<group>"; };
+		EA4AED8B17C5CBD000CDA764 /* BIDRowControlsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIDRowControlsViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +126,8 @@
 				EA4AED8517C5C2DD00CDA764 /* BIDDisclosureDetailViewController.m */,
 				EA4AED8717C5C98300CDA764 /* BIDCheckListViewController.h */,
 				EA4AED8817C5C98300CDA764 /* BIDCheckListViewController.m */,
+				EA4AED8A17C5CBD000CDA764 /* BIDRowControlsViewController.h */,
+				EA4AED8B17C5CBD000CDA764 /* BIDRowControlsViewController.m */,
 			);
 			path = "my Nav";
 			sourceTree = "<group>";
@@ -237,6 +242,7 @@
 				EA4AED8317C5C22E00CDA764 /* BIDDisclosureButtonViewController.m in Sources */,
 				EA4AED8617C5C2DE00CDA764 /* BIDDisclosureDetailViewController.m in Sources */,
 				EA4AED8917C5C98300CDA764 /* BIDCheckListViewController.m in Sources */,
+				EA4AED8C17C5CBD000CDA764 /* BIDRowControlsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
