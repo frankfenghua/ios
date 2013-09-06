@@ -1,0 +1,304 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EA5F7CD217DA5C45007CC3F6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA5F7CD117DA5C45007CC3F6 /* Foundation.framework */; };
+		EA5F7CEA17DA5DEC007CC3F6 /* NetworkInterface.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA5F7CE017DA5CDA007CC3F6 /* NetworkInterface.cpp */; };
+		EA5F7CEB17DA5DEC007CC3F6 /* Request.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA5F7CE117DA5CDA007CC3F6 /* Request.cpp */; };
+		EA5F7CEC17DA5E19007CC3F6 /* Request.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = EA5F7CE217DA5CDA007CC3F6 /* Request.h */; };
+		EA5F7CED17DA5E19007CC3F6 /* NetworkInterface.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = EA5F7CDF17DA5CAC007CC3F6 /* NetworkInterface.h */; };
+		EA5F7CF117DA5F1C007CC3F6 /* libcrypto.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EA5F7CEF17DA5F1C007CC3F6 /* libcrypto.a */; };
+		EA5F7CF217DA5F1C007CC3F6 /* libssl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EA5F7CF017DA5F1C007CC3F6 /* libssl.a */; };
+		EA5F7CF417DA5F26007CC3F6 /* libcurl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EA5F7CF317DA5F26007CC3F6 /* libcurl.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		EA5F7CCC17DA5C45007CC3F6 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/${PRODUCT_NAME}";
+			dstSubfolderSpec = 16;
+			files = (
+				EA5F7CEC17DA5E19007CC3F6 /* Request.h in CopyFiles */,
+				EA5F7CED17DA5E19007CC3F6 /* NetworkInterface.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		EA5F7CCE17DA5C45007CC3F6 /* libNetworkLibrary.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libNetworkLibrary.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA5F7CD117DA5C45007CC3F6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EA5F7CD517DA5C45007CC3F6 /* NetworkLibrary-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NetworkLibrary-Prefix.pch"; sourceTree = "<group>"; };
+		EA5F7CDF17DA5CAC007CC3F6 /* NetworkInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkInterface.h; sourceTree = "<group>"; };
+		EA5F7CE017DA5CDA007CC3F6 /* NetworkInterface.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = NetworkInterface.cpp; sourceTree = "<group>"; };
+		EA5F7CE117DA5CDA007CC3F6 /* Request.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Request.cpp; sourceTree = "<group>"; };
+		EA5F7CE217DA5CDA007CC3F6 /* Request.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Request.h; sourceTree = "<group>"; };
+		EA5F7CE317DA5CDA007CC3F6 /* Util.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Util.h; sourceTree = "<group>"; };
+		EA5F7CEF17DA5F1C007CC3F6 /* libcrypto.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libcrypto.a; path = NetworkLibrary/lib/macLibs/lib/OpenSSL/libcrypto.a; sourceTree = "<group>"; };
+		EA5F7CF017DA5F1C007CC3F6 /* libssl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libssl.a; path = NetworkLibrary/lib/macLibs/lib/OpenSSL/libssl.a; sourceTree = "<group>"; };
+		EA5F7CF317DA5F26007CC3F6 /* libcurl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libcurl.a; path = NetworkLibrary/lib/macLibs/lib/cURL/libcurl.a; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EA5F7CCB17DA5C45007CC3F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA5F7CD217DA5C45007CC3F6 /* Foundation.framework in Frameworks */,
+				EA5F7CF117DA5F1C007CC3F6 /* libcrypto.a in Frameworks */,
+				EA5F7CF217DA5F1C007CC3F6 /* libssl.a in Frameworks */,
+				EA5F7CF417DA5F26007CC3F6 /* libcurl.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EA5F7CC517DA5C45007CC3F6 = {
+			isa = PBXGroup;
+			children = (
+				EA5F7CF317DA5F26007CC3F6 /* libcurl.a */,
+				EA5F7CEF17DA5F1C007CC3F6 /* libcrypto.a */,
+				EA5F7CF017DA5F1C007CC3F6 /* libssl.a */,
+				EA5F7CD317DA5C45007CC3F6 /* NetworkLibrary */,
+				EA5F7CD017DA5C45007CC3F6 /* Frameworks */,
+				EA5F7CCF17DA5C45007CC3F6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EA5F7CCF17DA5C45007CC3F6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EA5F7CCE17DA5C45007CC3F6 /* libNetworkLibrary.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EA5F7CD017DA5C45007CC3F6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EA5F7CD117DA5C45007CC3F6 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EA5F7CD317DA5C45007CC3F6 /* NetworkLibrary */ = {
+			isa = PBXGroup;
+			children = (
+				EA5F7CE017DA5CDA007CC3F6 /* NetworkInterface.cpp */,
+				EA5F7CE117DA5CDA007CC3F6 /* Request.cpp */,
+				EA5F7CE217DA5CDA007CC3F6 /* Request.h */,
+				EA5F7CE317DA5CDA007CC3F6 /* Util.h */,
+				EA5F7CDF17DA5CAC007CC3F6 /* NetworkInterface.h */,
+				EA5F7CD417DA5C45007CC3F6 /* Supporting Files */,
+			);
+			path = NetworkLibrary;
+			sourceTree = "<group>";
+		};
+		EA5F7CD417DA5C45007CC3F6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EA5F7CD517DA5C45007CC3F6 /* NetworkLibrary-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EA5F7CCD17DA5C45007CC3F6 /* NetworkLibrary */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA5F7CDC17DA5C45007CC3F6 /* Build configuration list for PBXNativeTarget "NetworkLibrary" */;
+			buildPhases = (
+				EA5F7CCA17DA5C45007CC3F6 /* Sources */,
+				EA5F7CCB17DA5C45007CC3F6 /* Frameworks */,
+				EA5F7CCC17DA5C45007CC3F6 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NetworkLibrary;
+			productName = NetworkLibrary;
+			productReference = EA5F7CCE17DA5C45007CC3F6 /* libNetworkLibrary.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EA5F7CC617DA5C45007CC3F6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = fenghua;
+			};
+			buildConfigurationList = EA5F7CC917DA5C45007CC3F6 /* Build configuration list for PBXProject "NetworkLibrary" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = EA5F7CC517DA5C45007CC3F6;
+			productRefGroup = EA5F7CCF17DA5C45007CC3F6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EA5F7CCD17DA5C45007CC3F6 /* NetworkLibrary */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EA5F7CCA17DA5C45007CC3F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA5F7CEA17DA5DEC007CC3F6 /* NetworkInterface.cpp in Sources */,
+				EA5F7CEB17DA5DEC007CC3F6 /* Request.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		EA5F7CDA17DA5C45007CC3F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EA5F7CDB17DA5C45007CC3F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EA5F7CDD17DA5C45007CC3F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
+				CLANG_CXX_LIBRARY = "compiler-default";
+				CLANG_X86_VECTOR_INSTRUCTIONS = default;
+				CONFIGURATION_TEMP_DIR = "$(SRCROOT)/NetworkLibrary/bin/IOS/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				DSTROOT = /tmp/NetworkLibrary.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NetworkLibrary/NetworkLibrary-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"\"$(SRCROOT)/NetworkLibrary/lib/macLibs/lib/OpenSSL/Headers/\"/**",
+					"\"$(SRCROOT)/NetworkLibrary/lib/macLibs/lib/cURL/Headers/\"/**",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/NetworkLibrary/lib/macLibs/lib/OpenSSL\"/**",
+					"\"$(SRCROOT)/NetworkLibrary/lib/macLibs/lib/cURL\"/**",
+				);
+				OTHER_CODE_SIGN_FLAGS = "armv6 armv7";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				STRIPFLAGS = "armv6 armv7";
+				VALID_ARCHS = "armv7 armv7s i386";
+			};
+			name = Debug;
+		};
+		EA5F7CDE17DA5C45007CC3F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
+				CLANG_CXX_LIBRARY = "compiler-default";
+				CLANG_X86_VECTOR_INSTRUCTIONS = default;
+				DSTROOT = /tmp/NetworkLibrary.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NetworkLibrary/NetworkLibrary-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"\"$(SRCROOT)/NetworkLibrary/lib/macLibs/lib/OpenSSL/Headers/\"/**",
+					"\"$(SRCROOT)/NetworkLibrary/lib/macLibs/lib/cURL/Headers/\"/**",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/NetworkLibrary/lib/macLibs/lib/OpenSSL\"/**",
+					"\"$(SRCROOT)/NetworkLibrary/lib/macLibs/lib/cURL\"/**",
+				);
+				OTHER_CODE_SIGN_FLAGS = "armv6 armv7";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				STRIPFLAGS = "armv6 armv7";
+				VALID_ARCHS = "armv7 armv7s i386";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EA5F7CC917DA5C45007CC3F6 /* Build configuration list for PBXProject "NetworkLibrary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA5F7CDA17DA5C45007CC3F6 /* Debug */,
+				EA5F7CDB17DA5C45007CC3F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA5F7CDC17DA5C45007CC3F6 /* Build configuration list for PBXNativeTarget "NetworkLibrary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA5F7CDD17DA5C45007CC3F6 /* Debug */,
+				EA5F7CDE17DA5C45007CC3F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EA5F7CC617DA5C45007CC3F6 /* Project object */;
+}

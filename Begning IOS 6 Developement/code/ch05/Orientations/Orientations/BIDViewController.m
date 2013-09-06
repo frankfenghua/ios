@@ -9,7 +9,7 @@
 
 @end
 
-@implementation BIDViewController
+@implementation BIDViewController	
 
 - (void)viewDidLoad
 {
@@ -23,13 +23,13 @@
     // Dispose of any resources that can be recreated.
 }
 
-- (BOOL)shouldAutorotate {
-    return YES;
-}
+//- (BOOL)shouldAutorotate {
+//    return YES;
+//}
 
-- (NSUInteger)supportedInterfaceOrientations {
-    return UIInterfaceOrientationMaskLandscapeRight | UIInterfaceOrientationMaskLandscapeLeft | UIInterfaceOrientationMaskPortrait;
-    
-}
+//- (NSUInteger)supportedInterfaceOrientations {
+//    return UIInterfaceOrientationMaskLandscapeRight | UIInterfaceOrientationMaskLandscapeLeft | UIInterfaceOrientationMaskPortrait;
+//    
+//}
 
 @end
