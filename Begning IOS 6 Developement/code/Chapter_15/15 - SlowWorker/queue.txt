@@ -1,0 +1,33 @@
+One of the key concepts of GCD is the queue. The system provides a number of 
+predefined queues, including a queue that’s guaranteed to always do its work on 
+the main thread. It’s perfect for non-thread-safe UIKit! You can also create your own 
+queues—as many as you like. 
+
+GCD queues are strictly first-in, first-out (FIFO). Units of work added to a GCD queue 
+will always be started in the order they were placed in the queue. That being said, they 
+may not always finish in the same order, since a GCD queue will automatically distribute 
+its work among multiple threads, if possible.
+
+The first line grabs a preexisting global queue that’s always available, using the dispatch_get_global_queue() function. That function takes two arguments: the first lets you specify a priority, and the second is currently unused and should always be 0. If you specify a different priority in the first argument, such as DISPATCH_QUEUE_PRIORITY_HIGH or DISPATCH_QUEUE_PRIORITY_LOW, you will actually get a different global queue, which the system will prioritize differently. For now, we’ll stick with the default global queue.
+The queue is then passed to the dispatch_async() function, along with the block of code that comes after. GCD takes that entire block and passes it to a background thread, where it will be executed one step at a time, just as when it was running in the main thread.
+
+
+dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
+        NSString *fetchedData = [self fetchSomethingFromServer];
+        NSString *processedData = [self processData:fetchedData];
+        NSString *firstResult = [self calculateFirstResult:processedData];
+        NSString *secondResult = [self calculateSecondResult:processedData];
+        NSString *resultsSummary = [NSString stringWithFormat:
+                                    @"First: [%@]\nSecond: [%@]", firstResult,
+                                    secondResult];
+        self.resultsTextView.text = resultsSummary;
+        NSDate *endTime = [NSDate date];
+        NSLog(@"Completed in %f seconds",
+});
+
+
+Getting back to the project at hand, there’s one problem here: UIKit thread-safety. Remember that messaging any GUI object, including our resultsTextView, from a background thread is a no-no. Fortunately, GCD provides a way to deal with this, too. Inside the block, we can call another dispatching function, passing work back to the main thread! We do this by once again calling dispatch_async(), this time passing in the queue returned by the dispatch_get_main_queue() function. This always gives us the special queue that lives on the main thread, ready to execute blocks that require the use of the main thread.
+
+dispatch_async(dispatch_get_main_queue(), ^{
+            self.resultsTextView.text = resultsSummary;
+});

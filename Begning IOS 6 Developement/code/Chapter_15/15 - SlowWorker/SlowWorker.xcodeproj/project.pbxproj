@@ -18,6 +18,8 @@
 		A6BBE429160F0EF10037B481 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A6BBE428160F0EF10037B481 /* Default-568h@2x.png */; };
 		A6BBE42C160F0EF10037B481 /* BIDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6BBE42B160F0EF10037B481 /* BIDViewController.m */; };
 		A6BBE42F160F0EF10037B481 /* BIDViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A6BBE42D160F0EF10037B481 /* BIDViewController.xib */; };
+		EA5F7CC017DA35FE007CC3F6 /* block.txt in Resources */ = {isa = PBXBuildFile; fileRef = EA5F7CBF17DA35FE007CC3F6 /* block.txt */; };
+		EA5F7CC217DA3632007CC3F6 /* queue.txt in Resources */ = {isa = PBXBuildFile; fileRef = EA5F7CC117DA3632007CC3F6 /* queue.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +39,8 @@
 		A6BBE42A160F0EF10037B481 /* BIDViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BIDViewController.h; sourceTree = "<group>"; };
 		A6BBE42B160F0EF10037B481 /* BIDViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BIDViewController.m; sourceTree = "<group>"; };
 		A6BBE42E160F0EF10037B481 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/BIDViewController.xib; sourceTree = "<group>"; };
+		EA5F7CBF17DA35FE007CC3F6 /* block.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = block.txt; sourceTree = "<group>"; };
+		EA5F7CC117DA3632007CC3F6 /* queue.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = queue.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 		A6BBE403160F0EF10037B481 = {
 			isa = PBXGroup;
 			children = (
+				EA5F7CC117DA3632007CC3F6 /* queue.txt */,
+				EA5F7CBF17DA35FE007CC3F6 /* block.txt */,
 				A6BBE418160F0EF10037B481 /* SlowWorker */,
 				A6BBE411160F0EF10037B481 /* Frameworks */,
 				A6BBE40F160F0EF10037B481 /* Products */,
@@ -164,6 +170,8 @@
 				A6BBE427160F0EF10037B481 /* Default@2x.png in Resources */,
 				A6BBE429160F0EF10037B481 /* Default-568h@2x.png in Resources */,
 				A6BBE42F160F0EF10037B481 /* BIDViewController.xib in Resources */,
+				EA5F7CC017DA35FE007CC3F6 /* block.txt in Resources */,
+				EA5F7CC217DA3632007CC3F6 /* queue.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,6 +300,7 @@
 				A6BBE434160F0EF10037B481 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

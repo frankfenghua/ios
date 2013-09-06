@@ -1,0 +1,44 @@
+ The idea behind a block is to let a particular chunk of code be treated like any other C-language type.
+A block can be assigned to a variable, passed as an argument to a function or method, 
+and (unlike most other types) executed. In this way, blocks can be used as an alternative to the 
+delegate pattern in Objective-C or to callback functions in C.
+
+Much like a method or function, a block can take one or more parameters and 
+specify a return value. To declare a block variable, you use the caret (^) 
+symbol along with some additional parenthesized bits to declare parameters 
+and return types. To define the block itself, you do roughly the same, but 
+follow it up with the actual code defining the block wrapped in curly braces.
+
+/ Declare a block variable "loggerBlock" with no parameters and no return value.
+void (^loggerBlock)(void);
+
+// Assign a block to the variable declared above.  A block without parameters
+// and with no return value, like this one, needs no "decorations" like the use
+// of void in the preceding variable declaration.
+loggerBlock = ^{ NSLog(@"I'm just glad they didn't call it a lambda"); };
+
+// Execute the block, just like calling a function.
+loggerBlock();  // this produces some output in the console
+
+If you’ve done much C programming, you may recognize that this is similar to the concept of a function pointer in C. However, there are a few critical differences. Perhaps the biggest difference—the one that’s the most striking when you first see it—is that 
+
+1) blocks can be defined in-line in your code. You can define a block right at the point where it’s going to be passed to another method or function. 
+
+2) Another big difference is that a block can access variables available
+in the scope where it’s created. By default, the block makes a copy of any variable you access this way, leaving the original intact, but you can make an outside variable “read/write” by prepending the storage qualifier __block before its declaration. Note that there are two underscores before block, not just one.
+
+
+// define a variable that can be changed by a block
+__block int a = 0;
+
+// define a block that tries to modify a variable in its scope
+void (^sillyBlock)(void) = ^{ a = 47; };
+
+// check the value of our variable before calling the block
+NSLog(@"a == %d", a); // outputs "a == 0"
+
+// execute the block
+sillyBlock();
+
+// check the values of our variable again, after calling the block
+NSLog(@"a == %d", a); // outputs "a == 47"
