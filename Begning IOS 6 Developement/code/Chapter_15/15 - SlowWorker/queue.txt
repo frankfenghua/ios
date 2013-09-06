@@ -31,3 +31,47 @@ Getting back to the project at hand, there’s one problem here: UIKit thread-sa
 dispatch_async(dispatch_get_main_queue(), ^{
             self.resultsTextView.text = resultsSummary;
 });
+
+Concurrent Blocks
+So far, so good, but we’re not quite finished yet! The sharp-eyed among you will notice that after going through these motions, we still haven’t really changed the basic sequential layout of our algorithm (if you can even call this simple list of steps an algorithm). All that we’re doing is moving a chunk of this method to a background thread and then finishing up in the main thread. The Xcode console output proves it: this work takes ten seconds to run, just
+as it did at the outset. The 900-pound gorilla in the room is that calculateFirstResult: and calculateSecondResult: don’t need to be performed in sequence, and doing them concurrently could give us a substantial speedup.
+Fortunately, GCD has a way to accomplish this by using what’s called a dispatch group. All blocks that are dispatched asynchronously within the context of a group, via the dispatch_group_async() function, are set loose to execute as fast as they can, including being distributed to multiple threads for concurrent execution, if possible. We can also use dispatch_group_notify() to specify an additional block that will be executed when all the blocks in the group have been run to completion.
+
+- (IBAction)doWork:(id)sender
+{
+    NSDate *startTime = [NSDate date];
+    self.startButton.enabled = NO;
+    self.startButton.alpha = 0.5f;
+    [self.spinner startAnimating];
+    dispatch_queue_t queue =
+    dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0);
+    dispatch_async(queue, ^{
+        NSString *fetchedData = [self fetchSomethingFromServer];
+        NSString *processedData = [self processData:fetchedData];
+        __block NSString *firstResult;
+        __block NSString *secondResult;
+        dispatch_group_t group = dispatch_group_create();
+        dispatch_group_async(group, queue, ^{
+            firstResult = [self calculateFirstResult:processedData];
+        });
+        dispatch_group_async(group, queue, ^{
+            secondResult = [self calculateSecondResult:processedData];
+        });
+        dispatch_group_notify(group, queue, ^{
+            NSString *resultsSummary = [NSString stringWithFormat:
+                                        @"First: [%@]\nSecond: [%@]", firstResult,
+                                        secondResult];
+            dispatch_async(dispatch_get_main_queue(), ^{
+                self.resultsTextView.text = resultsSummary;
+                self.startButton.enabled = YES;
+                self.startButton.alpha = 1;
+                [self.spinner stopAnimating];
+            });
+            NSDate *endTime = [NSDate date];
+            NSLog(@"Completed in %f seconds",
+                  [endTime timeIntervalSinceDate:startTime]);
+        });
+    });
+}
+
+The performance of CPU-intensive calculations is helped by this technique only if multiple CPU cores are available, and will get better almost for free as more cores are added to future iOS devices. Other uses, such as fetching data from multiple network connections at once, would see a speed increase even with just one CPU.
