@@ -1,0 +1,39 @@
+NSNotificationCenter
+
+see chap12
+
+A notification is a lightweight mechanism that objects can use to communicate with each other. Any object can define one or more notifications that it will publish to the application’s notification center, which is a singleton object that exists only to pass these notifications between objects. Notifications are usually indications that some event occurred, and objects that publish notifications include a list of notifications in their documentation. The UIApplication class publishes a number of notifications (you can find them in the Xcode documentation viewer, toward the bottom of the UIApplication page).
+
+subscribe
+Now, we need to make each of our controllers subscribe to the notification we’re interested in by adding the following lines to the bottom of the viewDidLoad method in both BIDMainViewController.m and BIDFlipsideViewController.m. Here’s the version for BIDMainViewController.m:
+
+- (void)viewWillAppear:(BOOL)animated {
+   [super viewWillAppear:animated];
+   
+   UIApplication *app = [UIApplication sharedApplication];
+   [[NSNotificationCenter defaultCenter] addObserver:self
+   selector:@selector(applicationWillEnterForeground:)
+   name:UIApplicationWillEnterForegroundNotification
+   object:app];
+}
+
+We start off by getting a reference to our application instance and use that to subscribe to the UIApplicationWillEnterForegroundNotification, using the default NSNotificationCenter instance and a method called addObserver:selector:name:object:. We then pass the following to this method:
+
+    For an observer, we pass self, which means that our controller class (each of them individually, since this code is going into both of them) is the object that needs to be notified.
+
+    For selector, we pass a selector to the applicationWillEnterForeground: method we just wrote, telling the notification center to call that method when the notification is posted.
+
+    The third parameter, name:, is the name of the notification that we’re interested in receiving.
+
+    The final parameter, object:, is the object from which we’re interested in getting the notification. If we passed nil for the final parameter, we would get notified any time any method posted the UIApplicationWillEnterForegroundNotification.
+
+Our application needs to refresh its display when the application is about to come to the foreground, so we are interested in the notification called UIApplicationWillEnterForegroundNotification. When we write our viewDidLoad method, we will subscribe to that notification and tell the notification center to call this method when that notification happens. Add this method to both BIDMainViewController.m and BIDFlipsideViewController.m:
+
+
+- (void)applicationWillEnterForeground:(NSNotification *)notification {
+   NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+   [defaults synchronize];
+   [self refreshFields];
+}
+
+The method itself is quite simple. First, it gets a reference to the standard user defaults object and calls its synchronize method, which forces the User Defaults system to save any unsaved changes and also reload any unmodified preferences from storage
