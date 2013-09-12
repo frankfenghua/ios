@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Nine Ball</key>
+	<dict>
+		<key>RackStyle</key>
+		<string>kRackDiamond</string>
+		<key>LastBall</key>
+		<string>9</string>
+		<key>OrderedBalls</key>
+		<true/>
+		<key>GameMode</key>
+		<string>Ordered</string>
+		<key>ReplaceBalls</key>
+		<true/>
+	</dict>
+	<key>Eight Ball</key>
+	<dict>
+		<key>RackStyle</key>
+		<string>kRackTriangle</string>
+		<key>LastBall</key>
+		<string>8</string>
+		<key>OrderedBalls</key>
+		<false/>
+		<key>GameMode</key>
+		<string>StripesVsSolids</string>
+		<key>ReplaceBalls</key>
+		<true/>
+	</dict>
+</dict>
+</plist>
