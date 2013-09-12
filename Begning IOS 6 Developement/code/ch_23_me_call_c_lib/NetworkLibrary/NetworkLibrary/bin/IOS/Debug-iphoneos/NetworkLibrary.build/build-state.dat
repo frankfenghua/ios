@@ -1,0 +1,219 @@
+TNetworkLibrary
+v5
+r1
+cCheck dependencies
+cProcessPCH++ /Users/fenghua/Library/Developer/Xcode/DerivedData/NetworkLibrary-dabbkwpcjgbpdweajehlrfenwomk/Build/Intermediates/PrecompiledHeaders/NetworkLibrary-Prefix-axinqgafartwhuewrizexkgpqnyi/NetworkLibrary-Prefix.pch.pth NetworkLibrary/NetworkLibrary-Prefix.pch normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC NetworkLibrary/bin/IOS/Debug-iphoneos/NetworkLibrary.build/Objects-normal/armv7/NetworkInterface.o "/Users/fenghua/Projects/fhua/learn_ios/Begning IOS 6 Developement/code/ch_23_me_call_c_lib/NetworkLibrary/NetworkLibrary/NetworkInterface.cpp" normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC NetworkLibrary/bin/IOS/Debug-iphoneos/NetworkLibrary.build/Objects-normal/armv7/Request.o "/Users/fenghua/Projects/fhua/learn_ios/Begning IOS 6 Developement/code/ch_23_me_call_c_lib/NetworkLibrary/NetworkLibrary/Request.cpp" normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cLibtool /Users/fenghua/Library/Developer/Xcode/DerivedData/NetworkLibrary-dabbkwpcjgbpdweajehlrfenwomk/Build/Products/Debug-iphoneos/libNetworkLibrary.a normal armv7
+cPBXCp NetworkLibrary/Request.h /Users/fenghua/Library/Developer/Xcode/DerivedData/NetworkLibrary-dabbkwpcjgbpdweajehlrfenwomk/Build/Products/Debug-iphoneos/include/NetworkLibrary/Request.h
+cPBXCp NetworkLibrary/NetworkInterface.h /Users/fenghua/Library/Developer/Xcode/DerivedData/NetworkLibrary-dabbkwpcjgbpdweajehlrfenwomk/Build/Products/Debug-iphoneos/include/NetworkLibrary/NetworkInterface.h
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk
+c0000000050ED385D0000000000000110
+t1357723741
+s272
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c0000000051315595000000000062AD10
+t1362187669
+s6466832
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000005131559500000000000015F7
+t1362187669
+s5623
+
+N/Users/fenghua/Library/Developer/Xcode/DerivedData/NetworkLibrary-dabbkwpcjgbpdweajehlrfenwomk/Build/Intermediates/PrecompiledHeaders/NetworkLibrary-Prefix-axinqgafartwhuewrizexkgpqnyi/NetworkLibrary-Prefix.pch.pth
+t2
+s0
+
+N/Users/fenghua/Library/Developer/Xcode/DerivedData/NetworkLibrary-dabbkwpcjgbpdweajehlrfenwomk/Build/Products/Debug-iphoneos/include/NetworkLibrary/NetworkInterface.h
+t1378495157
+s1164
+
+N/Users/fenghua/Library/Developer/Xcode/DerivedData/NetworkLibrary-dabbkwpcjgbpdweajehlrfenwomk/Build/Products/Debug-iphoneos/include/NetworkLibrary/Request.h
+t1378495157
+s3847
+
+N/Users/fenghua/Library/Developer/Xcode/DerivedData/NetworkLibrary-dabbkwpcjgbpdweajehlrfenwomk/Build/Products/Debug-iphoneos/libNetworkLibrary.a
+t2
+s0
+
+N/Users/fenghua/Projects/fhua/learn_ios/Begning IOS 6 Developement/code/ch_23_me_call_c_lib/NetworkLibrary/NetworkLibrary/NetworkInterface.cpp
+c0000000051CB50E80000000000004C63
+t1372279016
+s19555
+
+N/Users/fenghua/Projects/fhua/learn_ios/Begning IOS 6 Developement/code/ch_23_me_call_c_lib/NetworkLibrary/NetworkLibrary/NetworkInterface.h
+c0000000051CB50E8000000000000048C
+t1372279016
+s1164
+
+N/Users/fenghua/Projects/fhua/learn_ios/Begning IOS 6 Developement/code/ch_23_me_call_c_lib/NetworkLibrary/NetworkLibrary/NetworkLibrary-Prefix.pch
+c00000000522A24C500000000000000A9
+t1378493637
+s169
+i<Foundation/Foundation.h>
+
+N/Users/fenghua/Projects/fhua/learn_ios/Begning IOS 6 Developement/code/ch_23_me_call_c_lib/NetworkLibrary/NetworkLibrary/Request.cpp
+c000000005215274400000000000020F2
+t1377118020
+s8434
+
+N/Users/fenghua/Projects/fhua/learn_ios/Begning IOS 6 Developement/code/ch_23_me_call_c_lib/NetworkLibrary/NetworkLibrary/Request.h
+c0000000051CB50E80000000000000F07
+t1372279016
+s3847
+
+N/Users/fenghua/Projects/fhua/learn_ios/Begning IOS 6 Developement/code/ch_23_me_call_c_lib/NetworkLibrary/NetworkLibrary/bin/IOS/Debug-iphoneos/NetworkLibrary.build/Objects-normal/armv7/NetworkInterface.o
+t2
+s0
+
+N/Users/fenghua/Projects/fhua/learn_ios/Begning IOS 6 Developement/code/ch_23_me_call_c_lib/NetworkLibrary/NetworkLibrary/bin/IOS/Debug-iphoneos/NetworkLibrary.build/Objects-normal/armv7/NetworkLibrary.LinkFileList
+c00000000522A36880000000000000191
+t1378498184
+s401
+
+N/Users/fenghua/Projects/fhua/learn_ios/Begning IOS 6 Developement/code/ch_23_me_call_c_lib/NetworkLibrary/NetworkLibrary/bin/IOS/Debug-iphoneos/NetworkLibrary.build/Objects-normal/armv7/Request.o
+t2
+s0
+
+N/Users/fenghua/Projects/fhua/learn_ios/Begning IOS 6 Developement/code/ch_23_me_call_c_lib/NetworkLibrary/NetworkLibrary/lib/macLibs/lib/OpenSSL/libcrypto.a
+c0000000051CB50EF00000000006FE024
+t1372279023
+s7331876
+
+N/Users/fenghua/Projects/fhua/learn_ios/Begning IOS 6 Developement/code/ch_23_me_call_c_lib/NetworkLibrary/NetworkLibrary/lib/macLibs/lib/OpenSSL/libssl.a
+c0000000051CB50EF000000000013E90C
+t1372279023
+s1304844
+
+N/Users/fenghua/Projects/fhua/learn_ios/Begning IOS 6 Developement/code/ch_23_me_call_c_lib/NetworkLibrary/NetworkLibrary/lib/macLibs/lib/cURL/libcurl.a
+c0000000051CB50EF00000000000EF1BC
+t1372279023
+s979388
+
+CBuild AST from "/Users/fenghua/Projects/fhua/learn_ios/Begning IOS 6 Developement/code/ch_23_me_call_c_lib/NetworkLibrary/NetworkLibrary/NetworkInterface.cpp"
+r0
+
+CBuild AST from "/Users/fenghua/Projects/fhua/learn_ios/Begning IOS 6 Developement/code/ch_23_me_call_c_lib/NetworkLibrary/NetworkLibrary/Request.cpp"
+r0
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciese4ba2d086edab741^425e7b086edab741^---0#1#0#--18"Check dependencies36"A3B8282A-0AE2-4854-BD0D-7F611E3A3B93-
+
+CCompileC NetworkLibrary/bin/IOS/Debug-iphoneos/NetworkLibrary.build/Objects-normal/armv7/NetworkInterface.o "/Users/fenghua/Projects/fhua/learn_ios/Begning IOS 6 Developement/code/ch_23_me_call_c_lib/NetworkLibrary/NetworkLibrary/NetworkInterface.cpp" normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s400190984.613096
+e400190986.790827
+r1
+xCompileC
+xNetworkLibrary/bin/IOS/Debug-iphoneos/NetworkLibrary.build/Objects-normal/armv7/NetworkInterface.o
+x/Users/fenghua/Projects/fhua/learn_ios/Begning IOS 6 Developement/code/ch_23_me_call_c_lib/NetworkLibrary/NetworkLibrary/NetworkInterface.cpp
+xnormal
+xarmv7
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection149"Compile /Users/fenghua/Projects/fhua/learn_ios/Begning IOS 6 Developement/code/ch_23_me_call_c_lib/NetworkLibrary/NetworkLibrary/NetworkInterface.cpp9bac9d086edab741^13bbca0a6edab741^---0#0#0#-19%DVTDocumentLocation2@163"file://localhost/Users/fenghua/Projects/fhua/learn_ios/Begning%20IOS%206%20Developement/code/ch_23_me_call_c_lib/NetworkLibrary/NetworkLibrary/NetworkInterface.cpp0000000000000000^3527"CompileC NetworkLibrary/bin/IOS/Debug-iphoneos/NetworkLibrary.build/Objects-normal/armv7/NetworkInterface.o NetworkLibrary/NetworkInterface.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/fenghua/Projects/fhua/learn_ios/Begning IOS 6 Developement/code/ch_23_me_call_c_lib/NetworkLibrary"    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch armv7 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -g -Wno-sign-conversion -miphoneos-version-min=6.1 "-I/Users/fenghua/Projects/fhua/learn_ios/Begning IOS 6 Developement/code/ch_23_me_call_c_lib/NetworkLibrary/NetworkLibrary/bin/IOS/Debug-iphoneos/NetworkLibrary.build/NetworkLibrary.hmap" -I/Users/fenghua/Library/Developer/Xcode/DerivedData/NetworkLibrary-dabbkwpcjgbpdweajehlrfenwomk/Build/Products/Debug-iphoneos/include -INetworkLibrary/lib/macLibs/lib/OpenSSL/Headers -INetworkLibrary/lib/macLibs/lib/OpenSSL/Headers/openssl -INetworkLibrary/lib/macLibs/lib/cURL/Headers -INetworkLibrary/lib/macLibs/lib/cURL/Headers/curl "-I/Users/fenghua/Projects/fhua/learn_ios/Begning IOS 6 Developement/code/ch_23_me_call_c_lib/NetworkLibrary/NetworkLibrary/bin/IOS/Debug-iphoneos/NetworkLibrary.build/DerivedSources/armv7" "-I/Users/fenghua/Projects/fhua/learn_ios/Begning IOS 6 Developement/code/ch_23_me_call_c_lib/NetworkLibrary/NetworkLibrary/bin/IOS/Debug-iphoneos/NetworkLibrary.build/DerivedSources" -F/Users/fenghua/Library/Developer/Xcode/DerivedData/NetworkLibrary-dabbkwpcjgbpdweajehlrfenwomk/Build/Products/Debug-iphoneos -include /Users/fenghua/Library/Developer/Xcode/DerivedData/NetworkLibrary-dabbkwpcjgbpdweajehlrfenwomk/Build/Intermediates/PrecompiledHeaders/NetworkLibrary-Prefix-axinqgafartwhuewrizexkgpqnyi/NetworkLibrary-Prefix.pch -MMD -MT dependencies -MF "/Users/fenghua/Projects/fhua/learn_ios/Begning IOS 6 Developement/code/ch_23_me_call_c_lib/NetworkLibrary/NetworkLibrary/bin/IOS/Debug-iphoneos/NetworkLibrary.build/Objects-normal/armv7/NetworkInterface.d" --serialize-diagnostics "/Users/fenghua/Projects/fhua/learn_ios/Begning IOS 6 Developement/code/ch_23_me_call_c_lib/NetworkLibrary/NetworkLibrary/bin/IOS/Debug-iphoneos/NetworkLibrary.build/Objects-normal/armv7/NetworkInterface.dia" -c "/Users/fenghua/Projects/fhua/learn_ios/Begning IOS 6 Developement/code/ch_23_me_call_c_lib/NetworkLibrary/NetworkLibrary/NetworkInterface.cpp" -o "/Users/fenghua/Projects/fhua/learn_ios/Begning IOS 6 Developement/code/ch_23_me_call_c_lib/NetworkLibrary/NetworkLibrary/bin/IOS/Debug-iphoneos/NetworkLibrary.build/Objects-normal/armv7/NetworkInterface.o"36"1CEFDD2A-FA9B-4CEF-A6D3-C4E23AF0B74D-
+
+CCompileC NetworkLibrary/bin/IOS/Debug-iphoneos/NetworkLibrary.build/Objects-normal/armv7/Request.o "/Users/fenghua/Projects/fhua/learn_ios/Begning IOS 6 Developement/code/ch_23_me_call_c_lib/NetworkLibrary/NetworkLibrary/Request.cpp" normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s400190984.613459
+e400190984.888265
+r1
+xCompileC
+xNetworkLibrary/bin/IOS/Debug-iphoneos/NetworkLibrary.build/Objects-normal/armv7/Request.o
+x/Users/fenghua/Projects/fhua/learn_ios/Begning IOS 6 Developement/code/ch_23_me_call_c_lib/NetworkLibrary/NetworkLibrary/Request.cpp
+xnormal
+xarmv7
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection140"Compile /Users/fenghua/Projects/fhua/learn_ios/Begning IOS 6 Developement/code/ch_23_me_call_c_lib/NetworkLibrary/NetworkLibrary/Request.cppfa269d086edab741^49f7e3086edab741^---0#0#0#-19%DVTDocumentLocation2@154"file://localhost/Users/fenghua/Projects/fhua/learn_ios/Begning%20IOS%206%20Developement/code/ch_23_me_call_c_lib/NetworkLibrary/NetworkLibrary/Request.cpp0000000000000000^3473"CompileC NetworkLibrary/bin/IOS/Debug-iphoneos/NetworkLibrary.build/Objects-normal/armv7/Request.o NetworkLibrary/Request.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/fenghua/Projects/fhua/learn_ios/Begning IOS 6 Developement/code/ch_23_me_call_c_lib/NetworkLibrary"    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch armv7 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -g -Wno-sign-conversion -miphoneos-version-min=6.1 "-I/Users/fenghua/Projects/fhua/learn_ios/Begning IOS 6 Developement/code/ch_23_me_call_c_lib/NetworkLibrary/NetworkLibrary/bin/IOS/Debug-iphoneos/NetworkLibrary.build/NetworkLibrary.hmap" -I/Users/fenghua/Library/Developer/Xcode/DerivedData/NetworkLibrary-dabbkwpcjgbpdweajehlrfenwomk/Build/Products/Debug-iphoneos/include -INetworkLibrary/lib/macLibs/lib/OpenSSL/Headers -INetworkLibrary/lib/macLibs/lib/OpenSSL/Headers/openssl -INetworkLibrary/lib/macLibs/lib/cURL/Headers -INetworkLibrary/lib/macLibs/lib/cURL/Headers/curl "-I/Users/fenghua/Projects/fhua/learn_ios/Begning IOS 6 Developement/code/ch_23_me_call_c_lib/NetworkLibrary/NetworkLibrary/bin/IOS/Debug-iphoneos/NetworkLibrary.build/DerivedSources/armv7" "-I/Users/fenghua/Projects/fhua/learn_ios/Begning IOS 6 Developement/code/ch_23_me_call_c_lib/NetworkLibrary/NetworkLibrary/bin/IOS/Debug-iphoneos/NetworkLibrary.build/DerivedSources" -F/Users/fenghua/Library/Developer/Xcode/DerivedData/NetworkLibrary-dabbkwpcjgbpdweajehlrfenwomk/Build/Products/Debug-iphoneos -include /Users/fenghua/Library/Developer/Xcode/DerivedData/NetworkLibrary-dabbkwpcjgbpdweajehlrfenwomk/Build/Intermediates/PrecompiledHeaders/NetworkLibrary-Prefix-axinqgafartwhuewrizexkgpqnyi/NetworkLibrary-Prefix.pch -MMD -MT dependencies -MF "/Users/fenghua/Projects/fhua/learn_ios/Begning IOS 6 Developement/code/ch_23_me_call_c_lib/NetworkLibrary/NetworkLibrary/bin/IOS/Debug-iphoneos/NetworkLibrary.build/Objects-normal/armv7/Request.d" --serialize-diagnostics "/Users/fenghua/Projects/fhua/learn_ios/Begning IOS 6 Developement/code/ch_23_me_call_c_lib/NetworkLibrary/NetworkLibrary/bin/IOS/Debug-iphoneos/NetworkLibrary.build/Objects-normal/armv7/Request.dia" -c "/Users/fenghua/Projects/fhua/learn_ios/Begning IOS 6 Developement/code/ch_23_me_call_c_lib/NetworkLibrary/NetworkLibrary/Request.cpp" -o "/Users/fenghua/Projects/fhua/learn_ios/Begning IOS 6 Developement/code/ch_23_me_call_c_lib/NetworkLibrary/NetworkLibrary/bin/IOS/Debug-iphoneos/NetworkLibrary.build/Objects-normal/armv7/Request.o"36"9BFC5DF8-D3F8-4A65-A1F8-EEF0FA0BE54E-
+
+CLibtool /Users/fenghua/Library/Developer/Xcode/DerivedData/NetworkLibrary-dabbkwpcjgbpdweajehlrfenwomk/Build/Products/Debug-iphoneos/libNetworkLibrary.a normal armv7
+s400190986.804844
+e400190988.020167
+r1
+xLibtool
+x/Users/fenghua/Library/Developer/Xcode/DerivedData/NetworkLibrary-dabbkwpcjgbpdweajehlrfenwomk/Build/Products/Debug-iphoneos/libNetworkLibrary.a
+xnormal
+xarmv7
+o/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: -dynamic not specified the following flags are invalid: -ObjC 
+o/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: NetworkLibrary/lib/macLibs/lib/OpenSSL/libcrypto.a(ebcdic.o) has no symbols
+o/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: NetworkLibrary/lib/macLibs/lib/OpenSSL/libcrypto.a(fips_ers.o) has no symbols
+o/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: NetworkLibrary/lib/macLibs/lib/OpenSSL/libcrypto.a(ecp_nistp224.o) has no symbols
+o/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: NetworkLibrary/lib/macLibs/lib/OpenSSL/libcrypto.a(ecp_nistp256.o) has no symbols
+o/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: NetworkLibrary/lib/macLibs/lib/OpenSSL/libcrypto.a(ecp_nistp521.o) has no symbols
+o/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: NetworkLibrary/lib/macLibs/lib/OpenSSL/libcrypto.a(ecp_nistputil.o) has no symbols
+o/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: NetworkLibrary/lib/macLibs/lib/OpenSSL/libcrypto.a(rand_win.o) has no symbols
+o/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: NetworkLibrary/lib/macLibs/lib/OpenSSL/libcrypto.a(rand_os2.o) has no symbols
+o/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: NetworkLibrary/lib/macLibs/lib/OpenSSL/libcrypto.a(rand_nw.o) has no symbols
+o/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: NetworkLibrary/lib/macLibs/lib/OpenSSL/libcrypto.a(e_rc5.o) has no symbols
+o/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: NetworkLibrary/lib/macLibs/lib/OpenSSL/libcrypto.a(m_md2.o) has no symbols
+o/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: NetworkLibrary/lib/macLibs/lib/OpenSSL/libcrypto.a(evp_fips.o) has no symbols
+o/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: NetworkLibrary/lib/macLibs/lib/OpenSSL/libcrypto.a(v3_asid.o) has no symbols
+o/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: NetworkLibrary/lib/macLibs/lib/OpenSSL/libcrypto.a(v3_addr.o) has no symbols
+o/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: NetworkLibrary/lib/macLibs/lib/OpenSSL/libcrypto.a(cms_cd.o) has no symbols
+o/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: NetworkLibrary/lib/macLibs/lib/OpenSSL/libcrypto.a(e_gmp.o) has no symbols
+o/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: NetworkLibrary/lib/macLibs/lib/OpenSSL/libssl.a(kssl.o) has no symbols
+o/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: NetworkLibrary/lib/macLibs/lib/cURL/libcurl.a(libcurl_la-ldap.o) has no symbols
+o/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: NetworkLibrary/lib/macLibs/lib/cURL/libcurl.a(libcurl_la-security.o) has no symbols
+o/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: NetworkLibrary/lib/macLibs/lib/cURL/libcurl.a(libcurl_la-krb4.o) has no symbols
+o/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: NetworkLibrary/lib/macLibs/lib/cURL/libcurl.a(libcurl_la-krb5.o) has no symbols
+o/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: NetworkLibrary/lib/macLibs/lib/cURL/libcurl.a(libcurl_la-memdebug.o) has no symbols
+o/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: NetworkLibrary/lib/macLibs/lib/cURL/libcurl.a(libcurl_la-strtok.o) has no symbols
+o/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: NetworkLibrary/lib/macLibs/lib/cURL/libcurl.a(libcurl_la-md4.o) has no symbols
+o/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: NetworkLibrary/lib/macLibs/lib/cURL/libcurl.a(libcurl_la-http_negotiate.o) has no symbols
+o/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: NetworkLibrary/lib/macLibs/lib/cURL/libcurl.a(libcurl_la-inet_pton.o) has no symbols
+o/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: NetworkLibrary/lib/macLibs/lib/cURL/libcurl.a(libcurl_la-strtoofft.o) has no symbols
+o/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: NetworkLibrary/lib/macLibs/lib/cURL/libcurl.a(libcurl_la-amigaos.o) has no symbols
+o/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: NetworkLibrary/lib/macLibs/lib/cURL/libcurl.a(libcurl_la-hostasyn.o) has no symbols
+o/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: NetworkLibrary/lib/macLibs/lib/cURL/libcurl.a(libcurl_la-hostip6.o) has no symbols
+o/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: NetworkLibrary/lib/macLibs/lib/cURL/libcurl.a(libcurl_la-inet_ntop.o) has no symbols
+o/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: NetworkLibrary/lib/macLibs/lib/cURL/libcurl.a(libcurl_la-gtls.o) has no symbols
+o/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: NetworkLibrary/lib/macLibs/lib/cURL/libcurl.a(libcurl_la-strdup.o) has no symbols
+o/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: NetworkLibrary/lib/macLibs/lib/cURL/libcurl.a(libcurl_la-ssh.o) has no symbols
+o/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: NetworkLibrary/lib/macLibs/lib/cURL/libcurl.a(libcurl_la-nss.o) has no symbols
+o/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: NetworkLibrary/lib/macLibs/lib/cURL/libcurl.a(libcurl_la-qssl.o) has no symbols
+o/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: NetworkLibrary/lib/macLibs/lib/cURL/libcurl.a(libcurl_la-socks_gssapi.o) has no symbols
+o/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: NetworkLibrary/lib/macLibs/lib/cURL/libcurl.a(libcurl_la-socks_sspi.o) has no symbols
+o/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: NetworkLibrary/lib/macLibs/lib/cURL/libcurl.a(libcurl_la-curl_sspi.o) has no symbols
+o/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: NetworkLibrary/lib/macLibs/lib/cURL/libcurl.a(libcurl_la-curl_threads.o) has no symbols
+o/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: NetworkLibrary/lib/macLibs/lib/cURL/libcurl.a(libcurl_la-polarssl.o) has no symbols
+o/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: NetworkLibrary/lib/macLibs/lib/cURL/libcurl.a(libcurl_la-curl_rtmp.o) has no symbols
+o/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: NetworkLibrary/lib/macLibs/lib/cURL/libcurl.a(libcurl_la-openldap.o) has no symbols
+o/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: NetworkLibrary/lib/macLibs/lib/cURL/libcurl.a(libcurl_la-axtls.o) has no symbols
+o/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: NetworkLibrary/lib/macLibs/lib/cURL/libcurl.a(libcurl_la-idn_win32.o) has no symbols
+o/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: NetworkLibrary/lib/macLibs/lib/cURL/libcurl.a(libcurl_la-http_negotiate_sspi.o) has no symbols
+o/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: NetworkLibrary/lib/macLibs/lib/cURL/libcurl.a(libcurl_la-cyassl.o) has no symbols
+o/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: NetworkLibrary/lib/macLibs/lib/cURL/libcurl.a(libcurl_la-non-ascii.o) has no symbols
+o/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: NetworkLibrary/lib/macLibs/lib/cURL/libcurl.a(libcurl_la-asyn-ares.o) has no symbols
+o/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: NetworkLibrary/lib/macLibs/lib/cURL/libcurl.a(libcurl_la-asyn-thread.o) has no symbols
+o/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: NetworkLibrary/lib/macLibs/lib/cURL/libcurl.a(libcurl_la-curl_gssapi.o) has no symbols
+o/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: NetworkLibrary/lib/macLibs/lib/cURL/libcurl.a(libcurl_la-curl_schannel.o) has no symbols
+o/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: NetworkLibrary/lib/macLibs/lib/cURL/libcurl.a(libcurl_la-curl_multibyte.o) has no symbols
+o/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: NetworkLibrary/lib/macLibs/lib/cURL/libcurl.a(libcurl_la-curl_darwinssl.o) has no symbols
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection165"Libtool /Users/fenghua/Library/Developer/Xcode/DerivedData/NetworkLibrary-dabbkwpcjgbpdweajehlrfenwomk/Build/Products/Debug-iphoneos/libNetworkLibrary.a normal armv71c26ce0a6edab741^bb29050c6edab741^-10107"/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: -dynamic not specified the following flags are invalid: -ObjC /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: NetworkLibrary/lib/macLibs/lib/OpenSSL/libcrypto.a(ebcdic.o) has no symbols/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: NetworkLibrary/lib/macLibs/lib/OpenSSL/libcrypto.a(fips_ers.o) has no symbols/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: NetworkLibrary/lib/macLibs/lib/OpenSSL/libcrypto.a(ecp_nistp224.o) has no symbols/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: NetworkLibrary/lib/macLibs/lib/OpenSSL/libcrypto.a(ecp_nistp256.o) has no symbols/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: NetworkLibrary/lib/macLibs/lib/OpenSSL/libcrypto.a(ecp_nistp521.o) has no symbols/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: NetworkLibrary/lib/macLibs/lib/OpenSSL/libcrypto.a(ecp_nistputil.o) has no symbols/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: NetworkLibrary/lib/macLibs/lib/OpenSSL/libcrypto.a(rand_win.o) has no symbols/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: NetworkLibrary/lib/macLibs/lib/OpenSSL/libcrypto.a(rand_os2.o) has no symbols/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: NetworkLibrary/lib/macLibs/lib/OpenSSL/libcrypto.a(rand_nw.o) has no symbols/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: NetworkLibrary/lib/macLibs/lib/OpenSSL/libcrypto.a(e_rc5.o) has no symbols/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: NetworkLibrary/lib/macLibs/lib/OpenSSL/libcrypto.a(m_md2.o) has no symbols/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: NetworkLibrary/lib/macLibs/lib/OpenSSL/libcrypto.a(evp_fips.o) has no symbols/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: NetworkLibrary/lib/macLibs/lib/OpenSSL/libcrypto.a(v3_asid.o) has no symbols/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: NetworkLibrary/lib/macLibs/lib/OpenSSL/libcrypto.a(v3_addr.o) has no symbols/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: NetworkLibrary/lib/macLibs/lib/OpenSSL/libcrypto.a(cms_cd.o) has no symbols/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: NetworkLibrary/lib/macLibs/lib/OpenSSL/libcrypto.a(e_gmp.o) has no symbols/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: NetworkLibrary/lib/macLibs/lib/OpenSSL/libssl.a(kssl.o) has no symbols/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: NetworkLibrary/lib/macLibs/lib/cURL/libcurl.a(libcurl_la-ldap.o) has no symbols/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: NetworkLibrary/lib/macLibs/lib/cURL/libcurl.a(libcurl_la-security.o) has no symbols/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: NetworkLibrary/lib/macLibs/lib/cURL/libcurl.a(libcurl_la-krb4.o) has no symbols/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: NetworkLibrary/lib/macLibs/lib/cURL/libcurl.a(libcurl_la-krb5.o) has no symbols/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: NetworkLibrary/lib/macLibs/lib/cURL/libcurl.a(libcurl_la-memdebug.o) has no symbols/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: NetworkLibrary/lib/macLibs/lib/cURL/libcurl.a(libcurl_la-strtok.o) has no symbols/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: NetworkLibrary/lib/macLibs/lib/cURL/libcurl.a(libcurl_la-md4.o) has no symbols/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: NetworkLibrary/lib/macLibs/lib/cURL/libcurl.a(libcurl_la-http_negotiate.o) has no symbols/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: NetworkLibrary/lib/macLibs/lib/cURL/libcurl.a(libcurl_la-inet_pton.o) has no symbols/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: NetworkLibrary/lib/macLibs/lib/cURL/libcurl.a(libcurl_la-strtoofft.o) has no symbols/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: NetworkLibrary/lib/macLibs/lib/cURL/libcurl.a(libcurl_la-amigaos.o) has no symbols/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: NetworkLibrary/lib/macLibs/lib/cURL/libcurl.a(libcurl_la-hostasyn.o) has no symbols/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: NetworkLibrary/lib/macLibs/lib/cURL/libcurl.a(libcurl_la-hostip6.o) has no symbols/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: NetworkLibrary/lib/macLibs/lib/cURL/libcurl.a(libcurl_la-inet_ntop.o) has no symbols/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: NetworkLibrary/lib/macLibs/lib/cURL/libcurl.a(libcurl_la-gtls.o) has no symbols/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: NetworkLibrary/lib/macLibs/lib/cURL/libcurl.a(libcurl_la-strdup.o) has no symbols/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: NetworkLibrary/lib/macLibs/lib/cURL/libcurl.a(libcurl_la-ssh.o) has no symbols/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: NetworkLibrary/lib/macLibs/lib/cURL/libcurl.a(libcurl_la-nss.o) has no symbols/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: NetworkLibrary/lib/macLibs/lib/cURL/libcurl.a(libcurl_la-qssl.o) has no symbols/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: NetworkLibrary/lib/macLibs/lib/cURL/libcurl.a(libcurl_la-socks_gssapi.o) has no symbols/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: NetworkLibrary/lib/macLibs/lib/cURL/libcurl.a(libcurl_la-socks_sspi.o) has no symbols/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: NetworkLibrary/lib/macLibs/lib/cURL/libcurl.a(libcurl_la-curl_sspi.o) has no symbols/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: NetworkLibrary/lib/macLibs/lib/cURL/libcurl.a(libcurl_la-curl_threads.o) has no symbols/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: NetworkLibrary/lib/macLibs/lib/cURL/libcurl.a(libcurl_la-polarssl.o) has no symbols/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: NetworkLibrary/lib/macLibs/lib/cURL/libcurl.a(libcurl_la-curl_rtmp.o) has no symbols/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: NetworkLibrary/lib/macLibs/lib/cURL/libcurl.a(libcurl_la-openldap.o) has no symbols/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: NetworkLibrary/lib/macLibs/lib/cURL/libcurl.a(libcurl_la-axtls.o) has no symbols/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: NetworkLibrary/lib/macLibs/lib/cURL/libcurl.a(libcurl_la-idn_win32.o) has no symbols/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: NetworkLibrary/lib/macLibs/lib/cURL/libcurl.a(libcurl_la-http_negotiate_sspi.o) has no symbols/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: NetworkLibrary/lib/macLibs/lib/cURL/libcurl.a(libcurl_la-cyassl.o) has no symbols/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: NetworkLibrary/lib/macLibs/lib/cURL/libcurl.a(libcurl_la-non-ascii.o) has no symbols/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: NetworkLibrary/lib/macLibs/lib/cURL/libcurl.a(libcurl_la-asyn-ares.o) has no symbols/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: NetworkLibrary/lib/macLibs/lib/cURL/libcurl.a(libcurl_la-asyn-thread.o) has no symbols/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: NetworkLibrary/lib/macLibs/lib/cURL/libcurl.a(libcurl_la-curl_gssapi.o) has no symbols/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: NetworkLibrary/lib/macLibs/lib/cURL/libcurl.a(libcurl_la-curl_schannel.o) has no symbols/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: NetworkLibrary/lib/macLibs/lib/cURL/libcurl.a(libcurl_la-curl_multibyte.o) has no symbols/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: NetworkLibrary/lib/macLibs/lib/cURL/libcurl.a(libcurl_la-curl_darwinssl.o) has no symbols-0#0#0#--1582"Libtool /Users/fenghua/Library/Developer/Xcode/DerivedData/NetworkLibrary-dabbkwpcjgbpdweajehlrfenwomk/Build/Products/Debug-iphoneos/libNetworkLibrary.a normal armv7    cd "/Users/fenghua/Projects/fhua/learn_ios/Begning IOS 6 Developement/code/ch_23_me_call_c_lib/NetworkLibrary"    setenv IPHONEOS_DEPLOYMENT_TARGET 6.1    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only armv7 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -L/Users/fenghua/Library/Developer/Xcode/DerivedData/NetworkLibrary-dabbkwpcjgbpdweajehlrfenwomk/Build/Products/Debug-iphoneos -LNetworkLibrary/lib/macLibs/lib/OpenSSL -LNetworkLibrary/lib/macLibs/lib/OpenSSL/Headers -LNetworkLibrary/lib/macLibs/lib/OpenSSL/Headers/openssl -LNetworkLibrary/lib/macLibs/lib/cURL -LNetworkLibrary/lib/macLibs/lib/cURL/Headers -LNetworkLibrary/lib/macLibs/lib/cURL/Headers/curl -filelist "/Users/fenghua/Projects/fhua/learn_ios/Begning IOS 6 Developement/code/ch_23_me_call_c_lib/NetworkLibrary/NetworkLibrary/bin/IOS/Debug-iphoneos/NetworkLibrary.build/Objects-normal/armv7/NetworkLibrary.LinkFileList" -ObjC -framework Foundation -lcrypto -lssl -lcurl -o /Users/fenghua/Library/Developer/Xcode/DerivedData/NetworkLibrary-dabbkwpcjgbpdweajehlrfenwomk/Build/Products/Debug-iphoneos/libNetworkLibrary.a36"48B92F9E-EE95-4BE5-8584-3FD4FC997920-
+
+CPBXCp NetworkLibrary/NetworkInterface.h /Users/fenghua/Library/Developer/Xcode/DerivedData/NetworkLibrary-dabbkwpcjgbpdweajehlrfenwomk/Build/Products/Debug-iphoneos/include/NetworkLibrary/NetworkInterface.h
+r0
+
+CPBXCp NetworkLibrary/Request.h /Users/fenghua/Library/Developer/Xcode/DerivedData/NetworkLibrary-dabbkwpcjgbpdweajehlrfenwomk/Build/Products/Debug-iphoneos/include/NetworkLibrary/Request.h
+r0
+
+CProcessPCH++ /Users/fenghua/Library/Developer/Xcode/DerivedData/NetworkLibrary-dabbkwpcjgbpdweajehlrfenwomk/Build/Intermediates/PrecompiledHeaders/NetworkLibrary-Prefix-axinqgafartwhuewrizexkgpqnyi/NetworkLibrary-Prefix.pch.pth NetworkLibrary/NetworkLibrary-Prefix.pch normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s400190984.487564
+e400190984.604479
+r1
+xProcessPCH++
+x/Users/fenghua/Library/Developer/Xcode/DerivedData/NetworkLibrary-dabbkwpcjgbpdweajehlrfenwomk/Build/Intermediates/PrecompiledHeaders/NetworkLibrary-Prefix-axinqgafartwhuewrizexkgpqnyi/NetworkLibrary-Prefix.pch.pth
+xNetworkLibrary/NetworkLibrary-Prefix.pch
+xnormal
+xarmv7
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection51"Precompile NetworkLibrary/NetworkLibrary-Prefix.pch2cf57c086edab741^1f869e086edab741^---0#0#0#-19%DVTDocumentLocation2@168"file://localhost/Users/fenghua/Projects/fhua/learn_ios/Begning%20IOS%206%20Developement/code/ch_23_me_call_c_lib/NetworkLibrary/NetworkLibrary/NetworkLibrary-Prefix.pch0000000000000000^3464"ProcessPCH++ /Users/fenghua/Library/Developer/Xcode/DerivedData/NetworkLibrary-dabbkwpcjgbpdweajehlrfenwomk/Build/Intermediates/PrecompiledHeaders/NetworkLibrary-Prefix-axinqgafartwhuewrizexkgpqnyi/NetworkLibrary-Prefix.pch.pth NetworkLibrary/NetworkLibrary-Prefix.pch normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/fenghua/Projects/fhua/learn_ios/Begning IOS 6 Developement/code/ch_23_me_call_c_lib/NetworkLibrary"    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++-header -arch armv7 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -g -Wno-sign-conversion -miphoneos-version-min=6.1 "-I/Users/fenghua/Projects/fhua/learn_ios/Begning IOS 6 Developement/code/ch_23_me_call_c_lib/NetworkLibrary/NetworkLibrary/bin/IOS/Debug-iphoneos/NetworkLibrary.build/NetworkLibrary.hmap" -I/Users/fenghua/Library/Developer/Xcode/DerivedData/NetworkLibrary-dabbkwpcjgbpdweajehlrfenwomk/Build/Products/Debug-iphoneos/include -INetworkLibrary/lib/macLibs/lib/OpenSSL/Headers -INetworkLibrary/lib/macLibs/lib/OpenSSL/Headers/openssl -INetworkLibrary/lib/macLibs/lib/cURL/Headers -INetworkLibrary/lib/macLibs/lib/cURL/Headers/curl "-I/Users/fenghua/Projects/fhua/learn_ios/Begning IOS 6 Developement/code/ch_23_me_call_c_lib/NetworkLibrary/NetworkLibrary/bin/IOS/Debug-iphoneos/NetworkLibrary.build/DerivedSources/armv7" "-I/Users/fenghua/Projects/fhua/learn_ios/Begning IOS 6 Developement/code/ch_23_me_call_c_lib/NetworkLibrary/NetworkLibrary/bin/IOS/Debug-iphoneos/NetworkLibrary.build/DerivedSources" -F/Users/fenghua/Library/Developer/Xcode/DerivedData/NetworkLibrary-dabbkwpcjgbpdweajehlrfenwomk/Build/Products/Debug-iphoneos --serialize-diagnostics /Users/fenghua/Library/Developer/Xcode/DerivedData/NetworkLibrary-dabbkwpcjgbpdweajehlrfenwomk/Build/Intermediates/PrecompiledHeaders/NetworkLibrary-Prefix-axinqgafartwhuewrizexkgpqnyi/NetworkLibrary-Prefix.pch.dia -c "/Users/fenghua/Projects/fhua/learn_ios/Begning IOS 6 Developement/code/ch_23_me_call_c_lib/NetworkLibrary/NetworkLibrary/NetworkLibrary-Prefix.pch" -o /Users/fenghua/Library/Developer/Xcode/DerivedData/NetworkLibrary-dabbkwpcjgbpdweajehlrfenwomk/Build/Intermediates/PrecompiledHeaders/NetworkLibrary-Prefix-axinqgafartwhuewrizexkgpqnyi/NetworkLibrary-Prefix.pch.pth -MMD -MT dependencies -MF /Users/fenghua/Library/Developer/Xcode/DerivedData/NetworkLibrary-dabbkwpcjgbpdweajehlrfenwomk/Build/Intermediates/PrecompiledHeaders/NetworkLibrary-Prefix-axinqgafartwhuewrizexkgpqnyi/NetworkLibrary-Prefix.pch.d36"52D19BCC-B959-41E7-8915-E97593E8C1E5-
+
+CProcessPCH++ /Users/fenghua/Library/Developer/Xcode/DerivedData/NetworkLibrary-dabbkwpcjgbpdweajehlrfenwomk/Index/PrecompiledHeaders/NetworkLibrary-Prefix-agtkqqbknibevqckvnqvqzniscuq_ast/NetworkLibrary-Prefix.pch.pth NetworkLibrary/NetworkLibrary-Prefix.pch normal armv7 c++ com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+

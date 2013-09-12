@@ -1,0 +1,1121 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8E0C5EA415ED5E1E009818E0 /* PhysicsActor.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E0C5EA315ED5E1E009818E0 /* PhysicsActor.m */; };
+		8E65ED0E15D9C691009C0EE8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E65ED0D15D9C691009C0EE8 /* UIKit.framework */; };
+		8E65ED1015D9C691009C0EE8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E65ED0F15D9C691009C0EE8 /* Foundation.framework */; };
+		8E65ED1215D9C691009C0EE8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E65ED1115D9C691009C0EE8 /* CoreGraphics.framework */; };
+		8E65ED1815D9C691009C0EE8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8E65ED1615D9C691009C0EE8 /* InfoPlist.strings */; };
+		8E65ED1A15D9C691009C0EE8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E65ED1915D9C691009C0EE8 /* main.m */; };
+		8E65ED1E15D9C691009C0EE8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E65ED1D15D9C691009C0EE8 /* AppDelegate.m */; };
+		8E65ED2115D9C691009C0EE8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E65ED2015D9C691009C0EE8 /* ViewController.m */; };
+		8E65EEC115D9C998009C0EE8 /* Box2DConfig.cmake in Resources */ = {isa = PBXBuildFile; fileRef = 8E65EE5E15D9C998009C0EE8 /* Box2DConfig.cmake */; };
+		8E65EEC215D9C998009C0EE8 /* CMakeLists.txt in Resources */ = {isa = PBXBuildFile; fileRef = 8E65EE5F15D9C998009C0EE8 /* CMakeLists.txt */; };
+		8E65EEC315D9C998009C0EE8 /* b2BroadPhase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8E65EE6115D9C998009C0EE8 /* b2BroadPhase.cpp */; };
+		8E65EEC415D9C998009C0EE8 /* b2CollideCircle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8E65EE6315D9C998009C0EE8 /* b2CollideCircle.cpp */; };
+		8E65EEC515D9C998009C0EE8 /* b2CollideEdge.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8E65EE6415D9C998009C0EE8 /* b2CollideEdge.cpp */; };
+		8E65EEC615D9C998009C0EE8 /* b2CollidePolygon.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8E65EE6515D9C998009C0EE8 /* b2CollidePolygon.cpp */; };
+		8E65EEC715D9C998009C0EE8 /* b2Collision.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8E65EE6615D9C998009C0EE8 /* b2Collision.cpp */; };
+		8E65EEC815D9C998009C0EE8 /* b2Distance.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8E65EE6815D9C998009C0EE8 /* b2Distance.cpp */; };
+		8E65EEC915D9C998009C0EE8 /* b2DynamicTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8E65EE6A15D9C998009C0EE8 /* b2DynamicTree.cpp */; };
+		8E65EECA15D9C998009C0EE8 /* b2TimeOfImpact.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8E65EE6C15D9C998009C0EE8 /* b2TimeOfImpact.cpp */; };
+		8E65EECB15D9C998009C0EE8 /* b2ChainShape.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8E65EE6F15D9C998009C0EE8 /* b2ChainShape.cpp */; };
+		8E65EECC15D9C998009C0EE8 /* b2CircleShape.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8E65EE7115D9C998009C0EE8 /* b2CircleShape.cpp */; };
+		8E65EECD15D9C998009C0EE8 /* b2EdgeShape.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8E65EE7315D9C998009C0EE8 /* b2EdgeShape.cpp */; };
+		8E65EECE15D9C998009C0EE8 /* b2PolygonShape.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8E65EE7515D9C998009C0EE8 /* b2PolygonShape.cpp */; };
+		8E65EECF15D9C998009C0EE8 /* b2BlockAllocator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8E65EE7915D9C998009C0EE8 /* b2BlockAllocator.cpp */; };
+		8E65EED015D9C998009C0EE8 /* b2Draw.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8E65EE7B15D9C998009C0EE8 /* b2Draw.cpp */; };
+		8E65EED115D9C998009C0EE8 /* b2Math.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8E65EE7E15D9C998009C0EE8 /* b2Math.cpp */; };
+		8E65EED215D9C998009C0EE8 /* b2Settings.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8E65EE8015D9C998009C0EE8 /* b2Settings.cpp */; };
+		8E65EED315D9C998009C0EE8 /* b2StackAllocator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8E65EE8215D9C998009C0EE8 /* b2StackAllocator.cpp */; };
+		8E65EED415D9C998009C0EE8 /* b2Timer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8E65EE8415D9C998009C0EE8 /* b2Timer.cpp */; };
+		8E65EED515D9C998009C0EE8 /* b2Body.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8E65EE8715D9C998009C0EE8 /* b2Body.cpp */; };
+		8E65EED615D9C998009C0EE8 /* b2ContactManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8E65EE8915D9C998009C0EE8 /* b2ContactManager.cpp */; };
+		8E65EED715D9C998009C0EE8 /* b2Fixture.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8E65EE8B15D9C998009C0EE8 /* b2Fixture.cpp */; };
+		8E65EED815D9C998009C0EE8 /* b2Island.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8E65EE8D15D9C998009C0EE8 /* b2Island.cpp */; };
+		8E65EED915D9C998009C0EE8 /* b2World.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8E65EE9015D9C998009C0EE8 /* b2World.cpp */; };
+		8E65EEDA15D9C998009C0EE8 /* b2WorldCallbacks.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8E65EE9215D9C998009C0EE8 /* b2WorldCallbacks.cpp */; };
+		8E65EEDB15D9C998009C0EE8 /* b2ChainAndCircleContact.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8E65EE9515D9C998009C0EE8 /* b2ChainAndCircleContact.cpp */; };
+		8E65EEDC15D9C998009C0EE8 /* b2ChainAndPolygonContact.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8E65EE9715D9C998009C0EE8 /* b2ChainAndPolygonContact.cpp */; };
+		8E65EEDD15D9C998009C0EE8 /* b2CircleContact.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8E65EE9915D9C998009C0EE8 /* b2CircleContact.cpp */; };
+		8E65EEDE15D9C998009C0EE8 /* b2Contact.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8E65EE9B15D9C998009C0EE8 /* b2Contact.cpp */; };
+		8E65EEDF15D9C998009C0EE8 /* b2ContactSolver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8E65EE9D15D9C998009C0EE8 /* b2ContactSolver.cpp */; };
+		8E65EEE015D9C998009C0EE8 /* b2EdgeAndCircleContact.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8E65EE9F15D9C998009C0EE8 /* b2EdgeAndCircleContact.cpp */; };
+		8E65EEE115D9C998009C0EE8 /* b2EdgeAndPolygonContact.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8E65EEA115D9C998009C0EE8 /* b2EdgeAndPolygonContact.cpp */; };
+		8E65EEE215D9C998009C0EE8 /* b2PolygonAndCircleContact.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8E65EEA315D9C998009C0EE8 /* b2PolygonAndCircleContact.cpp */; };
+		8E65EEE315D9C998009C0EE8 /* b2PolygonContact.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8E65EEA515D9C998009C0EE8 /* b2PolygonContact.cpp */; };
+		8E65EEE415D9C998009C0EE8 /* b2DistanceJoint.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8E65EEA815D9C998009C0EE8 /* b2DistanceJoint.cpp */; };
+		8E65EEE515D9C998009C0EE8 /* b2FrictionJoint.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8E65EEAA15D9C998009C0EE8 /* b2FrictionJoint.cpp */; };
+		8E65EEE615D9C998009C0EE8 /* b2GearJoint.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8E65EEAC15D9C998009C0EE8 /* b2GearJoint.cpp */; };
+		8E65EEE715D9C998009C0EE8 /* b2Joint.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8E65EEAE15D9C998009C0EE8 /* b2Joint.cpp */; };
+		8E65EEE815D9C998009C0EE8 /* b2MouseJoint.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8E65EEB015D9C998009C0EE8 /* b2MouseJoint.cpp */; };
+		8E65EEE915D9C998009C0EE8 /* b2PrismaticJoint.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8E65EEB215D9C998009C0EE8 /* b2PrismaticJoint.cpp */; };
+		8E65EEEA15D9C998009C0EE8 /* b2PulleyJoint.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8E65EEB415D9C998009C0EE8 /* b2PulleyJoint.cpp */; };
+		8E65EEEB15D9C998009C0EE8 /* b2RevoluteJoint.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8E65EEB615D9C998009C0EE8 /* b2RevoluteJoint.cpp */; };
+		8E65EEEC15D9C998009C0EE8 /* b2RopeJoint.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8E65EEB815D9C998009C0EE8 /* b2RopeJoint.cpp */; };
+		8E65EEED15D9C998009C0EE8 /* b2WeldJoint.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8E65EEBA15D9C998009C0EE8 /* b2WeldJoint.cpp */; };
+		8E65EEEE15D9C998009C0EE8 /* b2WheelJoint.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8E65EEBC15D9C998009C0EE8 /* b2WheelJoint.cpp */; };
+		8E65EEEF15D9C998009C0EE8 /* b2Rope.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8E65EEBF15D9C998009C0EE8 /* b2Rope.cpp */; };
+		8E65EEF115D9CC87009C0EE8 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E65EEF015D9CC87009C0EE8 /* QuartzCore.framework */; };
+		8E81DA5815E6BFEE008F2E90 /* PhysicsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E81DA5615E6BFEE008F2E90 /* PhysicsViewController.m */; };
+		8E81DA5915E6BFEE008F2E90 /* PhysicsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8E81DA5715E6BFEE008F2E90 /* PhysicsViewController.xib */; };
+		8E81DA5A15E6C0B4008F2E90 /* Particle.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E81DA4115E6BF56008F2E90 /* Particle.m */; };
+		8E81DA5B15E6C0BE008F2E90 /* GameController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E81DA4415E6BF56008F2E90 /* GameController.m */; };
+		8E81DA5C15E6C0CA008F2E90 /* Actor.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E81DA4615E6BF56008F2E90 /* Actor.m */; };
+		8E81DA5D15E6C0D0008F2E90 /* ImageRepresentation.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E81DA4815E6BF56008F2E90 /* ImageRepresentation.m */; };
+		8E81DA5E15E6C0D0008F2E90 /* VectorRepresentation.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E81DA4A15E6BF56008F2E90 /* VectorRepresentation.m */; };
+		8E81DA5F15E6C0D0008F2E90 /* VectorActorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E81DA4C15E6BF56008F2E90 /* VectorActorView.m */; };
+		8E81DA6015E6C0D0008F2E90 /* LinearMotion.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E81DA4E15E6BF56008F2E90 /* LinearMotion.m */; };
+		8E81DA6115E6C0D0008F2E90 /* ExpireAfterTime.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E81DA5015E6BF56008F2E90 /* ExpireAfterTime.m */; };
+		8E81DA6215E6C0D0008F2E90 /* FollowActor.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E81DA5215E6BF56008F2E90 /* FollowActor.m */; };
+		8E81DA6315E6C0D0008F2E90 /* TemporaryBehavior.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E81DA5415E6BF56008F2E90 /* TemporaryBehavior.m */; };
+		8E81DA6515E6C424008F2E90 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8E81DA6415E6C424008F2E90 /* ViewController.xib */; };
+		8E81DA6915E6CA60008F2E90 /* star_field_ipad@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E81DA6715E6CA60008F2E90 /* star_field_ipad@2x.png */; };
+		8E81DA6A15E6CA60008F2E90 /* star_field_ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E81DA6815E6CA60008F2E90 /* star_field_ipad.png */; };
+		8E81DA6D15E6D08C008F2E90 /* Asteroid.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E81DA6C15E6CFBB008F2E90 /* Asteroid.m */; };
+		8E81DA7015E6D0BB008F2E90 /* AsteroidRepresentationDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E81DA6E15E6D0B4008F2E90 /* AsteroidRepresentationDelegate.m */; };
+		8E81DACF15E6D3FF008F2E90 /* Asteroid_C_0012.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E81DA7215E6D3FF008F2E90 /* Asteroid_C_0012.png */; };
+		8E81DAD015E6D3FF008F2E90 /* Asteroid_C_0013.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E81DA7315E6D3FF008F2E90 /* Asteroid_C_0013.png */; };
+		8E81DAD115E6D3FF008F2E90 /* Asteroid_C_0014.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E81DA7415E6D3FF008F2E90 /* Asteroid_C_0014.png */; };
+		8E81DAD215E6D3FF008F2E90 /* Asteroid_C_0015.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E81DA7515E6D3FF008F2E90 /* Asteroid_C_0015.png */; };
+		8E81DAD315E6D3FF008F2E90 /* Asteroid_C_0016.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E81DA7615E6D3FF008F2E90 /* Asteroid_C_0016.png */; };
+		8E81DAD415E6D3FF008F2E90 /* Asteroid_C_0017.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E81DA7715E6D3FF008F2E90 /* Asteroid_C_0017.png */; };
+		8E81DAD515E6D3FF008F2E90 /* Asteroid_C_0018.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E81DA7815E6D3FF008F2E90 /* Asteroid_C_0018.png */; };
+		8E81DAD615E6D3FF008F2E90 /* Asteroid_C_0019.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E81DA7915E6D3FF008F2E90 /* Asteroid_C_0019.png */; };
+		8E81DAD715E6D3FF008F2E90 /* Asteroid_C_0020.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E81DA7A15E6D3FF008F2E90 /* Asteroid_C_0020.png */; };
+		8E81DAD815E6D3FF008F2E90 /* Asteroid_C_0021.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E81DA7B15E6D3FF008F2E90 /* Asteroid_C_0021.png */; };
+		8E81DAD915E6D3FF008F2E90 /* Asteroid_C_0022.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E81DA7C15E6D3FF008F2E90 /* Asteroid_C_0022.png */; };
+		8E81DADA15E6D3FF008F2E90 /* Asteroid_C_0023.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E81DA7D15E6D3FF008F2E90 /* Asteroid_C_0023.png */; };
+		8E81DADB15E6D3FF008F2E90 /* Asteroid_C_0024.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E81DA7E15E6D3FF008F2E90 /* Asteroid_C_0024.png */; };
+		8E81DADC15E6D3FF008F2E90 /* Asteroid_C_0025.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E81DA7F15E6D3FF008F2E90 /* Asteroid_C_0025.png */; };
+		8E81DADD15E6D3FF008F2E90 /* Asteroid_C_0026.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E81DA8015E6D3FF008F2E90 /* Asteroid_C_0026.png */; };
+		8E81DADE15E6D3FF008F2E90 /* Asteroid_C_0027.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E81DA8115E6D3FF008F2E90 /* Asteroid_C_0027.png */; };
+		8E81DADF15E6D3FF008F2E90 /* Asteroid_C_0028.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E81DA8215E6D3FF008F2E90 /* Asteroid_C_0028.png */; };
+		8E81DAE015E6D3FF008F2E90 /* Asteroid_C_0029.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E81DA8315E6D3FF008F2E90 /* Asteroid_C_0029.png */; };
+		8E81DAE115E6D3FF008F2E90 /* Asteroid_C_0030.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E81DA8415E6D3FF008F2E90 /* Asteroid_C_0030.png */; };
+		8E81DAE215E6D3FF008F2E90 /* Asteroid_C_0031.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E81DA8515E6D3FF008F2E90 /* Asteroid_C_0031.png */; };
+		8E81DAE315E6D3FF008F2E90 /* Asteroid_C_0001.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E81DA8615E6D3FF008F2E90 /* Asteroid_C_0001.png */; };
+		8E81DAE415E6D3FF008F2E90 /* Asteroid_C_0002.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E81DA8715E6D3FF008F2E90 /* Asteroid_C_0002.png */; };
+		8E81DAE515E6D3FF008F2E90 /* Asteroid_C_0003.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E81DA8815E6D3FF008F2E90 /* Asteroid_C_0003.png */; };
+		8E81DAE615E6D3FF008F2E90 /* Asteroid_C_0004.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E81DA8915E6D3FF008F2E90 /* Asteroid_C_0004.png */; };
+		8E81DAE715E6D3FF008F2E90 /* Asteroid_C_0005.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E81DA8A15E6D3FF008F2E90 /* Asteroid_C_0005.png */; };
+		8E81DAE815E6D3FF008F2E90 /* Asteroid_C_0006.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E81DA8B15E6D3FF008F2E90 /* Asteroid_C_0006.png */; };
+		8E81DAE915E6D3FF008F2E90 /* Asteroid_C_0007.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E81DA8C15E6D3FF008F2E90 /* Asteroid_C_0007.png */; };
+		8E81DAEA15E6D3FF008F2E90 /* Asteroid_C_0008.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E81DA8D15E6D3FF008F2E90 /* Asteroid_C_0008.png */; };
+		8E81DAEB15E6D3FF008F2E90 /* Asteroid_C_0009.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E81DA8E15E6D3FF008F2E90 /* Asteroid_C_0009.png */; };
+		8E81DAEC15E6D3FF008F2E90 /* Asteroid_C_0010.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E81DA8F15E6D3FF008F2E90 /* Asteroid_C_0010.png */; };
+		8E81DAED15E6D3FF008F2E90 /* Asteroid_C_0011.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E81DA9015E6D3FF008F2E90 /* Asteroid_C_0011.png */; };
+		8E81DAEE15E6D3FF008F2E90 /* Asteroid_B_0007.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E81DA9115E6D3FF008F2E90 /* Asteroid_B_0007.png */; };
+		8E81DAEF15E6D3FF008F2E90 /* Asteroid_B_0008.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E81DA9215E6D3FF008F2E90 /* Asteroid_B_0008.png */; };
+		8E81DAF015E6D3FF008F2E90 /* Asteroid_B_0009.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E81DA9315E6D3FF008F2E90 /* Asteroid_B_0009.png */; };
+		8E81DAF115E6D3FF008F2E90 /* Asteroid_B_0010.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E81DA9415E6D3FF008F2E90 /* Asteroid_B_0010.png */; };
+		8E81DAF215E6D3FF008F2E90 /* Asteroid_B_0011.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E81DA9515E6D3FF008F2E90 /* Asteroid_B_0011.png */; };
+		8E81DAF315E6D3FF008F2E90 /* Asteroid_B_0012.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E81DA9615E6D3FF008F2E90 /* Asteroid_B_0012.png */; };
+		8E81DAF415E6D3FF008F2E90 /* Asteroid_B_0013.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E81DA9715E6D3FF008F2E90 /* Asteroid_B_0013.png */; };
+		8E81DAF515E6D3FF008F2E90 /* Asteroid_B_0014.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E81DA9815E6D3FF008F2E90 /* Asteroid_B_0014.png */; };
+		8E81DAF615E6D3FF008F2E90 /* Asteroid_B_0015.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E81DA9915E6D3FF008F2E90 /* Asteroid_B_0015.png */; };
+		8E81DAF715E6D3FF008F2E90 /* Asteroid_B_0016.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E81DA9A15E6D3FF008F2E90 /* Asteroid_B_0016.png */; };
+		8E81DAF815E6D3FF008F2E90 /* Asteroid_B_0017.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E81DA9B15E6D3FF008F2E90 /* Asteroid_B_0017.png */; };
+		8E81DAF915E6D3FF008F2E90 /* Asteroid_B_0018.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E81DA9C15E6D3FF008F2E90 /* Asteroid_B_0018.png */; };
+		8E81DAFA15E6D3FF008F2E90 /* Asteroid_B_0019.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E81DA9D15E6D3FF008F2E90 /* Asteroid_B_0019.png */; };
+		8E81DAFB15E6D3FF008F2E90 /* Asteroid_B_0020.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E81DA9E15E6D3FF008F2E90 /* Asteroid_B_0020.png */; };
+		8E81DAFC15E6D3FF008F2E90 /* Asteroid_B_0021.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E81DA9F15E6D3FF008F2E90 /* Asteroid_B_0021.png */; };
+		8E81DAFD15E6D3FF008F2E90 /* Asteroid_B_0022.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E81DAA015E6D3FF008F2E90 /* Asteroid_B_0022.png */; };
+		8E81DAFE15E6D3FF008F2E90 /* Asteroid_B_0023.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E81DAA115E6D3FF008F2E90 /* Asteroid_B_0023.png */; };
+		8E81DAFF15E6D3FF008F2E90 /* Asteroid_B_0024.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E81DAA215E6D3FF008F2E90 /* Asteroid_B_0024.png */; };
+		8E81DB0015E6D3FF008F2E90 /* Asteroid_B_0025.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E81DAA315E6D3FF008F2E90 /* Asteroid_B_0025.png */; };
+		8E81DB0115E6D3FF008F2E90 /* Asteroid_B_0026.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E81DAA415E6D3FF008F2E90 /* Asteroid_B_0026.png */; };
+		8E81DB0215E6D3FF008F2E90 /* Asteroid_B_0027.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E81DAA515E6D3FF008F2E90 /* Asteroid_B_0027.png */; };
+		8E81DB0315E6D3FF008F2E90 /* Asteroid_B_0028.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E81DAA615E6D3FF008F2E90 /* Asteroid_B_0028.png */; };
+		8E81DB0415E6D3FF008F2E90 /* Asteroid_B_0029.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E81DAA715E6D3FF008F2E90 /* Asteroid_B_0029.png */; };
+		8E81DB0515E6D3FF008F2E90 /* Asteroid_B_0030.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E81DAA815E6D3FF008F2E90 /* Asteroid_B_0030.png */; };
+		8E81DB0615E6D3FF008F2E90 /* Asteroid_B_0031.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E81DAA915E6D3FF008F2E90 /* Asteroid_B_0031.png */; };
+		8E81DB0715E6D3FF008F2E90 /* Asteroid_B_0001.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E81DAAA15E6D3FF008F2E90 /* Asteroid_B_0001.png */; };
+		8E81DB0815E6D3FF008F2E90 /* Asteroid_B_0002.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E81DAAB15E6D3FF008F2E90 /* Asteroid_B_0002.png */; };
+		8E81DB0915E6D3FF008F2E90 /* Asteroid_B_0003.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E81DAAC15E6D3FF008F2E90 /* Asteroid_B_0003.png */; };
+		8E81DB0A15E6D3FF008F2E90 /* Asteroid_B_0004.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E81DAAD15E6D3FF008F2E90 /* Asteroid_B_0004.png */; };
+		8E81DB0B15E6D3FF008F2E90 /* Asteroid_B_0005.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E81DAAE15E6D3FF008F2E90 /* Asteroid_B_0005.png */; };
+		8E81DB0C15E6D3FF008F2E90 /* Asteroid_B_0006.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E81DAAF15E6D3FF008F2E90 /* Asteroid_B_0006.png */; };
+		8E81DB0D15E6D3FF008F2E90 /* Asteroid_A_0024.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E81DAB015E6D3FF008F2E90 /* Asteroid_A_0024.png */; };
+		8E81DB0E15E6D3FF008F2E90 /* Asteroid_A_0025.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E81DAB115E6D3FF008F2E90 /* Asteroid_A_0025.png */; };
+		8E81DB0F15E6D3FF008F2E90 /* Asteroid_A_0026.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E81DAB215E6D3FF008F2E90 /* Asteroid_A_0026.png */; };
+		8E81DB1015E6D3FF008F2E90 /* Asteroid_A_0027.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E81DAB315E6D3FF008F2E90 /* Asteroid_A_0027.png */; };
+		8E81DB1115E6D3FF008F2E90 /* Asteroid_A_0028.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E81DAB415E6D3FF008F2E90 /* Asteroid_A_0028.png */; };
+		8E81DB1215E6D3FF008F2E90 /* Asteroid_A_0029.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E81DAB515E6D3FF008F2E90 /* Asteroid_A_0029.png */; };
+		8E81DB1315E6D3FF008F2E90 /* Asteroid_A_0030.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E81DAB615E6D3FF008F2E90 /* Asteroid_A_0030.png */; };
+		8E81DB1415E6D3FF008F2E90 /* Asteroid_A_0031.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E81DAB715E6D3FF008F2E90 /* Asteroid_A_0031.png */; };
+		8E81DB1515E6D3FF008F2E90 /* Asteroid_A_0001.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E81DAB815E6D3FF008F2E90 /* Asteroid_A_0001.png */; };
+		8E81DB1615E6D3FF008F2E90 /* Asteroid_A_0002.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E81DAB915E6D3FF008F2E90 /* Asteroid_A_0002.png */; };
+		8E81DB1715E6D3FF008F2E90 /* Asteroid_A_0003.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E81DABA15E6D3FF008F2E90 /* Asteroid_A_0003.png */; };
+		8E81DB1815E6D3FF008F2E90 /* Asteroid_A_0004.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E81DABB15E6D3FF008F2E90 /* Asteroid_A_0004.png */; };
+		8E81DB1915E6D3FF008F2E90 /* Asteroid_A_0005.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E81DABC15E6D3FF008F2E90 /* Asteroid_A_0005.png */; };
+		8E81DB1A15E6D3FF008F2E90 /* Asteroid_A_0006.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E81DABD15E6D3FF008F2E90 /* Asteroid_A_0006.png */; };
+		8E81DB1B15E6D3FF008F2E90 /* Asteroid_A_0007.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E81DABE15E6D3FF008F2E90 /* Asteroid_A_0007.png */; };
+		8E81DB1C15E6D3FF008F2E90 /* Asteroid_A_0008.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E81DABF15E6D3FF008F2E90 /* Asteroid_A_0008.png */; };
+		8E81DB1D15E6D3FF008F2E90 /* Asteroid_A_0009.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E81DAC015E6D3FF008F2E90 /* Asteroid_A_0009.png */; };
+		8E81DB1E15E6D3FF008F2E90 /* Asteroid_A_0010.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E81DAC115E6D3FF008F2E90 /* Asteroid_A_0010.png */; };
+		8E81DB1F15E6D3FF008F2E90 /* Asteroid_A_0011.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E81DAC215E6D3FF008F2E90 /* Asteroid_A_0011.png */; };
+		8E81DB2015E6D3FF008F2E90 /* Asteroid_A_0012.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E81DAC315E6D3FF008F2E90 /* Asteroid_A_0012.png */; };
+		8E81DB2115E6D3FF008F2E90 /* Asteroid_A_0013.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E81DAC415E6D3FF008F2E90 /* Asteroid_A_0013.png */; };
+		8E81DB2215E6D3FF008F2E90 /* Asteroid_A_0014.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E81DAC515E6D3FF008F2E90 /* Asteroid_A_0014.png */; };
+		8E81DB2315E6D3FF008F2E90 /* Asteroid_A_0015.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E81DAC615E6D3FF008F2E90 /* Asteroid_A_0015.png */; };
+		8E81DB2415E6D3FF008F2E90 /* Asteroid_A_0016.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E81DAC715E6D3FF008F2E90 /* Asteroid_A_0016.png */; };
+		8E81DB2515E6D3FF008F2E90 /* Asteroid_A_0017.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E81DAC815E6D3FF008F2E90 /* Asteroid_A_0017.png */; };
+		8E81DB2615E6D3FF008F2E90 /* Asteroid_A_0018.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E81DAC915E6D3FF008F2E90 /* Asteroid_A_0018.png */; };
+		8E81DB2715E6D3FF008F2E90 /* Asteroid_A_0019.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E81DACA15E6D3FF008F2E90 /* Asteroid_A_0019.png */; };
+		8E81DB2815E6D3FF008F2E90 /* Asteroid_A_0020.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E81DACB15E6D3FF008F2E90 /* Asteroid_A_0020.png */; };
+		8E81DB2915E6D3FF008F2E90 /* Asteroid_A_0021.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E81DACC15E6D3FF008F2E90 /* Asteroid_A_0021.png */; };
+		8E81DB2A15E6D3FF008F2E90 /* Asteroid_A_0022.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E81DACD15E6D3FF008F2E90 /* Asteroid_A_0022.png */; };
+		8E81DB2B15E6D3FF008F2E90 /* Asteroid_A_0023.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E81DACE15E6D3FF008F2E90 /* Asteroid_A_0023.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8E0C5EA215ED5E1E009818E0 /* PhysicsActor.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = PhysicsActor.h; path = "Sample 13/PhysicsActor.h"; sourceTree = SOURCE_ROOT; };
+		8E0C5EA315ED5E1E009818E0 /* PhysicsActor.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = PhysicsActor.m; path = "Sample 13/PhysicsActor.m"; sourceTree = SOURCE_ROOT; };
+		8E65ED0915D9C691009C0EE8 /* Sample 13.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sample 13.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E65ED0D15D9C691009C0EE8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8E65ED0F15D9C691009C0EE8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8E65ED1115D9C691009C0EE8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8E65ED1515D9C691009C0EE8 /* Sample 13-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Sample 13-Info.plist"; sourceTree = "<group>"; };
+		8E65ED1715D9C691009C0EE8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8E65ED1915D9C691009C0EE8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8E65ED1B15D9C691009C0EE8 /* Sample 13-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Sample 13-Prefix.pch"; sourceTree = "<group>"; };
+		8E65ED1C15D9C691009C0EE8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8E65ED1D15D9C691009C0EE8 /* AppDelegate.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; path = AppDelegate.m; sourceTree = "<group>"; };
+		8E65ED1F15D9C691009C0EE8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8E65ED2015D9C691009C0EE8 /* ViewController.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; path = ViewController.m; sourceTree = "<group>"; };
+		8E65EE5D15D9C998009C0EE8 /* Box2D.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Box2D.h; sourceTree = "<group>"; };
+		8E65EE5E15D9C998009C0EE8 /* Box2DConfig.cmake */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Box2DConfig.cmake; sourceTree = "<group>"; };
+		8E65EE5F15D9C998009C0EE8 /* CMakeLists.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = "<group>"; };
+		8E65EE6115D9C998009C0EE8 /* b2BroadPhase.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = b2BroadPhase.cpp; sourceTree = "<group>"; };
+		8E65EE6215D9C998009C0EE8 /* b2BroadPhase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = b2BroadPhase.h; sourceTree = "<group>"; };
+		8E65EE6315D9C998009C0EE8 /* b2CollideCircle.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = b2CollideCircle.cpp; sourceTree = "<group>"; };
+		8E65EE6415D9C998009C0EE8 /* b2CollideEdge.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = b2CollideEdge.cpp; sourceTree = "<group>"; };
+		8E65EE6515D9C998009C0EE8 /* b2CollidePolygon.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = b2CollidePolygon.cpp; sourceTree = "<group>"; };
+		8E65EE6615D9C998009C0EE8 /* b2Collision.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = b2Collision.cpp; sourceTree = "<group>"; };
+		8E65EE6715D9C998009C0EE8 /* b2Collision.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = b2Collision.h; sourceTree = "<group>"; };
+		8E65EE6815D9C998009C0EE8 /* b2Distance.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = b2Distance.cpp; sourceTree = "<group>"; };
+		8E65EE6915D9C998009C0EE8 /* b2Distance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = b2Distance.h; sourceTree = "<group>"; };
+		8E65EE6A15D9C998009C0EE8 /* b2DynamicTree.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = b2DynamicTree.cpp; sourceTree = "<group>"; };
+		8E65EE6B15D9C998009C0EE8 /* b2DynamicTree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = b2DynamicTree.h; sourceTree = "<group>"; };
+		8E65EE6C15D9C998009C0EE8 /* b2TimeOfImpact.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = b2TimeOfImpact.cpp; sourceTree = "<group>"; };
+		8E65EE6D15D9C998009C0EE8 /* b2TimeOfImpact.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = b2TimeOfImpact.h; sourceTree = "<group>"; };
+		8E65EE6F15D9C998009C0EE8 /* b2ChainShape.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = b2ChainShape.cpp; sourceTree = "<group>"; };
+		8E65EE7015D9C998009C0EE8 /* b2ChainShape.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = b2ChainShape.h; sourceTree = "<group>"; };
+		8E65EE7115D9C998009C0EE8 /* b2CircleShape.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = b2CircleShape.cpp; sourceTree = "<group>"; };
+		8E65EE7215D9C998009C0EE8 /* b2CircleShape.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = b2CircleShape.h; sourceTree = "<group>"; };
+		8E65EE7315D9C998009C0EE8 /* b2EdgeShape.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = b2EdgeShape.cpp; sourceTree = "<group>"; };
+		8E65EE7415D9C998009C0EE8 /* b2EdgeShape.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = b2EdgeShape.h; sourceTree = "<group>"; };
+		8E65EE7515D9C998009C0EE8 /* b2PolygonShape.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = b2PolygonShape.cpp; sourceTree = "<group>"; };
+		8E65EE7615D9C998009C0EE8 /* b2PolygonShape.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = b2PolygonShape.h; sourceTree = "<group>"; };
+		8E65EE7715D9C998009C0EE8 /* b2Shape.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = b2Shape.h; sourceTree = "<group>"; };
+		8E65EE7915D9C998009C0EE8 /* b2BlockAllocator.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = b2BlockAllocator.cpp; sourceTree = "<group>"; };
+		8E65EE7A15D9C998009C0EE8 /* b2BlockAllocator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = b2BlockAllocator.h; sourceTree = "<group>"; };
+		8E65EE7B15D9C998009C0EE8 /* b2Draw.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = b2Draw.cpp; sourceTree = "<group>"; };
+		8E65EE7C15D9C998009C0EE8 /* b2Draw.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = b2Draw.h; sourceTree = "<group>"; };
+		8E65EE7D15D9C998009C0EE8 /* b2GrowableStack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = b2GrowableStack.h; sourceTree = "<group>"; };
+		8E65EE7E15D9C998009C0EE8 /* b2Math.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = b2Math.cpp; sourceTree = "<group>"; };
+		8E65EE7F15D9C998009C0EE8 /* b2Math.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = b2Math.h; sourceTree = "<group>"; };
+		8E65EE8015D9C998009C0EE8 /* b2Settings.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = b2Settings.cpp; sourceTree = "<group>"; };
+		8E65EE8115D9C998009C0EE8 /* b2Settings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = b2Settings.h; sourceTree = "<group>"; };
+		8E65EE8215D9C998009C0EE8 /* b2StackAllocator.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = b2StackAllocator.cpp; sourceTree = "<group>"; };
+		8E65EE8315D9C998009C0EE8 /* b2StackAllocator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = b2StackAllocator.h; sourceTree = "<group>"; };
+		8E65EE8415D9C998009C0EE8 /* b2Timer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = b2Timer.cpp; sourceTree = "<group>"; };
+		8E65EE8515D9C998009C0EE8 /* b2Timer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = b2Timer.h; sourceTree = "<group>"; };
+		8E65EE8715D9C998009C0EE8 /* b2Body.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = b2Body.cpp; sourceTree = "<group>"; };
+		8E65EE8815D9C998009C0EE8 /* b2Body.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = b2Body.h; sourceTree = "<group>"; };
+		8E65EE8915D9C998009C0EE8 /* b2ContactManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = b2ContactManager.cpp; sourceTree = "<group>"; };
+		8E65EE8A15D9C998009C0EE8 /* b2ContactManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = b2ContactManager.h; sourceTree = "<group>"; };
+		8E65EE8B15D9C998009C0EE8 /* b2Fixture.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = b2Fixture.cpp; sourceTree = "<group>"; };
+		8E65EE8C15D9C998009C0EE8 /* b2Fixture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = b2Fixture.h; sourceTree = "<group>"; };
+		8E65EE8D15D9C998009C0EE8 /* b2Island.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = b2Island.cpp; sourceTree = "<group>"; };
+		8E65EE8E15D9C998009C0EE8 /* b2Island.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = b2Island.h; sourceTree = "<group>"; };
+		8E65EE8F15D9C998009C0EE8 /* b2TimeStep.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = b2TimeStep.h; sourceTree = "<group>"; };
+		8E65EE9015D9C998009C0EE8 /* b2World.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = b2World.cpp; sourceTree = "<group>"; };
+		8E65EE9115D9C998009C0EE8 /* b2World.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = b2World.h; sourceTree = "<group>"; };
+		8E65EE9215D9C998009C0EE8 /* b2WorldCallbacks.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = b2WorldCallbacks.cpp; sourceTree = "<group>"; };
+		8E65EE9315D9C998009C0EE8 /* b2WorldCallbacks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = b2WorldCallbacks.h; sourceTree = "<group>"; };
+		8E65EE9515D9C998009C0EE8 /* b2ChainAndCircleContact.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = b2ChainAndCircleContact.cpp; sourceTree = "<group>"; };
+		8E65EE9615D9C998009C0EE8 /* b2ChainAndCircleContact.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = b2ChainAndCircleContact.h; sourceTree = "<group>"; };
+		8E65EE9715D9C998009C0EE8 /* b2ChainAndPolygonContact.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = b2ChainAndPolygonContact.cpp; sourceTree = "<group>"; };
+		8E65EE9815D9C998009C0EE8 /* b2ChainAndPolygonContact.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = b2ChainAndPolygonContact.h; sourceTree = "<group>"; };
+		8E65EE9915D9C998009C0EE8 /* b2CircleContact.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = b2CircleContact.cpp; sourceTree = "<group>"; };
+		8E65EE9A15D9C998009C0EE8 /* b2CircleContact.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = b2CircleContact.h; sourceTree = "<group>"; };
+		8E65EE9B15D9C998009C0EE8 /* b2Contact.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = b2Contact.cpp; sourceTree = "<group>"; };
+		8E65EE9C15D9C998009C0EE8 /* b2Contact.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = b2Contact.h; sourceTree = "<group>"; };
+		8E65EE9D15D9C998009C0EE8 /* b2ContactSolver.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = b2ContactSolver.cpp; sourceTree = "<group>"; };
+		8E65EE9E15D9C998009C0EE8 /* b2ContactSolver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = b2ContactSolver.h; sourceTree = "<group>"; };
+		8E65EE9F15D9C998009C0EE8 /* b2EdgeAndCircleContact.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = b2EdgeAndCircleContact.cpp; sourceTree = "<group>"; };
+		8E65EEA015D9C998009C0EE8 /* b2EdgeAndCircleContact.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = b2EdgeAndCircleContact.h; sourceTree = "<group>"; };
+		8E65EEA115D9C998009C0EE8 /* b2EdgeAndPolygonContact.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = b2EdgeAndPolygonContact.cpp; sourceTree = "<group>"; };
+		8E65EEA215D9C998009C0EE8 /* b2EdgeAndPolygonContact.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = b2EdgeAndPolygonContact.h; sourceTree = "<group>"; };
+		8E65EEA315D9C998009C0EE8 /* b2PolygonAndCircleContact.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = b2PolygonAndCircleContact.cpp; sourceTree = "<group>"; };
+		8E65EEA415D9C998009C0EE8 /* b2PolygonAndCircleContact.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = b2PolygonAndCircleContact.h; sourceTree = "<group>"; };
+		8E65EEA515D9C998009C0EE8 /* b2PolygonContact.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = b2PolygonContact.cpp; sourceTree = "<group>"; };
+		8E65EEA615D9C998009C0EE8 /* b2PolygonContact.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = b2PolygonContact.h; sourceTree = "<group>"; };
+		8E65EEA815D9C998009C0EE8 /* b2DistanceJoint.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = b2DistanceJoint.cpp; sourceTree = "<group>"; };
+		8E65EEA915D9C998009C0EE8 /* b2DistanceJoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = b2DistanceJoint.h; sourceTree = "<group>"; };
+		8E65EEAA15D9C998009C0EE8 /* b2FrictionJoint.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = b2FrictionJoint.cpp; sourceTree = "<group>"; };
+		8E65EEAB15D9C998009C0EE8 /* b2FrictionJoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = b2FrictionJoint.h; sourceTree = "<group>"; };
+		8E65EEAC15D9C998009C0EE8 /* b2GearJoint.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = b2GearJoint.cpp; sourceTree = "<group>"; };
+		8E65EEAD15D9C998009C0EE8 /* b2GearJoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = b2GearJoint.h; sourceTree = "<group>"; };
+		8E65EEAE15D9C998009C0EE8 /* b2Joint.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = b2Joint.cpp; sourceTree = "<group>"; };
+		8E65EEAF15D9C998009C0EE8 /* b2Joint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = b2Joint.h; sourceTree = "<group>"; };
+		8E65EEB015D9C998009C0EE8 /* b2MouseJoint.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = b2MouseJoint.cpp; sourceTree = "<group>"; };
+		8E65EEB115D9C998009C0EE8 /* b2MouseJoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = b2MouseJoint.h; sourceTree = "<group>"; };
+		8E65EEB215D9C998009C0EE8 /* b2PrismaticJoint.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = b2PrismaticJoint.cpp; sourceTree = "<group>"; };
+		8E65EEB315D9C998009C0EE8 /* b2PrismaticJoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = b2PrismaticJoint.h; sourceTree = "<group>"; };
+		8E65EEB415D9C998009C0EE8 /* b2PulleyJoint.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = b2PulleyJoint.cpp; sourceTree = "<group>"; };
+		8E65EEB515D9C998009C0EE8 /* b2PulleyJoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = b2PulleyJoint.h; sourceTree = "<group>"; };
+		8E65EEB615D9C998009C0EE8 /* b2RevoluteJoint.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = b2RevoluteJoint.cpp; sourceTree = "<group>"; };
+		8E65EEB715D9C998009C0EE8 /* b2RevoluteJoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = b2RevoluteJoint.h; sourceTree = "<group>"; };
+		8E65EEB815D9C998009C0EE8 /* b2RopeJoint.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = b2RopeJoint.cpp; sourceTree = "<group>"; };
+		8E65EEB915D9C998009C0EE8 /* b2RopeJoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = b2RopeJoint.h; sourceTree = "<group>"; };
+		8E65EEBA15D9C998009C0EE8 /* b2WeldJoint.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = b2WeldJoint.cpp; sourceTree = "<group>"; };
+		8E65EEBB15D9C998009C0EE8 /* b2WeldJoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = b2WeldJoint.h; sourceTree = "<group>"; };
+		8E65EEBC15D9C998009C0EE8 /* b2WheelJoint.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = b2WheelJoint.cpp; sourceTree = "<group>"; };
+		8E65EEBD15D9C998009C0EE8 /* b2WheelJoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = b2WheelJoint.h; sourceTree = "<group>"; };
+		8E65EEBF15D9C998009C0EE8 /* b2Rope.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = b2Rope.cpp; sourceTree = "<group>"; };
+		8E65EEC015D9C998009C0EE8 /* b2Rope.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = b2Rope.h; sourceTree = "<group>"; };
+		8E65EEF015D9CC87009C0EE8 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		8E81DA4115E6BF56008F2E90 /* Particle.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; path = Particle.m; sourceTree = "<group>"; };
+		8E81DA4215E6BF56008F2E90 /* Particle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Particle.h; sourceTree = "<group>"; };
+		8E81DA4315E6BF56008F2E90 /* GameController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameController.h; sourceTree = "<group>"; };
+		8E81DA4415E6BF56008F2E90 /* GameController.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; path = GameController.m; sourceTree = "<group>"; };
+		8E81DA4515E6BF56008F2E90 /* Actor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Actor.h; sourceTree = "<group>"; };
+		8E81DA4615E6BF56008F2E90 /* Actor.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; path = Actor.m; sourceTree = "<group>"; };
+		8E81DA4715E6BF56008F2E90 /* ImageRepresentation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImageRepresentation.h; sourceTree = "<group>"; };
+		8E81DA4815E6BF56008F2E90 /* ImageRepresentation.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; path = ImageRepresentation.m; sourceTree = "<group>"; };
+		8E81DA4915E6BF56008F2E90 /* VectorRepresentation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VectorRepresentation.h; sourceTree = "<group>"; };
+		8E81DA4A15E6BF56008F2E90 /* VectorRepresentation.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; path = VectorRepresentation.m; sourceTree = "<group>"; };
+		8E81DA4B15E6BF56008F2E90 /* VectorActorView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VectorActorView.h; sourceTree = "<group>"; };
+		8E81DA4C15E6BF56008F2E90 /* VectorActorView.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; path = VectorActorView.m; sourceTree = "<group>"; };
+		8E81DA4D15E6BF56008F2E90 /* LinearMotion.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LinearMotion.h; sourceTree = "<group>"; };
+		8E81DA4E15E6BF56008F2E90 /* LinearMotion.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; path = LinearMotion.m; sourceTree = "<group>"; };
+		8E81DA4F15E6BF56008F2E90 /* ExpireAfterTime.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExpireAfterTime.h; sourceTree = "<group>"; };
+		8E81DA5015E6BF56008F2E90 /* ExpireAfterTime.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; path = ExpireAfterTime.m; sourceTree = "<group>"; };
+		8E81DA5115E6BF56008F2E90 /* FollowActor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FollowActor.h; sourceTree = "<group>"; };
+		8E81DA5215E6BF56008F2E90 /* FollowActor.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; path = FollowActor.m; sourceTree = "<group>"; };
+		8E81DA5315E6BF56008F2E90 /* TemporaryBehavior.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TemporaryBehavior.h; sourceTree = "<group>"; };
+		8E81DA5415E6BF56008F2E90 /* TemporaryBehavior.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; path = TemporaryBehavior.m; sourceTree = "<group>"; };
+		8E81DA5515E6BFEE008F2E90 /* PhysicsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhysicsViewController.h; sourceTree = "<group>"; };
+		8E81DA5615E6BFEE008F2E90 /* PhysicsViewController.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; path = PhysicsViewController.m; sourceTree = "<group>"; };
+		8E81DA5715E6BFEE008F2E90 /* PhysicsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PhysicsViewController.xib; sourceTree = "<group>"; };
+		8E81DA6415E6C424008F2E90 /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
+		8E81DA6715E6CA60008F2E90 /* star_field_ipad@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "star_field_ipad@2x.png"; path = "Resources/star_field_ipad@2x.png"; sourceTree = "<group>"; };
+		8E81DA6815E6CA60008F2E90 /* star_field_ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = star_field_ipad.png; path = Resources/star_field_ipad.png; sourceTree = "<group>"; };
+		8E81DA6B15E6CFBB008F2E90 /* Asteroid.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Asteroid.h; sourceTree = "<group>"; };
+		8E81DA6C15E6CFBB008F2E90 /* Asteroid.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; path = Asteroid.m; sourceTree = "<group>"; };
+		8E81DA6E15E6D0B4008F2E90 /* AsteroidRepresentationDelegate.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; path = AsteroidRepresentationDelegate.m; sourceTree = "<group>"; };
+		8E81DA6F15E6D0B5008F2E90 /* AsteroidRepresentationDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AsteroidRepresentationDelegate.h; sourceTree = "<group>"; };
+		8E81DA7215E6D3FF008F2E90 /* Asteroid_C_0012.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Asteroid_C_0012.png; path = Resources/Asteroids/Asteroid_C_0012.png; sourceTree = "<group>"; };
+		8E81DA7315E6D3FF008F2E90 /* Asteroid_C_0013.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Asteroid_C_0013.png; path = Resources/Asteroids/Asteroid_C_0013.png; sourceTree = "<group>"; };
+		8E81DA7415E6D3FF008F2E90 /* Asteroid_C_0014.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Asteroid_C_0014.png; path = Resources/Asteroids/Asteroid_C_0014.png; sourceTree = "<group>"; };
+		8E81DA7515E6D3FF008F2E90 /* Asteroid_C_0015.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Asteroid_C_0015.png; path = Resources/Asteroids/Asteroid_C_0015.png; sourceTree = "<group>"; };
+		8E81DA7615E6D3FF008F2E90 /* Asteroid_C_0016.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Asteroid_C_0016.png; path = Resources/Asteroids/Asteroid_C_0016.png; sourceTree = "<group>"; };
+		8E81DA7715E6D3FF008F2E90 /* Asteroid_C_0017.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Asteroid_C_0017.png; path = Resources/Asteroids/Asteroid_C_0017.png; sourceTree = "<group>"; };
+		8E81DA7815E6D3FF008F2E90 /* Asteroid_C_0018.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Asteroid_C_0018.png; path = Resources/Asteroids/Asteroid_C_0018.png; sourceTree = "<group>"; };
+		8E81DA7915E6D3FF008F2E90 /* Asteroid_C_0019.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Asteroid_C_0019.png; path = Resources/Asteroids/Asteroid_C_0019.png; sourceTree = "<group>"; };
+		8E81DA7A15E6D3FF008F2E90 /* Asteroid_C_0020.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Asteroid_C_0020.png; path = Resources/Asteroids/Asteroid_C_0020.png; sourceTree = "<group>"; };
+		8E81DA7B15E6D3FF008F2E90 /* Asteroid_C_0021.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Asteroid_C_0021.png; path = Resources/Asteroids/Asteroid_C_0021.png; sourceTree = "<group>"; };
+		8E81DA7C15E6D3FF008F2E90 /* Asteroid_C_0022.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Asteroid_C_0022.png; path = Resources/Asteroids/Asteroid_C_0022.png; sourceTree = "<group>"; };
+		8E81DA7D15E6D3FF008F2E90 /* Asteroid_C_0023.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Asteroid_C_0023.png; path = Resources/Asteroids/Asteroid_C_0023.png; sourceTree = "<group>"; };
+		8E81DA7E15E6D3FF008F2E90 /* Asteroid_C_0024.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Asteroid_C_0024.png; path = Resources/Asteroids/Asteroid_C_0024.png; sourceTree = "<group>"; };
+		8E81DA7F15E6D3FF008F2E90 /* Asteroid_C_0025.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Asteroid_C_0025.png; path = Resources/Asteroids/Asteroid_C_0025.png; sourceTree = "<group>"; };
+		8E81DA8015E6D3FF008F2E90 /* Asteroid_C_0026.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Asteroid_C_0026.png; path = Resources/Asteroids/Asteroid_C_0026.png; sourceTree = "<group>"; };
+		8E81DA8115E6D3FF008F2E90 /* Asteroid_C_0027.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Asteroid_C_0027.png; path = Resources/Asteroids/Asteroid_C_0027.png; sourceTree = "<group>"; };
+		8E81DA8215E6D3FF008F2E90 /* Asteroid_C_0028.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Asteroid_C_0028.png; path = Resources/Asteroids/Asteroid_C_0028.png; sourceTree = "<group>"; };
+		8E81DA8315E6D3FF008F2E90 /* Asteroid_C_0029.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Asteroid_C_0029.png; path = Resources/Asteroids/Asteroid_C_0029.png; sourceTree = "<group>"; };
+		8E81DA8415E6D3FF008F2E90 /* Asteroid_C_0030.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Asteroid_C_0030.png; path = Resources/Asteroids/Asteroid_C_0030.png; sourceTree = "<group>"; };
+		8E81DA8515E6D3FF008F2E90 /* Asteroid_C_0031.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Asteroid_C_0031.png; path = Resources/Asteroids/Asteroid_C_0031.png; sourceTree = "<group>"; };
+		8E81DA8615E6D3FF008F2E90 /* Asteroid_C_0001.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Asteroid_C_0001.png; path = Resources/Asteroids/Asteroid_C_0001.png; sourceTree = "<group>"; };
+		8E81DA8715E6D3FF008F2E90 /* Asteroid_C_0002.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Asteroid_C_0002.png; path = Resources/Asteroids/Asteroid_C_0002.png; sourceTree = "<group>"; };
+		8E81DA8815E6D3FF008F2E90 /* Asteroid_C_0003.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Asteroid_C_0003.png; path = Resources/Asteroids/Asteroid_C_0003.png; sourceTree = "<group>"; };
+		8E81DA8915E6D3FF008F2E90 /* Asteroid_C_0004.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Asteroid_C_0004.png; path = Resources/Asteroids/Asteroid_C_0004.png; sourceTree = "<group>"; };
+		8E81DA8A15E6D3FF008F2E90 /* Asteroid_C_0005.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Asteroid_C_0005.png; path = Resources/Asteroids/Asteroid_C_0005.png; sourceTree = "<group>"; };
+		8E81DA8B15E6D3FF008F2E90 /* Asteroid_C_0006.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Asteroid_C_0006.png; path = Resources/Asteroids/Asteroid_C_0006.png; sourceTree = "<group>"; };
+		8E81DA8C15E6D3FF008F2E90 /* Asteroid_C_0007.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Asteroid_C_0007.png; path = Resources/Asteroids/Asteroid_C_0007.png; sourceTree = "<group>"; };
+		8E81DA8D15E6D3FF008F2E90 /* Asteroid_C_0008.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Asteroid_C_0008.png; path = Resources/Asteroids/Asteroid_C_0008.png; sourceTree = "<group>"; };
+		8E81DA8E15E6D3FF008F2E90 /* Asteroid_C_0009.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Asteroid_C_0009.png; path = Resources/Asteroids/Asteroid_C_0009.png; sourceTree = "<group>"; };
+		8E81DA8F15E6D3FF008F2E90 /* Asteroid_C_0010.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Asteroid_C_0010.png; path = Resources/Asteroids/Asteroid_C_0010.png; sourceTree = "<group>"; };
+		8E81DA9015E6D3FF008F2E90 /* Asteroid_C_0011.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Asteroid_C_0011.png; path = Resources/Asteroids/Asteroid_C_0011.png; sourceTree = "<group>"; };
+		8E81DA9115E6D3FF008F2E90 /* Asteroid_B_0007.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Asteroid_B_0007.png; path = Resources/Asteroids/Asteroid_B_0007.png; sourceTree = "<group>"; };
+		8E81DA9215E6D3FF008F2E90 /* Asteroid_B_0008.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Asteroid_B_0008.png; path = Resources/Asteroids/Asteroid_B_0008.png; sourceTree = "<group>"; };
+		8E81DA9315E6D3FF008F2E90 /* Asteroid_B_0009.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Asteroid_B_0009.png; path = Resources/Asteroids/Asteroid_B_0009.png; sourceTree = "<group>"; };
+		8E81DA9415E6D3FF008F2E90 /* Asteroid_B_0010.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Asteroid_B_0010.png; path = Resources/Asteroids/Asteroid_B_0010.png; sourceTree = "<group>"; };
+		8E81DA9515E6D3FF008F2E90 /* Asteroid_B_0011.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Asteroid_B_0011.png; path = Resources/Asteroids/Asteroid_B_0011.png; sourceTree = "<group>"; };
+		8E81DA9615E6D3FF008F2E90 /* Asteroid_B_0012.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Asteroid_B_0012.png; path = Resources/Asteroids/Asteroid_B_0012.png; sourceTree = "<group>"; };
+		8E81DA9715E6D3FF008F2E90 /* Asteroid_B_0013.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Asteroid_B_0013.png; path = Resources/Asteroids/Asteroid_B_0013.png; sourceTree = "<group>"; };
+		8E81DA9815E6D3FF008F2E90 /* Asteroid_B_0014.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Asteroid_B_0014.png; path = Resources/Asteroids/Asteroid_B_0014.png; sourceTree = "<group>"; };
+		8E81DA9915E6D3FF008F2E90 /* Asteroid_B_0015.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Asteroid_B_0015.png; path = Resources/Asteroids/Asteroid_B_0015.png; sourceTree = "<group>"; };
+		8E81DA9A15E6D3FF008F2E90 /* Asteroid_B_0016.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Asteroid_B_0016.png; path = Resources/Asteroids/Asteroid_B_0016.png; sourceTree = "<group>"; };
+		8E81DA9B15E6D3FF008F2E90 /* Asteroid_B_0017.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Asteroid_B_0017.png; path = Resources/Asteroids/Asteroid_B_0017.png; sourceTree = "<group>"; };
+		8E81DA9C15E6D3FF008F2E90 /* Asteroid_B_0018.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Asteroid_B_0018.png; path = Resources/Asteroids/Asteroid_B_0018.png; sourceTree = "<group>"; };
+		8E81DA9D15E6D3FF008F2E90 /* Asteroid_B_0019.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Asteroid_B_0019.png; path = Resources/Asteroids/Asteroid_B_0019.png; sourceTree = "<group>"; };
+		8E81DA9E15E6D3FF008F2E90 /* Asteroid_B_0020.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Asteroid_B_0020.png; path = Resources/Asteroids/Asteroid_B_0020.png; sourceTree = "<group>"; };
+		8E81DA9F15E6D3FF008F2E90 /* Asteroid_B_0021.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Asteroid_B_0021.png; path = Resources/Asteroids/Asteroid_B_0021.png; sourceTree = "<group>"; };
+		8E81DAA015E6D3FF008F2E90 /* Asteroid_B_0022.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Asteroid_B_0022.png; path = Resources/Asteroids/Asteroid_B_0022.png; sourceTree = "<group>"; };
+		8E81DAA115E6D3FF008F2E90 /* Asteroid_B_0023.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Asteroid_B_0023.png; path = Resources/Asteroids/Asteroid_B_0023.png; sourceTree = "<group>"; };
+		8E81DAA215E6D3FF008F2E90 /* Asteroid_B_0024.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Asteroid_B_0024.png; path = Resources/Asteroids/Asteroid_B_0024.png; sourceTree = "<group>"; };
+		8E81DAA315E6D3FF008F2E90 /* Asteroid_B_0025.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Asteroid_B_0025.png; path = Resources/Asteroids/Asteroid_B_0025.png; sourceTree = "<group>"; };
+		8E81DAA415E6D3FF008F2E90 /* Asteroid_B_0026.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Asteroid_B_0026.png; path = Resources/Asteroids/Asteroid_B_0026.png; sourceTree = "<group>"; };
+		8E81DAA515E6D3FF008F2E90 /* Asteroid_B_0027.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Asteroid_B_0027.png; path = Resources/Asteroids/Asteroid_B_0027.png; sourceTree = "<group>"; };
+		8E81DAA615E6D3FF008F2E90 /* Asteroid_B_0028.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Asteroid_B_0028.png; path = Resources/Asteroids/Asteroid_B_0028.png; sourceTree = "<group>"; };
+		8E81DAA715E6D3FF008F2E90 /* Asteroid_B_0029.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Asteroid_B_0029.png; path = Resources/Asteroids/Asteroid_B_0029.png; sourceTree = "<group>"; };
+		8E81DAA815E6D3FF008F2E90 /* Asteroid_B_0030.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Asteroid_B_0030.png; path = Resources/Asteroids/Asteroid_B_0030.png; sourceTree = "<group>"; };
+		8E81DAA915E6D3FF008F2E90 /* Asteroid_B_0031.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Asteroid_B_0031.png; path = Resources/Asteroids/Asteroid_B_0031.png; sourceTree = "<group>"; };
+		8E81DAAA15E6D3FF008F2E90 /* Asteroid_B_0001.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Asteroid_B_0001.png; path = Resources/Asteroids/Asteroid_B_0001.png; sourceTree = "<group>"; };
+		8E81DAAB15E6D3FF008F2E90 /* Asteroid_B_0002.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Asteroid_B_0002.png; path = Resources/Asteroids/Asteroid_B_0002.png; sourceTree = "<group>"; };
+		8E81DAAC15E6D3FF008F2E90 /* Asteroid_B_0003.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Asteroid_B_0003.png; path = Resources/Asteroids/Asteroid_B_0003.png; sourceTree = "<group>"; };
+		8E81DAAD15E6D3FF008F2E90 /* Asteroid_B_0004.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Asteroid_B_0004.png; path = Resources/Asteroids/Asteroid_B_0004.png; sourceTree = "<group>"; };
+		8E81DAAE15E6D3FF008F2E90 /* Asteroid_B_0005.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Asteroid_B_0005.png; path = Resources/Asteroids/Asteroid_B_0005.png; sourceTree = "<group>"; };
+		8E81DAAF15E6D3FF008F2E90 /* Asteroid_B_0006.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Asteroid_B_0006.png; path = Resources/Asteroids/Asteroid_B_0006.png; sourceTree = "<group>"; };
+		8E81DAB015E6D3FF008F2E90 /* Asteroid_A_0024.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Asteroid_A_0024.png; path = Resources/Asteroids/Asteroid_A_0024.png; sourceTree = "<group>"; };
+		8E81DAB115E6D3FF008F2E90 /* Asteroid_A_0025.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Asteroid_A_0025.png; path = Resources/Asteroids/Asteroid_A_0025.png; sourceTree = "<group>"; };
+		8E81DAB215E6D3FF008F2E90 /* Asteroid_A_0026.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Asteroid_A_0026.png; path = Resources/Asteroids/Asteroid_A_0026.png; sourceTree = "<group>"; };
+		8E81DAB315E6D3FF008F2E90 /* Asteroid_A_0027.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Asteroid_A_0027.png; path = Resources/Asteroids/Asteroid_A_0027.png; sourceTree = "<group>"; };
+		8E81DAB415E6D3FF008F2E90 /* Asteroid_A_0028.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Asteroid_A_0028.png; path = Resources/Asteroids/Asteroid_A_0028.png; sourceTree = "<group>"; };
+		8E81DAB515E6D3FF008F2E90 /* Asteroid_A_0029.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Asteroid_A_0029.png; path = Resources/Asteroids/Asteroid_A_0029.png; sourceTree = "<group>"; };
+		8E81DAB615E6D3FF008F2E90 /* Asteroid_A_0030.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Asteroid_A_0030.png; path = Resources/Asteroids/Asteroid_A_0030.png; sourceTree = "<group>"; };
+		8E81DAB715E6D3FF008F2E90 /* Asteroid_A_0031.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Asteroid_A_0031.png; path = Resources/Asteroids/Asteroid_A_0031.png; sourceTree = "<group>"; };
+		8E81DAB815E6D3FF008F2E90 /* Asteroid_A_0001.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Asteroid_A_0001.png; path = Resources/Asteroids/Asteroid_A_0001.png; sourceTree = "<group>"; };
+		8E81DAB915E6D3FF008F2E90 /* Asteroid_A_0002.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Asteroid_A_0002.png; path = Resources/Asteroids/Asteroid_A_0002.png; sourceTree = "<group>"; };
+		8E81DABA15E6D3FF008F2E90 /* Asteroid_A_0003.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Asteroid_A_0003.png; path = Resources/Asteroids/Asteroid_A_0003.png; sourceTree = "<group>"; };
+		8E81DABB15E6D3FF008F2E90 /* Asteroid_A_0004.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Asteroid_A_0004.png; path = Resources/Asteroids/Asteroid_A_0004.png; sourceTree = "<group>"; };
+		8E81DABC15E6D3FF008F2E90 /* Asteroid_A_0005.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Asteroid_A_0005.png; path = Resources/Asteroids/Asteroid_A_0005.png; sourceTree = "<group>"; };
+		8E81DABD15E6D3FF008F2E90 /* Asteroid_A_0006.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Asteroid_A_0006.png; path = Resources/Asteroids/Asteroid_A_0006.png; sourceTree = "<group>"; };
+		8E81DABE15E6D3FF008F2E90 /* Asteroid_A_0007.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Asteroid_A_0007.png; path = Resources/Asteroids/Asteroid_A_0007.png; sourceTree = "<group>"; };
+		8E81DABF15E6D3FF008F2E90 /* Asteroid_A_0008.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Asteroid_A_0008.png; path = Resources/Asteroids/Asteroid_A_0008.png; sourceTree = "<group>"; };
+		8E81DAC015E6D3FF008F2E90 /* Asteroid_A_0009.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Asteroid_A_0009.png; path = Resources/Asteroids/Asteroid_A_0009.png; sourceTree = "<group>"; };
+		8E81DAC115E6D3FF008F2E90 /* Asteroid_A_0010.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Asteroid_A_0010.png; path = Resources/Asteroids/Asteroid_A_0010.png; sourceTree = "<group>"; };
+		8E81DAC215E6D3FF008F2E90 /* Asteroid_A_0011.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Asteroid_A_0011.png; path = Resources/Asteroids/Asteroid_A_0011.png; sourceTree = "<group>"; };
+		8E81DAC315E6D3FF008F2E90 /* Asteroid_A_0012.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Asteroid_A_0012.png; path = Resources/Asteroids/Asteroid_A_0012.png; sourceTree = "<group>"; };
+		8E81DAC415E6D3FF008F2E90 /* Asteroid_A_0013.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Asteroid_A_0013.png; path = Resources/Asteroids/Asteroid_A_0013.png; sourceTree = "<group>"; };
+		8E81DAC515E6D3FF008F2E90 /* Asteroid_A_0014.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Asteroid_A_0014.png; path = Resources/Asteroids/Asteroid_A_0014.png; sourceTree = "<group>"; };
+		8E81DAC615E6D3FF008F2E90 /* Asteroid_A_0015.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Asteroid_A_0015.png; path = Resources/Asteroids/Asteroid_A_0015.png; sourceTree = "<group>"; };
+		8E81DAC715E6D3FF008F2E90 /* Asteroid_A_0016.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Asteroid_A_0016.png; path = Resources/Asteroids/Asteroid_A_0016.png; sourceTree = "<group>"; };
+		8E81DAC815E6D3FF008F2E90 /* Asteroid_A_0017.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Asteroid_A_0017.png; path = Resources/Asteroids/Asteroid_A_0017.png; sourceTree = "<group>"; };
+		8E81DAC915E6D3FF008F2E90 /* Asteroid_A_0018.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Asteroid_A_0018.png; path = Resources/Asteroids/Asteroid_A_0018.png; sourceTree = "<group>"; };
+		8E81DACA15E6D3FF008F2E90 /* Asteroid_A_0019.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Asteroid_A_0019.png; path = Resources/Asteroids/Asteroid_A_0019.png; sourceTree = "<group>"; };
+		8E81DACB15E6D3FF008F2E90 /* Asteroid_A_0020.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Asteroid_A_0020.png; path = Resources/Asteroids/Asteroid_A_0020.png; sourceTree = "<group>"; };
+		8E81DACC15E6D3FF008F2E90 /* Asteroid_A_0021.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Asteroid_A_0021.png; path = Resources/Asteroids/Asteroid_A_0021.png; sourceTree = "<group>"; };
+		8E81DACD15E6D3FF008F2E90 /* Asteroid_A_0022.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Asteroid_A_0022.png; path = Resources/Asteroids/Asteroid_A_0022.png; sourceTree = "<group>"; };
+		8E81DACE15E6D3FF008F2E90 /* Asteroid_A_0023.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Asteroid_A_0023.png; path = Resources/Asteroids/Asteroid_A_0023.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8E65ED0615D9C691009C0EE8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E65EEF115D9CC87009C0EE8 /* QuartzCore.framework in Frameworks */,
+				8E65ED0E15D9C691009C0EE8 /* UIKit.framework in Frameworks */,
+				8E65ED1015D9C691009C0EE8 /* Foundation.framework in Frameworks */,
+				8E65ED1215D9C691009C0EE8 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8E65ECFE15D9C691009C0EE8 = {
+			isa = PBXGroup;
+			children = (
+				8E65ED1315D9C691009C0EE8 /* Sample 13 */,
+				8E65ED0C15D9C691009C0EE8 /* Frameworks */,
+				8E65ED0A15D9C691009C0EE8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8E65ED0A15D9C691009C0EE8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8E65ED0915D9C691009C0EE8 /* Sample 13.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8E65ED0C15D9C691009C0EE8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8E65EEF015D9CC87009C0EE8 /* QuartzCore.framework */,
+				8E65ED0D15D9C691009C0EE8 /* UIKit.framework */,
+				8E65ED0F15D9C691009C0EE8 /* Foundation.framework */,
+				8E65ED1115D9C691009C0EE8 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8E65ED1315D9C691009C0EE8 /* Sample 13 */ = {
+			isa = PBXGroup;
+			children = (
+				8E81DA6615E6CA52008F2E90 /* Resources */,
+				8E65ED1415D9C691009C0EE8 /* Supporting Files */,
+				8E81DA3F15E6BF3E008F2E90 /* Game */,
+				8E65EE5C15D9C998009C0EE8 /* Box2D */,
+				8E65ED1C15D9C691009C0EE8 /* AppDelegate.h */,
+				8E65ED1D15D9C691009C0EE8 /* AppDelegate.m */,
+				8E65ED1F15D9C691009C0EE8 /* ViewController.h */,
+				8E65ED2015D9C691009C0EE8 /* ViewController.m */,
+				8E81DA6415E6C424008F2E90 /* ViewController.xib */,
+				8E81DA5515E6BFEE008F2E90 /* PhysicsViewController.h */,
+				8E81DA5615E6BFEE008F2E90 /* PhysicsViewController.m */,
+				8E81DA5715E6BFEE008F2E90 /* PhysicsViewController.xib */,
+				8E0C5EA215ED5E1E009818E0 /* PhysicsActor.h */,
+				8E0C5EA315ED5E1E009818E0 /* PhysicsActor.m */,
+				8E81DA6B15E6CFBB008F2E90 /* Asteroid.h */,
+				8E81DA6C15E6CFBB008F2E90 /* Asteroid.m */,
+				8E81DA6F15E6D0B5008F2E90 /* AsteroidRepresentationDelegate.h */,
+				8E81DA6E15E6D0B4008F2E90 /* AsteroidRepresentationDelegate.m */,
+			);
+			path = "Sample 13";
+			sourceTree = "<group>";
+		};
+		8E65ED1415D9C691009C0EE8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8E65ED1515D9C691009C0EE8 /* Sample 13-Info.plist */,
+				8E65ED1615D9C691009C0EE8 /* InfoPlist.strings */,
+				8E65ED1915D9C691009C0EE8 /* main.m */,
+				8E65ED1B15D9C691009C0EE8 /* Sample 13-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8E65EE5C15D9C998009C0EE8 /* Box2D */ = {
+			isa = PBXGroup;
+			children = (
+				8E65EE5D15D9C998009C0EE8 /* Box2D.h */,
+				8E65EE5E15D9C998009C0EE8 /* Box2DConfig.cmake */,
+				8E65EE5F15D9C998009C0EE8 /* CMakeLists.txt */,
+				8E65EE6015D9C998009C0EE8 /* Collision */,
+				8E65EE7815D9C998009C0EE8 /* Common */,
+				8E65EE8615D9C998009C0EE8 /* Dynamics */,
+				8E65EEBE15D9C998009C0EE8 /* Rope */,
+			);
+			path = Box2D;
+			sourceTree = "<group>";
+		};
+		8E65EE6015D9C998009C0EE8 /* Collision */ = {
+			isa = PBXGroup;
+			children = (
+				8E65EE6115D9C998009C0EE8 /* b2BroadPhase.cpp */,
+				8E65EE6215D9C998009C0EE8 /* b2BroadPhase.h */,
+				8E65EE6315D9C998009C0EE8 /* b2CollideCircle.cpp */,
+				8E65EE6415D9C998009C0EE8 /* b2CollideEdge.cpp */,
+				8E65EE6515D9C998009C0EE8 /* b2CollidePolygon.cpp */,
+				8E65EE6615D9C998009C0EE8 /* b2Collision.cpp */,
+				8E65EE6715D9C998009C0EE8 /* b2Collision.h */,
+				8E65EE6815D9C998009C0EE8 /* b2Distance.cpp */,
+				8E65EE6915D9C998009C0EE8 /* b2Distance.h */,
+				8E65EE6A15D9C998009C0EE8 /* b2DynamicTree.cpp */,
+				8E65EE6B15D9C998009C0EE8 /* b2DynamicTree.h */,
+				8E65EE6C15D9C998009C0EE8 /* b2TimeOfImpact.cpp */,
+				8E65EE6D15D9C998009C0EE8 /* b2TimeOfImpact.h */,
+				8E65EE6E15D9C998009C0EE8 /* Shapes */,
+			);
+			path = Collision;
+			sourceTree = "<group>";
+		};
+		8E65EE6E15D9C998009C0EE8 /* Shapes */ = {
+			isa = PBXGroup;
+			children = (
+				8E65EE6F15D9C998009C0EE8 /* b2ChainShape.cpp */,
+				8E65EE7015D9C998009C0EE8 /* b2ChainShape.h */,
+				8E65EE7115D9C998009C0EE8 /* b2CircleShape.cpp */,
+				8E65EE7215D9C998009C0EE8 /* b2CircleShape.h */,
+				8E65EE7315D9C998009C0EE8 /* b2EdgeShape.cpp */,
+				8E65EE7415D9C998009C0EE8 /* b2EdgeShape.h */,
+				8E65EE7515D9C998009C0EE8 /* b2PolygonShape.cpp */,
+				8E65EE7615D9C998009C0EE8 /* b2PolygonShape.h */,
+				8E65EE7715D9C998009C0EE8 /* b2Shape.h */,
+			);
+			path = Shapes;
+			sourceTree = "<group>";
+		};
+		8E65EE7815D9C998009C0EE8 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				8E65EE7915D9C998009C0EE8 /* b2BlockAllocator.cpp */,
+				8E65EE7A15D9C998009C0EE8 /* b2BlockAllocator.h */,
+				8E65EE7B15D9C998009C0EE8 /* b2Draw.cpp */,
+				8E65EE7C15D9C998009C0EE8 /* b2Draw.h */,
+				8E65EE7D15D9C998009C0EE8 /* b2GrowableStack.h */,
+				8E65EE7E15D9C998009C0EE8 /* b2Math.cpp */,
+				8E65EE7F15D9C998009C0EE8 /* b2Math.h */,
+				8E65EE8015D9C998009C0EE8 /* b2Settings.cpp */,
+				8E65EE8115D9C998009C0EE8 /* b2Settings.h */,
+				8E65EE8215D9C998009C0EE8 /* b2StackAllocator.cpp */,
+				8E65EE8315D9C998009C0EE8 /* b2StackAllocator.h */,
+				8E65EE8415D9C998009C0EE8 /* b2Timer.cpp */,
+				8E65EE8515D9C998009C0EE8 /* b2Timer.h */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		8E65EE8615D9C998009C0EE8 /* Dynamics */ = {
+			isa = PBXGroup;
+			children = (
+				8E65EE8715D9C998009C0EE8 /* b2Body.cpp */,
+				8E65EE8815D9C998009C0EE8 /* b2Body.h */,
+				8E65EE8915D9C998009C0EE8 /* b2ContactManager.cpp */,
+				8E65EE8A15D9C998009C0EE8 /* b2ContactManager.h */,
+				8E65EE8B15D9C998009C0EE8 /* b2Fixture.cpp */,
+				8E65EE8C15D9C998009C0EE8 /* b2Fixture.h */,
+				8E65EE8D15D9C998009C0EE8 /* b2Island.cpp */,
+				8E65EE8E15D9C998009C0EE8 /* b2Island.h */,
+				8E65EE8F15D9C998009C0EE8 /* b2TimeStep.h */,
+				8E65EE9015D9C998009C0EE8 /* b2World.cpp */,
+				8E65EE9115D9C998009C0EE8 /* b2World.h */,
+				8E65EE9215D9C998009C0EE8 /* b2WorldCallbacks.cpp */,
+				8E65EE9315D9C998009C0EE8 /* b2WorldCallbacks.h */,
+				8E65EE9415D9C998009C0EE8 /* Contacts */,
+				8E65EEA715D9C998009C0EE8 /* Joints */,
+			);
+			path = Dynamics;
+			sourceTree = "<group>";
+		};
+		8E65EE9415D9C998009C0EE8 /* Contacts */ = {
+			isa = PBXGroup;
+			children = (
+				8E65EE9515D9C998009C0EE8 /* b2ChainAndCircleContact.cpp */,
+				8E65EE9615D9C998009C0EE8 /* b2ChainAndCircleContact.h */,
+				8E65EE9715D9C998009C0EE8 /* b2ChainAndPolygonContact.cpp */,
+				8E65EE9815D9C998009C0EE8 /* b2ChainAndPolygonContact.h */,
+				8E65EE9915D9C998009C0EE8 /* b2CircleContact.cpp */,
+				8E65EE9A15D9C998009C0EE8 /* b2CircleContact.h */,
+				8E65EE9B15D9C998009C0EE8 /* b2Contact.cpp */,
+				8E65EE9C15D9C998009C0EE8 /* b2Contact.h */,
+				8E65EE9D15D9C998009C0EE8 /* b2ContactSolver.cpp */,
+				8E65EE9E15D9C998009C0EE8 /* b2ContactSolver.h */,
+				8E65EE9F15D9C998009C0EE8 /* b2EdgeAndCircleContact.cpp */,
+				8E65EEA015D9C998009C0EE8 /* b2EdgeAndCircleContact.h */,
+				8E65EEA115D9C998009C0EE8 /* b2EdgeAndPolygonContact.cpp */,
+				8E65EEA215D9C998009C0EE8 /* b2EdgeAndPolygonContact.h */,
+				8E65EEA315D9C998009C0EE8 /* b2PolygonAndCircleContact.cpp */,
+				8E65EEA415D9C998009C0EE8 /* b2PolygonAndCircleContact.h */,
+				8E65EEA515D9C998009C0EE8 /* b2PolygonContact.cpp */,
+				8E65EEA615D9C998009C0EE8 /* b2PolygonContact.h */,
+			);
+			path = Contacts;
+			sourceTree = "<group>";
+		};
+		8E65EEA715D9C998009C0EE8 /* Joints */ = {
+			isa = PBXGroup;
+			children = (
+				8E65EEA815D9C998009C0EE8 /* b2DistanceJoint.cpp */,
+				8E65EEA915D9C998009C0EE8 /* b2DistanceJoint.h */,
+				8E65EEAA15D9C998009C0EE8 /* b2FrictionJoint.cpp */,
+				8E65EEAB15D9C998009C0EE8 /* b2FrictionJoint.h */,
+				8E65EEAC15D9C998009C0EE8 /* b2GearJoint.cpp */,
+				8E65EEAD15D9C998009C0EE8 /* b2GearJoint.h */,
+				8E65EEAE15D9C998009C0EE8 /* b2Joint.cpp */,
+				8E65EEAF15D9C998009C0EE8 /* b2Joint.h */,
+				8E65EEB015D9C998009C0EE8 /* b2MouseJoint.cpp */,
+				8E65EEB115D9C998009C0EE8 /* b2MouseJoint.h */,
+				8E65EEB215D9C998009C0EE8 /* b2PrismaticJoint.cpp */,
+				8E65EEB315D9C998009C0EE8 /* b2PrismaticJoint.h */,
+				8E65EEB415D9C998009C0EE8 /* b2PulleyJoint.cpp */,
+				8E65EEB515D9C998009C0EE8 /* b2PulleyJoint.h */,
+				8E65EEB615D9C998009C0EE8 /* b2RevoluteJoint.cpp */,
+				8E65EEB715D9C998009C0EE8 /* b2RevoluteJoint.h */,
+				8E65EEB815D9C998009C0EE8 /* b2RopeJoint.cpp */,
+				8E65EEB915D9C998009C0EE8 /* b2RopeJoint.h */,
+				8E65EEBA15D9C998009C0EE8 /* b2WeldJoint.cpp */,
+				8E65EEBB15D9C998009C0EE8 /* b2WeldJoint.h */,
+				8E65EEBC15D9C998009C0EE8 /* b2WheelJoint.cpp */,
+				8E65EEBD15D9C998009C0EE8 /* b2WheelJoint.h */,
+			);
+			path = Joints;
+			sourceTree = "<group>";
+		};
+		8E65EEBE15D9C998009C0EE8 /* Rope */ = {
+			isa = PBXGroup;
+			children = (
+				8E65EEBF15D9C998009C0EE8 /* b2Rope.cpp */,
+				8E65EEC015D9C998009C0EE8 /* b2Rope.h */,
+			);
+			path = Rope;
+			sourceTree = "<group>";
+		};
+		8E81DA3F15E6BF3E008F2E90 /* Game */ = {
+			isa = PBXGroup;
+			children = (
+				8E81DA4215E6BF56008F2E90 /* Particle.h */,
+				8E81DA4115E6BF56008F2E90 /* Particle.m */,
+				8E81DA4315E6BF56008F2E90 /* GameController.h */,
+				8E81DA4415E6BF56008F2E90 /* GameController.m */,
+				8E81DA4515E6BF56008F2E90 /* Actor.h */,
+				8E81DA4615E6BF56008F2E90 /* Actor.m */,
+				8E81DA4715E6BF56008F2E90 /* ImageRepresentation.h */,
+				8E81DA4815E6BF56008F2E90 /* ImageRepresentation.m */,
+				8E81DA4915E6BF56008F2E90 /* VectorRepresentation.h */,
+				8E81DA4A15E6BF56008F2E90 /* VectorRepresentation.m */,
+				8E81DA4B15E6BF56008F2E90 /* VectorActorView.h */,
+				8E81DA4C15E6BF56008F2E90 /* VectorActorView.m */,
+				8E81DA4D15E6BF56008F2E90 /* LinearMotion.h */,
+				8E81DA4E15E6BF56008F2E90 /* LinearMotion.m */,
+				8E81DA4F15E6BF56008F2E90 /* ExpireAfterTime.h */,
+				8E81DA5015E6BF56008F2E90 /* ExpireAfterTime.m */,
+				8E81DA5115E6BF56008F2E90 /* FollowActor.h */,
+				8E81DA5215E6BF56008F2E90 /* FollowActor.m */,
+				8E81DA5315E6BF56008F2E90 /* TemporaryBehavior.h */,
+				8E81DA5415E6BF56008F2E90 /* TemporaryBehavior.m */,
+			);
+			name = Game;
+			sourceTree = "<group>";
+		};
+		8E81DA6615E6CA52008F2E90 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8E81DA7115E6D3ED008F2E90 /* Asteroids */,
+				8E81DA6715E6CA60008F2E90 /* star_field_ipad@2x.png */,
+				8E81DA6815E6CA60008F2E90 /* star_field_ipad.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		8E81DA7115E6D3ED008F2E90 /* Asteroids */ = {
+			isa = PBXGroup;
+			children = (
+				8E81DA7215E6D3FF008F2E90 /* Asteroid_C_0012.png */,
+				8E81DA7315E6D3FF008F2E90 /* Asteroid_C_0013.png */,
+				8E81DA7415E6D3FF008F2E90 /* Asteroid_C_0014.png */,
+				8E81DA7515E6D3FF008F2E90 /* Asteroid_C_0015.png */,
+				8E81DA7615E6D3FF008F2E90 /* Asteroid_C_0016.png */,
+				8E81DA7715E6D3FF008F2E90 /* Asteroid_C_0017.png */,
+				8E81DA7815E6D3FF008F2E90 /* Asteroid_C_0018.png */,
+				8E81DA7915E6D3FF008F2E90 /* Asteroid_C_0019.png */,
+				8E81DA7A15E6D3FF008F2E90 /* Asteroid_C_0020.png */,
+				8E81DA7B15E6D3FF008F2E90 /* Asteroid_C_0021.png */,
+				8E81DA7C15E6D3FF008F2E90 /* Asteroid_C_0022.png */,
+				8E81DA7D15E6D3FF008F2E90 /* Asteroid_C_0023.png */,
+				8E81DA7E15E6D3FF008F2E90 /* Asteroid_C_0024.png */,
+				8E81DA7F15E6D3FF008F2E90 /* Asteroid_C_0025.png */,
+				8E81DA8015E6D3FF008F2E90 /* Asteroid_C_0026.png */,
+				8E81DA8115E6D3FF008F2E90 /* Asteroid_C_0027.png */,
+				8E81DA8215E6D3FF008F2E90 /* Asteroid_C_0028.png */,
+				8E81DA8315E6D3FF008F2E90 /* Asteroid_C_0029.png */,
+				8E81DA8415E6D3FF008F2E90 /* Asteroid_C_0030.png */,
+				8E81DA8515E6D3FF008F2E90 /* Asteroid_C_0031.png */,
+				8E81DA8615E6D3FF008F2E90 /* Asteroid_C_0001.png */,
+				8E81DA8715E6D3FF008F2E90 /* Asteroid_C_0002.png */,
+				8E81DA8815E6D3FF008F2E90 /* Asteroid_C_0003.png */,
+				8E81DA8915E6D3FF008F2E90 /* Asteroid_C_0004.png */,
+				8E81DA8A15E6D3FF008F2E90 /* Asteroid_C_0005.png */,
+				8E81DA8B15E6D3FF008F2E90 /* Asteroid_C_0006.png */,
+				8E81DA8C15E6D3FF008F2E90 /* Asteroid_C_0007.png */,
+				8E81DA8D15E6D3FF008F2E90 /* Asteroid_C_0008.png */,
+				8E81DA8E15E6D3FF008F2E90 /* Asteroid_C_0009.png */,
+				8E81DA8F15E6D3FF008F2E90 /* Asteroid_C_0010.png */,
+				8E81DA9015E6D3FF008F2E90 /* Asteroid_C_0011.png */,
+				8E81DA9115E6D3FF008F2E90 /* Asteroid_B_0007.png */,
+				8E81DA9215E6D3FF008F2E90 /* Asteroid_B_0008.png */,
+				8E81DA9315E6D3FF008F2E90 /* Asteroid_B_0009.png */,
+				8E81DA9415E6D3FF008F2E90 /* Asteroid_B_0010.png */,
+				8E81DA9515E6D3FF008F2E90 /* Asteroid_B_0011.png */,
+				8E81DA9615E6D3FF008F2E90 /* Asteroid_B_0012.png */,
+				8E81DA9715E6D3FF008F2E90 /* Asteroid_B_0013.png */,
+				8E81DA9815E6D3FF008F2E90 /* Asteroid_B_0014.png */,
+				8E81DA9915E6D3FF008F2E90 /* Asteroid_B_0015.png */,
+				8E81DA9A15E6D3FF008F2E90 /* Asteroid_B_0016.png */,
+				8E81DA9B15E6D3FF008F2E90 /* Asteroid_B_0017.png */,
+				8E81DA9C15E6D3FF008F2E90 /* Asteroid_B_0018.png */,
+				8E81DA9D15E6D3FF008F2E90 /* Asteroid_B_0019.png */,
+				8E81DA9E15E6D3FF008F2E90 /* Asteroid_B_0020.png */,
+				8E81DA9F15E6D3FF008F2E90 /* Asteroid_B_0021.png */,
+				8E81DAA015E6D3FF008F2E90 /* Asteroid_B_0022.png */,
+				8E81DAA115E6D3FF008F2E90 /* Asteroid_B_0023.png */,
+				8E81DAA215E6D3FF008F2E90 /* Asteroid_B_0024.png */,
+				8E81DAA315E6D3FF008F2E90 /* Asteroid_B_0025.png */,
+				8E81DAA415E6D3FF008F2E90 /* Asteroid_B_0026.png */,
+				8E81DAA515E6D3FF008F2E90 /* Asteroid_B_0027.png */,
+				8E81DAA615E6D3FF008F2E90 /* Asteroid_B_0028.png */,
+				8E81DAA715E6D3FF008F2E90 /* Asteroid_B_0029.png */,
+				8E81DAA815E6D3FF008F2E90 /* Asteroid_B_0030.png */,
+				8E81DAA915E6D3FF008F2E90 /* Asteroid_B_0031.png */,
+				8E81DAAA15E6D3FF008F2E90 /* Asteroid_B_0001.png */,
+				8E81DAAB15E6D3FF008F2E90 /* Asteroid_B_0002.png */,
+				8E81DAAC15E6D3FF008F2E90 /* Asteroid_B_0003.png */,
+				8E81DAAD15E6D3FF008F2E90 /* Asteroid_B_0004.png */,
+				8E81DAAE15E6D3FF008F2E90 /* Asteroid_B_0005.png */,
+				8E81DAAF15E6D3FF008F2E90 /* Asteroid_B_0006.png */,
+				8E81DAB015E6D3FF008F2E90 /* Asteroid_A_0024.png */,
+				8E81DAB115E6D3FF008F2E90 /* Asteroid_A_0025.png */,
+				8E81DAB215E6D3FF008F2E90 /* Asteroid_A_0026.png */,
+				8E81DAB315E6D3FF008F2E90 /* Asteroid_A_0027.png */,
+				8E81DAB415E6D3FF008F2E90 /* Asteroid_A_0028.png */,
+				8E81DAB515E6D3FF008F2E90 /* Asteroid_A_0029.png */,
+				8E81DAB615E6D3FF008F2E90 /* Asteroid_A_0030.png */,
+				8E81DAB715E6D3FF008F2E90 /* Asteroid_A_0031.png */,
+				8E81DAB815E6D3FF008F2E90 /* Asteroid_A_0001.png */,
+				8E81DAB915E6D3FF008F2E90 /* Asteroid_A_0002.png */,
+				8E81DABA15E6D3FF008F2E90 /* Asteroid_A_0003.png */,
+				8E81DABB15E6D3FF008F2E90 /* Asteroid_A_0004.png */,
+				8E81DABC15E6D3FF008F2E90 /* Asteroid_A_0005.png */,
+				8E81DABD15E6D3FF008F2E90 /* Asteroid_A_0006.png */,
+				8E81DABE15E6D3FF008F2E90 /* Asteroid_A_0007.png */,
+				8E81DABF15E6D3FF008F2E90 /* Asteroid_A_0008.png */,
+				8E81DAC015E6D3FF008F2E90 /* Asteroid_A_0009.png */,
+				8E81DAC115E6D3FF008F2E90 /* Asteroid_A_0010.png */,
+				8E81DAC215E6D3FF008F2E90 /* Asteroid_A_0011.png */,
+				8E81DAC315E6D3FF008F2E90 /* Asteroid_A_0012.png */,
+				8E81DAC415E6D3FF008F2E90 /* Asteroid_A_0013.png */,
+				8E81DAC515E6D3FF008F2E90 /* Asteroid_A_0014.png */,
+				8E81DAC615E6D3FF008F2E90 /* Asteroid_A_0015.png */,
+				8E81DAC715E6D3FF008F2E90 /* Asteroid_A_0016.png */,
+				8E81DAC815E6D3FF008F2E90 /* Asteroid_A_0017.png */,
+				8E81DAC915E6D3FF008F2E90 /* Asteroid_A_0018.png */,
+				8E81DACA15E6D3FF008F2E90 /* Asteroid_A_0019.png */,
+				8E81DACB15E6D3FF008F2E90 /* Asteroid_A_0020.png */,
+				8E81DACC15E6D3FF008F2E90 /* Asteroid_A_0021.png */,
+				8E81DACD15E6D3FF008F2E90 /* Asteroid_A_0022.png */,
+				8E81DACE15E6D3FF008F2E90 /* Asteroid_A_0023.png */,
+			);
+			name = Asteroids;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8E65ED0815D9C691009C0EE8 /* Sample 13 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E65ED2715D9C691009C0EE8 /* Build configuration list for PBXNativeTarget "Sample 13" */;
+			buildPhases = (
+				8E65ED0515D9C691009C0EE8 /* Sources */,
+				8E65ED0615D9C691009C0EE8 /* Frameworks */,
+				8E65ED0715D9C691009C0EE8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Sample 13";
+			productName = "Sample 13";
+			productReference = 8E65ED0915D9C691009C0EE8 /* Sample 13.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8E65ED0015D9C691009C0EE8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Lucas Jordan";
+			};
+			buildConfigurationList = 8E65ED0315D9C691009C0EE8 /* Build configuration list for PBXProject "Sample 13" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8E65ECFE15D9C691009C0EE8;
+			productRefGroup = 8E65ED0A15D9C691009C0EE8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8E65ED0815D9C691009C0EE8 /* Sample 13 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8E65ED0715D9C691009C0EE8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E65ED1815D9C691009C0EE8 /* InfoPlist.strings in Resources */,
+				8E65EEC115D9C998009C0EE8 /* Box2DConfig.cmake in Resources */,
+				8E65EEC215D9C998009C0EE8 /* CMakeLists.txt in Resources */,
+				8E81DA5915E6BFEE008F2E90 /* PhysicsViewController.xib in Resources */,
+				8E81DA6515E6C424008F2E90 /* ViewController.xib in Resources */,
+				8E81DA6915E6CA60008F2E90 /* star_field_ipad@2x.png in Resources */,
+				8E81DA6A15E6CA60008F2E90 /* star_field_ipad.png in Resources */,
+				8E81DACF15E6D3FF008F2E90 /* Asteroid_C_0012.png in Resources */,
+				8E81DAD015E6D3FF008F2E90 /* Asteroid_C_0013.png in Resources */,
+				8E81DAD115E6D3FF008F2E90 /* Asteroid_C_0014.png in Resources */,
+				8E81DAD215E6D3FF008F2E90 /* Asteroid_C_0015.png in Resources */,
+				8E81DAD315E6D3FF008F2E90 /* Asteroid_C_0016.png in Resources */,
+				8E81DAD415E6D3FF008F2E90 /* Asteroid_C_0017.png in Resources */,
+				8E81DAD515E6D3FF008F2E90 /* Asteroid_C_0018.png in Resources */,
+				8E81DAD615E6D3FF008F2E90 /* Asteroid_C_0019.png in Resources */,
+				8E81DAD715E6D3FF008F2E90 /* Asteroid_C_0020.png in Resources */,
+				8E81DAD815E6D3FF008F2E90 /* Asteroid_C_0021.png in Resources */,
+				8E81DAD915E6D3FF008F2E90 /* Asteroid_C_0022.png in Resources */,
+				8E81DADA15E6D3FF008F2E90 /* Asteroid_C_0023.png in Resources */,
+				8E81DADB15E6D3FF008F2E90 /* Asteroid_C_0024.png in Resources */,
+				8E81DADC15E6D3FF008F2E90 /* Asteroid_C_0025.png in Resources */,
+				8E81DADD15E6D3FF008F2E90 /* Asteroid_C_0026.png in Resources */,
+				8E81DADE15E6D3FF008F2E90 /* Asteroid_C_0027.png in Resources */,
+				8E81DADF15E6D3FF008F2E90 /* Asteroid_C_0028.png in Resources */,
+				8E81DAE015E6D3FF008F2E90 /* Asteroid_C_0029.png in Resources */,
+				8E81DAE115E6D3FF008F2E90 /* Asteroid_C_0030.png in Resources */,
+				8E81DAE215E6D3FF008F2E90 /* Asteroid_C_0031.png in Resources */,
+				8E81DAE315E6D3FF008F2E90 /* Asteroid_C_0001.png in Resources */,
+				8E81DAE415E6D3FF008F2E90 /* Asteroid_C_0002.png in Resources */,
+				8E81DAE515E6D3FF008F2E90 /* Asteroid_C_0003.png in Resources */,
+				8E81DAE615E6D3FF008F2E90 /* Asteroid_C_0004.png in Resources */,
+				8E81DAE715E6D3FF008F2E90 /* Asteroid_C_0005.png in Resources */,
+				8E81DAE815E6D3FF008F2E90 /* Asteroid_C_0006.png in Resources */,
+				8E81DAE915E6D3FF008F2E90 /* Asteroid_C_0007.png in Resources */,
+				8E81DAEA15E6D3FF008F2E90 /* Asteroid_C_0008.png in Resources */,
+				8E81DAEB15E6D3FF008F2E90 /* Asteroid_C_0009.png in Resources */,
+				8E81DAEC15E6D3FF008F2E90 /* Asteroid_C_0010.png in Resources */,
+				8E81DAED15E6D3FF008F2E90 /* Asteroid_C_0011.png in Resources */,
+				8E81DAEE15E6D3FF008F2E90 /* Asteroid_B_0007.png in Resources */,
+				8E81DAEF15E6D3FF008F2E90 /* Asteroid_B_0008.png in Resources */,
+				8E81DAF015E6D3FF008F2E90 /* Asteroid_B_0009.png in Resources */,
+				8E81DAF115E6D3FF008F2E90 /* Asteroid_B_0010.png in Resources */,
+				8E81DAF215E6D3FF008F2E90 /* Asteroid_B_0011.png in Resources */,
+				8E81DAF315E6D3FF008F2E90 /* Asteroid_B_0012.png in Resources */,
+				8E81DAF415E6D3FF008F2E90 /* Asteroid_B_0013.png in Resources */,
+				8E81DAF515E6D3FF008F2E90 /* Asteroid_B_0014.png in Resources */,
+				8E81DAF615E6D3FF008F2E90 /* Asteroid_B_0015.png in Resources */,
+				8E81DAF715E6D3FF008F2E90 /* Asteroid_B_0016.png in Resources */,
+				8E81DAF815E6D3FF008F2E90 /* Asteroid_B_0017.png in Resources */,
+				8E81DAF915E6D3FF008F2E90 /* Asteroid_B_0018.png in Resources */,
+				8E81DAFA15E6D3FF008F2E90 /* Asteroid_B_0019.png in Resources */,
+				8E81DAFB15E6D3FF008F2E90 /* Asteroid_B_0020.png in Resources */,
+				8E81DAFC15E6D3FF008F2E90 /* Asteroid_B_0021.png in Resources */,
+				8E81DAFD15E6D3FF008F2E90 /* Asteroid_B_0022.png in Resources */,
+				8E81DAFE15E6D3FF008F2E90 /* Asteroid_B_0023.png in Resources */,
+				8E81DAFF15E6D3FF008F2E90 /* Asteroid_B_0024.png in Resources */,
+				8E81DB0015E6D3FF008F2E90 /* Asteroid_B_0025.png in Resources */,
+				8E81DB0115E6D3FF008F2E90 /* Asteroid_B_0026.png in Resources */,
+				8E81DB0215E6D3FF008F2E90 /* Asteroid_B_0027.png in Resources */,
+				8E81DB0315E6D3FF008F2E90 /* Asteroid_B_0028.png in Resources */,
+				8E81DB0415E6D3FF008F2E90 /* Asteroid_B_0029.png in Resources */,
+				8E81DB0515E6D3FF008F2E90 /* Asteroid_B_0030.png in Resources */,
+				8E81DB0615E6D3FF008F2E90 /* Asteroid_B_0031.png in Resources */,
+				8E81DB0715E6D3FF008F2E90 /* Asteroid_B_0001.png in Resources */,
+				8E81DB0815E6D3FF008F2E90 /* Asteroid_B_0002.png in Resources */,
+				8E81DB0915E6D3FF008F2E90 /* Asteroid_B_0003.png in Resources */,
+				8E81DB0A15E6D3FF008F2E90 /* Asteroid_B_0004.png in Resources */,
+				8E81DB0B15E6D3FF008F2E90 /* Asteroid_B_0005.png in Resources */,
+				8E81DB0C15E6D3FF008F2E90 /* Asteroid_B_0006.png in Resources */,
+				8E81DB0D15E6D3FF008F2E90 /* Asteroid_A_0024.png in Resources */,
+				8E81DB0E15E6D3FF008F2E90 /* Asteroid_A_0025.png in Resources */,
+				8E81DB0F15E6D3FF008F2E90 /* Asteroid_A_0026.png in Resources */,
+				8E81DB1015E6D3FF008F2E90 /* Asteroid_A_0027.png in Resources */,
+				8E81DB1115E6D3FF008F2E90 /* Asteroid_A_0028.png in Resources */,
+				8E81DB1215E6D3FF008F2E90 /* Asteroid_A_0029.png in Resources */,
+				8E81DB1315E6D3FF008F2E90 /* Asteroid_A_0030.png in Resources */,
+				8E81DB1415E6D3FF008F2E90 /* Asteroid_A_0031.png in Resources */,
+				8E81DB1515E6D3FF008F2E90 /* Asteroid_A_0001.png in Resources */,
+				8E81DB1615E6D3FF008F2E90 /* Asteroid_A_0002.png in Resources */,
+				8E81DB1715E6D3FF008F2E90 /* Asteroid_A_0003.png in Resources */,
+				8E81DB1815E6D3FF008F2E90 /* Asteroid_A_0004.png in Resources */,
+				8E81DB1915E6D3FF008F2E90 /* Asteroid_A_0005.png in Resources */,
+				8E81DB1A15E6D3FF008F2E90 /* Asteroid_A_0006.png in Resources */,
+				8E81DB1B15E6D3FF008F2E90 /* Asteroid_A_0007.png in Resources */,
+				8E81DB1C15E6D3FF008F2E90 /* Asteroid_A_0008.png in Resources */,
+				8E81DB1D15E6D3FF008F2E90 /* Asteroid_A_0009.png in Resources */,
+				8E81DB1E15E6D3FF008F2E90 /* Asteroid_A_0010.png in Resources */,
+				8E81DB1F15E6D3FF008F2E90 /* Asteroid_A_0011.png in Resources */,
+				8E81DB2015E6D3FF008F2E90 /* Asteroid_A_0012.png in Resources */,
+				8E81DB2115E6D3FF008F2E90 /* Asteroid_A_0013.png in Resources */,
+				8E81DB2215E6D3FF008F2E90 /* Asteroid_A_0014.png in Resources */,
+				8E81DB2315E6D3FF008F2E90 /* Asteroid_A_0015.png in Resources */,
+				8E81DB2415E6D3FF008F2E90 /* Asteroid_A_0016.png in Resources */,
+				8E81DB2515E6D3FF008F2E90 /* Asteroid_A_0017.png in Resources */,
+				8E81DB2615E6D3FF008F2E90 /* Asteroid_A_0018.png in Resources */,
+				8E81DB2715E6D3FF008F2E90 /* Asteroid_A_0019.png in Resources */,
+				8E81DB2815E6D3FF008F2E90 /* Asteroid_A_0020.png in Resources */,
+				8E81DB2915E6D3FF008F2E90 /* Asteroid_A_0021.png in Resources */,
+				8E81DB2A15E6D3FF008F2E90 /* Asteroid_A_0022.png in Resources */,
+				8E81DB2B15E6D3FF008F2E90 /* Asteroid_A_0023.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8E65ED0515D9C691009C0EE8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E65ED1A15D9C691009C0EE8 /* main.m in Sources */,
+				8E65ED1E15D9C691009C0EE8 /* AppDelegate.m in Sources */,
+				8E65ED2115D9C691009C0EE8 /* ViewController.m in Sources */,
+				8E65EEC315D9C998009C0EE8 /* b2BroadPhase.cpp in Sources */,
+				8E65EEC415D9C998009C0EE8 /* b2CollideCircle.cpp in Sources */,
+				8E65EEC515D9C998009C0EE8 /* b2CollideEdge.cpp in Sources */,
+				8E65EEC615D9C998009C0EE8 /* b2CollidePolygon.cpp in Sources */,
+				8E65EEC715D9C998009C0EE8 /* b2Collision.cpp in Sources */,
+				8E65EEC815D9C998009C0EE8 /* b2Distance.cpp in Sources */,
+				8E65EEC915D9C998009C0EE8 /* b2DynamicTree.cpp in Sources */,
+				8E65EECA15D9C998009C0EE8 /* b2TimeOfImpact.cpp in Sources */,
+				8E65EECB15D9C998009C0EE8 /* b2ChainShape.cpp in Sources */,
+				8E65EECC15D9C998009C0EE8 /* b2CircleShape.cpp in Sources */,
+				8E65EECD15D9C998009C0EE8 /* b2EdgeShape.cpp in Sources */,
+				8E65EECE15D9C998009C0EE8 /* b2PolygonShape.cpp in Sources */,
+				8E65EECF15D9C998009C0EE8 /* b2BlockAllocator.cpp in Sources */,
+				8E65EED015D9C998009C0EE8 /* b2Draw.cpp in Sources */,
+				8E65EED115D9C998009C0EE8 /* b2Math.cpp in Sources */,
+				8E65EED215D9C998009C0EE8 /* b2Settings.cpp in Sources */,
+				8E65EED315D9C998009C0EE8 /* b2StackAllocator.cpp in Sources */,
+				8E65EED415D9C998009C0EE8 /* b2Timer.cpp in Sources */,
+				8E65EED515D9C998009C0EE8 /* b2Body.cpp in Sources */,
+				8E65EED615D9C998009C0EE8 /* b2ContactManager.cpp in Sources */,
+				8E65EED715D9C998009C0EE8 /* b2Fixture.cpp in Sources */,
+				8E65EED815D9C998009C0EE8 /* b2Island.cpp in Sources */,
+				8E65EED915D9C998009C0EE8 /* b2World.cpp in Sources */,
+				8E65EEDA15D9C998009C0EE8 /* b2WorldCallbacks.cpp in Sources */,
+				8E65EEDB15D9C998009C0EE8 /* b2ChainAndCircleContact.cpp in Sources */,
+				8E65EEDC15D9C998009C0EE8 /* b2ChainAndPolygonContact.cpp in Sources */,
+				8E65EEDD15D9C998009C0EE8 /* b2CircleContact.cpp in Sources */,
+				8E65EEDE15D9C998009C0EE8 /* b2Contact.cpp in Sources */,
+				8E65EEDF15D9C998009C0EE8 /* b2ContactSolver.cpp in Sources */,
+				8E65EEE015D9C998009C0EE8 /* b2EdgeAndCircleContact.cpp in Sources */,
+				8E65EEE115D9C998009C0EE8 /* b2EdgeAndPolygonContact.cpp in Sources */,
+				8E65EEE215D9C998009C0EE8 /* b2PolygonAndCircleContact.cpp in Sources */,
+				8E65EEE315D9C998009C0EE8 /* b2PolygonContact.cpp in Sources */,
+				8E65EEE415D9C998009C0EE8 /* b2DistanceJoint.cpp in Sources */,
+				8E65EEE515D9C998009C0EE8 /* b2FrictionJoint.cpp in Sources */,
+				8E65EEE615D9C998009C0EE8 /* b2GearJoint.cpp in Sources */,
+				8E65EEE715D9C998009C0EE8 /* b2Joint.cpp in Sources */,
+				8E65EEE815D9C998009C0EE8 /* b2MouseJoint.cpp in Sources */,
+				8E65EEE915D9C998009C0EE8 /* b2PrismaticJoint.cpp in Sources */,
+				8E65EEEA15D9C998009C0EE8 /* b2PulleyJoint.cpp in Sources */,
+				8E65EEEB15D9C998009C0EE8 /* b2RevoluteJoint.cpp in Sources */,
+				8E65EEEC15D9C998009C0EE8 /* b2RopeJoint.cpp in Sources */,
+				8E65EEED15D9C998009C0EE8 /* b2WeldJoint.cpp in Sources */,
+				8E65EEEE15D9C998009C0EE8 /* b2WheelJoint.cpp in Sources */,
+				8E65EEEF15D9C998009C0EE8 /* b2Rope.cpp in Sources */,
+				8E81DA5815E6BFEE008F2E90 /* PhysicsViewController.m in Sources */,
+				8E81DA5A15E6C0B4008F2E90 /* Particle.m in Sources */,
+				8E81DA5B15E6C0BE008F2E90 /* GameController.m in Sources */,
+				8E81DA5C15E6C0CA008F2E90 /* Actor.m in Sources */,
+				8E81DA5D15E6C0D0008F2E90 /* ImageRepresentation.m in Sources */,
+				8E81DA5E15E6C0D0008F2E90 /* VectorRepresentation.m in Sources */,
+				8E81DA5F15E6C0D0008F2E90 /* VectorActorView.m in Sources */,
+				8E81DA6015E6C0D0008F2E90 /* LinearMotion.m in Sources */,
+				8E81DA6115E6C0D0008F2E90 /* ExpireAfterTime.m in Sources */,
+				8E81DA6215E6C0D0008F2E90 /* FollowActor.m in Sources */,
+				8E81DA6315E6C0D0008F2E90 /* TemporaryBehavior.m in Sources */,
+				8E81DA6D15E6D08C008F2E90 /* Asteroid.m in Sources */,
+				8E81DA7015E6D0BB008F2E90 /* AsteroidRepresentationDelegate.m in Sources */,
+				8E0C5EA415ED5E1E009818E0 /* PhysicsActor.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8E65ED1615D9C691009C0EE8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8E65ED1715D9C691009C0EE8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8E65ED2515D9C691009C0EE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "../**";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		8E65ED2615D9C691009C0EE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "../**";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8E65ED2815D9C691009C0EE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Sample 13/Sample 13-Prefix.pch";
+				INFOPLIST_FILE = "Sample 13/Sample 13-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8E65ED2915D9C691009C0EE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Sample 13/Sample 13-Prefix.pch";
+				INFOPLIST_FILE = "Sample 13/Sample 13-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8E65ED0315D9C691009C0EE8 /* Build configuration list for PBXProject "Sample 13" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E65ED2515D9C691009C0EE8 /* Debug */,
+				8E65ED2615D9C691009C0EE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E65ED2715D9C691009C0EE8 /* Build configuration list for PBXNativeTarget "Sample 13" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E65ED2815D9C691009C0EE8 /* Debug */,
+				8E65ED2915D9C691009C0EE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8E65ED0015D9C691009C0EE8 /* Project object */;
+}

@@ -1,0 +1,861 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8E17E6251369F7510008E976 /* Example01Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E17E6241369F7510008E976 /* Example01Controller.m */; };
+		8E17E6291369F7710008E976 /* Example01Controller_iPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E17E6271369F7710008E976 /* Example01Controller_iPhone.m */; };
+		8E17E62A1369F7710008E976 /* Example01Controller_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8E17E6281369F7710008E976 /* Example01Controller_iPhone.xib */; };
+		8E17E62F1369F9D50008E976 /* Viper01.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E17E62E1369F9D50008E976 /* Viper01.m */; };
+		8E17E631136A03FD0008E976 /* viper.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E17E630136A03FD0008E976 /* viper.png */; };
+		8E17E633136A05E00008E976 /* viper@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E17E632136A05E00008E976 /* viper@2x.png */; };
+		8E17E637136A125D0008E976 /* star_field_iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E17E634136A125C0008E976 /* star_field_iphone.png */; };
+		8E17E638136A125D0008E976 /* star_field_ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E17E635136A125D0008E976 /* star_field_ipad.png */; };
+		8E17E63B136A13580008E976 /* star_field_iphone@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E17E63A136A13580008E976 /* star_field_iphone@2x.png */; };
+		8E17E649136A15250008E976 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E17E648136A15250008E976 /* QuartzCore.framework */; };
+		8E17E6A61371F5750008E976 /* Example02Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E17E6A51371F5750008E976 /* Example02Controller.m */; };
+		8E17E6A91371F5B90008E976 /* Actor02.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E17E6A81371F5B90008E976 /* Actor02.m */; };
+		8E17E6B51371F6F50008E976 /* Example02Controller_iPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E17E6B31371F6F50008E976 /* Example02Controller_iPhone.m */; };
+		8E17E6B61371F6F50008E976 /* Example02Controller_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8E17E6B41371F6F50008E976 /* Example02Controller_iPhone.xib */; };
+		8E17E6B91371FA280008E976 /* Viper02.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E17E6B81371FA270008E976 /* Viper02.m */; };
+		8E17E6BC1371FA670008E976 /* Asteroid02.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E17E6BB1371FA650008E976 /* Asteroid02.m */; };
+		8E17E6C013730D760008E976 /* AsteroidB.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E17E6BD13730D760008E976 /* AsteroidB.png */; };
+		8E17E6C113730D760008E976 /* AsteroidC.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E17E6BE13730D760008E976 /* AsteroidC.png */; };
+		8E17E6C213730D760008E976 /* AsteroidA.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E17E6BF13730D760008E976 /* AsteroidA.png */; };
+		8E17E6D2137444A10008E976 /* Example03Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E17E6D1137444A10008E976 /* Example03Controller.m */; };
+		8E17E6D5137445280008E976 /* Actor03.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E17E6D4137445280008E976 /* Actor03.m */; };
+		8E17E6D81374453E0008E976 /* Viper03.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E17E6D71374453E0008E976 /* Viper03.m */; };
+		8E17E6DB1374454A0008E976 /* Asteroid03.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E17E6DA1374454A0008E976 /* Asteroid03.m */; };
+		8E17E6DF137447300008E976 /* Example03Controller_iPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E17E6DD1374472F0008E976 /* Example03Controller_iPhone.m */; };
+		8E17E6E0137447300008E976 /* Example03Controller_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8E17E6DE137447300008E976 /* Example03Controller_iPhone.xib */; };
+		8E17E73E137448A20008E976 /* Asteroid_C_0031.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E17E6E11374489B0008E976 /* Asteroid_C_0031.png */; };
+		8E17E73F137448A20008E976 /* Asteroid_C_0030.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E17E6E21374489B0008E976 /* Asteroid_C_0030.png */; };
+		8E17E740137448A20008E976 /* Asteroid_C_0029.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E17E6E31374489B0008E976 /* Asteroid_C_0029.png */; };
+		8E17E741137448A20008E976 /* Asteroid_C_0028.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E17E6E41374489B0008E976 /* Asteroid_C_0028.png */; };
+		8E17E742137448A20008E976 /* Asteroid_C_0027.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E17E6E51374489B0008E976 /* Asteroid_C_0027.png */; };
+		8E17E743137448A20008E976 /* Asteroid_C_0026.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E17E6E61374489C0008E976 /* Asteroid_C_0026.png */; };
+		8E17E744137448A20008E976 /* Asteroid_C_0025.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E17E6E71374489C0008E976 /* Asteroid_C_0025.png */; };
+		8E17E745137448A20008E976 /* Asteroid_C_0024.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E17E6E81374489C0008E976 /* Asteroid_C_0024.png */; };
+		8E17E746137448A20008E976 /* Asteroid_C_0023.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E17E6E91374489C0008E976 /* Asteroid_C_0023.png */; };
+		8E17E747137448A20008E976 /* Asteroid_C_0022.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E17E6EA1374489C0008E976 /* Asteroid_C_0022.png */; };
+		8E17E748137448A20008E976 /* Asteroid_C_0021.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E17E6EB1374489C0008E976 /* Asteroid_C_0021.png */; };
+		8E17E749137448A20008E976 /* Asteroid_C_0020.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E17E6EC1374489C0008E976 /* Asteroid_C_0020.png */; };
+		8E17E74A137448A20008E976 /* Asteroid_C_0019.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E17E6ED1374489C0008E976 /* Asteroid_C_0019.png */; };
+		8E17E74B137448A20008E976 /* Asteroid_C_0018.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E17E6EE1374489C0008E976 /* Asteroid_C_0018.png */; };
+		8E17E74C137448A20008E976 /* Asteroid_C_0017.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E17E6EF1374489C0008E976 /* Asteroid_C_0017.png */; };
+		8E17E74D137448A20008E976 /* Asteroid_C_0016.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E17E6F01374489C0008E976 /* Asteroid_C_0016.png */; };
+		8E17E74E137448A20008E976 /* Asteroid_C_0015.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E17E6F11374489C0008E976 /* Asteroid_C_0015.png */; };
+		8E17E74F137448A20008E976 /* Asteroid_C_0014.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E17E6F21374489C0008E976 /* Asteroid_C_0014.png */; };
+		8E17E750137448A20008E976 /* Asteroid_C_0013.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E17E6F31374489C0008E976 /* Asteroid_C_0013.png */; };
+		8E17E751137448A20008E976 /* Asteroid_C_0012.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E17E6F41374489C0008E976 /* Asteroid_C_0012.png */; };
+		8E17E752137448A20008E976 /* Asteroid_C_0011.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E17E6F51374489C0008E976 /* Asteroid_C_0011.png */; };
+		8E17E753137448A20008E976 /* Asteroid_C_0010.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E17E6F61374489D0008E976 /* Asteroid_C_0010.png */; };
+		8E17E754137448A20008E976 /* Asteroid_C_0009.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E17E6F71374489D0008E976 /* Asteroid_C_0009.png */; };
+		8E17E755137448A20008E976 /* Asteroid_C_0008.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E17E6F81374489D0008E976 /* Asteroid_C_0008.png */; };
+		8E17E756137448A20008E976 /* Asteroid_C_0007.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E17E6F91374489D0008E976 /* Asteroid_C_0007.png */; };
+		8E17E757137448A20008E976 /* Asteroid_C_0006.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E17E6FA1374489D0008E976 /* Asteroid_C_0006.png */; };
+		8E17E758137448A20008E976 /* Asteroid_C_0005.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E17E6FB1374489D0008E976 /* Asteroid_C_0005.png */; };
+		8E17E759137448A20008E976 /* Asteroid_C_0004.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E17E6FC1374489D0008E976 /* Asteroid_C_0004.png */; };
+		8E17E75A137448A20008E976 /* Asteroid_C_0003.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E17E6FD1374489D0008E976 /* Asteroid_C_0003.png */; };
+		8E17E75B137448A20008E976 /* Asteroid_C_0002.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E17E6FE1374489D0008E976 /* Asteroid_C_0002.png */; };
+		8E17E75C137448A20008E976 /* Asteroid_C_0001.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E17E6FF1374489D0008E976 /* Asteroid_C_0001.png */; };
+		8E17E75D137448A20008E976 /* Asteroid_B_0031.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E17E7001374489D0008E976 /* Asteroid_B_0031.png */; };
+		8E17E75E137448A20008E976 /* Asteroid_B_0030.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E17E7011374489D0008E976 /* Asteroid_B_0030.png */; };
+		8E17E75F137448A20008E976 /* Asteroid_B_0029.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E17E7021374489D0008E976 /* Asteroid_B_0029.png */; };
+		8E17E760137448A20008E976 /* Asteroid_B_0028.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E17E7031374489D0008E976 /* Asteroid_B_0028.png */; };
+		8E17E761137448A20008E976 /* Asteroid_B_0027.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E17E7041374489D0008E976 /* Asteroid_B_0027.png */; };
+		8E17E762137448A20008E976 /* Asteroid_B_0026.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E17E7051374489D0008E976 /* Asteroid_B_0026.png */; };
+		8E17E763137448A20008E976 /* Asteroid_B_0025.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E17E7061374489D0008E976 /* Asteroid_B_0025.png */; };
+		8E17E764137448A20008E976 /* Asteroid_B_0024.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E17E7071374489D0008E976 /* Asteroid_B_0024.png */; };
+		8E17E765137448A20008E976 /* Asteroid_B_0023.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E17E7081374489D0008E976 /* Asteroid_B_0023.png */; };
+		8E17E766137448A20008E976 /* Asteroid_B_0022.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E17E7091374489D0008E976 /* Asteroid_B_0022.png */; };
+		8E17E767137448A20008E976 /* Asteroid_B_0021.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E17E70A1374489E0008E976 /* Asteroid_B_0021.png */; };
+		8E17E768137448A20008E976 /* Asteroid_B_0020.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E17E70B1374489E0008E976 /* Asteroid_B_0020.png */; };
+		8E17E769137448A20008E976 /* Asteroid_B_0019.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E17E70C1374489E0008E976 /* Asteroid_B_0019.png */; };
+		8E17E76A137448A20008E976 /* Asteroid_B_0018.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E17E70D1374489E0008E976 /* Asteroid_B_0018.png */; };
+		8E17E76B137448A20008E976 /* Asteroid_B_0017.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E17E70E1374489E0008E976 /* Asteroid_B_0017.png */; };
+		8E17E76C137448A20008E976 /* Asteroid_B_0016.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E17E70F1374489E0008E976 /* Asteroid_B_0016.png */; };
+		8E17E76D137448A20008E976 /* Asteroid_B_0015.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E17E7101374489E0008E976 /* Asteroid_B_0015.png */; };
+		8E17E76E137448A20008E976 /* Asteroid_B_0014.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E17E7111374489E0008E976 /* Asteroid_B_0014.png */; };
+		8E17E76F137448A20008E976 /* Asteroid_B_0013.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E17E7121374489E0008E976 /* Asteroid_B_0013.png */; };
+		8E17E770137448A20008E976 /* Asteroid_B_0012.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E17E7131374489E0008E976 /* Asteroid_B_0012.png */; };
+		8E17E771137448A20008E976 /* Asteroid_B_0011.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E17E7141374489E0008E976 /* Asteroid_B_0011.png */; };
+		8E17E772137448A20008E976 /* Asteroid_B_0010.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E17E7151374489E0008E976 /* Asteroid_B_0010.png */; };
+		8E17E773137448A20008E976 /* Asteroid_B_0009.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E17E7161374489E0008E976 /* Asteroid_B_0009.png */; };
+		8E17E774137448A20008E976 /* Asteroid_B_0008.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E17E7171374489E0008E976 /* Asteroid_B_0008.png */; };
+		8E17E775137448A20008E976 /* Asteroid_B_0007.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E17E7181374489E0008E976 /* Asteroid_B_0007.png */; };
+		8E17E776137448A20008E976 /* Asteroid_B_0006.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E17E7191374489E0008E976 /* Asteroid_B_0006.png */; };
+		8E17E777137448A20008E976 /* Asteroid_B_0005.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E17E71A1374489E0008E976 /* Asteroid_B_0005.png */; };
+		8E17E778137448A20008E976 /* Asteroid_B_0004.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E17E71B1374489F0008E976 /* Asteroid_B_0004.png */; };
+		8E17E779137448A20008E976 /* Asteroid_B_0003.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E17E71C1374489F0008E976 /* Asteroid_B_0003.png */; };
+		8E17E77A137448A20008E976 /* Asteroid_B_0002.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E17E71D1374489F0008E976 /* Asteroid_B_0002.png */; };
+		8E17E77B137448A20008E976 /* Asteroid_B_0001.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E17E71E1374489F0008E976 /* Asteroid_B_0001.png */; };
+		8E17E77C137448A20008E976 /* Asteroid_A_0031.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E17E71F137448A00008E976 /* Asteroid_A_0031.png */; };
+		8E17E77D137448A20008E976 /* Asteroid_A_0030.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E17E720137448A00008E976 /* Asteroid_A_0030.png */; };
+		8E17E77E137448A20008E976 /* Asteroid_A_0029.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E17E721137448A00008E976 /* Asteroid_A_0029.png */; };
+		8E17E77F137448A20008E976 /* Asteroid_A_0028.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E17E722137448A00008E976 /* Asteroid_A_0028.png */; };
+		8E17E780137448A20008E976 /* Asteroid_A_0027.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E17E723137448A00008E976 /* Asteroid_A_0027.png */; };
+		8E17E781137448A20008E976 /* Asteroid_A_0026.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E17E724137448A00008E976 /* Asteroid_A_0026.png */; };
+		8E17E782137448A20008E976 /* Asteroid_A_0025.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E17E725137448A00008E976 /* Asteroid_A_0025.png */; };
+		8E17E783137448A20008E976 /* Asteroid_A_0024.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E17E726137448A00008E976 /* Asteroid_A_0024.png */; };
+		8E17E784137448A20008E976 /* Asteroid_A_0023.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E17E727137448A00008E976 /* Asteroid_A_0023.png */; };
+		8E17E785137448A20008E976 /* Asteroid_A_0022.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E17E728137448A00008E976 /* Asteroid_A_0022.png */; };
+		8E17E786137448A20008E976 /* Asteroid_A_0021.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E17E729137448A00008E976 /* Asteroid_A_0021.png */; };
+		8E17E787137448A20008E976 /* Asteroid_A_0020.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E17E72A137448A00008E976 /* Asteroid_A_0020.png */; };
+		8E17E788137448A20008E976 /* Asteroid_A_0019.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E17E72B137448A00008E976 /* Asteroid_A_0019.png */; };
+		8E17E789137448A20008E976 /* Asteroid_A_0018.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E17E72C137448A00008E976 /* Asteroid_A_0018.png */; };
+		8E17E78A137448A20008E976 /* Asteroid_A_0017.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E17E72D137448A00008E976 /* Asteroid_A_0017.png */; };
+		8E17E78B137448A20008E976 /* Asteroid_A_0016.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E17E72E137448A00008E976 /* Asteroid_A_0016.png */; };
+		8E17E78C137448A20008E976 /* Asteroid_A_0015.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E17E72F137448A00008E976 /* Asteroid_A_0015.png */; };
+		8E17E78D137448A20008E976 /* Asteroid_A_0014.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E17E730137448A10008E976 /* Asteroid_A_0014.png */; };
+		8E17E78E137448A20008E976 /* Asteroid_A_0013.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E17E731137448A10008E976 /* Asteroid_A_0013.png */; };
+		8E17E78F137448A20008E976 /* Asteroid_A_0012.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E17E732137448A10008E976 /* Asteroid_A_0012.png */; };
+		8E17E790137448A20008E976 /* Asteroid_A_0011.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E17E733137448A10008E976 /* Asteroid_A_0011.png */; };
+		8E17E791137448A20008E976 /* Asteroid_A_0010.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E17E734137448A10008E976 /* Asteroid_A_0010.png */; };
+		8E17E792137448A20008E976 /* Asteroid_A_0009.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E17E735137448A10008E976 /* Asteroid_A_0009.png */; };
+		8E17E793137448A20008E976 /* Asteroid_A_0008.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E17E736137448A10008E976 /* Asteroid_A_0008.png */; };
+		8E17E794137448A20008E976 /* Asteroid_A_0007.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E17E737137448A10008E976 /* Asteroid_A_0007.png */; };
+		8E17E795137448A20008E976 /* Asteroid_A_0006.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E17E738137448A20008E976 /* Asteroid_A_0006.png */; };
+		8E17E796137448A20008E976 /* Asteroid_A_0005.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E17E739137448A20008E976 /* Asteroid_A_0005.png */; };
+		8E17E797137448A20008E976 /* Asteroid_A_0004.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E17E73A137448A20008E976 /* Asteroid_A_0004.png */; };
+		8E17E798137448A20008E976 /* Asteroid_A_0003.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E17E73B137448A20008E976 /* Asteroid_A_0003.png */; };
+		8E17E799137448A20008E976 /* Asteroid_A_0002.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E17E73C137448A20008E976 /* Asteroid_A_0002.png */; };
+		8E17E79A137448A20008E976 /* Asteroid_A_0001.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E17E73D137448A20008E976 /* Asteroid_A_0001.png */; };
+		8E17E79F13744E140008E976 /* viper_counterclockwise.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E17E79B13744E130008E976 /* viper_counterclockwise.png */; };
+		8E17E7A013744E140008E976 /* viper_clockwise.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E17E79C13744E140008E976 /* viper_clockwise.png */; };
+		8E17E7A113744E140008E976 /* viper_traveling.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E17E79D13744E140008E976 /* viper_traveling.png */; };
+		8E17E7A213744E140008E976 /* viper_stopped.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E17E79E13744E140008E976 /* viper_stopped.png */; };
+		8EA403D413660059004696DF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EA403D313660059004696DF /* UIKit.framework */; };
+		8EA403D613660059004696DF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EA403D513660059004696DF /* Foundation.framework */; };
+		8EA403D813660059004696DF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EA403D713660059004696DF /* CoreGraphics.framework */; };
+		8EA403DE13660059004696DF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8EA403DC13660059004696DF /* InfoPlist.strings */; };
+		8EA403E113660059004696DF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EA403E013660059004696DF /* main.m */; };
+		8EA403E413660059004696DF /* Sample_05AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EA403E313660059004696DF /* Sample_05AppDelegate.m */; };
+		8EA403E813660059004696DF /* Sample_05AppDelegate_iPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EA403E713660059004696DF /* Sample_05AppDelegate_iPhone.m */; };
+		8EA403EB13660059004696DF /* MainWindow_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8EA403E913660059004696DF /* MainWindow_iPhone.xib */; };
+		8EA403EF13660059004696DF /* Sample_05AppDelegate_iPad.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EA403EE13660059004696DF /* Sample_05AppDelegate_iPad.m */; };
+		8EA403F213660059004696DF /* MainWindow_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8EA403F013660059004696DF /* MainWindow_iPad.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8E17E6231369F7510008E976 /* Example01Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Example01Controller.h; sourceTree = "<group>"; };
+		8E17E6241369F7510008E976 /* Example01Controller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Example01Controller.m; sourceTree = "<group>"; };
+		8E17E6261369F7710008E976 /* Example01Controller_iPhone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Example01Controller_iPhone.h; sourceTree = "<group>"; };
+		8E17E6271369F7710008E976 /* Example01Controller_iPhone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Example01Controller_iPhone.m; sourceTree = "<group>"; };
+		8E17E6281369F7710008E976 /* Example01Controller_iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Example01Controller_iPhone.xib; sourceTree = "<group>"; };
+		8E17E62D1369F9D50008E976 /* Viper01.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Viper01.h; sourceTree = "<group>"; };
+		8E17E62E1369F9D50008E976 /* Viper01.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Viper01.m; sourceTree = "<group>"; };
+		8E17E630136A03FD0008E976 /* viper.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = viper.png; path = Resources/viper.png; sourceTree = "<group>"; };
+		8E17E632136A05E00008E976 /* viper@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "viper@2x.png"; path = "Resources/viper@2x.png"; sourceTree = "<group>"; };
+		8E17E634136A125C0008E976 /* star_field_iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = star_field_iphone.png; path = Resources/star_field_iphone.png; sourceTree = "<group>"; };
+		8E17E635136A125D0008E976 /* star_field_ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = star_field_ipad.png; path = Resources/star_field_ipad.png; sourceTree = "<group>"; };
+		8E17E63A136A13580008E976 /* star_field_iphone@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "star_field_iphone@2x.png"; path = "Resources/star_field_iphone@2x.png"; sourceTree = "<group>"; };
+		8E17E648136A15250008E976 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		8E17E6A41371F5750008E976 /* Example02Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Example02Controller.h; sourceTree = "<group>"; };
+		8E17E6A51371F5750008E976 /* Example02Controller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Example02Controller.m; sourceTree = "<group>"; };
+		8E17E6A71371F5B90008E976 /* Actor02.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Actor02.h; sourceTree = "<group>"; };
+		8E17E6A81371F5B90008E976 /* Actor02.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Actor02.m; sourceTree = "<group>"; };
+		8E17E6B21371F6F50008E976 /* Example02Controller_iPhone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Example02Controller_iPhone.h; sourceTree = "<group>"; };
+		8E17E6B31371F6F50008E976 /* Example02Controller_iPhone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Example02Controller_iPhone.m; sourceTree = "<group>"; };
+		8E17E6B41371F6F50008E976 /* Example02Controller_iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Example02Controller_iPhone.xib; sourceTree = "<group>"; };
+		8E17E6B71371FA260008E976 /* Viper02.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Viper02.h; sourceTree = "<group>"; };
+		8E17E6B81371FA270008E976 /* Viper02.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Viper02.m; sourceTree = "<group>"; };
+		8E17E6BA1371FA640008E976 /* Asteroid02.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Asteroid02.h; sourceTree = "<group>"; };
+		8E17E6BB1371FA650008E976 /* Asteroid02.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Asteroid02.m; sourceTree = "<group>"; };
+		8E17E6BD13730D760008E976 /* AsteroidB.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = AsteroidB.png; path = Resources/AsteroidB.png; sourceTree = "<group>"; };
+		8E17E6BE13730D760008E976 /* AsteroidC.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = AsteroidC.png; path = Resources/AsteroidC.png; sourceTree = "<group>"; };
+		8E17E6BF13730D760008E976 /* AsteroidA.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = AsteroidA.png; path = Resources/AsteroidA.png; sourceTree = "<group>"; };
+		8E17E6D0137444A10008E976 /* Example03Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Example03Controller.h; sourceTree = "<group>"; };
+		8E17E6D1137444A10008E976 /* Example03Controller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Example03Controller.m; sourceTree = "<group>"; };
+		8E17E6D3137445280008E976 /* Actor03.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Actor03.h; sourceTree = "<group>"; };
+		8E17E6D4137445280008E976 /* Actor03.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Actor03.m; sourceTree = "<group>"; };
+		8E17E6D61374453E0008E976 /* Viper03.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Viper03.h; sourceTree = "<group>"; };
+		8E17E6D71374453E0008E976 /* Viper03.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Viper03.m; sourceTree = "<group>"; };
+		8E17E6D91374454A0008E976 /* Asteroid03.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Asteroid03.h; sourceTree = "<group>"; };
+		8E17E6DA1374454A0008E976 /* Asteroid03.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Asteroid03.m; sourceTree = "<group>"; };
+		8E17E6DC1374472E0008E976 /* Example03Controller_iPhone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Example03Controller_iPhone.h; sourceTree = "<group>"; };
+		8E17E6DD1374472F0008E976 /* Example03Controller_iPhone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Example03Controller_iPhone.m; sourceTree = "<group>"; };
+		8E17E6DE137447300008E976 /* Example03Controller_iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Example03Controller_iPhone.xib; sourceTree = "<group>"; };
+		8E17E6E11374489B0008E976 /* Asteroid_C_0031.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Asteroid_C_0031.png; path = Resources/Asteroid_C_0031.png; sourceTree = "<group>"; };
+		8E17E6E21374489B0008E976 /* Asteroid_C_0030.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Asteroid_C_0030.png; path = Resources/Asteroid_C_0030.png; sourceTree = "<group>"; };
+		8E17E6E31374489B0008E976 /* Asteroid_C_0029.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Asteroid_C_0029.png; path = Resources/Asteroid_C_0029.png; sourceTree = "<group>"; };
+		8E17E6E41374489B0008E976 /* Asteroid_C_0028.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Asteroid_C_0028.png; path = Resources/Asteroid_C_0028.png; sourceTree = "<group>"; };
+		8E17E6E51374489B0008E976 /* Asteroid_C_0027.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Asteroid_C_0027.png; path = Resources/Asteroid_C_0027.png; sourceTree = "<group>"; };
+		8E17E6E61374489C0008E976 /* Asteroid_C_0026.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Asteroid_C_0026.png; path = Resources/Asteroid_C_0026.png; sourceTree = "<group>"; };
+		8E17E6E71374489C0008E976 /* Asteroid_C_0025.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Asteroid_C_0025.png; path = Resources/Asteroid_C_0025.png; sourceTree = "<group>"; };
+		8E17E6E81374489C0008E976 /* Asteroid_C_0024.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Asteroid_C_0024.png; path = Resources/Asteroid_C_0024.png; sourceTree = "<group>"; };
+		8E17E6E91374489C0008E976 /* Asteroid_C_0023.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Asteroid_C_0023.png; path = Resources/Asteroid_C_0023.png; sourceTree = "<group>"; };
+		8E17E6EA1374489C0008E976 /* Asteroid_C_0022.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Asteroid_C_0022.png; path = Resources/Asteroid_C_0022.png; sourceTree = "<group>"; };
+		8E17E6EB1374489C0008E976 /* Asteroid_C_0021.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Asteroid_C_0021.png; path = Resources/Asteroid_C_0021.png; sourceTree = "<group>"; };
+		8E17E6EC1374489C0008E976 /* Asteroid_C_0020.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Asteroid_C_0020.png; path = Resources/Asteroid_C_0020.png; sourceTree = "<group>"; };
+		8E17E6ED1374489C0008E976 /* Asteroid_C_0019.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Asteroid_C_0019.png; path = Resources/Asteroid_C_0019.png; sourceTree = "<group>"; };
+		8E17E6EE1374489C0008E976 /* Asteroid_C_0018.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Asteroid_C_0018.png; path = Resources/Asteroid_C_0018.png; sourceTree = "<group>"; };
+		8E17E6EF1374489C0008E976 /* Asteroid_C_0017.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Asteroid_C_0017.png; path = Resources/Asteroid_C_0017.png; sourceTree = "<group>"; };
+		8E17E6F01374489C0008E976 /* Asteroid_C_0016.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Asteroid_C_0016.png; path = Resources/Asteroid_C_0016.png; sourceTree = "<group>"; };
+		8E17E6F11374489C0008E976 /* Asteroid_C_0015.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Asteroid_C_0015.png; path = Resources/Asteroid_C_0015.png; sourceTree = "<group>"; };
+		8E17E6F21374489C0008E976 /* Asteroid_C_0014.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Asteroid_C_0014.png; path = Resources/Asteroid_C_0014.png; sourceTree = "<group>"; };
+		8E17E6F31374489C0008E976 /* Asteroid_C_0013.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Asteroid_C_0013.png; path = Resources/Asteroid_C_0013.png; sourceTree = "<group>"; };
+		8E17E6F41374489C0008E976 /* Asteroid_C_0012.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Asteroid_C_0012.png; path = Resources/Asteroid_C_0012.png; sourceTree = "<group>"; };
+		8E17E6F51374489C0008E976 /* Asteroid_C_0011.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Asteroid_C_0011.png; path = Resources/Asteroid_C_0011.png; sourceTree = "<group>"; };
+		8E17E6F61374489D0008E976 /* Asteroid_C_0010.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Asteroid_C_0010.png; path = Resources/Asteroid_C_0010.png; sourceTree = "<group>"; };
+		8E17E6F71374489D0008E976 /* Asteroid_C_0009.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Asteroid_C_0009.png; path = Resources/Asteroid_C_0009.png; sourceTree = "<group>"; };
+		8E17E6F81374489D0008E976 /* Asteroid_C_0008.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Asteroid_C_0008.png; path = Resources/Asteroid_C_0008.png; sourceTree = "<group>"; };
+		8E17E6F91374489D0008E976 /* Asteroid_C_0007.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Asteroid_C_0007.png; path = Resources/Asteroid_C_0007.png; sourceTree = "<group>"; };
+		8E17E6FA1374489D0008E976 /* Asteroid_C_0006.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Asteroid_C_0006.png; path = Resources/Asteroid_C_0006.png; sourceTree = "<group>"; };
+		8E17E6FB1374489D0008E976 /* Asteroid_C_0005.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Asteroid_C_0005.png; path = Resources/Asteroid_C_0005.png; sourceTree = "<group>"; };
+		8E17E6FC1374489D0008E976 /* Asteroid_C_0004.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Asteroid_C_0004.png; path = Resources/Asteroid_C_0004.png; sourceTree = "<group>"; };
+		8E17E6FD1374489D0008E976 /* Asteroid_C_0003.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Asteroid_C_0003.png; path = Resources/Asteroid_C_0003.png; sourceTree = "<group>"; };
+		8E17E6FE1374489D0008E976 /* Asteroid_C_0002.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Asteroid_C_0002.png; path = Resources/Asteroid_C_0002.png; sourceTree = "<group>"; };
+		8E17E6FF1374489D0008E976 /* Asteroid_C_0001.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Asteroid_C_0001.png; path = Resources/Asteroid_C_0001.png; sourceTree = "<group>"; };
+		8E17E7001374489D0008E976 /* Asteroid_B_0031.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Asteroid_B_0031.png; path = Resources/Asteroid_B_0031.png; sourceTree = "<group>"; };
+		8E17E7011374489D0008E976 /* Asteroid_B_0030.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Asteroid_B_0030.png; path = Resources/Asteroid_B_0030.png; sourceTree = "<group>"; };
+		8E17E7021374489D0008E976 /* Asteroid_B_0029.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Asteroid_B_0029.png; path = Resources/Asteroid_B_0029.png; sourceTree = "<group>"; };
+		8E17E7031374489D0008E976 /* Asteroid_B_0028.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Asteroid_B_0028.png; path = Resources/Asteroid_B_0028.png; sourceTree = "<group>"; };
+		8E17E7041374489D0008E976 /* Asteroid_B_0027.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Asteroid_B_0027.png; path = Resources/Asteroid_B_0027.png; sourceTree = "<group>"; };
+		8E17E7051374489D0008E976 /* Asteroid_B_0026.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Asteroid_B_0026.png; path = Resources/Asteroid_B_0026.png; sourceTree = "<group>"; };
+		8E17E7061374489D0008E976 /* Asteroid_B_0025.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Asteroid_B_0025.png; path = Resources/Asteroid_B_0025.png; sourceTree = "<group>"; };
+		8E17E7071374489D0008E976 /* Asteroid_B_0024.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Asteroid_B_0024.png; path = Resources/Asteroid_B_0024.png; sourceTree = "<group>"; };
+		8E17E7081374489D0008E976 /* Asteroid_B_0023.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Asteroid_B_0023.png; path = Resources/Asteroid_B_0023.png; sourceTree = "<group>"; };
+		8E17E7091374489D0008E976 /* Asteroid_B_0022.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Asteroid_B_0022.png; path = Resources/Asteroid_B_0022.png; sourceTree = "<group>"; };
+		8E17E70A1374489E0008E976 /* Asteroid_B_0021.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Asteroid_B_0021.png; path = Resources/Asteroid_B_0021.png; sourceTree = "<group>"; };
+		8E17E70B1374489E0008E976 /* Asteroid_B_0020.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Asteroid_B_0020.png; path = Resources/Asteroid_B_0020.png; sourceTree = "<group>"; };
+		8E17E70C1374489E0008E976 /* Asteroid_B_0019.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Asteroid_B_0019.png; path = Resources/Asteroid_B_0019.png; sourceTree = "<group>"; };
+		8E17E70D1374489E0008E976 /* Asteroid_B_0018.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Asteroid_B_0018.png; path = Resources/Asteroid_B_0018.png; sourceTree = "<group>"; };
+		8E17E70E1374489E0008E976 /* Asteroid_B_0017.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Asteroid_B_0017.png; path = Resources/Asteroid_B_0017.png; sourceTree = "<group>"; };
+		8E17E70F1374489E0008E976 /* Asteroid_B_0016.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Asteroid_B_0016.png; path = Resources/Asteroid_B_0016.png; sourceTree = "<group>"; };
+		8E17E7101374489E0008E976 /* Asteroid_B_0015.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Asteroid_B_0015.png; path = Resources/Asteroid_B_0015.png; sourceTree = "<group>"; };
+		8E17E7111374489E0008E976 /* Asteroid_B_0014.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Asteroid_B_0014.png; path = Resources/Asteroid_B_0014.png; sourceTree = "<group>"; };
+		8E17E7121374489E0008E976 /* Asteroid_B_0013.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Asteroid_B_0013.png; path = Resources/Asteroid_B_0013.png; sourceTree = "<group>"; };
+		8E17E7131374489E0008E976 /* Asteroid_B_0012.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Asteroid_B_0012.png; path = Resources/Asteroid_B_0012.png; sourceTree = "<group>"; };
+		8E17E7141374489E0008E976 /* Asteroid_B_0011.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Asteroid_B_0011.png; path = Resources/Asteroid_B_0011.png; sourceTree = "<group>"; };
+		8E17E7151374489E0008E976 /* Asteroid_B_0010.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Asteroid_B_0010.png; path = Resources/Asteroid_B_0010.png; sourceTree = "<group>"; };
+		8E17E7161374489E0008E976 /* Asteroid_B_0009.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Asteroid_B_0009.png; path = Resources/Asteroid_B_0009.png; sourceTree = "<group>"; };
+		8E17E7171374489E0008E976 /* Asteroid_B_0008.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Asteroid_B_0008.png; path = Resources/Asteroid_B_0008.png; sourceTree = "<group>"; };
+		8E17E7181374489E0008E976 /* Asteroid_B_0007.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Asteroid_B_0007.png; path = Resources/Asteroid_B_0007.png; sourceTree = "<group>"; };
+		8E17E7191374489E0008E976 /* Asteroid_B_0006.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Asteroid_B_0006.png; path = Resources/Asteroid_B_0006.png; sourceTree = "<group>"; };
+		8E17E71A1374489E0008E976 /* Asteroid_B_0005.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Asteroid_B_0005.png; path = Resources/Asteroid_B_0005.png; sourceTree = "<group>"; };
+		8E17E71B1374489F0008E976 /* Asteroid_B_0004.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Asteroid_B_0004.png; path = Resources/Asteroid_B_0004.png; sourceTree = "<group>"; };
+		8E17E71C1374489F0008E976 /* Asteroid_B_0003.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Asteroid_B_0003.png; path = Resources/Asteroid_B_0003.png; sourceTree = "<group>"; };
+		8E17E71D1374489F0008E976 /* Asteroid_B_0002.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Asteroid_B_0002.png; path = Resources/Asteroid_B_0002.png; sourceTree = "<group>"; };
+		8E17E71E1374489F0008E976 /* Asteroid_B_0001.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Asteroid_B_0001.png; path = Resources/Asteroid_B_0001.png; sourceTree = "<group>"; };
+		8E17E71F137448A00008E976 /* Asteroid_A_0031.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Asteroid_A_0031.png; path = Resources/Asteroid_A_0031.png; sourceTree = "<group>"; };
+		8E17E720137448A00008E976 /* Asteroid_A_0030.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Asteroid_A_0030.png; path = Resources/Asteroid_A_0030.png; sourceTree = "<group>"; };
+		8E17E721137448A00008E976 /* Asteroid_A_0029.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Asteroid_A_0029.png; path = Resources/Asteroid_A_0029.png; sourceTree = "<group>"; };
+		8E17E722137448A00008E976 /* Asteroid_A_0028.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Asteroid_A_0028.png; path = Resources/Asteroid_A_0028.png; sourceTree = "<group>"; };
+		8E17E723137448A00008E976 /* Asteroid_A_0027.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Asteroid_A_0027.png; path = Resources/Asteroid_A_0027.png; sourceTree = "<group>"; };
+		8E17E724137448A00008E976 /* Asteroid_A_0026.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Asteroid_A_0026.png; path = Resources/Asteroid_A_0026.png; sourceTree = "<group>"; };
+		8E17E725137448A00008E976 /* Asteroid_A_0025.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Asteroid_A_0025.png; path = Resources/Asteroid_A_0025.png; sourceTree = "<group>"; };
+		8E17E726137448A00008E976 /* Asteroid_A_0024.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Asteroid_A_0024.png; path = Resources/Asteroid_A_0024.png; sourceTree = "<group>"; };
+		8E17E727137448A00008E976 /* Asteroid_A_0023.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Asteroid_A_0023.png; path = Resources/Asteroid_A_0023.png; sourceTree = "<group>"; };
+		8E17E728137448A00008E976 /* Asteroid_A_0022.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Asteroid_A_0022.png; path = Resources/Asteroid_A_0022.png; sourceTree = "<group>"; };
+		8E17E729137448A00008E976 /* Asteroid_A_0021.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Asteroid_A_0021.png; path = Resources/Asteroid_A_0021.png; sourceTree = "<group>"; };
+		8E17E72A137448A00008E976 /* Asteroid_A_0020.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Asteroid_A_0020.png; path = Resources/Asteroid_A_0020.png; sourceTree = "<group>"; };
+		8E17E72B137448A00008E976 /* Asteroid_A_0019.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Asteroid_A_0019.png; path = Resources/Asteroid_A_0019.png; sourceTree = "<group>"; };
+		8E17E72C137448A00008E976 /* Asteroid_A_0018.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Asteroid_A_0018.png; path = Resources/Asteroid_A_0018.png; sourceTree = "<group>"; };
+		8E17E72D137448A00008E976 /* Asteroid_A_0017.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Asteroid_A_0017.png; path = Resources/Asteroid_A_0017.png; sourceTree = "<group>"; };
+		8E17E72E137448A00008E976 /* Asteroid_A_0016.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Asteroid_A_0016.png; path = Resources/Asteroid_A_0016.png; sourceTree = "<group>"; };
+		8E17E72F137448A00008E976 /* Asteroid_A_0015.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Asteroid_A_0015.png; path = Resources/Asteroid_A_0015.png; sourceTree = "<group>"; };
+		8E17E730137448A10008E976 /* Asteroid_A_0014.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Asteroid_A_0014.png; path = Resources/Asteroid_A_0014.png; sourceTree = "<group>"; };
+		8E17E731137448A10008E976 /* Asteroid_A_0013.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Asteroid_A_0013.png; path = Resources/Asteroid_A_0013.png; sourceTree = "<group>"; };
+		8E17E732137448A10008E976 /* Asteroid_A_0012.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Asteroid_A_0012.png; path = Resources/Asteroid_A_0012.png; sourceTree = "<group>"; };
+		8E17E733137448A10008E976 /* Asteroid_A_0011.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Asteroid_A_0011.png; path = Resources/Asteroid_A_0011.png; sourceTree = "<group>"; };
+		8E17E734137448A10008E976 /* Asteroid_A_0010.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Asteroid_A_0010.png; path = Resources/Asteroid_A_0010.png; sourceTree = "<group>"; };
+		8E17E735137448A10008E976 /* Asteroid_A_0009.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Asteroid_A_0009.png; path = Resources/Asteroid_A_0009.png; sourceTree = "<group>"; };
+		8E17E736137448A10008E976 /* Asteroid_A_0008.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Asteroid_A_0008.png; path = Resources/Asteroid_A_0008.png; sourceTree = "<group>"; };
+		8E17E737137448A10008E976 /* Asteroid_A_0007.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Asteroid_A_0007.png; path = Resources/Asteroid_A_0007.png; sourceTree = "<group>"; };
+		8E17E738137448A20008E976 /* Asteroid_A_0006.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Asteroid_A_0006.png; path = Resources/Asteroid_A_0006.png; sourceTree = "<group>"; };
+		8E17E739137448A20008E976 /* Asteroid_A_0005.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Asteroid_A_0005.png; path = Resources/Asteroid_A_0005.png; sourceTree = "<group>"; };
+		8E17E73A137448A20008E976 /* Asteroid_A_0004.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Asteroid_A_0004.png; path = Resources/Asteroid_A_0004.png; sourceTree = "<group>"; };
+		8E17E73B137448A20008E976 /* Asteroid_A_0003.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Asteroid_A_0003.png; path = Resources/Asteroid_A_0003.png; sourceTree = "<group>"; };
+		8E17E73C137448A20008E976 /* Asteroid_A_0002.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Asteroid_A_0002.png; path = Resources/Asteroid_A_0002.png; sourceTree = "<group>"; };
+		8E17E73D137448A20008E976 /* Asteroid_A_0001.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Asteroid_A_0001.png; path = Resources/Asteroid_A_0001.png; sourceTree = "<group>"; };
+		8E17E79B13744E130008E976 /* viper_counterclockwise.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = viper_counterclockwise.png; path = Resources/viper_counterclockwise.png; sourceTree = "<group>"; };
+		8E17E79C13744E140008E976 /* viper_clockwise.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = viper_clockwise.png; path = Resources/viper_clockwise.png; sourceTree = "<group>"; };
+		8E17E79D13744E140008E976 /* viper_traveling.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = viper_traveling.png; path = Resources/viper_traveling.png; sourceTree = "<group>"; };
+		8E17E79E13744E140008E976 /* viper_stopped.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = viper_stopped.png; path = Resources/viper_stopped.png; sourceTree = "<group>"; };
+		8EA403CF13660059004696DF /* Sample 05.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sample 05.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EA403D313660059004696DF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8EA403D513660059004696DF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8EA403D713660059004696DF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8EA403DB13660059004696DF /* Sample 05-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Sample 05-Info.plist"; sourceTree = "<group>"; };
+		8EA403DD13660059004696DF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8EA403DF13660059004696DF /* Sample 05-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Sample 05-Prefix.pch"; sourceTree = "<group>"; };
+		8EA403E013660059004696DF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8EA403E213660059004696DF /* Sample_05AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Sample_05AppDelegate.h; sourceTree = "<group>"; };
+		8EA403E313660059004696DF /* Sample_05AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Sample_05AppDelegate.m; sourceTree = "<group>"; };
+		8EA403E613660059004696DF /* Sample_05AppDelegate_iPhone.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Sample_05AppDelegate_iPhone.h; path = iPhone/Sample_05AppDelegate_iPhone.h; sourceTree = "<group>"; };
+		8EA403E713660059004696DF /* Sample_05AppDelegate_iPhone.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = Sample_05AppDelegate_iPhone.m; path = iPhone/Sample_05AppDelegate_iPhone.m; sourceTree = "<group>"; };
+		8EA403EA13660059004696DF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = iPhone/en.lproj/MainWindow_iPhone.xib; sourceTree = "<group>"; };
+		8EA403ED13660059004696DF /* Sample_05AppDelegate_iPad.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Sample_05AppDelegate_iPad.h; path = iPad/Sample_05AppDelegate_iPad.h; sourceTree = "<group>"; };
+		8EA403EE13660059004696DF /* Sample_05AppDelegate_iPad.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = Sample_05AppDelegate_iPad.m; path = iPad/Sample_05AppDelegate_iPad.m; sourceTree = "<group>"; };
+		8EA403F113660059004696DF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = iPad/en.lproj/MainWindow_iPad.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8EA403CC13660059004696DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E17E649136A15250008E976 /* QuartzCore.framework in Frameworks */,
+				8EA403D413660059004696DF /* UIKit.framework in Frameworks */,
+				8EA403D613660059004696DF /* Foundation.framework in Frameworks */,
+				8EA403D813660059004696DF /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8E17E62B1369F8D70008E976 /* Example01 */ = {
+			isa = PBXGroup;
+			children = (
+				8E17E6231369F7510008E976 /* Example01Controller.h */,
+				8E17E6241369F7510008E976 /* Example01Controller.m */,
+				8E17E62D1369F9D50008E976 /* Viper01.h */,
+				8E17E62E1369F9D50008E976 /* Viper01.m */,
+			);
+			name = Example01;
+			sourceTree = "<group>";
+		};
+		8E17E62C1369F90D0008E976 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8E17E79B13744E130008E976 /* viper_counterclockwise.png */,
+				8E17E79C13744E140008E976 /* viper_clockwise.png */,
+				8E17E79D13744E140008E976 /* viper_traveling.png */,
+				8E17E79E13744E140008E976 /* viper_stopped.png */,
+				8E17E6E11374489B0008E976 /* Asteroid_C_0031.png */,
+				8E17E6E21374489B0008E976 /* Asteroid_C_0030.png */,
+				8E17E6E31374489B0008E976 /* Asteroid_C_0029.png */,
+				8E17E6E41374489B0008E976 /* Asteroid_C_0028.png */,
+				8E17E6E51374489B0008E976 /* Asteroid_C_0027.png */,
+				8E17E6E61374489C0008E976 /* Asteroid_C_0026.png */,
+				8E17E6E71374489C0008E976 /* Asteroid_C_0025.png */,
+				8E17E6E81374489C0008E976 /* Asteroid_C_0024.png */,
+				8E17E6E91374489C0008E976 /* Asteroid_C_0023.png */,
+				8E17E6EA1374489C0008E976 /* Asteroid_C_0022.png */,
+				8E17E6EB1374489C0008E976 /* Asteroid_C_0021.png */,
+				8E17E6EC1374489C0008E976 /* Asteroid_C_0020.png */,
+				8E17E6ED1374489C0008E976 /* Asteroid_C_0019.png */,
+				8E17E6EE1374489C0008E976 /* Asteroid_C_0018.png */,
+				8E17E6EF1374489C0008E976 /* Asteroid_C_0017.png */,
+				8E17E6F01374489C0008E976 /* Asteroid_C_0016.png */,
+				8E17E6F11374489C0008E976 /* Asteroid_C_0015.png */,
+				8E17E6F21374489C0008E976 /* Asteroid_C_0014.png */,
+				8E17E6F31374489C0008E976 /* Asteroid_C_0013.png */,
+				8E17E6F41374489C0008E976 /* Asteroid_C_0012.png */,
+				8E17E6F51374489C0008E976 /* Asteroid_C_0011.png */,
+				8E17E6F61374489D0008E976 /* Asteroid_C_0010.png */,
+				8E17E6F71374489D0008E976 /* Asteroid_C_0009.png */,
+				8E17E6F81374489D0008E976 /* Asteroid_C_0008.png */,
+				8E17E6F91374489D0008E976 /* Asteroid_C_0007.png */,
+				8E17E6FA1374489D0008E976 /* Asteroid_C_0006.png */,
+				8E17E6FB1374489D0008E976 /* Asteroid_C_0005.png */,
+				8E17E6FC1374489D0008E976 /* Asteroid_C_0004.png */,
+				8E17E6FD1374489D0008E976 /* Asteroid_C_0003.png */,
+				8E17E6FE1374489D0008E976 /* Asteroid_C_0002.png */,
+				8E17E6FF1374489D0008E976 /* Asteroid_C_0001.png */,
+				8E17E7001374489D0008E976 /* Asteroid_B_0031.png */,
+				8E17E7011374489D0008E976 /* Asteroid_B_0030.png */,
+				8E17E7021374489D0008E976 /* Asteroid_B_0029.png */,
+				8E17E7031374489D0008E976 /* Asteroid_B_0028.png */,
+				8E17E7041374489D0008E976 /* Asteroid_B_0027.png */,
+				8E17E7051374489D0008E976 /* Asteroid_B_0026.png */,
+				8E17E7061374489D0008E976 /* Asteroid_B_0025.png */,
+				8E17E7071374489D0008E976 /* Asteroid_B_0024.png */,
+				8E17E7081374489D0008E976 /* Asteroid_B_0023.png */,
+				8E17E7091374489D0008E976 /* Asteroid_B_0022.png */,
+				8E17E70A1374489E0008E976 /* Asteroid_B_0021.png */,
+				8E17E70B1374489E0008E976 /* Asteroid_B_0020.png */,
+				8E17E70C1374489E0008E976 /* Asteroid_B_0019.png */,
+				8E17E70D1374489E0008E976 /* Asteroid_B_0018.png */,
+				8E17E70E1374489E0008E976 /* Asteroid_B_0017.png */,
+				8E17E70F1374489E0008E976 /* Asteroid_B_0016.png */,
+				8E17E7101374489E0008E976 /* Asteroid_B_0015.png */,
+				8E17E7111374489E0008E976 /* Asteroid_B_0014.png */,
+				8E17E7121374489E0008E976 /* Asteroid_B_0013.png */,
+				8E17E7131374489E0008E976 /* Asteroid_B_0012.png */,
+				8E17E7141374489E0008E976 /* Asteroid_B_0011.png */,
+				8E17E7151374489E0008E976 /* Asteroid_B_0010.png */,
+				8E17E7161374489E0008E976 /* Asteroid_B_0009.png */,
+				8E17E7171374489E0008E976 /* Asteroid_B_0008.png */,
+				8E17E7181374489E0008E976 /* Asteroid_B_0007.png */,
+				8E17E7191374489E0008E976 /* Asteroid_B_0006.png */,
+				8E17E71A1374489E0008E976 /* Asteroid_B_0005.png */,
+				8E17E71B1374489F0008E976 /* Asteroid_B_0004.png */,
+				8E17E71C1374489F0008E976 /* Asteroid_B_0003.png */,
+				8E17E71D1374489F0008E976 /* Asteroid_B_0002.png */,
+				8E17E71E1374489F0008E976 /* Asteroid_B_0001.png */,
+				8E17E71F137448A00008E976 /* Asteroid_A_0031.png */,
+				8E17E720137448A00008E976 /* Asteroid_A_0030.png */,
+				8E17E721137448A00008E976 /* Asteroid_A_0029.png */,
+				8E17E722137448A00008E976 /* Asteroid_A_0028.png */,
+				8E17E723137448A00008E976 /* Asteroid_A_0027.png */,
+				8E17E724137448A00008E976 /* Asteroid_A_0026.png */,
+				8E17E725137448A00008E976 /* Asteroid_A_0025.png */,
+				8E17E726137448A00008E976 /* Asteroid_A_0024.png */,
+				8E17E727137448A00008E976 /* Asteroid_A_0023.png */,
+				8E17E728137448A00008E976 /* Asteroid_A_0022.png */,
+				8E17E729137448A00008E976 /* Asteroid_A_0021.png */,
+				8E17E72A137448A00008E976 /* Asteroid_A_0020.png */,
+				8E17E72B137448A00008E976 /* Asteroid_A_0019.png */,
+				8E17E72C137448A00008E976 /* Asteroid_A_0018.png */,
+				8E17E72D137448A00008E976 /* Asteroid_A_0017.png */,
+				8E17E72E137448A00008E976 /* Asteroid_A_0016.png */,
+				8E17E72F137448A00008E976 /* Asteroid_A_0015.png */,
+				8E17E730137448A10008E976 /* Asteroid_A_0014.png */,
+				8E17E731137448A10008E976 /* Asteroid_A_0013.png */,
+				8E17E732137448A10008E976 /* Asteroid_A_0012.png */,
+				8E17E733137448A10008E976 /* Asteroid_A_0011.png */,
+				8E17E734137448A10008E976 /* Asteroid_A_0010.png */,
+				8E17E735137448A10008E976 /* Asteroid_A_0009.png */,
+				8E17E736137448A10008E976 /* Asteroid_A_0008.png */,
+				8E17E737137448A10008E976 /* Asteroid_A_0007.png */,
+				8E17E738137448A20008E976 /* Asteroid_A_0006.png */,
+				8E17E739137448A20008E976 /* Asteroid_A_0005.png */,
+				8E17E73A137448A20008E976 /* Asteroid_A_0004.png */,
+				8E17E73B137448A20008E976 /* Asteroid_A_0003.png */,
+				8E17E73C137448A20008E976 /* Asteroid_A_0002.png */,
+				8E17E73D137448A20008E976 /* Asteroid_A_0001.png */,
+				8E17E6BD13730D760008E976 /* AsteroidB.png */,
+				8E17E6BE13730D760008E976 /* AsteroidC.png */,
+				8E17E6BF13730D760008E976 /* AsteroidA.png */,
+				8E17E63A136A13580008E976 /* star_field_iphone@2x.png */,
+				8E17E634136A125C0008E976 /* star_field_iphone.png */,
+				8E17E635136A125D0008E976 /* star_field_ipad.png */,
+				8E17E632136A05E00008E976 /* viper@2x.png */,
+				8E17E630136A03FD0008E976 /* viper.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		8E17E6A21371F53D0008E976 /* Example02 */ = {
+			isa = PBXGroup;
+			children = (
+				8E17E6A41371F5750008E976 /* Example02Controller.h */,
+				8E17E6A51371F5750008E976 /* Example02Controller.m */,
+				8E17E6A71371F5B90008E976 /* Actor02.h */,
+				8E17E6A81371F5B90008E976 /* Actor02.m */,
+				8E17E6B71371FA260008E976 /* Viper02.h */,
+				8E17E6B81371FA270008E976 /* Viper02.m */,
+				8E17E6BA1371FA640008E976 /* Asteroid02.h */,
+				8E17E6BB1371FA650008E976 /* Asteroid02.m */,
+			);
+			name = Example02;
+			sourceTree = "<group>";
+		};
+		8E17E6CF137443F20008E976 /* Example03 */ = {
+			isa = PBXGroup;
+			children = (
+				8E17E6D0137444A10008E976 /* Example03Controller.h */,
+				8E17E6D1137444A10008E976 /* Example03Controller.m */,
+				8E17E6D3137445280008E976 /* Actor03.h */,
+				8E17E6D4137445280008E976 /* Actor03.m */,
+				8E17E6D61374453E0008E976 /* Viper03.h */,
+				8E17E6D71374453E0008E976 /* Viper03.m */,
+				8E17E6D91374454A0008E976 /* Asteroid03.h */,
+				8E17E6DA1374454A0008E976 /* Asteroid03.m */,
+			);
+			name = Example03;
+			sourceTree = "<group>";
+		};
+		8EA403C413660058004696DF = {
+			isa = PBXGroup;
+			children = (
+				8E17E648136A15250008E976 /* QuartzCore.framework */,
+				8EA403D913660059004696DF /* Sample 05 */,
+				8EA403D213660059004696DF /* Frameworks */,
+				8EA403D013660059004696DF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8EA403D013660059004696DF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8EA403CF13660059004696DF /* Sample 05.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8EA403D213660059004696DF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8EA403D313660059004696DF /* UIKit.framework */,
+				8EA403D513660059004696DF /* Foundation.framework */,
+				8EA403D713660059004696DF /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8EA403D913660059004696DF /* Sample 05 */ = {
+			isa = PBXGroup;
+			children = (
+				8E17E62C1369F90D0008E976 /* Resources */,
+				8EA403E213660059004696DF /* Sample_05AppDelegate.h */,
+				8EA403E313660059004696DF /* Sample_05AppDelegate.m */,
+				8EA403E513660059004696DF /* iPhone */,
+				8EA403EC13660059004696DF /* iPad */,
+				8EA403DA13660059004696DF /* Supporting Files */,
+				8E17E62B1369F8D70008E976 /* Example01 */,
+				8E17E6A21371F53D0008E976 /* Example02 */,
+				8E17E6CF137443F20008E976 /* Example03 */,
+			);
+			path = "Sample 05";
+			sourceTree = "<group>";
+		};
+		8EA403DA13660059004696DF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8EA403DB13660059004696DF /* Sample 05-Info.plist */,
+				8EA403DC13660059004696DF /* InfoPlist.strings */,
+				8EA403DF13660059004696DF /* Sample 05-Prefix.pch */,
+				8EA403E013660059004696DF /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8EA403E513660059004696DF /* iPhone */ = {
+			isa = PBXGroup;
+			children = (
+				8EA403E613660059004696DF /* Sample_05AppDelegate_iPhone.h */,
+				8EA403E713660059004696DF /* Sample_05AppDelegate_iPhone.m */,
+				8EA403E913660059004696DF /* MainWindow_iPhone.xib */,
+				8E17E6261369F7710008E976 /* Example01Controller_iPhone.h */,
+				8E17E6271369F7710008E976 /* Example01Controller_iPhone.m */,
+				8E17E6281369F7710008E976 /* Example01Controller_iPhone.xib */,
+				8E17E6B21371F6F50008E976 /* Example02Controller_iPhone.h */,
+				8E17E6B31371F6F50008E976 /* Example02Controller_iPhone.m */,
+				8E17E6B41371F6F50008E976 /* Example02Controller_iPhone.xib */,
+				8E17E6DC1374472E0008E976 /* Example03Controller_iPhone.h */,
+				8E17E6DD1374472F0008E976 /* Example03Controller_iPhone.m */,
+				8E17E6DE137447300008E976 /* Example03Controller_iPhone.xib */,
+			);
+			name = iPhone;
+			sourceTree = "<group>";
+		};
+		8EA403EC13660059004696DF /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+				8EA403ED13660059004696DF /* Sample_05AppDelegate_iPad.h */,
+				8EA403EE13660059004696DF /* Sample_05AppDelegate_iPad.m */,
+				8EA403F013660059004696DF /* MainWindow_iPad.xib */,
+			);
+			name = iPad;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8EA403CE13660059004696DF /* Sample 05 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8EA403F513660059004696DF /* Build configuration list for PBXNativeTarget "Sample 05" */;
+			buildPhases = (
+				8EA403CB13660059004696DF /* Sources */,
+				8EA403CC13660059004696DF /* Frameworks */,
+				8EA403CD13660059004696DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Sample 05";
+			productName = "Sample 05";
+			productReference = 8EA403CF13660059004696DF /* Sample 05.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8EA403C613660058004696DF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+			};
+			buildConfigurationList = 8EA403C913660058004696DF /* Build configuration list for PBXProject "Sample 05" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8EA403C413660058004696DF;
+			productRefGroup = 8EA403D013660059004696DF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8EA403CE13660059004696DF /* Sample 05 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8EA403CD13660059004696DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EA403DE13660059004696DF /* InfoPlist.strings in Resources */,
+				8EA403EB13660059004696DF /* MainWindow_iPhone.xib in Resources */,
+				8EA403F213660059004696DF /* MainWindow_iPad.xib in Resources */,
+				8E17E62A1369F7710008E976 /* Example01Controller_iPhone.xib in Resources */,
+				8E17E631136A03FD0008E976 /* viper.png in Resources */,
+				8E17E633136A05E00008E976 /* viper@2x.png in Resources */,
+				8E17E637136A125D0008E976 /* star_field_iphone.png in Resources */,
+				8E17E638136A125D0008E976 /* star_field_ipad.png in Resources */,
+				8E17E63B136A13580008E976 /* star_field_iphone@2x.png in Resources */,
+				8E17E6B61371F6F50008E976 /* Example02Controller_iPhone.xib in Resources */,
+				8E17E6C013730D760008E976 /* AsteroidB.png in Resources */,
+				8E17E6C113730D760008E976 /* AsteroidC.png in Resources */,
+				8E17E6C213730D760008E976 /* AsteroidA.png in Resources */,
+				8E17E6E0137447300008E976 /* Example03Controller_iPhone.xib in Resources */,
+				8E17E73E137448A20008E976 /* Asteroid_C_0031.png in Resources */,
+				8E17E73F137448A20008E976 /* Asteroid_C_0030.png in Resources */,
+				8E17E740137448A20008E976 /* Asteroid_C_0029.png in Resources */,
+				8E17E741137448A20008E976 /* Asteroid_C_0028.png in Resources */,
+				8E17E742137448A20008E976 /* Asteroid_C_0027.png in Resources */,
+				8E17E743137448A20008E976 /* Asteroid_C_0026.png in Resources */,
+				8E17E744137448A20008E976 /* Asteroid_C_0025.png in Resources */,
+				8E17E745137448A20008E976 /* Asteroid_C_0024.png in Resources */,
+				8E17E746137448A20008E976 /* Asteroid_C_0023.png in Resources */,
+				8E17E747137448A20008E976 /* Asteroid_C_0022.png in Resources */,
+				8E17E748137448A20008E976 /* Asteroid_C_0021.png in Resources */,
+				8E17E749137448A20008E976 /* Asteroid_C_0020.png in Resources */,
+				8E17E74A137448A20008E976 /* Asteroid_C_0019.png in Resources */,
+				8E17E74B137448A20008E976 /* Asteroid_C_0018.png in Resources */,
+				8E17E74C137448A20008E976 /* Asteroid_C_0017.png in Resources */,
+				8E17E74D137448A20008E976 /* Asteroid_C_0016.png in Resources */,
+				8E17E74E137448A20008E976 /* Asteroid_C_0015.png in Resources */,
+				8E17E74F137448A20008E976 /* Asteroid_C_0014.png in Resources */,
+				8E17E750137448A20008E976 /* Asteroid_C_0013.png in Resources */,
+				8E17E751137448A20008E976 /* Asteroid_C_0012.png in Resources */,
+				8E17E752137448A20008E976 /* Asteroid_C_0011.png in Resources */,
+				8E17E753137448A20008E976 /* Asteroid_C_0010.png in Resources */,
+				8E17E754137448A20008E976 /* Asteroid_C_0009.png in Resources */,
+				8E17E755137448A20008E976 /* Asteroid_C_0008.png in Resources */,
+				8E17E756137448A20008E976 /* Asteroid_C_0007.png in Resources */,
+				8E17E757137448A20008E976 /* Asteroid_C_0006.png in Resources */,
+				8E17E758137448A20008E976 /* Asteroid_C_0005.png in Resources */,
+				8E17E759137448A20008E976 /* Asteroid_C_0004.png in Resources */,
+				8E17E75A137448A20008E976 /* Asteroid_C_0003.png in Resources */,
+				8E17E75B137448A20008E976 /* Asteroid_C_0002.png in Resources */,
+				8E17E75C137448A20008E976 /* Asteroid_C_0001.png in Resources */,
+				8E17E75D137448A20008E976 /* Asteroid_B_0031.png in Resources */,
+				8E17E75E137448A20008E976 /* Asteroid_B_0030.png in Resources */,
+				8E17E75F137448A20008E976 /* Asteroid_B_0029.png in Resources */,
+				8E17E760137448A20008E976 /* Asteroid_B_0028.png in Resources */,
+				8E17E761137448A20008E976 /* Asteroid_B_0027.png in Resources */,
+				8E17E762137448A20008E976 /* Asteroid_B_0026.png in Resources */,
+				8E17E763137448A20008E976 /* Asteroid_B_0025.png in Resources */,
+				8E17E764137448A20008E976 /* Asteroid_B_0024.png in Resources */,
+				8E17E765137448A20008E976 /* Asteroid_B_0023.png in Resources */,
+				8E17E766137448A20008E976 /* Asteroid_B_0022.png in Resources */,
+				8E17E767137448A20008E976 /* Asteroid_B_0021.png in Resources */,
+				8E17E768137448A20008E976 /* Asteroid_B_0020.png in Resources */,
+				8E17E769137448A20008E976 /* Asteroid_B_0019.png in Resources */,
+				8E17E76A137448A20008E976 /* Asteroid_B_0018.png in Resources */,
+				8E17E76B137448A20008E976 /* Asteroid_B_0017.png in Resources */,
+				8E17E76C137448A20008E976 /* Asteroid_B_0016.png in Resources */,
+				8E17E76D137448A20008E976 /* Asteroid_B_0015.png in Resources */,
+				8E17E76E137448A20008E976 /* Asteroid_B_0014.png in Resources */,
+				8E17E76F137448A20008E976 /* Asteroid_B_0013.png in Resources */,
+				8E17E770137448A20008E976 /* Asteroid_B_0012.png in Resources */,
+				8E17E771137448A20008E976 /* Asteroid_B_0011.png in Resources */,
+				8E17E772137448A20008E976 /* Asteroid_B_0010.png in Resources */,
+				8E17E773137448A20008E976 /* Asteroid_B_0009.png in Resources */,
+				8E17E774137448A20008E976 /* Asteroid_B_0008.png in Resources */,
+				8E17E775137448A20008E976 /* Asteroid_B_0007.png in Resources */,
+				8E17E776137448A20008E976 /* Asteroid_B_0006.png in Resources */,
+				8E17E777137448A20008E976 /* Asteroid_B_0005.png in Resources */,
+				8E17E778137448A20008E976 /* Asteroid_B_0004.png in Resources */,
+				8E17E779137448A20008E976 /* Asteroid_B_0003.png in Resources */,
+				8E17E77A137448A20008E976 /* Asteroid_B_0002.png in Resources */,
+				8E17E77B137448A20008E976 /* Asteroid_B_0001.png in Resources */,
+				8E17E77C137448A20008E976 /* Asteroid_A_0031.png in Resources */,
+				8E17E77D137448A20008E976 /* Asteroid_A_0030.png in Resources */,
+				8E17E77E137448A20008E976 /* Asteroid_A_0029.png in Resources */,
+				8E17E77F137448A20008E976 /* Asteroid_A_0028.png in Resources */,
+				8E17E780137448A20008E976 /* Asteroid_A_0027.png in Resources */,
+				8E17E781137448A20008E976 /* Asteroid_A_0026.png in Resources */,
+				8E17E782137448A20008E976 /* Asteroid_A_0025.png in Resources */,
+				8E17E783137448A20008E976 /* Asteroid_A_0024.png in Resources */,
+				8E17E784137448A20008E976 /* Asteroid_A_0023.png in Resources */,
+				8E17E785137448A20008E976 /* Asteroid_A_0022.png in Resources */,
+				8E17E786137448A20008E976 /* Asteroid_A_0021.png in Resources */,
+				8E17E787137448A20008E976 /* Asteroid_A_0020.png in Resources */,
+				8E17E788137448A20008E976 /* Asteroid_A_0019.png in Resources */,
+				8E17E789137448A20008E976 /* Asteroid_A_0018.png in Resources */,
+				8E17E78A137448A20008E976 /* Asteroid_A_0017.png in Resources */,
+				8E17E78B137448A20008E976 /* Asteroid_A_0016.png in Resources */,
+				8E17E78C137448A20008E976 /* Asteroid_A_0015.png in Resources */,
+				8E17E78D137448A20008E976 /* Asteroid_A_0014.png in Resources */,
+				8E17E78E137448A20008E976 /* Asteroid_A_0013.png in Resources */,
+				8E17E78F137448A20008E976 /* Asteroid_A_0012.png in Resources */,
+				8E17E790137448A20008E976 /* Asteroid_A_0011.png in Resources */,
+				8E17E791137448A20008E976 /* Asteroid_A_0010.png in Resources */,
+				8E17E792137448A20008E976 /* Asteroid_A_0009.png in Resources */,
+				8E17E793137448A20008E976 /* Asteroid_A_0008.png in Resources */,
+				8E17E794137448A20008E976 /* Asteroid_A_0007.png in Resources */,
+				8E17E795137448A20008E976 /* Asteroid_A_0006.png in Resources */,
+				8E17E796137448A20008E976 /* Asteroid_A_0005.png in Resources */,
+				8E17E797137448A20008E976 /* Asteroid_A_0004.png in Resources */,
+				8E17E798137448A20008E976 /* Asteroid_A_0003.png in Resources */,
+				8E17E799137448A20008E976 /* Asteroid_A_0002.png in Resources */,
+				8E17E79A137448A20008E976 /* Asteroid_A_0001.png in Resources */,
+				8E17E79F13744E140008E976 /* viper_counterclockwise.png in Resources */,
+				8E17E7A013744E140008E976 /* viper_clockwise.png in Resources */,
+				8E17E7A113744E140008E976 /* viper_traveling.png in Resources */,
+				8E17E7A213744E140008E976 /* viper_stopped.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8EA403CB13660059004696DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EA403E113660059004696DF /* main.m in Sources */,
+				8EA403E413660059004696DF /* Sample_05AppDelegate.m in Sources */,
+				8EA403E813660059004696DF /* Sample_05AppDelegate_iPhone.m in Sources */,
+				8EA403EF13660059004696DF /* Sample_05AppDelegate_iPad.m in Sources */,
+				8E17E6251369F7510008E976 /* Example01Controller.m in Sources */,
+				8E17E6291369F7710008E976 /* Example01Controller_iPhone.m in Sources */,
+				8E17E62F1369F9D50008E976 /* Viper01.m in Sources */,
+				8E17E6A61371F5750008E976 /* Example02Controller.m in Sources */,
+				8E17E6A91371F5B90008E976 /* Actor02.m in Sources */,
+				8E17E6B51371F6F50008E976 /* Example02Controller_iPhone.m in Sources */,
+				8E17E6B91371FA280008E976 /* Viper02.m in Sources */,
+				8E17E6BC1371FA670008E976 /* Asteroid02.m in Sources */,
+				8E17E6D2137444A10008E976 /* Example03Controller.m in Sources */,
+				8E17E6D5137445280008E976 /* Actor03.m in Sources */,
+				8E17E6D81374453E0008E976 /* Viper03.m in Sources */,
+				8E17E6DB1374454A0008E976 /* Asteroid03.m in Sources */,
+				8E17E6DF137447300008E976 /* Example03Controller_iPhone.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8EA403DC13660059004696DF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8EA403DD13660059004696DF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8EA403E913660059004696DF /* MainWindow_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8EA403EA13660059004696DF /* en */,
+			);
+			name = MainWindow_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		8EA403F013660059004696DF /* MainWindow_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8EA403F113660059004696DF /* en */,
+			);
+			name = MainWindow_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8EA403F313660059004696DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8EA403F413660059004696DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8EA403F613660059004696DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Sample 05/Sample 05-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "Sample 05/Sample 05-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8EA403F713660059004696DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Sample 05/Sample 05-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "Sample 05/Sample 05-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8EA403C913660058004696DF /* Build configuration list for PBXProject "Sample 05" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8EA403F313660059004696DF /* Debug */,
+				8EA403F413660059004696DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8EA403F513660059004696DF /* Build configuration list for PBXNativeTarget "Sample 05" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8EA403F613660059004696DF /* Debug */,
+				8EA403F713660059004696DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8EA403C613660058004696DF /* Project object */;
+}
