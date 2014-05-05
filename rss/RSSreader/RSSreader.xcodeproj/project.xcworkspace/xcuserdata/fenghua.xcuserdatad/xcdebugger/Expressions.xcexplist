@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "-[APPDetailViewController sendEmail:]:APPDetailViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "NSString *m = [NSString stringWithFormat:NSLocalizedString(@&quot;SMS_MESSAGE&quot;, @&quot;&quot;), self.url];">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

@@ -1,0 +1,27 @@
+
+/* Class = "IBUITableViewController"; title = "Master"; ObjectID = "12"; */
+"12.title" = "Master";
+
+/* Class = "IBUIViewController"; title = "Detail"; ObjectID = "21"; */
+"21.title" = "Detail";
+
+/* Class = "IBUINavigationItem"; title = "Content"; ObjectID = "26"; */
+"26.title" = "Content";
+
+/* Class = "IBUINavigationItem"; title = "Stories"; ObjectID = "36"; */
+"36.title" = "Stories";
+
+/* Class = "IBUIBarButtonItem"; title = "Email"; ObjectID = "9QR-Qg-8Jk"; */
+"9QR-Qg-8Jk.title" = "Email";
+
+/* Class = "IBUIBarButtonItem"; title = "Save"; ObjectID = "O6O-5a-rCP"; */
+"O6O-5a-rCP.title" = "Save";
+
+/* Class = "IBUIBarButtonItem"; title = "SMS"; ObjectID = "ffN-zq-rrh"; */
+"ffN-zq-rrh.title" = "SMS";
+
+/* Class = "IBUILabel"; text = "Title"; ObjectID = "phq-AM-6qj"; */
+"phq-AM-6qj.text" = "Title";
+
+/* Class = "IBUIBarButtonItem"; title = "Load"; ObjectID = "z9L-eR-ywc"; */
+"z9L-eR-ywc.text" = "Load Offline";

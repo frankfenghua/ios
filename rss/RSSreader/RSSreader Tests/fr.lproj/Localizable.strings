@@ -1,0 +1,12 @@
+/*
+ Localizable.strings
+ RSSreader
+ 
+ Created by feng on 2014-05-04.
+ Copyright (c) 2014 Appcoda. All rights reserved.
+ */
+ERROR = "Erreur";
+NO_SMS_SUPPORT = "Votre appareil ne supporte pas les SMS!";
+CANCEL_BUTTON = "Confirmer";
+SMS_MESSAGE = "juste envoyé le %@ rss à votre e-mail. S'il vous plaît vérifier!";
+MESSAGE_BODY = "<a href='%@'> %@ </a>  ";
