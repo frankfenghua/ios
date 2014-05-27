@@ -1,0 +1,4 @@
+
+@interface PeerCell : UITableViewCell
+
+@end

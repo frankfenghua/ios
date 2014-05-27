@@ -1,0 +1,32 @@
+
+#import <Availability.h>
+
+#ifndef __IPHONE_5_0
+#warning "This project uses features only available in iOS SDK 5.0 and later."
+#endif
+
+#ifdef __OBJC__
+	#import <UIKit/UIKit.h>
+	#import <Foundation/Foundation.h>
+	#import <GameKit/GameKit.h>
+	#import <QuartzCore/QuartzCore.h>
+	#import <AVFoundation/AVFoundation.h>
+#endif
+
+// Returns a random number between 0.0 and 1.0 (inclusive).
+#define RANDOM_FLOAT() ((float)arc4random()/0xFFFFFFFFu)
+
+// Returns a random number between 0 and n (inclusive).
+#define RANDOM_INT(n) (arc4random() % (n + 1))
+
+// The name of the GameKit session.
+#define SESSION_ID @"Snap!"
+
+typedef enum
+{
+	QuitReasonNoNetwork,          // no Wi-Fi or Bluetooth
+	QuitReasonConnectionDropped,  // communication failure with server
+	QuitReasonUserQuit,           // the user terminated the connection
+	QuitReasonServerQuit,         // the server quit the game (on purpose)
+}
+QuitReason;
