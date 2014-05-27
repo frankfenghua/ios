@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>9E845C5D-7AD9-4A36-BB1E-CE9C45299332</string>
+	<key>IDESourceControlProjectName</key>
+	<string>ImageGrabber</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>23E12231-5C6B-4909-A3BF-AC2030E7C3B2</key>
+		<string>https://github.com/frankfenghua/ios.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>design patterns/www.raywenderlich.com/GCD/ImageGrabberAsync/ImageGrabber.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>23E12231-5C6B-4909-A3BF-AC2030E7C3B2</key>
+		<string>../../../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/frankfenghua/ios.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>23E12231-5C6B-4909-A3BF-AC2030E7C3B2</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>23E12231-5C6B-4909-A3BF-AC2030E7C3B2</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ios</string>
+		</dict>
+	</array>
+</dict>
+</plist>
